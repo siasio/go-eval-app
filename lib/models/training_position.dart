@@ -1,5 +1,7 @@
-import 'dart:convert';
-import 'dart:typed_data';
+import '../core/dataset_parser.dart' as core;
+import '../core/go_logic.dart';
+import '../core/game_result_parser.dart';
+import 'dataset_type.dart';
 
 class TrainingPosition {
   final String id;
@@ -7,9 +9,7 @@ class TrainingPosition {
   final String stonesBase64;
   final double score;
   final String result;
-  final int timeLimit;
-  final PositionSource source;
-  final GameInfo gameInfo;
+  final GameInfo? gameInfo;
 
   const TrainingPosition({
     required this.id,
@@ -17,114 +17,45 @@ class TrainingPosition {
     required this.stonesBase64,
     required this.score,
     required this.result,
-    required this.timeLimit,
-    required this.source,
-    required this.gameInfo,
+    this.gameInfo,
   });
 
   factory TrainingPosition.fromJson(Map<String, dynamic> json) {
+    final parsed = core.DatasetParser.parseTrainingPositionToMap(json);
     return TrainingPosition(
-      id: json['id'] as String,
-      boardSize: json['board_size'] as int,
-      stonesBase64: json['stones'] as String,
-      score: (json['score'] as num).toDouble(),
-      result: json['result'] as String,
-      timeLimit: json['time_limit'] as int,
-      source: PositionSource.fromJson(json['source'] as Map<String, dynamic>),
-      gameInfo: GameInfo.fromJson(json['game_info'] as Map<String, dynamic>? ?? {}),
+      id: parsed['id'] as String,
+      boardSize: parsed['board_size'] as int,
+      stonesBase64: parsed['stones'] as String,
+      score: parsed['score'] as double,
+      result: parsed['result'] as String,
+      gameInfo: parsed['game_info'] != null
+          ? GameInfo.fromJson(parsed['game_info'] as Map<String, dynamic>)
+          : null,
     );
   }
 
   /// Decode the base64 stones to a 2D array of integers
   /// Returns boardSize x boardSize array where 0=empty, 1=black, 2=white
   List<List<int>> decodeStones() {
-    final bytes = base64Decode(stonesBase64);
-    final board = List.generate(boardSize, (_) => List.generate(boardSize, (_) => 0));
-
-    for (int i = 0; i < bytes.length && i < boardSize * boardSize; i++) {
-      final row = i ~/ boardSize;
-      final col = i % boardSize;
-      board[row][col] = bytes[i];
-    }
-
-    return board;
+    return GoLogic.decodeStones(stonesBase64, boardSize);
   }
 
   /// Get a human-readable description of the position
   String get description {
-    final players = '${source.players.black} vs ${source.players.white}';
-    final moveInfo = 'Move ${source.moveNumber}';
-    return '$players • $moveInfo';
+    return 'Position ${id.split('_').first}';
   }
 
   /// Get the winner from the result
   String get winner {
-    if (result.startsWith('B+')) {
-      return 'Black';
-    } else if (result.startsWith('W+')) {
-      return 'White';
-    } else {
-      return 'Draw';
-    }
+    return GameResultParser.parseWinner(result);
   }
 
   /// Get the margin of victory
   String get margin {
-    if (result.contains('R')) {
-      return 'Resignation';
-    }
-
-    final match = RegExp(r'[+-]?(\d+\.?\d*)').firstMatch(result);
-    if (match != null) {
-      return '${match.group(1)} points';
-    }
-
-    return result;
+    return GameResultParser.parseMargin(result);
   }
 }
 
-class PositionSource {
-  final String sgfFile;
-  final int moveNumber;
-  final Players players;
-  final String date;
-  final double komi;
-
-  const PositionSource({
-    required this.sgfFile,
-    required this.moveNumber,
-    required this.players,
-    required this.date,
-    required this.komi,
-  });
-
-  factory PositionSource.fromJson(Map<String, dynamic> json) {
-    return PositionSource(
-      sgfFile: json['sgf_file'] as String,
-      moveNumber: json['move_number'] as int,
-      players: Players.fromJson(json['players'] as Map<String, dynamic>),
-      date: json['date'] as String,
-      komi: (json['komi'] as num).toDouble(),
-    );
-  }
-}
-
-class Players {
-  final String black;
-  final String white;
-
-  const Players({
-    required this.black,
-    required this.white,
-  });
-
-  factory Players.fromJson(Map<String, dynamic> json) {
-    return Players(
-      black: json['black'] as String,
-      white: json['white'] as String,
-    );
-  }
-}
 
 class TrainingDataset {
   final DatasetMetadata metadata;
@@ -136,11 +67,15 @@ class TrainingDataset {
   });
 
   factory TrainingDataset.fromJson(Map<String, dynamic> json) {
+    final parsed = core.DatasetParser.parseDatasetToMap(json);
+    final metadata = DatasetMetadata.fromJson(parsed['metadata'] as Map<String, dynamic>);
+    final positions = (parsed['positions'] as List)
+        .map((p) => TrainingPosition.fromJson(p as Map<String, dynamic>))
+        .toList();
+
     return TrainingDataset(
-      metadata: DatasetMetadata.fromJson(json['metadata'] as Map<String, dynamic>),
-      positions: (json['positions'] as List)
-          .map((p) => TrainingPosition.fromJson(p as Map<String, dynamic>))
-          .toList(),
+      metadata: metadata,
+      positions: positions,
     );
   }
 
@@ -152,6 +87,7 @@ class DatasetMetadata {
   final String version;
   final DateTime createdAt;
   final int totalPositions;
+  final DatasetType datasetType;
 
   const DatasetMetadata({
     required this.name,
@@ -159,15 +95,18 @@ class DatasetMetadata {
     required this.version,
     required this.createdAt,
     required this.totalPositions,
+    required this.datasetType,
   });
 
   factory DatasetMetadata.fromJson(Map<String, dynamic> json) {
+    final parsed = core.DatasetParser.parseMetadataToMap(json);
     return DatasetMetadata(
-      name: json['name'] as String,
-      description: json['description'] as String,
-      version: json['version'] as String,
-      createdAt: DateTime.parse(json['created_at'] as String),
-      totalPositions: json['total_positions'] as int,
+      name: parsed['name'] as String,
+      description: parsed['description'] as String,
+      version: parsed['version'] as String,
+      createdAt: DateTime.parse(parsed['created_at'] as String),
+      totalPositions: parsed['total_positions'] as int,
+      datasetType: DatasetType.fromString(parsed['dataset_type'] as String?) ?? DatasetType.final9x9Area,
     );
   }
 }
@@ -192,19 +131,20 @@ class GameInfo {
   });
 
   factory GameInfo.fromJson(Map<String, dynamic> json) {
+    final parsed = core.DatasetParser.parseGameInfoToMap(json);
     return GameInfo(
-      blackCaptured: json['black_captured'] as int? ?? 0,
-      whiteCaptured: json['white_captured'] as int? ?? 0,
-      komi: (json['komi'] as num?)?.toDouble() ?? 0.0,
-      lastMoveRow: json['last_move_row'] as int?,
-      lastMoveCol: json['last_move_col'] as int?,
-      moveSequence: json['move_sequence'] != null
-          ? (json['move_sequence'] as List)
+      blackCaptured: parsed['black_captured'] as int,
+      whiteCaptured: parsed['white_captured'] as int,
+      komi: parsed['komi'] as double,
+      lastMoveRow: parsed['last_move_row'] as int?,
+      lastMoveCol: parsed['last_move_col'] as int?,
+      moveSequence: parsed['move_sequence'] != null
+          ? (parsed['move_sequence'] as List)
               .map((m) => MoveSequence.fromJson(m as Map<String, dynamic>))
               .toList()
           : null,
-      boardDisplay: json['board_display'] != null
-          ? BoardDisplay.fromJson(json['board_display'] as Map<String, dynamic>)
+      boardDisplay: parsed['board_display'] != null
+          ? BoardDisplay.fromJson(parsed['board_display'] as Map<String, dynamic>)
           : null,
     );
   }
@@ -222,10 +162,11 @@ class MoveSequence {
   });
 
   factory MoveSequence.fromJson(Map<String, dynamic> json) {
+    final parsed = core.DatasetParser.parseMoveSequenceToMap(json);
     return MoveSequence(
-      row: json['row'] as int,
-      col: json['col'] as int,
-      moveNumber: json['move_number'] as int,
+      row: parsed['row'] as int,
+      col: parsed['col'] as int,
+      moveNumber: parsed['move_number'] as int,
     );
   }
 }
@@ -252,15 +193,16 @@ class BoardDisplay {
   });
 
   factory BoardDisplay.fromJson(Map<String, dynamic> json) {
+    final parsed = core.DatasetParser.parseBoardDisplayToMap(json);
     return BoardDisplay(
-      cropStartRow: json['crop_start_row'] as int?,
-      cropStartCol: json['crop_start_col'] as int?,
-      cropWidth: json['crop_width'] as int?,
-      cropHeight: json['crop_height'] as int?,
-      focusStartRow: json['focus_start_row'] as int?,
-      focusStartCol: json['focus_start_col'] as int?,
-      focusWidth: json['focus_width'] as int?,
-      focusHeight: json['focus_height'] as int?,
+      cropStartRow: parsed['crop_start_row'] as int?,
+      cropStartCol: parsed['crop_start_col'] as int?,
+      cropWidth: parsed['crop_width'] as int?,
+      cropHeight: parsed['crop_height'] as int?,
+      focusStartRow: parsed['focus_start_row'] as int?,
+      focusStartCol: parsed['focus_start_col'] as int?,
+      focusWidth: parsed['focus_width'] as int?,
+      focusHeight: parsed['focus_height'] as int?,
     );
   }
 }

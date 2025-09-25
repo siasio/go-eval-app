@@ -51,7 +51,7 @@ class GoBoardPainter extends CustomPainter {
       ..strokeWidth = 1.0;
 
     // Determine board display area
-    final boardDisplay = trainingPosition?.gameInfo.boardDisplay;
+    final boardDisplay = trainingPosition?.gameInfo?.boardDisplay;
     final int displayStartRow = boardDisplay?.cropStartRow ?? 0;
     final int displayStartCol = boardDisplay?.cropStartCol ?? 0;
     final int displayWidth = boardDisplay?.cropWidth ?? position.size;
@@ -151,15 +151,15 @@ class GoBoardPainter extends CustomPainter {
           );
 
           // Draw last move marker (triangle)
-          if (trainingPosition?.gameInfo.lastMoveRow == row &&
-              trainingPosition?.gameInfo.lastMoveCol == col) {
+          if (trainingPosition?.gameInfo?.lastMoveRow == row &&
+              trainingPosition?.gameInfo?.lastMoveCol == col) {
             _drawLastMoveMarker(canvas, x, y, stoneRadius, stone);
           }
         }
 
         // Draw move sequence numbers
-        if (trainingPosition?.gameInfo.moveSequence != null) {
-          for (final move in trainingPosition!.gameInfo.moveSequence!) {
+        if (trainingPosition?.gameInfo?.moveSequence != null) {
+          for (final move in trainingPosition!.gameInfo!.moveSequence!) {
             if (move.row == row && move.col == col && position.board[row][col] == StoneColor.empty) {
               final double x = boardStart + (col - displayStartCol) * cellSize;
               final double y = boardStart + (row - displayStartRow) * cellSize;

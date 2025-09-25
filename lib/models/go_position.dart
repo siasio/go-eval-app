@@ -1,4 +1,5 @@
 import 'training_position.dart';
+import '../core/game_result_parser.dart';
 
 enum StoneColor { empty, black, white }
 
@@ -82,7 +83,6 @@ class GoPosition {
   bool isCorrectGuess(String userResult) {
     if (trainingData == null) return false;
 
-    final correct = trainingData!.winner.toLowerCase();
-    return userResult.toLowerCase() == correct.toLowerCase();
+    return GameResultParser.isCorrectGuess(userResult, trainingData!.result);
   }
 }

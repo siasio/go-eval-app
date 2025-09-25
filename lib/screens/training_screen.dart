@@ -368,18 +368,8 @@ class _TrainingScreenState extends State<TrainingScreen> {
                 )
               else
                 Container(
-                  height: 40,
+                  height: 8,
                   margin: const EdgeInsets.all(16),
-                  child: const Center(
-                    child: Text(
-                      'Position Complete',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.orange,
-                      ),
-                    ),
-                  ),
                 ),
 
               // Game Status Bar

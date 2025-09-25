@@ -54,7 +54,7 @@ app/
 
 ## Data Integration
 
-The app loads position data from `../data/positions/` in JSON format. Position files must match the schema defined in `../data/schemas/position.json`.
+The app loads position data from `../data/positions/` in JSON format. Position files must match the schema defined in `../data/schemas/compact-position.json`.
 
 ### Loading Custom Positions
 

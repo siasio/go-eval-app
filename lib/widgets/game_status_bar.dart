@@ -47,7 +47,7 @@ class GameStatusBar extends StatelessWidget {
           Expanded(
             child: _buildCaptureInfo(
               'Black stones dead',
-              gameInfo.whiteCaptured, // White captured black stones
+              gameInfo?.whiteCaptured ?? 0, // White captured black stones
               Colors.black,
             ),
           ),
@@ -65,7 +65,7 @@ class GameStatusBar extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '${gameInfo.komi}',
+                  '${gameInfo?.komi ?? 0}',
                   style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
@@ -80,7 +80,7 @@ class GameStatusBar extends StatelessWidget {
           Expanded(
             child: _buildCaptureInfo(
               'White stones dead',
-              gameInfo.blackCaptured, // Black captured white stones
+              gameInfo?.blackCaptured ?? 0, // Black captured white stones
               Colors.white,
             ),
           ),

@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../models/training_position.dart';
+import '../core/dataset_parser.dart' as parser;
 
 enum DatasetSource {
   asset,
@@ -87,6 +88,13 @@ class PositionLoader {
       }
 
       final Map<String, dynamic> jsonData = json.decode(jsonString);
+
+      // Validate dataset before parsing
+      final validationErrors = parser.DatasetParser.validateDataset(jsonData);
+      if (validationErrors.isNotEmpty) {
+        throw Exception('Dataset validation failed: ${validationErrors.join(', ')}');
+      }
+
       _cachedDataset = TrainingDataset.fromJson(jsonData);
 
       print('Loaded dataset from $_datasetFile: ${_cachedDataset!.metadata.totalPositions} positions');

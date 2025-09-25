@@ -26,7 +26,6 @@ class PositionManager {
       _currentPosition = GoPosition.fromTrainingPosition(_currentTrainingPosition!);
 
       print('Loaded position: ${_currentTrainingPosition!.id}');
-      print('Players: ${_currentTrainingPosition!.source.players.black} vs ${_currentTrainingPosition!.source.players.white}');
       print('Result: ${_currentTrainingPosition!.result}');
 
       return _currentPosition!;
