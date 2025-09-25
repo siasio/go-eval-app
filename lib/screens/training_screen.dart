@@ -242,7 +242,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
     }
 
     // Handle draws (0.5 point difference or exact draw)
-    if (result.contains('+0.5') || result.contains('-0.5') || result == 'Draw') {
+    if (result == 'Draw') { // result.contains('+0.5') || result.contains('-0.5') || 
       return 'DRAW';
     }
 
@@ -276,9 +276,9 @@ class _TrainingScreenState extends State<TrainingScreen> {
     // Handle white wins
     if (result.startsWith('W+')) {
       return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(80, 80, 80, 0.9), // Dark gray background
-        textColor: Colors.white, // White text for excellent contrast (representing white stones)
-        borderColor: Color.fromRGBO(160, 160, 160, 0.8), // Light gray border
+        backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
+        textColor: Colors.white, // White color (representing white stones)
+        borderColor: Color(0xFF8D6E63), // Medium brown border
         shadowColor: Colors.black, // Dark shadow
       );
     }
@@ -286,9 +286,9 @@ class _TrainingScreenState extends State<TrainingScreen> {
     // Handle black wins
     if (result.startsWith('B+')) {
       return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(250, 250, 250, 0.92), // Very light gray background
-        textColor: Color(0xFF2C2C2C), // Dark gray text for excellent contrast (representing black stones)
-        borderColor: Color.fromRGBO(120, 120, 120, 0.7), // Medium gray border
+        backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
+        textColor: Colors.black, // Black color (representing black stones)
+        borderColor: Color(0xFF8D6E63), // Medium brown border
         shadowColor: Color.fromRGBO(0, 0, 0, 0.3), // Subtle dark shadow
       );
     }
