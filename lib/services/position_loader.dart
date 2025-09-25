@@ -1,30 +1,91 @@
 import 'dart:convert';
 import 'dart:math';
+import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../models/training_position.dart';
+
+enum DatasetSource {
+  asset,
+  file,
+  bytes,
+}
 
 class PositionLoader {
   static TrainingDataset? _cachedDataset;
   static final Random _random = Random();
   static String _datasetFile = 'assets/19x19_midgame_positions.json';
+  static DatasetSource _datasetSource = DatasetSource.asset;
+  static String? _filePath;
+  static Uint8List? _fileBytes;
 
-  /// Set which dataset file to load
+  /// Set which dataset file to load from assets
   static void setDatasetFile(String filename) {
     _datasetFile = filename.startsWith('assets/') ? filename : 'assets/$filename';
+    _datasetSource = DatasetSource.asset;
+    _filePath = null;
+    _fileBytes = null;
     _cachedDataset = null; // Clear cache when switching datasets
+  }
+
+  /// Load dataset from a file path (mobile/desktop)
+  static Future<TrainingDataset> loadFromFile(String filePath) async {
+    _datasetFile = filePath;
+    _datasetSource = DatasetSource.file;
+    _filePath = filePath;
+    _fileBytes = null;
+    _cachedDataset = null;
+    return await loadDataset();
+  }
+
+  /// Load dataset from bytes (web)
+  static Future<TrainingDataset> loadFromBytes(Uint8List bytes, String filename) async {
+    _datasetFile = filename;
+    _datasetSource = DatasetSource.bytes;
+    _filePath = null;
+    _fileBytes = bytes;
+    _cachedDataset = null;
+    return await loadDataset();
   }
 
   /// Get the current dataset filename
   static String get datasetFile => _datasetFile;
 
-  /// Load the training dataset from assets
+  /// Load the training dataset from the configured source
   static Future<TrainingDataset> loadDataset() async {
     if (_cachedDataset != null) {
       return _cachedDataset!;
     }
 
     try {
-      final String jsonString = await rootBundle.loadString(_datasetFile);
+      String jsonString;
+
+      switch (_datasetSource) {
+        case DatasetSource.asset:
+          jsonString = await rootBundle.loadString(_datasetFile);
+          break;
+        case DatasetSource.file:
+          if (_filePath == null) {
+            throw Exception('File path not set for file source');
+          }
+          if (kIsWeb) {
+            throw Exception('File system access not supported on web');
+          }
+          try {
+            final file = File(_filePath!);
+            jsonString = await file.readAsString();
+          } catch (e) {
+            throw Exception('Failed to read file $_filePath: $e');
+          }
+          break;
+        case DatasetSource.bytes:
+          if (_fileBytes == null) {
+            throw Exception('File bytes not set for bytes source');
+          }
+          jsonString = String.fromCharCodes(_fileBytes!);
+          break;
+      }
+
       final Map<String, dynamic> jsonData = json.decode(jsonString);
       _cachedDataset = TrainingDataset.fromJson(jsonData);
 
@@ -78,5 +139,15 @@ class PositionLoader {
   /// Clear the cached dataset (useful for testing)
   static void clearCache() {
     _cachedDataset = null;
+  }
+
+  /// Get current dataset source information
+  static Map<String, dynamic> getSourceInfo() {
+    return {
+      'source': _datasetSource.toString().split('.').last,
+      'file': _datasetFile,
+      'path': _filePath,
+      'has_bytes': _fileBytes != null,
+    };
   }
 }

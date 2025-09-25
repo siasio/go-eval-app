@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-enum GameResult { whiteWins, draw, blackWins }
+import '../models/scoring_config.dart';
 
 class ResultButtons extends StatelessWidget {
   final Function(GameResult) onResultSelected;
