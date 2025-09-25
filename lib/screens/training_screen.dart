@@ -273,21 +273,21 @@ class _TrainingScreenState extends State<TrainingScreen> {
       );
     }
 
-    // Handle black wins
-    if (result.startsWith('B+')) {
+    // Handle white wins
+    if (result.startsWith('W+')) {
       return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(80, 80, 80, 0.9), // Dark gray background (representing black stones)
-        textColor: Colors.white, // White text for excellent contrast
+        backgroundColor: Color.fromRGBO(80, 80, 80, 0.9), // Dark gray background
+        textColor: Colors.white, // White text for excellent contrast (representing white stones)
         borderColor: Color.fromRGBO(160, 160, 160, 0.8), // Light gray border
         shadowColor: Colors.black, // Dark shadow
       );
     }
 
-    // Handle white wins
-    if (result.startsWith('W+')) {
+    // Handle black wins
+    if (result.startsWith('B+')) {
       return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(250, 250, 250, 0.92), // Very light gray background (representing white stones)
-        textColor: Color(0xFF2C2C2C), // Dark gray text for excellent contrast
+        backgroundColor: Color.fromRGBO(250, 250, 250, 0.92), // Very light gray background
+        textColor: Color(0xFF2C2C2C), // Dark gray text for excellent contrast (representing black stones)
         borderColor: Color.fromRGBO(120, 120, 120, 0.7), // Medium gray border
         shadowColor: Color.fromRGBO(0, 0, 0, 0.3), // Subtle dark shadow
       );
