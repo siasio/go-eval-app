@@ -9,6 +9,20 @@ import '../widgets/result_buttons.dart';
 import '../widgets/game_status_bar.dart';
 import './settings_screen.dart';
 
+class ResultDisplayColors {
+  final Color backgroundColor;
+  final Color textColor;
+  final Color borderColor;
+  final Color? shadowColor;
+
+  const ResultDisplayColors({
+    required this.backgroundColor,
+    required this.textColor,
+    required this.borderColor,
+    this.shadowColor,
+  });
+}
+
 class TrainingScreen extends StatefulWidget {
   const TrainingScreen({super.key});
 
@@ -168,7 +182,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
   Widget _buildFeedbackWidget() {
     final result = _positionManager.currentTrainingPosition?.result ?? '';
     final displayResult = _formatResultText(result);
-    final resultColor = _getResultTextColor(result);
+    final colors = _getResultDisplayColors(result);
 
     return Column(
       mainAxisSize: MainAxisSize.min,
@@ -190,28 +204,28 @@ class _TrainingScreenState extends State<TrainingScreen> {
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           decoration: BoxDecoration(
-            color: Colors.black.withValues(alpha: 0.9),
+            color: colors.backgroundColor,
             borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: Colors.white.withValues(alpha: 0.5), width: 2),
+            border: Border.all(color: colors.borderColor, width: 2),
           ),
           child: Text(
             displayResult,
             style: TextStyle(
               fontSize: 32,
               fontWeight: FontWeight.bold,
-              color: resultColor,
-              shadows: [
+              color: colors.textColor,
+              shadows: colors.shadowColor != null ? [
                 Shadow(
                   offset: const Offset(0, 0),
-                  blurRadius: 4,
-                  color: Colors.black,
+                  blurRadius: 3,
+                  color: colors.shadowColor!,
                 ),
                 Shadow(
                   offset: const Offset(1, 1),
                   blurRadius: 2,
-                  color: Colors.black,
+                  color: colors.shadowColor!,
                 ),
-              ],
+              ] : null,
             ),
           ),
         ),
@@ -236,25 +250,56 @@ class _TrainingScreenState extends State<TrainingScreen> {
     return result;
   }
 
-  Color _getResultTextColor(String result) {
-    if (result.isEmpty) return Colors.white;
+  ResultDisplayColors _getResultDisplayColors(String result) {
+    if (result.isEmpty) {
+      // Unknown result - use neutral colors
+      return const ResultDisplayColors(
+        backgroundColor: Color.fromRGBO(80, 80, 80, 0.9), // Dark gray
+        textColor: Colors.white,
+        borderColor: Colors.grey,
+        shadowColor: Colors.black,
+      );
+    }
+
+    final displayResult = _formatResultText(result);
 
     // Handle draws
-    if (result.contains('+0.5') || result.contains('-0.5') || result == 'Draw' || _formatResultText(result) == 'DRAW') {
-      return const Color(0xFFD2B48C); // Tan/beige for draws
+    if (displayResult == 'DRAW') {
+      return const ResultDisplayColors(
+        backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
+        textColor: Color(0xFF5D4037), // Dark brown text
+        borderColor: Color(0xFF8D6E63), // Medium brown border
+        shadowColor: Color.fromRGBO(255, 255, 255, 0.8), // Light shadow for contrast
+      );
     }
 
     // Handle black wins
     if (result.startsWith('B+')) {
-      return Colors.white; // White text for black wins
+      return const ResultDisplayColors(
+        backgroundColor: Color.fromRGBO(80, 80, 80, 0.9), // Dark gray background (representing black stones)
+        textColor: Colors.white, // White text for excellent contrast
+        borderColor: Color.fromRGBO(160, 160, 160, 0.8), // Light gray border
+        shadowColor: Colors.black, // Dark shadow
+      );
     }
 
     // Handle white wins
     if (result.startsWith('W+')) {
-      return const Color(0xFF2C2C2C); // Dark color for white wins
+      return const ResultDisplayColors(
+        backgroundColor: Color.fromRGBO(250, 250, 250, 0.92), // Very light gray background (representing white stones)
+        textColor: Color(0xFF2C2C2C), // Dark gray text for excellent contrast
+        borderColor: Color.fromRGBO(120, 120, 120, 0.7), // Medium gray border
+        shadowColor: Color.fromRGBO(0, 0, 0, 0.3), // Subtle dark shadow
+      );
     }
 
-    return Colors.white; // Default
+    // Default fallback
+    return const ResultDisplayColors(
+      backgroundColor: Color.fromRGBO(80, 80, 80, 0.9),
+      textColor: Colors.white,
+      borderColor: Colors.grey,
+      shadowColor: Colors.black,
+    );
   }
 
   @override
