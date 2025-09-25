@@ -91,7 +91,6 @@ class PositionLoader {
 
       print('Loaded dataset from $_datasetFile: ${_cachedDataset!.metadata.totalPositions} positions');
       print('Dataset name: ${_cachedDataset!.metadata.name}');
-      print('Difficulty distribution: ${_cachedDataset!.metadata.difficultyDistribution}');
 
       return _cachedDataset!;
     } catch (e) {
@@ -107,25 +106,12 @@ class PositionLoader {
     return dataset.positions[randomIndex];
   }
 
-  /// Get a random position from a specific difficulty level
-  static Future<TrainingPosition> getRandomPositionByDifficulty(String difficulty) async {
-    final dataset = await loadDataset();
-    final positions = dataset.getByDifficulty(difficulty);
-
-    if (positions.isEmpty) {
-      throw Exception('No positions found for difficulty: $difficulty');
-    }
-
-    final randomIndex = _random.nextInt(positions.length);
-    return positions[randomIndex];
-  }
 
   /// Get dataset statistics
   static Future<Map<String, dynamic>> getStatistics() async {
     final dataset = await loadDataset();
     return {
       'total_positions': dataset.metadata.totalPositions,
-      'difficulty_distribution': dataset.metadata.difficultyDistribution,
       'created_at': dataset.metadata.createdAt.toIso8601String(),
       'version': dataset.metadata.version,
     };

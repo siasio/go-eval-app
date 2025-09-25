@@ -28,7 +28,6 @@ class PositionManager {
       print('Loaded position: ${_currentTrainingPosition!.id}');
       print('Players: ${_currentTrainingPosition!.source.players.black} vs ${_currentTrainingPosition!.source.players.white}');
       print('Result: ${_currentTrainingPosition!.result}');
-      print('Difficulty: ${_currentTrainingPosition!.difficulty}');
 
       return _currentPosition!;
     } catch (e) {
@@ -42,25 +41,6 @@ class PositionManager {
     }
   }
 
-  /// Load a position by difficulty level
-  Future<GoPosition> loadPositionByDifficulty(String difficulty) async {
-    _isLoading = true;
-
-    try {
-      _currentTrainingPosition = await PositionLoader.getRandomPositionByDifficulty(difficulty);
-      _currentPosition = GoPosition.fromTrainingPosition(_currentTrainingPosition!);
-
-      print('Loaded $difficulty position: ${_currentTrainingPosition!.id}');
-
-      return _currentPosition!;
-    } catch (e) {
-      print('Error loading $difficulty position: $e');
-      // Fallback to random position
-      return await loadRandomPosition();
-    } finally {
-      _isLoading = false;
-    }
-  }
 
   /// Check if the user's result selection is correct
   bool checkResult(String userResult) {

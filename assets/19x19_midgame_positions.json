@@ -1,0 +1,3022 @@
+{
+  "metadata": {
+    "name": "19x19 Midgame Positions (Move 50)",
+    "description": "Midgame positions from 19x19 games at move 50, with score evaluation from AI analysis comments",
+    "version": "1.0.0",
+    "created_at": "2025-09-25T13:37:54.516353",
+    "total_positions": 100,
+    "difficulty_distribution": {
+      "beginner": 14,
+      "intermediate": 34,
+      "advanced": 52
+    },
+    "board_size": 19,
+    "generation_stats": {
+      "files_processed": 116,
+      "positions_extracted": 100,
+      "success_rate": 0.8620689655172413
+    }
+  },
+  "positions": [
+    {
+      "id": "83421241F279D5B59261C2A5A31D56BC.sgf_50_690b558e",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAgABAAAAAAABAAAAAQECAQAAAAAAAAEAAAACAAAAAAACAgIAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAAAAQAAAgAAAAICAgAAAAAAAAAAAAIAAQIAAAABAgEBAAAAAAAAAAAAAAEAAAAAAAECAAAAAAAAAAAAAgAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAgAAAAICAAAAAAAAAAAAAAAAAgEAAAEBAgEAAAAAAAAAAAICAgABAAABAgEAAQAAAAAAAQECAQECAgAAAQIAAAAAAAAAAAACAQEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.5,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "83421241F279D5B59261C2A5A31D56BC.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 6.0,
+        "last_move_row": 13,
+        "last_move_col": 5,
+        "ai_evaluation": {
+          "score": -1.5,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "EE46093E765D4AFBA5DC2D20BB69228D.sgf_50_cffd4f5c",
+      "board_size": 19,
+      "stones": "AAAAAAAAAQAAAgAAAAAAAAEAAAAAAQICAQABAgAAAAAAAgACAQAAAQEBAgEBAgIBAAEAAAACAQAAAgIBAQECAQACAQIBAQAAAgEAAAACAgIBAgICAAEBAgICAAIBAQACAgEBAgIBAQICAQIBAAAAAgEAAQACAQACAgEAAAECAQIAAAIBAgACAgEAAgECAgIBAQICAAIAAgACAgIBAQIBAQAAAQEBAQICAQAAAQIBAQIBAQECAgECAAEBAgAAAAEBAQICAgEBAAIBAAICAQEBAAAAAgIAAgICAQECAQIAAAIAAAEBAQIBAgECAAABAQICAgIBAQECAQEBAQEBAgEBAQEBAQIAAgEBAgIAAgEAAQECAgEAAQICAgIBAgICAAABAAECAAIAAQIBAAIBAgIAAgACAgEBAQACAQACAgACAQEBAgIAAgACAgECAgEBAAACAQECAQECAAACAgACAAICAQAAAgIBAgABAA==",
+      "score": -41.5,
+      "result": "W+41.5",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "EE46093E765D4AFBA5DC2D20BB69228D.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 9.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 8,
+        "komi": 9.5,
+        "last_move_row": 9,
+        "last_move_col": 0,
+        "ai_evaluation": {
+          "score": -41.5,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "5A4694145770F29429998E5FD2E6D3AC.sgf_50_6a8d0770",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAICAgACAAAAAAEAAAAAAAIAAgIBAQEBAAAAAAAAAAEBAAACAQIBAAAAAAAAAAAAAQECAAABAgIBAAAAAAAAAAAAAAACAgAAAAEBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAABAAIBAAAAAAAAAAAAAgAAAAAAAQACAAAAAAAAAAIAAAIAAAAAAgEBAgAAAAAAAAAAAAECAAAAAAAAAAIAAAEAAAAAAgAAAQIAAAAAAQECAAAAAAAAAAAAAAECAAAAAQAAAAICAQAAAAAAAAABAQIAAAEAAgACAQEAAAAAAAAAAQICAAAAAQIAAQIBAQAAAAABAAABAgAAAQIAAgECAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "5A4694145770F29429998E5FD2E6D3AC.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 1,
+        "last_move_col": 14,
+        "ai_evaluation": {
+          "score": -0.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "43BA5DE68940F0929E3FE50E86CF5243.sgf_50_a2aa6803",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAAAECAgAAAAAAAAAAAAACAAEAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAACAgEBAgIAAQIAAAAAAAAAAAAAAgEBAgACAAEAAAAAAAAAAAAAAAIBAAECAQEBAQABAQECAAAAAAACAQAAAgECAgEAAgICAAAAAAAAAgEAAAIBAgACAgAAAAAAAAAAAAIBAAACAgECAAAAAAAAAAAAAAICAQIAAgEBAAEAAAAAAAAAAAABAQICAAIBAAAAAAAAAAAAAAAAAAEBAgABAQAAAAIAAAABAAEAAAAAAQIAAAAAAAAAAAAAAAAAAAACAAECAAEAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAA==",
+      "score": -3.0,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "43BA5DE68940F0929E3FE50E86CF5243.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 0.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 0.5,
+        "last_move_row": 8,
+        "last_move_col": 9,
+        "ai_evaluation": {
+          "score": -3.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "2DDC8454EF87636E37D097996CF97DE9.sgf_50_3a8f8666",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAAAAAAAAAAAAAAAAAAAAAQIBAQEAAAEAAAAAAAAAAAAAAQABAgAAAAAAAAIAAAAAAAAAAgIBAQEBAAAAAAECAAAAAAAAAAAAAgICAgAAAAABAgAAAAAAAAAAAAIBAQEAAAAAAQIAAAAAAAAAAQEBAgICAQAAAAAAAAAAAAAAAAACAgACAQIAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -2.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "2DDC8454EF87636E37D097996CF97DE9.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 19.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 19.0,
+        "last_move_row": 11,
+        "last_move_col": 13,
+        "ai_evaluation": {
+          "score": -2.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "28BD9C4C8B7C1B27F5154506EC9F09B7.sgf_50_c2db545a",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAICAgEBAQAAAAAAAAAAAAAAAAAAAAACAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAABAQIBAAAAAAEAAAAAAAAAAAAAAgECAAAAAAACAAAAAAAAAAAAAAIBAgABAAABAgEAAAAAAAAAAAECAQICAgAAAgEAAgABAAAAAAACAAIBAQAAAAAAAAAAAAAAAAAAAAICAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "28BD9C4C8B7C1B27F5154506EC9F09B7.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 6.0,
+        "last_move_row": 3,
+        "last_move_col": 14,
+        "ai_evaluation": {
+          "score": 0.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "48871C456C2A3C27618DE6F3A9394D2C.sgf_50_1e82378f",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAEAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAACAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAgEBAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAEAAQECAAAAAQAAAAAAAAAAAAAAAQICAgAAAAICAgIAAAAAAAAAAAABAgAAAAACAQEBAQAAAAAAAAAAAQIAAAACAQIAAAAAAAAAAAAAAAEBAgAAAQEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -17.0,
+      "result": "W+17.0",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "48871C456C2A3C27618DE6F3A9394D2C.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": -7.0,
+        "last_move_row": 16,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": -17.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "048FB224685B9FEDCA31BD8F91C99C97.sgf_50_3660da34",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAQAAAAAAAAIAAgAAAgABAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAIAAAAAAAAAAAAAAgACAQAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAQAAAAAAAAABAQEBAAAAAAAAAAAAAAAAAAEAAAACAgAAAAAAAAAAAAAAAAABAgICAAAAAAAAAAAAAAAAAgICAgEBAgACAAAAAAAAAAAAAAABAQEAAAECAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQABAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "048FB224685B9FEDCA31BD8F91C99C97.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.5,
+        "last_move_row": 8,
+        "last_move_col": 10,
+        "ai_evaluation": {
+          "score": -0.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "0EBCA2BBCAB677BF07CFC8BE94651392.sgf_50_12a485fd",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAECAAAAAAIBAAAAAAAAAQIBAQECAAAAAAACAAAAAAAAAQEBAgIAAgAAAAAAAAEAAQECAAAAAgAAAgAAAAAAAQAAAQICAQAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQECAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAACAAEAAAACAAAAAAAAAQAAAAAAAgEAAAACAAAAAAAAAAAAAgAAAgEAAQABAQIAAAAAAAAAAAAAAAIBAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.0,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "0EBCA2BBCAB677BF07CFC8BE94651392.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 6.5,
+        "last_move_row": 7,
+        "last_move_col": 5,
+        "ai_evaluation": {
+          "score": 1.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "BD1000189E59E5A03891A68A01D7AD0E.sgf_50_3b53f583",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAIAAAACAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQAAAAABAAAAAAAAAgICAgIBAQAAAAAAAAACAAABAAAAAAAAAgIBAAAAAAABAgAAAAEAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAQACAgIAAAAAAgAAAgACAQAAAAABAQAAAAAAAAACAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "BD1000189E59E5A03891A68A01D7AD0E.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 16,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": 0.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "954D6CA8572DA5BE34D3F1D109D5D8B8.sgf_50_04447b06",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAACAQICAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAACAQAAAAICAQAAAAAAAAAAAAAAAgEAAAABAgEAAAAAAAAAAAAAAAIAAAAAAgEBAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAgEBAQAAAAAAAAAAAAAAAAACAAACAgAAAAAAAAAAAAACAAAAAAABAAAAAQAAAAABAAAAAAAAAAABAAICAAAAAAAAAAEAAgAAAAAAAAEBAgABAAAAAgEBAgAAAAAAAAAAAAAAAAAAAAIBAgIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+      "score": -3.2,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "954D6CA8572DA5BE34D3F1D109D5D8B8.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 4.5,
+        "last_move_row": 4,
+        "last_move_col": 12,
+        "ai_evaluation": {
+          "score": -3.2,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "0DABAD40A8F190F24C44FF9FBB02B78E.sgf_50_98744960",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAQIAAAAAAAAAAAAAAQIAAgAAAQIAAAAAAAACAAAAAAABAgAAAAECAAAAAAACAAAAAAAAAAAAAAABAgAAAAAAAAABAAAAAAABAAIAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAABAgECAAAAAAAAAAAAAAAAAAAAAgICAAAAAAAAAAAAAAAAAAAAAAACAQIAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAgEAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAgACAAACAAAAAAAAAAEAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "0DABAD40A8F190F24C44FF9FBB02B78E.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 6.5,
+        "last_move_row": 5,
+        "last_move_col": 5,
+        "ai_evaluation": {
+          "score": -0.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "B7AC630DA674EB92085310CC55D4CAC1.sgf_50_e777f75e",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAIBAQEAAAAAAAAAAAAAAAAAAAACAQICAgABAQAAAAAAAAAAAAAAAgIBAAAAAQIAAAAAAAAAAAAAAgAAAAEAAAECAAIAAAAAAAAAAgIBAQEAAAIBAgAAAAAAAQAAAAEBAgIAAAEBAgIBAAAAAAAAAAABAAEAAgACAgEBAgIAAAEAAAAAAAECAgAAAAIAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 6.2,
+      "result": "B+6.2",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "B7AC630DA674EB92085310CC55D4CAC1.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 4,
+        "last_move_col": 8,
+        "ai_evaluation": {
+          "score": 6.2,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "D0BBA534EC3C30F6707BC4541D4957AA.sgf_50_7f155881",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAAAAAAAAAAAAAICAgAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAAACAQEAAAAAAAAAAAAAAAEBAQEBAQICAQAAAAAAAAAAAAICAgIAAgACAQAAAAABAAAAAAAAAAAAAAIAAgEAAAAAAAABAAAAAAAAAAABAAIBAAAAAAAAAAAAAAAAAAAAAAIBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "D0BBA534EC3C30F6707BC4541D4957AA.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.5,
+        "last_move_row": 9,
+        "last_move_col": 10,
+        "ai_evaluation": {
+          "score": 1.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "B830603139ABD7BAD48529B7087BE7EB.sgf_50_996df79c",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAQAAAAAAAQAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQIAAAAAAAAAAAAAAAAAAAAAAgIAAgAAAAAAAAAAAAAAAAAAAAIBAgAAAAAAAAAAAAAAAAAAAAACAQEAAAAAAAAAAAAAAAAAAAACAQIBAAAAAAAAAAAAAAAAAAAAAAECAQAAAAIAAAAAAAAAAAAAAAIAAgEAAAAAAAIBAAAAAAAAAAAAAgICAQAAAAEBAAAAAAAAAAICAgEBAQAAAAAAAAAAAAAAAAACAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "B830603139ABD7BAD48529B7087BE7EB.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -3.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": -3.5,
+        "last_move_row": 14,
+        "last_move_col": 14,
+        "ai_evaluation": {
+          "score": -0.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "BD28CABB7847F6BC6FD5650B21A1085F.sgf_50_0057349c",
+      "board_size": 19,
+      "stones": "AAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAIBAAAAAAAAAAAAAAAAAAEAAgACAQAAAQAAAQAAAAAAAAABAgACAQAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAQICAAAAAAAAAAAAAAAAAgAAAAEBAgAAAAABAQABAAAAAAAAAAAAAAECAAAAAgIAAAAAAAABAAAAAAABAgAAAAAAAgABAAAAAAAAAAAAAQIAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "BD28CABB7847F6BC6FD5650B21A1085F.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 6.5,
+        "last_move_row": 6,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": 0.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "E2D27E45ED8A38BC6F2F54D5B6CB48AB.sgf_50_ecb57843",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAIAAgAAAAABAgAAAAAAAgAAAgIBAgAAAAAAAAEAAAAAAAABAQIBAQEBAAAAAAAAAAAAAAABAgIBAAECAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAABAQIAAAAAAAAAAAAAAAAAAAACAQICAAAAAAAAAAAAAAAAAAAAAQIBAQAAAAAAAAAAAAAAAAAAAAACAgIAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -9.7,
+      "result": "W+9.7",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "E2D27E45ED8A38BC6F2F54D5B6CB48AB.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -5.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": -5.5,
+        "last_move_row": 10,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -9.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "1746C746DBDFE57288EEE0EDDC600DE1.sgf_50_a5ed5385",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAgIAAAAAAAAAAAAAAAAAAgIBAgECAAAAAAAAAAAAAAAAAAECAgIBAQIAAAAAAAAAAAAAAAEAAQEBAAECAAAAAAAAAAAAAQAAAAAAAgABAgAAAAAAAQAAAQIAAAACAAIBAAECAAAAAAAAAAEBAgIAAAIBAQABAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -9.5,
+      "result": "W+9.5",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "1746C746DBDFE57288EEE0EDDC600DE1.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -2.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": -2.5,
+        "last_move_row": 10,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": -9.5,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "A37B7C1D2B9C5ED82ACB7B9E09890C16.sgf_50_291e12d8",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAIAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgICAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAABAAACAAIAAAAAAAAAAAAAAQAAAQEBAgAAAAAAAAAAAAACAAAAAgECAgECAQAAAAAAAAAAAgEAAAACAAIBAQEAAAAAAAAAAAIBAAACAQICAQABAAAAAAAAAAAAAAAAAAACAQABAgAAAAAAAAAAAAAAAA==",
+      "score": -2.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "A37B7C1D2B9C5ED82ACB7B9E09890C16.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 6.0,
+        "last_move_row": 8,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": -2.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "9D691A2E64551028FA844861662536B4.sgf_50_b5a98d2f",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAQECAAAAAAACAgAAAAAAAgEBAQICAgAAAAICAQAAAAAAAAICAgIAAAAAAAABAQECAgAAAAAAAAAAAAAAAAAAAAABAQAAAgAAAgAAAAAAAAAAAAAAAAAAAQEAAAIBAAAAAAAAAAAAAAAAAAAAAAABAQICAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAEAAQIAAAAAAAAAAAAAAAAAAAAAAQIAAgAAAAAAAAAAAAAAAgAAAAEAAgAAAAAAAAAAAAAAAAAAAAACAgIAAAAAAAAAAAAAAAEAAAAAAgECAAAAAAAAAAAAAAABAgAAAAIBAgEBAAAAAAAAAAAAAgEAAAAAAQECAQAAAAAAAAAAAAEAAAAAAAEAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -2.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "9D691A2E64551028FA844861662536B4.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 4.5,
+        "last_move_row": 15,
+        "last_move_col": 14,
+        "ai_evaluation": {
+          "score": -2.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "6DAA18206E96A9014EE1D733D2AB55B8.sgf_50_9bcc6ee5",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAgAAAAAAAAICAQEAAAAAAAAAAAAAAAIAAAABAQICAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAgAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQEAAAAAAAAAAAAAAAACAgAAAAICAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAABAAABAQEAAAAAAAAAAAAAAAACAQACAAICAAAAAAEAAAAAAAABAQICAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "6DAA18206E96A9014EE1D733D2AB55B8.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.5,
+        "last_move_row": 4,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": 0.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "453F3790526388311F0F9177FB2A2477.sgf_50_2bf03501",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAQECAQAAAAIAAAEAAQACAAEBAQICAgEAAAAAAgICAQAAAAIAAAICAgEBAAAAAAEAAgEAAAAAAAAAAAICAQAAAAEAAAACAQEAAAAAAAACAQEAAAABAgAAAgIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 2.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "453F3790526388311F0F9177FB2A2477.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 6.5,
+        "last_move_row": 15,
+        "last_move_col": 0,
+        "ai_evaluation": {
+          "score": 2.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "A4C6A20D8E822E79CF1794534AD11947.sgf_50_e9903d17",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAgACAQAAAAACAAAAAAAAAAAAAAEAAgEBAAAAAAAAAAAAAgAAAgABAAICAQAAAAAAAAAAAAAAAQABAAACAQIAAAAAAAAAAAAAAAAAAAAAAgEBAAAAAAAAAAAAAAACAgEBAgICAQAAAAAAAAAAAAAAAAECAgECAQEAAAAAAAAAAAAAAAACAAABAQIAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -7.4,
+      "result": "W+7.4",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "A4C6A20D8E822E79CF1794534AD11947.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 3.5,
+        "last_move_row": 11,
+        "last_move_col": 9,
+        "ai_evaluation": {
+          "score": -7.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "503D3D1684485E04D1E9FAD3860992A5.sgf_50_d53b9051",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAACAQAAAgEAAAEAAAACAgEBAAECAQAAAAICAQAAAAAAAQECAgEAAgEBAAACAQEAAAAAAAAAAQICAgIBAgAAAAIBAAAAAAAAAAAAAAEBAgEAAAACAgAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -2.0,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "503D3D1684485E04D1E9FAD3860992A5.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 5.5,
+        "last_move_row": 17,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -2.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "4FB777523CA2BC9B3A7490CED7CBB5C5.sgf_50_7ecb238b",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgEAAAAAAAABAAABAAAAAAACAAEBAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAgAAAAAAAAAAAAIBAAAAAAIBAAAAAAAAAAAAAAACAQAAAAIBAQICAAAAAAAAAAACAQAAAAEBAgICAQAAAAAAAAAAAgEAAAABAgEBAQICAgAAAAAAAAIBAAAAAQIAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "4FB777523CA2BC9B3A7490CED7CBB5C5.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 15,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": -0.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "9193B4A6ABCD7AA0D61AAF4763BE5EF0.sgf_50_b73ee58d",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAECAAAAAAAAAAIAAAIBAAAAAAAAAQICAgIAAAAAAAIAAAAAAAAAAAECAQEAAAAAAQAAAAECAAAAAAEAAQIAAQAAAAICAAEAAgAAAAAAAAECAgIAAAIAAAAAAAAAAAACAAACAQABAAAAAQAAAAAAAgAAAAABAQEBAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAQABAAACAAAAAAAAAAABAAAAAgECAQACAAAAAAAAAAEAAAAAAQECAgABAAIAAAAAAgEAAgAAAAAAAQICAgIBAAAAAAABAgAAAAAAAAEBAQIBAQAAAAEAAQIAAQAAAAAAAAABAAAAAAAAAAACAAAAAAAAAgEAAQACAAAAAAIAAAAAAAAAAAIAAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -3.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "9193B4A6ABCD7AA0D61AAF4763BE5EF0.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 2.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 2.0,
+        "last_move_row": 14,
+        "last_move_col": 9,
+        "ai_evaluation": {
+          "score": -3.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "78C8EA2E7C772B926C407508FE9BF39E.sgf_50_0a0897e0",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAQABAgACAgIAAAAAAgAAAAACAAAAAAEBAQECAAAAAAAAAAAAAAAAAAEAAAABAQAAAAAAAAAAAAAAAAAAAAIAAgEAAAAAAgAAAAAAAAAAAAIAAAICAAAAAAAAAAAAAAAAAAAAAQEBAgAAAAAAAAAAAAAAAAAAAQACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAAAICAQEBAQAAAQAAAAAAAAAAAAAAAQICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -3.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "78C8EA2E7C772B926C407508FE9BF39E.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 4.5,
+        "last_move_row": 13,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -3.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "1305F1166322818A70B7A69CA1C0234D.sgf_50_cfc04e32",
+      "board_size": 19,
+      "stones": "AAAAAAABAQICAQEBAAEAAgIAAgABAgEBAQIAAgIBAAECAgIBAgAAAAECAAECAAICAgEAAQECAQICAAABAgECAgICAQECAgEBAgEBAgAAAAIAAQICAgIBAQEBAgICAQAAAQECAQECAAIBAQACAQEBAgEBAAEAAQIBAQICAgEAAgEAAgEBAAEAAQECAAEBAgEAAQICAgICAgEAAQICAgIBAAEAAQECAAEBAAICAAIBAQICAgEAAQEBAQEAAQICAAABAQIAAgACAQECAgIBAAECAQIAAQICAAACAAIBAQACAAEAAQEBAAEBAgACAAIAAgABAgICAQABAAABAgACAAIAAgICAgIAAQEBAgAAAQICAAIBAgIBAQICAQECAgACAAABAgIBAQEBAQECAQICAAICAAEBAQICAgEAAQEAAQECAAACAAABAgICAAIBAQECAQIBAgACAgAAAQEBAgICAgIBAAAAAQICAAAAAA==",
+      "score": 0.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "1305F1166322818A70B7A69CA1C0234D.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 9.5
+      },
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 8,
+        "komi": 9.5,
+        "last_move_row": 18,
+        "last_move_col": 10,
+        "ai_evaluation": {
+          "score": 0.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "88F7F13393FA5F4118787C59F46A18EE.sgf_50_aaab3f4c",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAACAAAAAAAAAQECAAIAAAAAAAACAgACAgAAAAACAAIAAAAAAAABAQIBAQEAAAAAAgIAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAIAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQEAAAAAAAAAAAACAgEBAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAgACAAIBAAEAAAIAAgEAAAAAAgECAAABAQACAgABAgIBAAAAAgEAAQEAAAAAAQIAAQIBAQAAAAAAAQAAAAAAAAAAAAIAAAAAAA==",
+      "score": -1.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "88F7F13393FA5F4118787C59F46A18EE.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 6.5,
+        "last_move_row": 13,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": -1.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "4F6A2C42DEF6EF514C9FF7F620E92E9E.sgf_50_2a5c6393",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAQECAAAAAAICAgABAQIAAAAAAQIAAgACAAEBAQEAAQICAAAAAAACAAACAQABAgEAAAABAAAAAAEAAAACAQAAAgIAAAAAAAAAAAAAAgAAAgEBAAACAQAAAAAAAAABAQECAQIBAAEAAgABAAAAAAAAAAACAAEBAgEAAAAAAAAAAAAAAAACAAIAAQICAAAAAgIBAAAAAAACAAAAAgIBAgAAAgIBAAEAAAAAAAEAAAAAAQIAAAEAAQAAAAIAAgAAAQICAQECAAAAAQAAAgIAAAAAAAABAQECAgAAAAAAAgEAAAEBAAEBAAABAQIAAAABAAIAAAABAgACAgICAQIAAAAAAgIAAAEAAQIAAAAAAQICAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "4F6A2C42DEF6EF514C9FF7F620E92E9E.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 6.0,
+        "last_move_row": 3,
+        "last_move_col": 3,
+        "ai_evaluation": {
+          "score": 0.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "5F4D5AC994B98300195A465B3A6C88E9.sgf_50_e66241f2",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAgAAAAAAAAAAAAAAAQIAAgACAgIBAAABAQAAAAAAAAEAAgECAgEBAQEBAgIBAAAAAAABAQEBAQECAgICAgACAQAAAAACAQIAAAABAgAAAAACAAIBAAAAAAICAgECAAECAAAAAAACAAAAAAAAAQIBAAAAAQEAAAAAAAAAAAAAAgIBAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQECAAAAAAAAAAABAAAAAAAAAgICAQEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 4.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "5F4D5AC994B98300195A465B3A6C88E9.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.5,
+        "last_move_row": 2,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": 4.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "C7C7A326051048B2A65B0215FD60DCE9.sgf_50_29658584",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAECAQABAgICAgAAAAAAAAEAAQEBAgEBAQICAQEAAAAAAgEAAAECAQICAgEBAQIAAAABAAABAAICAgICAAEBAQICAAAAAAEAAAIAAAAAAQEBAgIBAgAAAAAAAQECAgEBAQAAAQEAAQIAAAACAgICAgECAgECAAIAAQAAAAAAAQACAQABAAICAAAAAgICAAAAAAECAgEAAQAAAAACAAAAAAAAAAECAgEBAAABAAIAAAACAQEBAQABAQEBAgACAQABAQABAQICAgIAAgICAgICAgIBAAEBAgIBAQECAAAAAgEBAgEBAgIBAgIAAAECAAAAAAICAQEBAQAAAgECAAAAAQAAAAICAQEAAgICAgABAgACAQAAAAACAQEAAgAAAQIAAQIAAQICAAABAQAAAgAAAAAAAQABAgIBAAAAAAAAAAAAAAAAAAABAAEAAAAAAA==",
+      "score": -20.4,
+      "result": "W+20.4",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "C7C7A326051048B2A65B0215FD60DCE9.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -3.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": -3.5,
+        "last_move_row": 4,
+        "last_move_col": 17,
+        "ai_evaluation": {
+          "score": -20.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "244E4607FB9F9C449F3959C943667DAD.sgf_50_661a1f79",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAACAQACAAEAAgAAAgABAAAAAAACAAAAAAEAAAAAAAAAAAEAAAAAAAIBAQAAAAAAAAAAAAAAAAAAAAICAgAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQABAgAAAAAAAAAAAAAAAAABAAAAAgICAAAAAAAAAAAAAAAAAAAAAAABAQICAAAAAgAAAAAAAAAAAAEAAAABAgAAAAAAAAAAAAAAAAAAAAEAAQIAAAAAAAAAAAAAAgICAgAAAAECAQEAAAAAAAAAAAEBAQIAAAIBAQIAAQAAAAAAAAAAAAAAAgAAAAECAgIBAQEAAAAAAAEAAAAAAAABAQIAAgICAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "244E4607FB9F9C449F3959C943667DAD.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 8.0,
+        "last_move_row": 16,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": -0.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "A3D553BC012305DC7E2C5F0EB7E02B22.sgf_50_2dda9a3a",
+      "board_size": 19,
+      "stones": "AAIAAAACAgAAAAAAAAIAAAAAAAECAAAAAgEBAQIAAAIBAQEAAQEAAQICAAIAAQACAAACAgEAAQECAQEBAgACAQECAAABAgABAQICAgAAAAEBAgIBAAICAAIAAAACAAAAAAECAgEBAQICAAIAAAEBAgAAAAABAQICAQABAgIBAgICAgAAAgABAAECAgEAAAEBAQECAgECAgEAAgECAgEAAQAAAAAAAAEBAQEBAAIAAgABAAICAgEAAQAAAAAAAAAAAgEBAAACAQEBAgIBAAIBAAAAAAIAAAAAAAAAAgECAAICAQAAAAACAQEAAAIBAQABAQICAQEAAAAAAgICAQACAgEAAQIAAAIBAAAAAAAAAgAAAQEBAAACAAICAQAAAAIAAQEBAQICAAACAAAAAQAAAAAAAgEAAgABAgIAAQICAQEAAAAAAAIBAAAAAQEBAgICAQABAAAAAAIBAQAAAAAAAAAAAAABAAAAAA==",
+      "score": -2.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "A3D553BC012305DC7E2C5F0EB7E02B22.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -2.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": -2.0,
+        "last_move_row": 13,
+        "last_move_col": 10,
+        "ai_evaluation": {
+          "score": -2.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "E4D79790EEB0FEB24480F80E2BABA6E1.sgf_50_1e4e626d",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAgIAAQEBAAAAAAAAAAAAAAAAAgEBAQEAAgEAAAAAAAAAAAAAAAIBAgIBAQEBAAICAgICAAIAAgACAQIAAgICAQAAAQIBAQAAAAECAgECAgAAAgEAAAEBAAAAAAAAAgEBAQACAgEBAAAAAAIAAAAAAAICAQEBAQEBAAAAAAEAAQAAAAAAAAICAgECAgEAAAAAAAAAAAAAAAIAAAACAAIAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAACAQAAAAAAAAABAAIAAQAAAAABAgEAAAAAAAAAAAAAAAAAAAACAgEAAAICAgAAAAABAgABAAAAAAAAAQEAAQECAAAAAQIBAAEBAAACAAEAAQEAAAAAAQICAgECAgEBAQABAAABAgIAAAEAAAACAAAAAgEAAAEBAgAAAAAAAAAAAAAAAAAAAAAAAAACAg==",
+      "score": 1.8,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "E4D79790EEB0FEB24480F80E2BABA6E1.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -13.0
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": -13.0,
+        "last_move_row": 17,
+        "last_move_col": 0,
+        "ai_evaluation": {
+          "score": 1.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "491B299DCA39E209427A152C8526BAB9.sgf_50_3ddf447d",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEBAAAAAAAAAAACAQIAAAAAAgICAQAAAAAAAAAAAgECAAACAQIBAQIBAQAAAAAAAAICAQAAAgIBAQACAgIAAAAAAAAAAQABAAEBAAAAAAAAAAAAAAAAAAABAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAICAAEAAAAAAAEAAAIAAAAAAAACAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "491B299DCA39E209427A152C8526BAB9.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 8.5,
+        "last_move_row": 8,
+        "last_move_col": 5,
+        "ai_evaluation": {
+          "score": -0.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "9DF044C21CEBA0EA7C711AA3285660BF.sgf_50_399cba23",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAACAgAAAAABAgAAAAAAAAAAAgAAAgEAAAAAAAIAAAAAAAAAAAAAAAABAAAAAQIAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAABAgAAAAEAAAAAAgEAAAIAAAAAAQAAAAAAAAAAAAIBAAIAAAAAAAAAAAAAAAAAAAACAQAAAgAAAAABAAICAAEAAQAAAgEAAgEAAAACAAEBAgAAAAAAAAIAAQEBAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "9DF044C21CEBA0EA7C711AA3285660BF.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 10.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 10.0,
+        "last_move_row": 12,
+        "last_move_col": 12,
+        "ai_evaluation": {
+          "score": -1.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "440135C04223D1744635146299005E69.sgf_50_f6626071",
+      "board_size": 19,
+      "stones": "AAIAAAAAAQAAAAAAAAAAAAAAAAABAgACAgIBAAAAAAAAAAAAAAAAAQECAAABAQEAAgAAAgAAAAAAAAABAgEBAQIAAQIAAAAAAgAAAAABAQECAgECAAEAAAAAAAAAAAABAQICAQICAgIBAAIAAAAAAAAAAAIAAAECAgEBAgIAAAAAAAAAAAAAAgIBAQICAQEAAAAAAAAAAAAAAQIAAgECAQABAgAAAAAAAAAAAAACAQABAgIBAgIAAAAAAAAAAAAAAAIBAAACAQEAAAAAAAAAAAAAAAACAQACAQIAAgAAAAAAAAAAAAACAQECAgEAAAAAAAAAAAAAAAAAAgEAAQEBAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 7.4,
+      "result": "B+7.4",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "440135C04223D1744635146299005E69.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.0
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 8.0,
+        "last_move_row": 10,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": 7.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "76906EFEBA6F4EEE83AE164ABE468BB2.sgf_50_8840beba",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQABAgIAAAAAAAAAAAABAAEAAAEBAgAAAAAAAQAAAAAAAAAAAAIBAgIAAAAAAAAAAAAAAAAAAgACAgECAAAAAAEAAAAAAAAAAAACAQEBAgAAAAAAAAAAAAAAAAAAAgAAAgECAAAAAAAAAAAAAAAAAAACAQEBAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAQAAAAACAQIAAAAAAAAAAAAAAAAAAAABAQECAAAAAAAAAAAAAAAAAAAAAQICAAAAAAAAAAAAAAAAAAAAAAEBAgAAAQABAAAAAAAAAgAAAAABAgEAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.3,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "76906EFEBA6F4EEE83AE164ABE468BB2.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 6,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": 1.3,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "A4ADB6A6A4FCC4D47D1DA74F1825C5FD.sgf_50_8980231b",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBAAAAAQEBAQEAAgAAAAAAAAIBAgAAAAIBAgICAgAAAAAAAAIBAgEAAAAAAgAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQIAAAAAAAAAAAAAAAECAAAAAAECAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAIAAAAAAAEAAAIBAQIAAQACAAAAAAAAAAAAAAAAAQICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -3.2,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "A4ADB6A6A4FCC4D47D1DA74F1825C5FD.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.5,
+        "last_move_row": 9,
+        "last_move_col": 13,
+        "ai_evaluation": {
+          "score": -3.2,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "F99B967470E6583ECBC4E5BDD4BF1C27.sgf_50_d8db9285",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgICAgECAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQEAAAEAAgABAAAAAAAAAAAAAAECAgIBAAABAgEAAAAAAAEAAAACAQEBAgICAgAAAAAAAQAAAAACAAIBAAEBAAAAAAAAAAAAAAAAAAICAQIAAAAAAAAAAAAAAAAAAA==",
+      "score": -4.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "F99B967470E6583ECBC4E5BDD4BF1C27.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 4.0,
+        "last_move_row": 2,
+        "last_move_col": 18,
+        "ai_evaluation": {
+          "score": -4.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "AE06C6AF44096DEFEEC4897985EF98BF.sgf_50_768cdd05",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIBAQAAAAAAAAAAAAABAAAAAAIBAgICAAAAAAABAAACAQAAAAACAQAAAAAAAAAAAAAAAgEAAAAAAQEAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAIAAAACAgEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAgAAAAACAQAAAAAAAAAAAAAAAAIBAAAAAAABAAAAAAAAAAAAAgECAAAAAAACAQAAAAAAAAAAAQIBAgACAAAAAgEAAAAAAAAAAAABAQECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -8.3,
+      "result": "W+8.3",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "AE06C6AF44096DEFEEC4897985EF98BF.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.0,
+        "last_move_row": 4,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": -8.3,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "2085AA5A532FCE1D4CDDFB50D5476B66.sgf_50_a7986bb3",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAgAAAAACAQIAAAAAAAAAAAAAAAAAAAAAAQICAAAAAAAAAAAAAAAAAAAAAQABAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAECAgIAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAgIAAAAAAAABAgIAAAAAAAAAAQIBAQEAAAAAAQECAAAAAAAAAAIAAgEAAAAAAAAAAAAAAAAAAAAAAgECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 4.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "2085AA5A532FCE1D4CDDFB50D5476B66.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.5,
+        "last_move_row": 14,
+        "last_move_col": 16,
+        "ai_evaluation": {
+          "score": 4.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "DC94AC24878B45A706587D24BF69FC9C.sgf_50_16ce05c6",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAgAAAAAAAgACAAAAAAAAAQABAQECAAAAAAIBAAAAAAAAAAABAgEBAQIAAAACAQAAAAAAAAEBAgICAgIAAAAAAgEAAAAAAAAAAgAAAAAAAAAAAgEBAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAQAAAAAAAAABAgAAAAABAAAAAAAAAQAAAAAAAQIAAAAAAAAAAQACAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "DC94AC24878B45A706587D24BF69FC9C.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 36.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 36.5,
+        "last_move_row": 16,
+        "last_move_col": 17,
+        "ai_evaluation": {
+          "score": 1.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "A326DA172471083ADE4D287E9A69DD2C.sgf_50_c76092ff",
+      "board_size": 19,
+      "stones": "AAABAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAEBAQABAQICAAAAAgECAAEBAAECAgABAAECAQAAAAIBAgAAAAECAAIBAAECAQICAAACAQIAAAABAgAAAQACAgECAAIAAQIAAgIAAAIAAAIAAgEBAQIAAAICAgEBAQAAAAABAgIBAAIBAgACAgACAgEAAgAAAQIBAgIAAAAAAQICAQAAAAAAAAACAQEAAAAAAAEBAQABAAAAAAAAAAAAAAIAAAAAAAEBAAIAAgAAAAABAAAAAAAAAAAAAAIAAAAAAAACAQABAAIAAAAAAAABAAEAAAAAAAIBAAEAAAAAAQEAAQAAAAAAAgACAgEBAAAAAQIAAAAAAAABAgAAAQEAAQAAAAEAAgICAgABAgICAAAAAQICAAAAAQECAQACAgEAAAACAgIBAQAAAQICAQECAAAAAAAAAgEBAgEAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "A326DA172471083ADE4D287E9A69DD2C.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -2.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": -2.0,
+        "last_move_row": 12,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -1.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "4BEED2DD40FDA26CABC09DCCCE79BA80.sgf_50_ba424b4d",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAEAAAABAgIBAgIAAAACAAAAAAAAAQIAAQABAgIBAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAIAAgAAAAAAAAAAAgAAAAABAgIAAAEAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAgAAAAAAAAAAAAECAQICAAAAAAAAAQAAAAAAAAABAgIAAgAAAAAAAAAAAAAAAAAAAAECAAIAAAAAAAAAAAAAAAAAAAAAAAIAAA==",
+      "score": -3.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "4BEED2DD40FDA26CABC09DCCCE79BA80.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 3.0,
+        "last_move_row": 4,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -3.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "74246C564032A5A7768A13A3EF35EEA2.sgf_50_6f739ed3",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAECAgAAAAAAAAAAAAAAAAAAAAICAQIAAAAAAAIAAAAAAAABAQIAAAAAAAAAAgAAAgAAAAAAAAIBAAIAAAAAAAIBAQAAAgAAAAACAQAAAAAAAAACAgABAAACAAAAAgEAAQIAAAAAAQICAQABAQACAAICAQECAAAAAAIBAQAAAAABAAIBAQIBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -3.0,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "74246C564032A5A7768A13A3EF35EEA2.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 6.0,
+        "last_move_row": 8,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": -3.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "42CD5BB35E4C52957EE8BAE90FCE28CE.sgf_50_99de263a",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAACAgEBAAAAAAAAAAAAAgACAAAAAgEBAgEBAAABAAABAAABAgACAAIBAgACAAAAAAAAAAAAAAABAAIBAgICAAAAAAAAAAAAAAAAAAACAQEAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAACAgIAAAAAAAIAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "42CD5BB35E4C52957EE8BAE90FCE28CE.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 6.5,
+        "last_move_row": 9,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": -0.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "5B6A8F45D4DD8F75E91C70769BB4181A.sgf_50_5fba943c",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBAAAAAAAAAAACAgAAAAAAAAICAgEBAQABAQEAAQICAgACAAIAAAACAgACAgIBAQABAgEAAAIAAQECAAAAAAACAgEBAAEBAAAAAAECAAAAAAAAAQICAAEAAAAAAQABAgICAAAAAAAAAAAAAAEAAAEAAQIBAgAAAAAAAAAAAAAAAAACAQABAQECAgACAAAAAAABAgEAAgABAAAAAAABAAAAAAAAAQEAAQIAAgIAAAICAQICAAAAAAECAQAAAAACAAAAAQIBAAIAAAECAgABAQECAAACAAECAgIBAAAAAQICAgICAQEAAgEAAQIAAQAAAQAAAAACAQECAgABAAECAAEAAAABAQEBAQIAAAAAAAECAQEAAAAAAAIBAgECAAICAQABAgICAQAAAAABAgICAgEBAQABAgIAAQIBAAAAAQAAAAAAAAAAAQECAAACAA==",
+      "score": -5.8,
+      "result": "W+5.8",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "5B6A8F45D4DD8F75E91C70769BB4181A.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 3.0,
+        "last_move_row": 10,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": -5.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "89520ABD239557C5A3E62C0E67A8C2BB.sgf_50_82d024e0",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgAAAAAAAgEAAAACAAIAAAAAAAAAAAACAgEBAAAAAAAAAAAAAAAAAAAAAAICAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAAAQABAQACAAAAAAAAAAEAAAAAAAAAAgEAAAAAAAEAAAABAgAAAAAAAQIBAQIAAAAAAAEBAgAAAAAAAAABAgICAAAAAAICAAIAAAAAAAAAAQEBAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -12.3,
+      "result": "W+12.3",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "89520ABD239557C5A3E62C0E67A8C2BB.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": -6.5,
+        "last_move_row": 3,
+        "last_move_col": 7,
+        "ai_evaluation": {
+          "score": -12.3,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "8D152B06B8BCD32D75B571C101C81743.sgf_50_50f9fbbb",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAABAAAAAAAAAAAAAgABAQEAAAAAAAAAAAEAAgACAAACAgIAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgEAAAAAAQACAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAABAAIAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAQICAgAAAgACAAAAAAAAAgABAAIAAAAAAgAAAAAAAAAAAAAAAQIAAAAAAQEBAQAAAAAAAAAAAAACAAAAAAABAgIAAAABAQEBAAAAAAAAAAIAAQIAAgAAAgIAAgEBAAAAAAAAAgIBAgAAAAAAAAICAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "8D152B06B8BCD32D75B571C101C81743.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 5.5,
+        "last_move_row": 10,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": 0.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "BC7F64DE8160B20F1CD5A79710D14B8C.sgf_50_704ac941",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAEAAAEAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAgEAAAAAAAAAAAAAAQEAAAIAAgEAAQACAAAAAgABAAECAgEAAAIBAQIAAQIAAAABAAECAgABAQECAAEBAQACAAAAAgECAgEBAAIBAgAAAAABAAAAAAABAgEBAQACAgIBAgAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA==",
+      "score": -0.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "BC7F64DE8160B20F1CD5A79710D14B8C.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 7.5,
+        "last_move_row": 8,
+        "last_move_col": 14,
+        "ai_evaluation": {
+          "score": -0.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "1476C2ABB4EC4F24BF132245051C1CFC.sgf_50_866f2434",
+      "board_size": 19,
+      "stones": "AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAgACAAAAAAAAAAEAAAAAAAAAAAECAAAAAAAAAQAAAAAAAAEAAQABAQIAAgAAAAAAAgAAAAACAAAAAgICAAAAAAAAAAAAAAAAAAICAgAAAAAAAAAAAAAAAAAAAAABAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAACAAIAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAQEAAAEAAQAAAAAAAgAAAAAAAgAAAgAAAQICAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "1476C2ABB4EC4F24BF132245051C1CFC.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 8.0,
+        "last_move_row": 6,
+        "last_move_col": 0,
+        "ai_evaluation": {
+          "score": -0.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "3736ABDDED2DE63BDA50E9A572BF6D31.sgf_50_48551ac5",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAEAAgAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAECAgICAAIAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQIAAAACAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAgAAAgAAAQIAAAAAAAACAAAAAQEBAQIAAAEAAAAAAAAAAAAAAAABAgICAAAAAAAAAAAAAgAAAAAAAgEBAAIAAQAAAQABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.2,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "3736ABDDED2DE63BDA50E9A572BF6D31.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.5,
+        "last_move_row": 8,
+        "last_move_col": 5,
+        "ai_evaluation": {
+          "score": 1.2,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "C342E968EE29C01DEAE31B4EDF982D20.sgf_50_80b7ec7d",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAgAAAAAAAQIBAAAAAAEAAAAAAAAAAAAAAAECAQAAAAAAAAAAAAAAAAAAAgICAQEAAAAAAAAAAAAAAAAAAAIBAQICAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAgEAAAAAAAAAAAAAAAAAAAEAAgEAAAAAAgAAAAAAAAAAAAACAQABAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAACAQAAAAABAgAAAAAAAAEAAAAAAAIAAAAAAAIAAAAAAAECAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.8,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "C342E968EE29C01DEAE31B4EDF982D20.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.5,
+        "last_move_row": 2,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": 1.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "C3BC81A247CF9A56CE3706F9AB5C223B.sgf_50_90d44a94",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQECAgIAAAAAAgEBAgAAAAAAAAECAQEBAgIAAAACAQIAAgAAAAABAgACAQECAAEAAgIBAQACAAAAAQIAAgECAgACAgEBAAABAQAAAAABAAACAQIAAgEAAAAAAgAAAAAAAAAAAgAAAQEBAAEAAAAAAAAAAAAAAgEAAQIBAAIAAAACAAAAAAAAAAAAAQAAAgIAAAABAAAAAAAAAAACAAAAAgIBAQABAAIAAAAAAQAAAAABAQECAAABAgEBAQAAAgEAAAAAAAECAAICAAACAQABAAIBAAAAAgIBAgACAQEAAgIBAAAAAgEAAAEBAgICAQAAAAIBAgEAAAIBAAAAAAAAAAAAAQACAAAAAAACAQAAAAACAgABAAACAAIAAAAAAgEAAAAAAAEBAAAAAQICAAAAAAAAAAAAAAAAAAAAAAECAQIAAAAAAAAAAAAAAAAAAAAAAQABAA==",
+      "score": 11.6,
+      "result": "B+11.6",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "C3BC81A247CF9A56CE3706F9AB5C223B.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 6.5,
+        "last_move_row": 14,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": 11.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "49C1115490B6753498DD34DA96BBE3C6.sgf_50_10569fe1",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAACAAAAAQACAAAAAAAAAgAAAAACAAIAAgECAAIAAAAAAAIBAQICAQIBAAIBAQICAgIAAAIBAgIBAgECAgACAQEBAQIBAAAAAQEAAQABAQEAAgECAAEBAAAAAAEAAQEAAgABAQECAAICAAAAAAICAAIAAQIBAgECAgAAAQEAAAAAAAAAAAABAQICAQAAAgAAAAAAAAAAAgACAgICAAEAAgABAAAAAAAAAAAAAAAAAAEAAAIBAAEAAAAAAAAAAAAAAAABAgACAQIBAAAAAAEBAQEBAAEAAQECAgECAgAAAAAAAgECAgAAAAICAQIBAAAAAAAAAgACAQIAAgACAQECAQAAAAAAAAECAAECAAACAQEAAAIBAAAAAAABAAACAAICAQEAAAIAAQAAAAAAAAEAAAEAAQIAAQACAAECAAAAAAAAAAAAAAECAAABAgECAAIAAAAAAAAAAAAAAAAAAAABAAIAAA==",
+      "score": -41.6,
+      "result": "W+41.6",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "49C1115490B6753498DD34DA96BBE3C6.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": -6.5,
+        "last_move_row": 14,
+        "last_move_col": 18,
+        "ai_evaluation": {
+          "score": -41.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "20EF87212A8EF5CC697FB060E3DEF391.sgf_50_37baaa82",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAECAAAAAAAAAAEBAQICAgAAAAABAgAAAAAAAAAAAAIBAQEAAAAAAQIAAAAAAAAAAQACAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAAAAAAAAAAAAAAAAAAABAAABAAIAAAABAAAAAAAAAAAAAgACAAECAAAAAAAAAQAAAAAAAAAAAgEAAQAAAAAAAAAAAAAAAAAAAgEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "20EF87212A8EF5CC697FB060E3DEF391.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 6.0,
+        "last_move_row": 13,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -1.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "5A9822382863E53BA7721C74D6C8B7CB.sgf_50_17a88771",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAAAAAABAAICAQAAAAAAAgAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAABAAAAAAIBAQEBAAAAAAAAAAAAAAAAAAACAAACAQECAgIAAAICAAEAAAAAAAEBAgICAQECAgACAQEAAAAAAAAAAAACAQABAQIBAAAAAAAAAAAAAAACAAEBAAAAAAAAAAAAAA==",
+      "score": 5.2,
+      "result": "B+5.2",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "5A9822382863E53BA7721C74D6C8B7CB.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 12.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 12.5,
+        "last_move_row": 12,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": 5.2,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "EAB1F401227F1E1560C21E8BE162F41F.sgf_50_a08eab28",
+      "board_size": 19,
+      "stones": "AAEAAQACAQECAAACAAAAAAAAAAAAAAECAgIBAAICAAIAAQEAAAABAQEBAgABAQEBAgIAAgIBAAAAAgICAgICAgICAQACAAIBAQAAAAIBAQEBAQAAAgEBAgAAAgEBAAACAAEAAAEBAQIBAgECAgICAQAAAgEBAAABAAICAQIAAgEBAQAAAAACAAEBAQECAQECAgEBAQABAAABAgICAgICAgEBAgICAAIBAQAAAQIAAgACAQECAQIBAgACAgEAAAABAQEBAQEAAgECAQIAAAABAAABAQAAAgABAgIBAQECAAEBAQEAAAECAQICAgACAgIAAgIBAgIBAQABAAECAAAAAAABAAAAAgACAgIBAQEBAgAAAgACAAIAAgACAgEBAQICAgAAAAACAAAAAAAAAgEBAAEBAQICAgAAAAAAAAAAAgIBAAABAgICAAICAAAAAAAAAAACAQABAQEBAQIAAgAAAAAAAAAAAgEAAA==",
+      "score": 104.6,
+      "result": "B+104.6",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "EAB1F401227F1E1560C21E8BE162F41F.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -8.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": -8.0,
+        "last_move_row": 4,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": 104.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "85DF71F52BAABBB3B6B474D62D6D2DDA.sgf_50_0b6ceebd",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAAgEAAQAAAAAAAAAAAAAAAAAAAgEBAQIAAAABAAAAAAAAAAAAAgECAgIBAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAIBAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAQAAAAAAAAIAAAAAAAAAAQEAAgIAAgAAAAAAAQAAAAABAQIBAAAAAAAAAAACAAAAAAAAAAICAgIAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -2.8,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "85DF71F52BAABBB3B6B474D62D6D2DDA.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 4.5,
+        "last_move_row": 14,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -2.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "619A5A5D47CFBA106F903A5DACB180B5.sgf_50_2e11bc54",
+      "board_size": 19,
+      "stones": "AAIBAQAAAAICAgEAAAAAAAAAAAACAgEAAQEBAQIBAAECAgAAAAAAAAACAQABAgICAQAAAQIAAAAAAAICAgEBAgECAAABAAEAAgAAAAABAAIBAAIAAgABAgIBAAAAAAAAAAACAAEAAAAAAgAAAAEAAgAAAAEBAAIBAAIAAAAAAgAAAAAAAAAAAAECAAEBAgAAAAAAAAAAAAAAAAIBAAIBAgEAAAAAAAAAAAAAAAACAQABAgIAAAAAAAAAAAAAAAAAAAIBAQAAAAAAAAAAAAAAAAAAAQACAgEAAAAAAAAAAAACAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAgICAgACAAAAAAAAAgABAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAACAQIBAQIAAAAAAAIAAQAAAAAAAAEAAQIAAAIAAQACAQAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -22.8,
+      "result": "W+22.8",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "619A5A5D47CFBA106F903A5DACB180B5.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 0.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 0.5,
+        "last_move_row": 5,
+        "last_move_col": 16,
+        "ai_evaluation": {
+          "score": -22.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "BCE3361CFA972D6009988C6335B9B3EC.sgf_50_771b6326",
+      "board_size": 19,
+      "stones": "AAECAAECAgACAgEAAAABAAAAAAACAQEBAQIAAgEAAQIBAAEAAQAAAQEBAgICAgEBAQABAgEBAQIBAQECAgECAgEBAgIBAQICAgICAAACAAABAgACAQACAgEBAgABAgAAAAICAQIAAgEBAQIBAAIBAAECAAIAAgIBAgICAgIAAgICAgEBAQACAQEBAQECAAIAAAICAQEBAAIBAgIBAAECAQECAgACAQEBAgAAAgEBAAEBAgIBAQECAgECAgACAAACAQEBAAIAAAEAAQIBAQICAQACAgIBAgIAAgEBAQEBAQICAQABAAACAgEBAgACAQIBAAAAAQEBAAICAgICAAEAAgICAgEAAAECAAAAAQIBAQEAAQIAAQEBAQICAgEAAAEBAgIBAQECAgECAgIBAQEBAAABAgACAgICAgACAAIBAAECAgAAAAECAAAAAAAAAAACAQEBAQIAAAACAAAAAAAAAAAAAgICAQIAAA==",
+      "score": -3.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "BCE3361CFA972D6009988C6335B9B3EC.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -18.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 5,
+        "komi": -18.0,
+        "last_move_row": 12,
+        "last_move_col": 16,
+        "ai_evaluation": {
+          "score": -3.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "E59BDAFF830F6A7B3FBDC46475439F3C.sgf_50_258286c1",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAgAAAAAAAAAAAgEAAAAAAAACAQEBAAAAAAIAAgIBAAABAAACAQIBAAEAAAAAAQAAAAAAAAAAAAACAAIBAAAAAQACAAAAAAABAAAAAgEAAgAAAAAAAAACAgAAAAAAAAACAgAAAAAAAQABAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAABAgIAAgAAAAAAAAAAAgAAAAAAAgEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "E59BDAFF830F6A7B3FBDC46475439F3C.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 6.5,
+        "last_move_row": 6,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": -1.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "185BCEC9F1C02CBFC2490553D71FFCA5.sgf_50_f963ab37",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAgEBAAAAAAICAAAAAAAAAAEBAgACAQAAAAABAAAAAAACAAECAgACAgEBAAAAAAAAAAAAAAAAAgACAQIBAgAAAAIAAAAAAAAAAAAAAAEBAgIAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAEAAAAAAAEBAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "185BCEC9F1C02CBFC2490553D71FFCA5.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.0,
+        "last_move_row": 2,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": -1.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "C3C479B01D1FF72BB684CF59C96113F5.sgf_50_a4e6da63",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQECAgEAAAAAAAAAAAAAAAAAAAECAgEBAgAAAAEAAgAAAAAAAAABAgAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQAAAQEAAAIAAAAAAAACAQAAAAIBAQIBAAAAAgAAAAAAAQIBAAEBAgICAAIBAAAAAAAAAAECAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.0,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "C3C479B01D1FF72BB684CF59C96113F5.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 4,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": -1.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "1C88F538211DAB5A29FD30AA36D8B1E4.sgf_50_0fa8144f",
+      "board_size": 19,
+      "stones": "AAEAAAABAQICAgABAQAAAAAAAAEAAQABAAEBAgICAgIBAQACAgIBAQEAAQEBAQECAQICAgEBAgAAAgABAAAAAAABAQEBAgIBAgAAAgABAQABAAABAQECAQICAgIAAAIAAQAAAQABAQECAgECAgEBAgAAAQEAAQEBAgICAQICAgEBAQIAAgAAAAEBAAEBAgEBAgECAQECAgIBAAECAAEAAQICAQEBAgIBAQEBAgEBAQEBAQICAQEBAgIBAgABAAABAgECAgECAAIBAgIBAQECAgEBAQICAgICAgIBAQECAgEAAQAAAgICAgECAQEBAgABAgEBAAEBAAIAAgEBAQIAAAIAAQICAgEBAAECAgACAQEBAQECAAEBAAICAgEBAAIAAgACAAECAAIBAAEAAAACAgIAAAICAgEBAgACAgIBAAECAAABAgAAAgAAAQIBAgACAgEAAQIAAAIAAAICAQABAAAAAAAAAAIAAA==",
+      "score": -1.3,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "1C88F538211DAB5A29FD30AA36D8B1E4.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -102.5
+      },
+      "game_info": {
+        "black_captured": 32,
+        "white_captured": 21,
+        "komi": -102.5,
+        "last_move_row": 0,
+        "last_move_col": 8,
+        "ai_evaluation": {
+          "score": -1.3,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "306FC697943D8FBEE9F2CA9DAF2419BE.sgf_50_888d6173",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAIBAAAAAAABAAIAAQAAAAAAAAACAQAAAAAAAAAAAAAAAgAAAAAAAgEAAAAAAAEAAAABAAAAAAAAAgEAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAAECAAAAAQAAAAAAAAAAAAECAAABAgABAAAAAAAAAAAAAAABAgAAAAECAAIAAgAAAgAAAAABAgAAAAABAgAAAAEBAQIAAAAAAQIAAAAAAQIAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "306FC697943D8FBEE9F2CA9DAF2419BE.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 10,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": 0.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "12863BAD142B5F22BF7A86CA590F770B.sgf_50_37d6603c",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAQEAAAAAAQAAAAAAAAAAAAACAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAECAAAAAAAAAAACAgIAAQEAAAABAgAAAAAAAgEAAAAAAAECAQEBAgICAAICAAABAgEAAAACAgICAQECAQAAAQEAAAICAQAAAQACAQICAgABAAABAAAAAAEAAAACAgECAAICAgEBAgEBAgICAQACAgEBAQEBAgEAAQIAAAAAAAIBAQEBAQAAAgIAAAAAAAAAAAACAA==",
+      "score": -6.4,
+      "result": "W+6.4",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "12863BAD142B5F22BF7A86CA590F770B.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 8.0,
+        "last_move_row": 6,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": -6.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "A527502D882D4F015EE547382CBE1F85.sgf_50_e88e6473",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgEBAQIAAAAAAAAAAAAAAAAAAAACAgIAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAgICAAAAAAAAAAAAAQAAAgAAAQIBAAACAAEAAAABAAECAgACAgIBAAECAAEAAAAAAAACAQACAQACAQEAAAICAQAAAAAAAAEAAQABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 7.8,
+      "result": "B+7.8",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "A527502D882D4F015EE547382CBE1F85.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 13.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 13.5,
+        "last_move_row": 1,
+        "last_move_col": 2,
+        "ai_evaluation": {
+          "score": 7.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "C8B3FB5314F86F6BFEBA1236B93DDBCB.sgf_50_c8aa9948",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAgEAAAACAAECAgEAAAAAAAAAAgACAQACAAABAAAAAQAAAAAAAAAAAgABAAAAAQIAAAAAAAAAAQEAAAAAAAIAAAABAgAAAAAAAAEAAQECAAAAAAAAAAAAAAAAAAABAQICAgAAAAAAAAAAAAAAAAAAAgIBAAAAAAAAAAAAAAAAAAAAAAIBAQAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "C8B3FB5314F86F6BFEBA1236B93DDBCB.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 4.0,
+        "last_move_row": 13,
+        "last_move_col": 5,
+        "ai_evaluation": {
+          "score": 1.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "257B34CAA06FFE75A827402DB8A95C78.sgf_50_58fbd8d8",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAABAAAAAAEBAAABAgIAAgAAAAEAAAAAAQECAAAAAQECAgEBAAACAQAAAAACAAAAAAAAAAAAAAAAAAAAAQABAgAAAAAAAAACAQAAAAACAAABAgEAAAAAAAICAQEAAAAAAAAAAgICAAAAAAACAQAAAAAAAAACAAIAAAAAAAAAAgEAAAAAAAAAAAEAAAECAAAAAAAAAAABAAAAAQABAgIBAgAAAAAAAAABAgAAAAABAgIBAgAAAAAAAAAAAQIAAAACAQIBAQAAAAAAAAAAAAECAAAAAgEAAAAAAAAAAAAAAAECAAAAAAIBAAAAAAAAAAAAAAAAAgAAAAACAAEBAAABAAAAAAAAAgAAAAAAAAICAQACAAEAAAICAgAAAAAAAAAAAgIBAQAAAAABAQECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "257B34CAA06FFE75A827402DB8A95C78.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.0,
+        "last_move_row": 13,
+        "last_move_col": 16,
+        "ai_evaluation": {
+          "score": -0.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "C0B26E0C85108C93E0E9CDE12FDF1B04.sgf_50_b3c8f765",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQECAAAAAAAAAgAAAAAAAAAAAQIAAgAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAACAQIAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAABAAAAAAAAAAAAAAIBAQAAAAAAAAAAAAAAAAAAAAACAAIBAAAAAAAAAAABAAAAAAAAAgACAQAAAAAAAQABAgIAAAIAAAIBAgEAAAAAAAAAAgAAAAAAAAACAQECAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.2,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "C0B26E0C85108C93E0E9CDE12FDF1B04.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0,
+        "last_move_row": 7,
+        "last_move_col": 15,
+        "ai_evaluation": {
+          "score": 0.2,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "224E8DBB6422C5ED072E1898B810C718.sgf_50_1a23592e",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAABAAEAAQEBAQIBAAAAAgAAAAAAAAACAAICAgIAAAAAAAAAAAAAAQABAQICAAICAgIAAAIAAAAAAAAAAAIBAQECAQECAAAAAQAAAAACAgIAAgEAAQEAAQACAAAAAAAAAAEAAAICAQEAAQAAAAEAAAAAAAAAAAAAAgIBAgIAAAAAAAAAAAAAAAABAgACAgECAAAAAAAAAAAAAAAAAQICAQEBAgAAAAAAAAAAAAAAAAABAgEAAAIAAAAAAAABAAAAAAAAAQIBAgIAAAAAAAAAAAACAAAAAQEBAgEBAgAAAAAAAAABAgIAAAACAAABAgAAAAABAAEAAAIBAAABAAAAAQIAAAAAAAAAAAACAQAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.2,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "224E8DBB6422C5ED072E1898B810C718.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -4.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": -4.0,
+        "last_move_row": 12,
+        "last_move_col": 13,
+        "ai_evaluation": {
+          "score": 0.2,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "FE224EAD931E942470AE93C6B49B40E2.sgf_50_d44e8e66",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAQEAAgICAAACAAAAAAICAAEBAQICAgICAAACAAIAAAIAAQEAAAABAAIAAAAAAAICAAAAAgABAQEBAQEBAgIAAgICAAACAQIAAgIBAAABAgACAgAAAQEAAgECAAACAAEAAQIAAgECAQAAAAECAgEAAgEAAQIAAgABAQABAAEAAQIBAgIAAQICAgACAQAAAAAAAQEBAQIBAQICAQEBAQAAAQEAAAECAAAAAgEBAgACAgEBAQACAgIBAAAAAAABAgAAAgEAAAECAAAAAgEAAAAAAQIAAAIBAQECAAIAAgIBAAAAAAEAAAAAAgABAgAAAAACAQAAAAABAgICAAACAgACAgIAAAIBAAAAAAEBAgACAQABAgEAAAACAQAAAAAAAAEAAgEAAQEAAQAAAgEAAAAAAAEBAgACAgEBAQEAAgIBAAAAAAEBAgIAAAICAQABAAIBAQAAAAABAgIAAAAAAAIBAA==",
+      "score": -0.7,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "FE224EAD931E942470AE93C6B49B40E2.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 12.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 12.5,
+        "last_move_row": 5,
+        "last_move_col": 8,
+        "ai_evaluation": {
+          "score": -0.7,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "474F785BA906FFF5665EFE273D6BFECD.sgf_50_65152326",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAABAgIBAAAAAAAAAAAAAAAAAAACAAIBAQAAAAAAAAAAAAAAAAAAAQICAgEAAAAAAAAAAAAAAgAAAAEBAgEBAAAAAAAAAAAAAAAAAAAAAQECAQAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAgIBAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAICAQAAAAAAAAAAAAAAAAAAAAACAQIAAAAAAAAAAAAAAAAAAAAAAgECAAAAAAAAAAAAAAIAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+      "score": -25.1,
+      "result": "W+25.1",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "474F785BA906FFF5665EFE273D6BFECD.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -14.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": -14.5,
+        "last_move_row": 3,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": -25.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "A201BF66032D08E5997DE7F29674C22B.sgf_50_1c417ca5",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAEBAQABAgAAAAAAAAAAAAAAAAAAAgEBAgIAAAAAAgAAAAAAAAACAgAAAQECAAAAAAAAAAAAAAICAAACAQEBAAAAAAEAAAAAAAABAQICAAICAQIAAAAAAAAAAAABAAABAgEAAgECAAAAAgEAAAAAAAEBAgICAgECAAIAAQEAAAAAAAABAgEBAQEBAgIAAAICAQEAAAACAQICAgIAAQAAAAIAAAIBAAAAAAEAAgAAAgECAgAAAgICAAAAAAAAAQECAgEBAQEAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAgACAgICAAAAAAAAAAAAAAAAAAABAQEAAAIAAAABAQEBAAAAAAAAAAACAgIBAAABAgICAQIAAAAAAAACAAEBAAEAAAECAgIAAgAAAAABAQAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+      "score": 13.4,
+      "result": "B+13.4",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "A201BF66032D08E5997DE7F29674C22B.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -31.0
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": -31.0,
+        "last_move_row": 3,
+        "last_move_col": 7,
+        "ai_evaluation": {
+          "score": 13.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "E9AE34766DFCB721F5BE3AD0C7D2F636.sgf_50_4c5aaccc",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAICAAAAAAAAAQAAAAAAAAEAAAABAgAAAAAAAAECAAAAAAAAAAAAAQIAAgACAQABAgAAAAAAAgAAAAABAgAAAgABAgIAAAAAAAAAAAAAAQAAAAABAAACAQAAAAACAAEAAQICAgAAAAEBAQIAAAAAAAIBAAEBAgAAAAABAgICAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.3,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "E9AE34766DFCB721F5BE3AD0C7D2F636.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 6.0,
+        "last_move_row": 16,
+        "last_move_col": 7,
+        "ai_evaluation": {
+          "score": -1.3,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "3EB36DB550CF7F6354E4C1BE8AEF170A.sgf_50_dcc9a70b",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgEAAQICAAAAAAAAAAEAAgACAgIBAQIBAQAAAAABAAAAAAAAAAEAAAICAgIAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAABAgEBAAAAAAAAAAAAAAAAAAAAAgICAQIAAAAAAAAAAAABAAAAAAACAAIBAAAAAAAAAAAAAAEAAAAAAAIAAgAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -2.3,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "3EB36DB550CF7F6354E4C1BE8AEF170A.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 5.0,
+        "last_move_row": 5,
+        "last_move_col": 16,
+        "ai_evaluation": {
+          "score": -2.3,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "4FDABA002D6CF53B34A7FECBD2BDC09F.sgf_50_12be5529",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgEAAAAAAAABAgEBAQEAAAAAAgABAAAAAAAAAAICAgIAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAgABAQIAAAAAAAAAAAAAAAAAAAABAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAIBAQECAQAAAAAAAAAAAQAAAAABAgICAQECAAAAAAAAAAAAAAAAAgACAQABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA==",
+      "score": -0.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "4FDABA002D6CF53B34A7FECBD2BDC09F.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 5.0,
+        "last_move_row": 7,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": -0.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "0DE0AEB072510DB0C2F7C677D60088DD.sgf_50_640e94ab",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAgICAQAAAQIAAgIAAQAAAAAAAAACAQECAQICAAIBAQAAAAEAAAAAAQIBAQABAgIBAgAAAAAAAAAAAAACAgIAAQEBAQAAAAAAAAAAAAACAAEAAAAAAAAAAAAAAAEAAAACAAACAAAAAAAAAAAAAAAAAAAAAAEAAQIAAAAAAAAAAAAAAgAAAAAAAAECAAAAAAAAAAAAAgAAAAABAQAAAAAAAAAAAAAAAAABAAAAAgIBAQECAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAgAAAAAAAgAAAAACAAAAAAAAAQIBAgAAAAAAAAEAAAEAAAABAAEBAgAAAAAAAgABAgIBAgAAAAIBAgIAAAAAAgAAAQACAgEAAAABAgEBAgAAAAABAAAAAQEAAAAAAQIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 3.5,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "0DE0AEB072510DB0C2F7C677D60088DD.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.0,
+        "last_move_row": 8,
+        "last_move_col": 17,
+        "ai_evaluation": {
+          "score": 3.5,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "77D1EA0806CF869F24F3EBB4A10FF534.sgf_50_d8388ead",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAQEAAAAAAQAAAQAAAAAAAAIBAAECAAAAAAAAAAAAAAAAAAAAAgICAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAQAAAQEBAAAAAAAAAAAAAAAAAQEAAAACAgEBAAAAAAAAAAACAgAAAAAAAQACAAABAQAAAAAAAgEAAgAAAAECAAIAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "77D1EA0806CF869F24F3EBB4A10FF534.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 13.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 13.5,
+        "last_move_row": 17,
+        "last_move_col": 5,
+        "ai_evaluation": {
+          "score": -1.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "1EF9812AAEEBE9482067E25E89088791.sgf_50_5cfe4fd2",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAABAgIAAAAAAAAAAAAAAAIBAAAAAAECAAAAAAAAAAAAAAACAQAAAAABAgACAAAAAgAAAAAAAgEAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAACAQEAAAEAAgACAAAAAAAAAAACAQIAAAAAAgABAAAAAAAAAAAAAgEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAEBAgAAAAAAAAAAAAAAAAAAAAABAgAAAAABAQECAAAAAQAAAAAAAQIAAAACAAACAQEAAAAAAAAAAAECAAAAAAACAAIBAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.8,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "1EF9812AAEEBE9482067E25E89088791.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.5,
+        "last_move_row": 1,
+        "last_move_col": 16,
+        "ai_evaluation": {
+          "score": 1.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "DF5941E7C51FC74399D78F243A21F8EA.sgf_50_04ccfadf",
+      "board_size": 19,
+      "stones": "AAACAAAAAAACAAAAAQEAAQAAAAACAAIBAAEBAQICAgECAQEAAQAAAgIBAAIAAQIAAQACAAIBAAIAAAABAQAAAAECAAAAAgICAQABAAAAAQAAAAABAAACAAAAAQICAAAAAQIBAAEAAAABAAAAAQECAAAAAAECAgABAgAAAQEBAAECAgECAAACAAIAAQECAgECAQACAQABAQAAAAAAAAICAgECAAIAAgEBAAAAAAAAAAAAAAAAAAIAAgEBAAIAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAgIAAAAAAAACAAIBAQEBAAACAQEAAAAAAgAAAAAAAQICAQEAAQICAgIAAAABAgAAAQIAAgIBAAABAQECAAIAAQACAQABAgIAAgAAAgABAgAAAgABAQAAAAEBAAAAAAABAAEAAAAAAAAAAAAAAAAAAA==",
+      "score": 2.8,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "DF5941E7C51FC74399D78F243A21F8EA.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 10.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 10.5,
+        "last_move_row": 15,
+        "last_move_col": 0,
+        "ai_evaluation": {
+          "score": 2.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "2EA7AA39985D421B15B5A1E27159844F.sgf_50_d08ebd3b",
+      "board_size": 19,
+      "stones": "AAAAAAAAAQAAAAIAAAAAAAAAAAIBAQEBAQECAgIBAgAAAAAAAAAAAgIBAgIBAQEBAQACAQEBAQAAAAACAgIAAAAAAAAAAgECAgIAAAAAAQAAAgICAgICAAICAAAAAAAAAgIBAAABAQEAAAEAAQICAQAAAAAAAQAAAAICAgIBAQABAQICAAACAgEAAAECAQEBAgABAAIBAgAAAAECAAICAQAAAAIAAAEAAQIAAAAAAgIBAQEBAQAAAgIAAQECAAAAAAAAAAACAgAAAgEAAAECAAAAAAAAAAAAAAAAAAIBAAABAgAAAAABAAAAAAAAAAAAAQAAAgECAAABAgAAAAEBAgAAAAAAAAAAAAAAAQAAAAAAAgEAAAAAAAABAQAAAAIBAQABAAAAAAEAAAEBAAIAAAACAgAAAAIAAAAAAAACAgEAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.0,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "2EA7AA39985D421B15B5A1E27159844F.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 9.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 9.5,
+        "last_move_row": 17,
+        "last_move_col": 12,
+        "ai_evaluation": {
+          "score": -1.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "3C14E2046316A5F71B716FF006CF6A86.sgf_50_28739b3e",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAICAQAAAQAAAQACAAIAAAAAAAABAgECAAAAAAAAAAAAAQEAAAAAAAEAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAAAAACAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAABAAEAAQAAAAAAAAAAAAAAAAAAAgAAAgEAAAAAAAAAAAAAAAIAAAACAgEAAAAAAQAAAAAAAQAAAAAAAgEBAAAAAAAAAQACAAECAAAAAAAAAAAAAAAAAQIAAQECAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 2.0,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "3C14E2046316A5F71B716FF006CF6A86.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 76.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 76.5,
+        "last_move_row": 4,
+        "last_move_col": 1,
+        "ai_evaluation": {
+          "score": 2.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "2BC832092B9ED688ECB737973F62845C.sgf_50_7bfa0139",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBAQAAAAICAAAAAAAAAAICAAIBAAABAAACAQAAAAAAAAIBAQEBAgEBAAAAAAEAAAAAAAAAAAAAAAIBAgAAAAAAAAAAAAAAAAAAAAIAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAACAQIAAAAAAAAAAAACAAAAAAAAAQIAAAAAAAAAAAAAAQIAAAAAAAEAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAQEBAAAAAAAAAQAAAAAAAAABAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -29.0,
+      "result": "W+29.0",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "2BC832092B9ED688ECB737973F62845C.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 28.0
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 28.0,
+        "last_move_row": 10,
+        "last_move_col": 3,
+        "ai_evaluation": {
+          "score": -29.0,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "97F114577ACFCD1645F40575ECE8E6E4.sgf_50_4a2c2245",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAQAAAAAAAgAAAAACAgAAAAAAAQABAAAAAgAAAAEAAQAAAAAAAgEAAAABAAABAAAAAAIAAAAAAAIBAAAAAAIAAAAAAAAAAAAAAAAAAgAAAQAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAgAAAAAAAAAAAAAAAQAAAAABAgIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAAAIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAABAQEAAAEAAAAAAAIBAAEAAAAAAAIBAAIAAAEAAAACAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -14.8,
+      "result": "W+14.8",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "97F114577ACFCD1645F40575ECE8E6E4.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -6.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": -6.0,
+        "last_move_row": 9,
+        "last_move_col": 3,
+        "ai_evaluation": {
+          "score": -14.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "0DC846E6DECBC4BDE8DEFDAE5717FF14.sgf_50_8894e122",
+      "board_size": 19,
+      "stones": "AAAAAgAAAAAAAAACAAIAAAAAAAAAAgACAAAAAAACAAIBAAAAAAAAAQECAgEBAgAAAAIBAQABAQAAAAIBAQECAgIAAAACAgEBAgEBAAACAAABAQECAgAAAgICAgICAgEAAAECAQICAAIBAAACAQECAQEBAAAAAAECAAIBAgIAAAABAQICAAAAAAIAAQIAAQIBAAAAAAICAAAAAAIBAQAAAAIBAgIAAAAAAAAAAAABAAAAAQACAQECAAAAAAAAAAAAAQAAAQICAAEBAgAAAAAAAAAAAQIBAAAAAQABAgIAAAAAAAAAAAECAAACAQABAQECAAICAAACAAECAgEBAQEBAgECAgEBAQICAAICAAAAAgEAAAAAAAABAAABAQIAAAIBAQECAgICAAEAAAAAAQIBAAICAgICAQEAAQEAAAAAAAECAQAAAgEBAQIBAAAAAAAAAAAAAgEAAAACAAACAQAAAAAAAAAAAAAAAA==",
+      "score": 3.4,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "0DC846E6DECBC4BDE8DEFDAE5717FF14.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 5,
+        "komi": 8.5,
+        "last_move_row": 13,
+        "last_move_col": 0,
+        "ai_evaluation": {
+          "score": 3.4,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "B2E073553F75E1546DD9972A3F26773E.sgf_50_d4b9cd10",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAgAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAQACAgEAAAAAAAAAAAAAAAACAQEAAAECAgAAAAAAAgEAAAAAAgIBAgABAQABAQEAAgEAAAAAAAABAgIAAAIAAQICAAIAAAEAAAAAAQEAAAAAAQAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -15.6,
+      "result": "W+15.6",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "B2E073553F75E1546DD9972A3F26773E.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": -7.0,
+        "last_move_row": 2,
+        "last_move_col": 11,
+        "ai_evaluation": {
+          "score": -15.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "6D5A3BE43CC82A356D565914DF9C444E.sgf_50_4649f486",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAABAAEAAAAAAAACAAAAAAECAgABAAEAAQAAAAIAAgEAAAEAAQIAAgECAQAAAAACAQIAAQAAAQEAAAAAAgEAAAAAAAECAQAAAAECAAAAAAIBAAAAAAACAAECAAIAAgAAAAIAAgEAAAAAAAIBAQAAAgAAAAAAAgICAAAAAAIBAAABAAAAAAAAAAAAAAAAAAACAQIAAAIAAAAAAAAAAAIAAAACAQABAAAAAAAAAgAAAAECAAAAAgIBAAEBAQIAAAAAAAABAAAAAAIBAQECAgICAQECAAACAQAAAAACAQACAQECAAIBAgAAAAAAAAAAAAEAAgABAAAAAQIAAAEBAQAAAgIBAAAAAAEAAQACAAABAgIAAAEBAgICAgIBAAECAAABAQAAAAABAgEBAQEBAgIBAgEBAAECAAAAAAIAAAAAAAEAAAIBAgECAAIAAAAAAAAAAAAAAAAAAAACAAIAAA==",
+      "score": -9.5,
+      "result": "W+9.5",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "6D5A3BE43CC82A356D565914DF9C444E.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -2.0
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": -2.0,
+        "last_move_row": 2,
+        "last_move_col": 17,
+        "ai_evaluation": {
+          "score": -9.5,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "ED50627872262529B2798C048A5359DE.sgf_50_5117ac87",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAABAAACAgAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAECAgEAAAAAAAAAAAAAAAAAAAABAgABAgACAAAAAAEAAAAAAAAAAgIAAQIAAAAAAAAAAAAAAAAAAAIAAAEAAQAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAQICAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAgACAgAAAAAAAAAAAgAAAAABAgACAQEBAAEAAAIAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "ED50627872262529B2798C048A5359DE.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 4.5,
+        "last_move_row": 4,
+        "last_move_col": 8,
+        "ai_evaluation": {
+          "score": -0.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "B856EA417041BED621EE6B19BCB56AEE.sgf_50_5b21e521",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAICAAAAAgAAAAAAAAAAAAAAAAICAQEAAQAAAAAAAAAAAQAAAAIBAQIAAQAAAAAAAAAAAAAAAAAAAQECAAIBAAAAAAAAAAAAAQAAAAECAgABAAIAAAAAAAAAAAAAAAAAAQICAgAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAAABAQIAAgABAAACAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.1,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "B856EA417041BED621EE6B19BCB56AEE.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 8.0,
+        "last_move_row": 7,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": 1.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "DE05C6DFB8FCC2349783F22E72BAB23D.sgf_50_1cd2fa3d",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAECAgACAAIAAAAAAAAAAAAAAAAAAQICAAIBAQAAAQAAAAIAAQAAAAABAQEBAgACAAACAAAAAAAAAAEBAQAAAAIAAAAAAAAAAAAAAAAAAgIBAQIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAQIAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAAAAAAgAAAAACAQEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -5.1,
+      "result": "W+5.1",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "DE05C6DFB8FCC2349783F22E72BAB23D.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 4.0,
+        "last_move_row": 4,
+        "last_move_col": 1,
+        "ai_evaluation": {
+          "score": -5.1,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "764D8DFAC8EA694197AE43C4C5845A90.sgf_50_89cbeea6",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAABAAAAAAACAAAAAAAAAQAAAQACAQICAgACAQAAAAACAgIBAQIAAAABAAACAQEAAAAAAAABAgIBAAAAAQEBAgEAAgAAAQICAQAAAAAAAgECAgEBAQAAAAABAgECAAAAAAEAAQICAgECAAAAAAIBAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAgICAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -2.5,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "intermediate",
+      "source": {
+        "sgf_file": "764D8DFAC8EA694197AE43C4C5845A90.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 6.0,
+        "last_move_row": 4,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -2.5,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "EBB96F777431463A4B52FCCC41861B70.sgf_50_470ac9c2",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAICAgIBAQAAAAAAAQAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAgEAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIBAAAAAQAAAAAAAQECAAAAAAAAAQAAAAABAQEAAQICAAAAAAACAAAAAAIBAgIAAAIAAAAAAAAAAAIAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -0.6,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "EBB96F777431463A4B52FCCC41861B70.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 5.5,
+        "last_move_row": 9,
+        "last_move_col": 14,
+        "ai_evaluation": {
+          "score": -0.6,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "8B9BAC82CDEE7CDDCDEE230660EC2804.sgf_50_ecc7b40b",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQICAAABAQECAgAAAgEAAAAAAAABAAIAAQICAQEAAAIAAAIAAAAAAAAAAQICAAAAAAAAAAAAAAAAAQECAgEBAgAAAAAAAAAAAAAAAAACAQIAAQIAAgAAAAAAAAAAAAAAAAECAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEBAAAAAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAQIAAAAAAAABAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -1.9,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "8B9BAC82CDEE7CDDCDEE230660EC2804.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 10.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 10.0,
+        "last_move_row": 7,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": -1.9,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "C14CD472D314B42DD36AB1D6BB5AA5D8.sgf_50_b81ea878",
+      "board_size": 19,
+      "stones": "AAEAAAAAAAAAAAAAAAAAAAAAAAACAQEAAAEBAAAAAAAAAAAAAAAAAgIBAQAAAgABAAAAAAAAAAAAAAACAgEAAAACAQAAAAIAAgACAAABAgEBAAAAAgAAAAAAAAIBAQAAAQECAAAAAAAAAAAAAQABAgIAAAABAgACAAAAAAAAAAAAAQABAAACAQIAAAAAAAAAAAAAAAABAgAAAAIAAAAAAAAAAAAAAgABAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAABAAEAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAICAAAAAAAAAAEAAAAAAAACAAACAQAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAACAAIAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 0.5,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "C14CD472D314B42DD36AB1D6BB5AA5D8.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 6.0,
+        "last_move_row": 1,
+        "last_move_col": 0,
+        "ai_evaluation": {
+          "score": 0.5,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "5209E20B535C94312C32D21DF89B47CB.sgf_50_67d41d56",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAQACAgECAgIAAAAAAQABAAAAAAAAAAICAQIAAgAAAAACAAAAAAAAAAABAQEBAgAAAAIAAAACAAAAAAAAAAECAgACAAAAAAIAAAAAAAAAAAABAgACAAAAAQAAAAAAAAAAAAABAgACAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": 1.8,
+      "result": "Draw",
+      "time_limit": 45,
+      "difficulty": "advanced",
+      "source": {
+        "sgf_file": "5209E20B535C94312C32D21DF89B47CB.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 4,
+        "komi": 7.5,
+        "last_move_row": 4,
+        "last_move_col": 4,
+        "ai_evaluation": {
+          "score": 1.8,
+          "move_number": 50
+        }
+      }
+    },
+    {
+      "id": "5E6EB69C3D34B72CB855231BE9945A7D.sgf_50_5ee3739c",
+      "board_size": 19,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQABAQEAAAABAAEAAAAAAAAAAAACAgIBAAAAAQAAAAAAAAAAAgAAAAACAgAAAAAAAAAAAAAAAAAAAAACAQECAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAAAgEBAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAACAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAgAAAgAAAAACAQAAAQACAAAAAAAAAAAAAAABAAEAAQACAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+      "score": -11.1,
+      "result": "W+11.1",
+      "time_limit": 45,
+      "difficulty": "beginner",
+      "source": {
+        "sgf_file": "5E6EB69C3D34B72CB855231BE9945A7D.sgf",
+        "move_number": 50,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -7.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": -7.5,
+        "last_move_row": 13,
+        "last_move_col": 6,
+        "ai_evaluation": {
+          "score": -11.1,
+          "move_number": 50
+        }
+      }
+    }
+  ]
+}

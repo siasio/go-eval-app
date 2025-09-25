@@ -88,5 +88,4 @@ flutter build apk --release
 
 - Integrate real position data from data pipeline
 - Add scoring feedback and statistics
-- Implement difficulty progression
 - Add user progress tracking

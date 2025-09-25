@@ -1,0 +1,2317 @@
+{
+  "metadata": {
+    "name": "9x9 Final Positions",
+    "description": "Final positions from completed Go games on 9x9 boards",
+    "version": "1.0.0",
+    "created_at": "2025-09-25T19:34:01.173761",
+    "total_positions": 100,
+    "board_size": 9,
+    "generation_stats": {
+      "files_processed": 100,
+      "positions_extracted": 100,
+      "success_rate": 1.0
+    }
+  },
+  "positions": [
+    {
+      "id": "9C09DB3B607BCB164DA0A03EA9A0D24A.sgf_82_da8b6b19",
+      "board_size": 9,
+      "stones": "AAICAgEAAgICAgACAQABAQECAgACAQEBAQICAgIAAgIBAgICAgICAgECAgACAgEBAQEBAgIBAQABAAEAAQEBAAAAAQEAAQABAAAAAAABAAEA",
+      "score": 5.5,
+      "result": "B+5.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9C09DB3B607BCB164DA0A03EA9A0D24A.sgf",
+        "move_number": 82,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 7,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "281AB82D4537266094AFCA1E8A78C79B.sgf_84_5f546312",
+      "board_size": 9,
+      "stones": "AAAAAgICAgIBAAACAAICAQEBAAACAgECAQABAAACAQEBAQAAAgICAgICAQAAAQECAQICAQAAAQEBAQIBAQEBAAEAAQIBAQABAQEBAgICAQEA",
+      "score": 7.5,
+      "result": "B+7.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "281AB82D4537266094AFCA1E8A78C79B.sgf",
+        "move_number": 84,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 1.5
+      },
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 8,
+        "komi": 1.5
+      }
+    },
+    {
+      "id": "94384F92562CE56FCEA6E32133202383.sgf_60_ffb0db4f",
+      "board_size": 9,
+      "stones": "AAEBAQECAgIAAQIAAQICAQEBAQEBAQICAgIBAAAAAAECAgIBAQEBAQECAAIBAgEBAgIBAgIBAgECAgIBAQEBAgIAAgICAQEBAAICAgEBAQEA",
+      "score": 3.5,
+      "result": "B+3.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "94384F92562CE56FCEA6E32133202383.sgf",
+        "move_number": 60,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 2,
+        "komi": 8.5
+      }
+    },
+    {
+      "id": "8722C667918E66F8B5F43E85AD9307D7.sgf_55_d01c834f",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAgICAQEBAQAAAgACAgIBAAEAAgIBAQIBAQEAAQIBAQEBAgEBAQEAAAEBAgIBAAEBAQIBAgACAAECAgICAgAAAAECAAIAAAAA",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "8722C667918E66F8B5F43E85AD9307D7.sgf",
+        "move_number": 55,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "C72D86CAE8722544BF85DAEE136B4758.sgf_72_b5eac3dd",
+      "board_size": 9,
+      "stones": "AQEBAgEBAAAAAQIAAgIBAQAAAAICAgICAQEAAgIBAQICAgEAAQEBAQEBAQAAAQICAgEAAQABAQECAgIBAQEBAQICAAACAQIBAgIAAgICAgIC",
+      "score": 14.0,
+      "result": "B+14",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "C72D86CAE8722544BF85DAEE136B4758.sgf",
+        "move_number": 72,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -6.0
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": -6.0
+      }
+    },
+    {
+      "id": "EF14B1B8E779FDABFC6A30DF4418C589.sgf_93_13a5e20e",
+      "board_size": 9,
+      "stones": "AAEBAgIBAQABAAEBAQIBAAEBAQAAAQICAQECAAEBAAECAgICAQEBAQEBAgICAQABAgIBAQIAAQECAgIBAgACAgICAAIBAgICAAACAAIBAQEC",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "EF14B1B8E779FDABFC6A30DF4418C589.sgf",
+        "move_number": 93,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 9,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "2D9F9739C490B95511CFFD2961126FA9.sgf_78_558f66e8",
+      "board_size": 9,
+      "stones": "AgAAAgEBAAAAAgICAgIBAAAAAAICAgEBAQAAAgICAgIBAQEAAQECAQEBAgEBAAABAAEBAgIBAQEAAQICAgICAAEBAgIAAgECAQECAgACAQAA",
+      "score": -4.5,
+      "result": "W+4.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "2D9F9739C490B95511CFFD2961126FA9.sgf",
+        "move_number": 78,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 4,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "EAAC0B0F519654DFF3FDEF2D116D5041.sgf_63_c23b3b99",
+      "board_size": 9,
+      "stones": "AAABAAEBAAAAAAABAAEAAQEBAAEAAQABAAEAAQEBAQABAQEBAgIBAgEBAgEBAAICAgECAgIBAAAAAgICAgICAAAAAAAAAAAAAAAAAAAAAAAA",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "EAAC0B0F519654DFF3FDEF2D116D5041.sgf",
+        "move_number": 63,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AAD25357181A890B93A63C68B5A5CA17.sgf_83_7f093e3b",
+      "board_size": 9,
+      "stones": "AAICAgICAQAAAQEBAAIBAAAAAgICAgIBAQAAAQEBAgEBAAEBAQABAQECAQEBAAEBAQECAgIBAQABAgECAgACAQECAgICAAIAAQICAgAAAgAC",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "AAD25357181A890B93A63C68B5A5CA17.sgf",
+        "move_number": 83,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 9,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "284001F2D93FE6B5E28FF7219752D287.sgf_67_8b8aa3fb",
+      "board_size": 9,
+      "stones": "AAEBAQIAAAAAAAABAgACAgICAQABAgIBAgECAQABAgEBAQEBAgEBAgICAQEAAgIBAQIBAQABAAICAQIBAAEAAAACAQIBAQABAAACAgICAQEA",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "284001F2D93FE6B5E28FF7219752D287.sgf",
+        "move_number": 67,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 0,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "F2C0ACEA1A36C010B00A676347E3DDAC.sgf_69_fa210840",
+      "board_size": 9,
+      "stones": "AAIBAAICAQAAAgACAgIBAQAAAgICAQEAAAAAAgECAQIBAQEBAQEBAQICAgIBAAECAgACAQICAQABAgACAQIAAAEBAgICAQIAAAABAQEBAQIA",
+      "score": 4.0,
+      "result": "B+4",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "F2C0ACEA1A36C010B00A676347E3DDAC.sgf",
+        "move_number": 69,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 2.0
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 2.0
+      }
+    },
+    {
+      "id": "00237CCB835EEC198C74AB6D0809F1C2.sgf_47_0e52b02e",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAAACAQEAAAAAAAACAQAAAAAAAAACAgEBAAAAAAACAQEBAQEAAAACAgEAAAABAAACAAIBAQABAAACAgIBAQEAAAAAAAICAgEB",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "00237CCB835EEC198C74AB6D0809F1C2.sgf",
+        "move_number": 47,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 1,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "29A6884C23B8E84D41C25E1959511F7C.sgf_92_b65552ef",
+      "board_size": 9,
+      "stones": "AgICAAICAQABAgACAgIBAQEAAQICAgEAAgEBAQECAQEBAQABAAEBAQEBAQECAAEBAgECAQICAQABAgICAgACAAEBAQICAAIAAAABAgIAAgAC",
+      "score": 1.0,
+      "result": "B+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "29A6884C23B8E84D41C25E1959511F7C.sgf",
+        "move_number": 92,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.0
+      },
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 16,
+        "komi": 8.0
+      }
+    },
+    {
+      "id": "00890E590AB6E4C0923679603675CC3D.sgf_48_0bb0ee5b",
+      "board_size": 9,
+      "stones": "AAAAAAEBAgAAAAAAAQECAgAAAAABAQICAAAAAAABAgAAAgAAAAABAgICAgAAAAABAQIAAAIAAAABAAECAgICAAABAQEBAQIAAAAAAAABAgIA",
+      "score": 10.0,
+      "result": "B+10",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "00890E590AB6E4C0923679603675CC3D.sgf",
+        "move_number": 48,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -5.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 3,
+        "komi": -5.0
+      }
+    },
+    {
+      "id": "E3D9A89DACB18E8589F2B7121D071A2F.sgf_80_9df17c88",
+      "board_size": 9,
+      "stones": "AgACAgEBAAEAAgAAAgIBAgECAAICAgEBAQABAgICAQEBAgEAAQECAgECAgEBAAEBAgIBAgICAAECAgEBAgACAAEBAgEBAgIAAAEBAQECAgAA",
+      "score": -4.5,
+      "result": "W+4.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "E3D9A89DACB18E8589F2B7121D071A2F.sgf",
+        "move_number": 80,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "2FD88987F607596E759BB44259C6DF2D.sgf_74_92a53801",
+      "board_size": 9,
+      "stones": "AAAAAgACAAAAAAIAAgACAAAAAgACAgACAgAAAgICAgIBAgICAgECAgEBAQEBAQEBAQEAAQAAAQICAgICAQIAAAEBAgABAAEBAQEAAQEAAQAB",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "2FD88987F607596E759BB44259C6DF2D.sgf",
+        "move_number": 74,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "F07467963D0817DD2C60B42420FFD202.sgf_65_76f656c7",
+      "board_size": 9,
+      "stones": "AAAAAAICAQAAAAACAgIBAQAAAgICAQIBAAAAAgACAQEBAQEAAgIBAQEBAAABAQEBAQIBAQEAAQECAgICAQEAAQIAAAICAgEBAgICAgACAQEA",
+      "score": 1.0,
+      "result": "B+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "F07467963D0817DD2C60B42420FFD202.sgf",
+        "move_number": 65,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "22526477CC3124B88D47EF400755A9C6.sgf_61_e6d8d1c5",
+      "board_size": 9,
+      "stones": "AgIAAgICAQEAAAACAgEBAAEAAgIBAQEBAQABAgACAgIBAQEAAgICAQEBAQABAQIBAQEBAAABAQEBAAAAAQEAAQEBAQEAAQABAAABAAEAAAEB",
+      "score": 32.0,
+      "result": "B+32",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "22526477CC3124B88D47EF400755A9C6.sgf",
+        "move_number": 61,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 17,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "78E1450F571F113EA980630FB17F8E54.sgf_53_15a0b031",
+      "board_size": 9,
+      "stones": "AgACAAIBAQAAAgIAAAIBAAEAAQICAgIBAAEAAQECAgEAAQAAAQEBAQEBAAAAAQIBAgEBAQAAAgICAgICAgEAAAACAAICAQEAAAAAAgACAgEA",
+      "score": -2.0,
+      "result": "W+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "78E1450F571F113EA980630FB17F8E54.sgf",
+        "move_number": 53,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ACB16A4C9BC1DBDA2A9F77DFFA43B5D3.sgf_54_0516910e",
+      "board_size": 9,
+      "stones": "AAAAAAIBAQAAAAACAgICAQAAAAACAAACAQAAAAICAgIBAQEAAgIBAQICAgEAAgEBAgICAgIBAgIBAQECAQEAAgEBAAABAAAAAQEAAAAAAAAA",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "ACB16A4C9BC1DBDA2A9F77DFFA43B5D3.sgf",
+        "move_number": 54,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "12C2F0B469D0ED413DF97CBDCFDE77A6.sgf_53_caaf22b2",
+      "board_size": 9,
+      "stones": "AgEBAQAAAQEBAgICAQEAAQIBAAACAgEBAgIBAAIAAgECAgIBAgICAgEBAgEBAQIBAgECAgICAQEBAQABAgAAAAAAAAEBAgIAAAAAAAECAgAA",
+      "score": -2.0,
+      "result": "W+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "12C2F0B469D0ED413DF97CBDCFDE77A6.sgf",
+        "move_number": 53,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B9426699E30C5E8DB9B6DE5AE4F03869.sgf_90_cd36c765",
+      "board_size": 9,
+      "stones": "AAIAAgICAgIBAgACAAIBAgEBAAIAAgIBAgEAAgICAQIBAQEAAQEBAQIBAQEAAgEBAQEBAAABAgECAgEAAAEBAgIAAgIBAQEBAAICAgEBAQEB",
+      "score": -1.0,
+      "result": "W+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "B9426699E30C5E8DB9B6DE5AE4F03869.sgf",
+        "move_number": 90,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 7,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "DD9E18A8E6A439B700DC127DC9A6AF57.sgf_85_6da2e915",
+      "board_size": 9,
+      "stones": "AAEAAAEBAQAAAQABAAEBAAABAQABAQEBAAEBAQEBAQEAAAAAAgECAgEBAAAAAgICAQEBAAEBAAICAQEAAQABAgACAgIBAAEBAAICAAIBAAAA",
+      "score": 40.0,
+      "result": "B+40",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "DD9E18A8E6A439B700DC127DC9A6AF57.sgf",
+        "move_number": 85,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.0
+      },
+      "game_info": {
+        "black_captured": 23,
+        "white_captured": 9,
+        "komi": 3.0
+      }
+    },
+    {
+      "id": "FB08C0E8F709F83D7FAA7388B49B3F42.sgf_65_495dc0b9",
+      "board_size": 9,
+      "stones": "AAAAAAEAAAAAAAABAQEBAAAAAQEBAgEBAQEAAQABAgICAQABAQECAgEBAAEBAgICAgIBAQECAgAAAgEBAgICAAICAAICAAIAAAACAAIAAgAA",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "FB08C0E8F709F83D7FAA7388B49B3F42.sgf",
+        "move_number": 65,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 5,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "C56D5447E608AA83F8E28BC20A734DDA.sgf_66_f3b707f9",
+      "board_size": 9,
+      "stones": "AAAAAAABAgICAAAAAAABAgAAAAAAAAABAQICAQEBAQABAgAAAQICAQEBAgICAQIAAgEBAQECAgICAgIBAQABAgACAAICAgEAAAIAAAACAQEA",
+      "score": -22.0,
+      "result": "W+22",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "C56D5447E608AA83F8E28BC20A734DDA.sgf",
+        "move_number": 66,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 26.0
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 26.0
+      }
+    },
+    {
+      "id": "3A414202BE6147CE79B1045BB617BF81.sgf_56_7b579fc6",
+      "board_size": 9,
+      "stones": "AAIAAAACAgIBAgACAgICAgEBAgACAQICAQEBAAIBAQECAQABAAICAgEBAAEAAAIBAQEBAAABAAIBAAABAQEBAAIBAAEBAAEAAAIBAQABAQAA",
+      "score": 2.0,
+      "result": "B+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "3A414202BE6147CE79B1045BB617BF81.sgf",
+        "move_number": 56,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.5
+      },
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 5,
+        "komi": 8.5
+      }
+    },
+    {
+      "id": "2AD51E7B0740E04A896FCE9F7B1CBB65.sgf_71_0179d615",
+      "board_size": 9,
+      "stones": "AAIAAgICAQABAAICAgIBAAEAAgACAgIBAQAAAgAAAgEAAAEAAAICAQEBAQAAAAIBAQEAAAAAAgICAQEBAAAAAgIAAgIBAAAAAgACAgEBAAAA",
+      "score": 3.5,
+      "result": "B+3.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "2AD51E7B0740E04A896FCE9F7B1CBB65.sgf",
+        "move_number": 71,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 1.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 12,
+        "komi": 1.5
+      }
+    },
+    {
+      "id": "B30077FE7E342399B0914982F32F98B2.sgf_78_73b09e20",
+      "board_size": 9,
+      "stones": "AAIBAQACAQABAgACAQEBAQEAAAICAgICAQEAAgIBAQEBAAEAAQEBAgEBAQEAAQICAgIBAgEAAgACAgACAgIBAgICAgACAQEBAgIAAgACAQEA",
+      "score": -17.0,
+      "result": "W+17",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "B30077FE7E342399B0914982F32F98B2.sgf",
+        "move_number": 78,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 21.0
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 6,
+        "komi": 21.0
+      }
+    },
+    {
+      "id": "3F14465EADE42DDFD79A52032C045369.sgf_83_c3998013",
+      "board_size": 9,
+      "stones": "AQABAQABAQABAQEBAAEBAAEBAgEBAAEBAQIBAgEAAAEBAgICAgIBAQEBAgAAAgICAgECAgIAAAICAQEBAgAAAgACAQICAgAAAAIBAQEBAgAA",
+      "score": -1.5,
+      "result": "W+1.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "3F14465EADE42DDFD79A52032C045369.sgf",
+        "move_number": 83,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 6,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "BFE20D22BFC177E981C22AB8ADB9EEC7.sgf_55_91a84572",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAQICAQEAAAEBAgIBAQABAAECAAICAgECAQECAgICAQEAAQICAgECAQEBAgIAAQEBAQICAgECAAEAAQECAAEBAAABAgICAgIA",
+      "score": 4.5,
+      "result": "B+4.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "BFE20D22BFC177E981C22AB8ADB9EEC7.sgf",
+        "move_number": 55,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "C2B44089ADABBA9176C5E214C7EBCA3F.sgf_39_f9ee1b93",
+      "board_size": 9,
+      "stones": "AAAAAAIAAAAAAAACAgICAAICAAACAAACAgIBAAACAgIBAQEBAAICAQEBAQEAAgIBAQEBAAEAAgEAAAAAAQAAAQEBAQEAAQAAAAAAAQEBAQAA",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "C2B44089ADABBA9176C5E214C7EBCA3F.sgf",
+        "move_number": 39,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 3,
+        "komi": 7.5
+      }
+    },
+    {
+      "id": "9AFB394788F6507151F3261EAE2B1887.sgf_58_766096dc",
+      "board_size": 9,
+      "stones": "AAAAAAIBAQEAAgICAgACAQEBAQEBAgACAQAAAQICAgIBAQACAQECAgICAQEAAAECAQICAQEBAAEBAQECAgECAgEAAQIAAgICAAEBAgICAAIA",
+      "score": 2.5,
+      "result": "B+2.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9AFB394788F6507151F3261EAE2B1887.sgf",
+        "move_number": 58,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 0.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 0.5
+      }
+    },
+    {
+      "id": "813CEF8FA7440391348D96AEF44D711A.sgf_46_d398264f",
+      "board_size": 9,
+      "stones": "AAICAgIBAQAAAgACAQICAQEAAAIBAQICAgEAAgACAQECAgEAAAICAQEBAQAAAgEBAQAAAQAAAgIBAgEBAAEAAgACAgICAQEAAAIAAAIBAQEA",
+      "score": -4.0,
+      "result": "W+4",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "813CEF8FA7440391348D96AEF44D711A.sgf",
+        "move_number": 46,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 9.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 9.5
+      }
+    },
+    {
+      "id": "642420F9D1E23E5813811E5DD8416E22.sgf_61_05ac98b2",
+      "board_size": 9,
+      "stones": "AAAAAAACAQAAAgICAgICAQAAAgEBAgEBAAEAAQABAgIBAQAAAAEBAQECAgEAAAECAgECAgEBAAECAgIAAgIBAAEBAgACAAICAAEBAQIAAAAA",
+      "score": -1.0,
+      "result": "W+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "642420F9D1E23E5813811E5DD8416E22.sgf",
+        "move_number": 61,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 4.5
+      }
+    },
+    {
+      "id": "182EAFE6553566A77AE40767E55DC54B.sgf_78_d4b2945a",
+      "board_size": 9,
+      "stones": "AAIAAgEBAAEAAQECAgIBAQABAAECAAIBAAEAAQEBAgIBAAABAgIBAgEAAAEAAgICAQEBAQABAAICAgICAgEAAAACAAIAAgEAAAAAAgICAQEA",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "182EAFE6553566A77AE40767E55DC54B.sgf",
+        "move_number": 78,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 5,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "9ECA4B6B97848EA0A4F09355E7D78F74.sgf_67_f3335026",
+      "board_size": 9,
+      "stones": "AQICAAICAAACAQICAgICAgICAQECAQIBAgECAQABAQEBAQEBAAEBAQECAQECAQAAAAECAQICAAEAAQICAgIAAQABAQIAAAAAAAEAAQECAAIA",
+      "score": -2.5,
+      "result": "W+2.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9ECA4B6B97848EA0A4F09355E7D78F74.sgf",
+        "move_number": 67,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 9,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "1EA49C3D6C74D5F02F0C20B40A9B5060.sgf_43_833a6bdb",
+      "board_size": 9,
+      "stones": "AAEBAgACAAICAAECAgICAgIBAAEBAgIBAgEBAAABAQEBAQEBAAAAAQICAgECAAAAAQECAgICAAAAAQICAgACAAAAAQEBAgIAAAAAAAABAgAA",
+      "score": 6.5,
+      "result": "B+6.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "1EA49C3D6C74D5F02F0C20B40A9B5060.sgf",
+        "move_number": 43,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "9E6406101060459236EFED7B85A75DFD.sgf_71_893ebcec",
+      "board_size": 9,
+      "stones": "AgECAgIBAQAAAgEBAgACAQEAAgEAAgICAQABAgICAgIBAQABAgECAQEBAQEBAgEBAgICAgIBAQABAQECAAIBAAEBAgIAAgIBAQABAQICAAIC",
+      "score": -10.5,
+      "result": "W+10.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9E6406101060459236EFED7B85A75DFD.sgf",
+        "move_number": 71,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 9,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "28BE2CA4B43F3DD6D106ECBD3D5B46AD.sgf_67_1ef51632",
+      "board_size": 9,
+      "stones": "AgICAgICAQABAAIBAQEBAQEBAgACAgICAgECAgIAAgIBAQECAQECAgEBAQICAAECAQECAgIAAAEBAQICAAIBAAAAAQECAQEBAAAAAAECAgIB",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "28BE2CA4B43F3DD6D106ECBD3D5B46AD.sgf",
+        "move_number": 67,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "B3FB1A14DEDA53E81F32F346DA32823C.sgf_40_add04e5e",
+      "board_size": 9,
+      "stones": "AAAAAAIAAgIAAAACAgACAAAAAAACAAACAgICAAACAgIBAQEBAgICAQEBAQAAAQIBAQEBAAEAAQEAAAABAQEAAQEBAQEAAQAAAAAAAAEBAQAA",
+      "score": 4.0,
+      "result": "B+4",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "B3FB1A14DEDA53E81F32F346DA32823C.sgf",
+        "move_number": 40,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.0
+      },
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 4,
+        "komi": 4.0
+      }
+    },
+    {
+      "id": "820E600AC6E9622C908EC8187A22B0FE.sgf_54_ea987f4d",
+      "board_size": 9,
+      "stones": "AAAAAAICAgAAAAACAgIBAgICAAACAQEBAQECAAICAQIBAAEBAgIBAQIBAAAAAgICAgICAQEAAgIBAQEBAAEAAgEAAAEAAQAAAgEBAAABAAAA",
+      "score": -1.0,
+      "result": "W+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "820E600AC6E9622C908EC8187A22B0FE.sgf",
+        "move_number": 54,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "7DD4516C4E3BFB363C5FF3D8CF40F1FF.sgf_75_af84d4ff",
+      "board_size": 9,
+      "stones": "AAABAAABAQIAAAEAAQABAgIAAAEAAQEBAgAAAAEBAgIBAgAAAQECAgEBAgICAgICAQEBAQECAgACAgIBAQICAgACAgEBAQEBAAIAAgIBAQAA",
+      "score": -2.0,
+      "result": "W+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "7DD4516C4E3BFB363C5FF3D8CF40F1FF.sgf",
+        "move_number": 75,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "5D32ACA35D9CC1277AE933D68548E935.sgf_73_23db766f",
+      "board_size": 9,
+      "stones": "AgACAQEBAAAAAAIAAgEBAAAAAgACAgEAAQAAAAIBAQEBAQEBAgICAgEBAAABAgACAQICAQEBAgIBAQECAgIBAQEAAQICAAICAAEBAQIAAAAA",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "5D32ACA35D9CC1277AE933D68548E935.sgf",
+        "move_number": 73,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "AA55536F678BF67DA8C7914584EE2D24.sgf_94_3d8808e2",
+      "board_size": 9,
+      "stones": "AQEAAQEAAQAAAQEBAAEAAQAAAQABAAEAAQEBAAAAAQEBAQICAQEBAQECAgIAAgEBAgICAQICAgIBAQICAQICAAIBAgACAQECAAICAgIAAAIC",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "AA55536F678BF67DA8C7914584EE2D24.sgf",
+        "move_number": 94,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "147F2F16A38711D3BCED9F1EC84975EA.sgf_70_6074d57e",
+      "board_size": 9,
+      "stones": "AAABAgIAAAIAAAEAAQICAgACAAEAAQECAgICAQEAAQEBAgEBAQIBAQECAgIBAgIBAgECAQEBAgACAgEBAAEAAAICAgIBAQAAAAAAAgEBAAAA",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "147F2F16A38711D3BCED9F1EC84975EA.sgf",
+        "move_number": 70,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "BB62C1BEF7529DAB69441209BAD387CB.sgf_53_26813ccf",
+      "board_size": 9,
+      "stones": "AgIBAQECAAIAAgEBAgICAAIAAgIBAQEBAgICAAACAQEBAQECAAICAgIBAAEBAAACAQEBAQABAAACAQECAgIBAAICAgECAQECAAIBAQEBAQAA",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "BB62C1BEF7529DAB69441209BAD387CB.sgf",
+        "move_number": 53,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.0
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 3.0
+      }
+    },
+    {
+      "id": "ED78CD35C7033C9F3E5383544F92B5B5.sgf_92_7138f3c3",
+      "board_size": 9,
+      "stones": "AQABAQEBAQIAAAEBAQICAgACAAEAAQIAAgIAAQEBAgICAgICAQIBAgEBAQIBAgICAgIBAQEBAgACAgIBAAIBAgEBAgICAQEAAAAAAgIBAQAB",
+      "score": -7.0,
+      "result": "W+7",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "ED78CD35C7033C9F3E5383544F92B5B5.sgf",
+        "move_number": 92,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.0
+      },
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 11,
+        "komi": 4.0
+      }
+    },
+    {
+      "id": "812DAFB234F6B4C5F20B30EEFB4F731D.sgf_57_1fc4ed88",
+      "board_size": 9,
+      "stones": "AgACAgACAAIAAgICAAAAAAICAgECAgIAAAIAAQECAgICAgICAAEBAQEBAgIBAAEAAQECAgEBAAABAQEBAgEAAAAAAAEAAQEAAAAAAAABAAAA",
+      "score": -2.0,
+      "result": "W+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "812DAFB234F6B4C5F20B30EEFB4F731D.sgf",
+        "move_number": 57,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "74824E017C14B5762A44DF0BE83CE53D.sgf_86_613f1503",
+      "board_size": 9,
+      "stones": "AAICAgEBAAEBAAICAQEAAQECAgIBAQEBAgICAAICAQECAAICAAICAQECAgIAAgEBAAEBAgACAgEBAQEAAQICAgICAQEBAAEBAAIBAQABAAEA",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "74824E017C14B5762A44DF0BE83CE53D.sgf",
+        "move_number": 86,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.0
+      },
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 11,
+        "komi": 3.0
+      }
+    },
+    {
+      "id": "6DA933338FF80DA98CDDE59D2CEDAD7B.sgf_81_8cf6e1e0",
+      "board_size": 9,
+      "stones": "AAABAQEBAgIAAQEBAgICAgACAQICAgECAgICAQEBAQEBAgECAgECAgEBAQEBAgIAAgEBAAEBAgECAgIBAQEBAgEAAgEBAAEAAAICAgEAAAAA",
+      "score": -2.0,
+      "result": "W+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "6DA933338FF80DA98CDDE59D2CEDAD7B.sgf",
+        "move_number": 81,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F9C76F2D8FC2DA2314DA89039A98EAF0.sgf_47_2f59f17c",
+      "board_size": 9,
+      "stones": "AAAAAQIAAAAAAAAAAQIAAgIAAAAAAQICAAACAAAAAAECAgACAAABAAEBAQIAAAAAAAECAgIAAAEBAQEBAgAAAAEAAAECAAIAAAABAQECAgAA",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "F9C76F2D8FC2DA2314DA89039A98EAF0.sgf",
+        "move_number": 47,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 8.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 8.5
+      }
+    },
+    {
+      "id": "9602A4F7A1A50CF4DB149BF060BD8371.sgf_52_b137946a",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAICAAICAgICAgIBAgACAAIBAQEBAgICAgEBAQEAAgECAQECAgEBAQEBAQIAAgEBAAAAAQECAQABAAAAAAEBAQEB",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9602A4F7A1A50CF4DB149BF060BD8371.sgf",
+        "move_number": 52,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B9EAC6903A7CC27C136D8DB56E47ACCA.sgf_82_4c22b949",
+      "board_size": 9,
+      "stones": "AAIAAgICAQAAAAICAgIBAQECAgIBAgEBAQABAgEBAQABAAABAgEAAQEBAQEBAgEBAAEBAgIBAAIBAAECAAACAAICAQECAgIAAAIBAQEBAgAA",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "B9EAC6903A7CC27C136D8DB56E47ACCA.sgf",
+        "move_number": 82,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 4,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "40F55727246F58DD2E6F4BEA2B31889C.sgf_33_0c73b717",
+      "board_size": 9,
+      "stones": "AAAAAAIAAAICAAIAAgICAgIBAAICAgEBAgEBAgACAgIBAQEAAAICAQEAAQABAgICAQEBAQEAAgIBAAABAAAAAgIBAQEAAAAAAgEBAQABAAAA",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "40F55727246F58DD2E6F4BEA2B31889C.sgf",
+        "move_number": 33,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 11,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "F64B105378756182485D27D0E5147E67.sgf_56_67c25c6b",
+      "board_size": 9,
+      "stones": "AAAAAQEBAAAAAQEBAAABAAEBAQAAAAEBAQECAQEBAAABAgICAAEBAQECAAACAQEBAgECAgACAQEBAgIAAgIAAgECAgAAAgAAAgICAAICAAAA",
+      "score": 8.5,
+      "result": "B+8.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "F64B105378756182485D27D0E5147E67.sgf",
+        "move_number": 56,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 0.5
+      },
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 8,
+        "komi": 0.5
+      }
+    },
+    {
+      "id": "EA0D0E7EAF4B5D5A988A61759E67E464.sgf_57_5d4b0884",
+      "board_size": 9,
+      "stones": "AAICAQEBAgIBAAICAgECAgEBAAICAQECAAEBAgACAQICAgIAAAIBAQEBAQICAAIBAAEAAAECAAICAQABAAEBAAIBAQABAAAAAAIBAAEBAAAA",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "EA0D0E7EAF4B5D5A988A61759E67E464.sgf",
+        "move_number": 57,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "4CDF11C4CD03FCECB1FDD1F6CBC6597A.sgf_79_4d8a745b",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAABAQICAgIAAAABAQECAAICAAEAAQEBAgIBAAEAAQEBAQEBAQEBAgECAQABAQABAgICAgEBAQECAAICAAIBAgICAgAAAgIB",
+      "score": 16.0,
+      "result": "B+16",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "4CDF11C4CD03FCECB1FDD1F6CBC6597A.sgf",
+        "move_number": 79,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -7.0
+      },
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 5,
+        "komi": -7.0
+      }
+    },
+    {
+      "id": "2E4F21937B04B7370AAEDC6A00E2A348.sgf_59_19e8b9d9",
+      "board_size": 9,
+      "stones": "AAABAgAAAAAAAAEBAgAAAgICAAECAgIAAgEBAQEBAQECAgIBAgECAgEBAgEBAgICAQEAAQEAAAICAgIBAAAAAQEBAgEBAAAAAAICAgIBAAAA",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "2E4F21937B04B7370AAEDC6A00E2A348.sgf",
+        "move_number": 59,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "1FE4F12107CCD43052E0611C86289798.sgf_69_a08cb02c",
+      "board_size": 9,
+      "stones": "AAAAAAEAAQABAAAAAAEBAgEAAAAAAAECAgEBAQEAAQEBAgICAQABAQECAAICAAECAQICAgIAAQECAQECAAECAQICAQICAgICAgICAgICAgAA",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "1FE4F12107CCD43052E0611C86289798.sgf",
+        "move_number": 69,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 8,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "B267FFF4BCC8D1E1775ECC659478097E.sgf_98_b865a430",
+      "board_size": 9,
+      "stones": "AAICAAICAQEBAgAAAgACAgEAAgICAgICAQEBAgEBAgECAQACAQECAgECAQICAAEBAgEBAgICAQABAQEAAQIAAAAAAAEBAQICAAEBAAEBAQEC",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "B267FFF4BCC8D1E1775ECC659478097E.sgf",
+        "move_number": 98,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 12,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "40630C3C174834D60625318DCA0A3CE6.sgf_56_9b37b34b",
+      "board_size": 9,
+      "stones": "AAACAQEAAAAAAAICAgEBAQAAAAIAAAIBAQEAAgICAgICAQAAAgEBAgECAQEBAgIBAQEBAQICAQEBAQIBAgACAAAAAQIBAgICAAAAAQICAgAA",
+      "score": 1.5,
+      "result": "B+1.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "40630C3C174834D60625318DCA0A3CE6.sgf",
+        "move_number": 56,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 3.5
+      }
+    },
+    {
+      "id": "C7D7C79FADD97F5A86D4C16F5D3BB4F4.sgf_59_76b71e01",
+      "board_size": 9,
+      "stones": "AQEBAQEBAAAAAgIBAQABAAAAAAICAQEAAQAAAAICAgEAAQEAAgACAQEBAAAAAgACAgEBAQAAAgAAAgICAQEAAAICAgACAgEAAAAAAAAAAgEA",
+      "score": 2.0,
+      "result": "B+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "C7D7C79FADD97F5A86D4C16F5D3BB4F4.sgf",
+        "move_number": 59,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9D3CFD82CC22A0827AA586B67F5D1426.sgf_74_b9274d67",
+      "board_size": 9,
+      "stones": "AAAAAQECAgACAQEBAQABAgIAAQIBAQEBAQECAAICAgIBAQICAQIBAQECAgIAAQEBAQEBAQICAQECAgICAQECAQEBAgICAgIAAAEBAgIAAgAC",
+      "score": -1.0,
+      "result": "W+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9D3CFD82CC22A0827AA586B67F5D1426.sgf",
+        "move_number": 74,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 15.0
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 15.0
+      }
+    },
+    {
+      "id": "B25E282C3460C2FBE0310CFA4E908A1B.sgf_37_e66785fd",
+      "board_size": 9,
+      "stones": "AAAAAQAAAAAAAAABAAEBAQAAAAEBAQICAgEAAAECAgIBAQEBAQEBAQICAQABAgECAQIAAgEBAgICAQICAAIBAAAAAgAAAAIBAAAAAAAAAAIC",
+      "score": 1.0,
+      "result": "B+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "B25E282C3460C2FBE0310CFA4E908A1B.sgf",
+        "move_number": 37,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "7C2D14CFB2E1C1CE8988F90E6D7FAFC4.sgf_48_3721d7bd",
+      "board_size": 9,
+      "stones": "AQEAAQEBAQIAAgEBAQICAgACAgIBAQECAgIAAAICAQECAQIAAAICAQEBAQICAAIBAAEBAAECAAIBAQABAAEBAAICAQEAAQEAAAACAgEAAAAB",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "7C2D14CFB2E1C1CE8988F90E6D7FAFC4.sgf",
+        "move_number": 48,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0503C5CE5B1DA9C5CC27BD5D9AA4D06C.sgf_81_75a73744",
+      "board_size": 9,
+      "stones": "AAAAAAEBAQABAAAAAQAAAQABAAEBAQEBAQEBAQECAQECAgIBAQECAQECAgICAQICAQEBAQIAAgICAQIBAQIAAAACAgIBAgIAAgIAAgEBAgAA",
+      "score": 6.5,
+      "result": "B+6.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "0503C5CE5B1DA9C5CC27BD5D9AA4D06C.sgf",
+        "move_number": 81,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 3,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "9B33C7ECAEE4B997C3650E27C4D049EE.sgf_68_af428ae2",
+      "board_size": 9,
+      "stones": "AAACAQABAQAAAQEBAAEBAAEAAQICAQEBAAEAAgICAQIBAAEAAAIAAgICAQEBAgIAAgIAAgIBAAIAAgIAAgEBAAACAAIAAgIBAAAAAgICAgEB",
+      "score": -9.0,
+      "result": "W+9",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9B33C7ECAEE4B997C3650E27C4D049EE.sgf",
+        "move_number": 68,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.0
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 13,
+        "komi": 4.0
+      }
+    },
+    {
+      "id": "08666520309B4CD8352E2A2401D0C462.sgf_80_e8ec3177",
+      "board_size": 9,
+      "stones": "AAAAAgEBAAAAAAACAgIBAAABAAICAgEBAQEBAAACAgIBAAABAAICAgEBAAEAAgIBAQEAAQEBAgACAQEAAAABAgICAgEBAAEBAAACAQEBAQAB",
+      "score": -4.5,
+      "result": "W+4.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "08666520309B4CD8352E2A2401D0C462.sgf",
+        "move_number": 80,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 17.5
+      },
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 6,
+        "komi": 17.5
+      }
+    },
+    {
+      "id": "C60331A49FFB28F71CAE9FCB6F861A98.sgf_73_13a45c63",
+      "board_size": 9,
+      "stones": "AQEAAQEBAgIAAQABAgABAQIAAQECAAAAAQIAAQABAgEBAQIAAQEBAQECAgAAAAECAgEBAgAAAAECAgECAAIAAAEBAgIAAgAAAAABAQICAAAA",
+      "score": 4.5,
+      "result": "B+4.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "C60331A49FFB28F71CAE9FCB6F861A98.sgf",
+        "move_number": 73,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 5.5
+      }
+    },
+    {
+      "id": "C05CD3F773E5D571978A2AB6BC1B068E.sgf_55_96802ed3",
+      "board_size": 9,
+      "stones": "AAAAAAAAAgEAAAAAAAACAgEAAgIAAgICAQEAAQICAgECAQAAAQEBAQECAQAAAAAAAQEBAQEAAAABAQICAQEBAAABAgACAgIBAAABAgIAAAIB",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "C05CD3F773E5D571978A2AB6BC1B068E.sgf",
+        "move_number": 55,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F06560A12B1B8F4962E739EEB6973C96.sgf_83_e931980d",
+      "board_size": 9,
+      "stones": "AgEBAQEAAQEAAgIBAQAAAAEAAAICAQEAAQEBAAACAQEBAQAAAAAAAgEBAAEBAAICAgEBAQECAAIAAgECAQICAAIAAAICAgIAAAACAgIAAAAA",
+      "score": -11.5,
+      "result": "W+11.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "F06560A12B1B8F4962E739EEB6973C96.sgf",
+        "move_number": 83,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 6,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "01FC2FE75DA4693D61056E400D9E70BE.sgf_82_0b8c2b8c",
+      "board_size": 9,
+      "stones": "AQEBAQECAgAAAQABAQEBAgICAAECAQICAgACAAECAQIBAgACAQECAQEBAQICAQICAgIBAQIBAgICAgEBAQEBAgAAAgEAAAAAAAIAAgEAAAAA",
+      "score": -1.5,
+      "result": "W+1.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "01FC2FE75DA4693D61056E400D9E70BE.sgf",
+        "move_number": 82,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 6,
+        "komi": 7.5
+      }
+    },
+    {
+      "id": "65D746500EB6CC195077E1F11D9E5114.sgf_26_5ce34211",
+      "board_size": 9,
+      "stones": "AAIAAAICAgICAgIAAAAAAAICAAAAAgICAAIAAgACAAACAAICAgACAAICAAACAgACAgACAAIAAgACAgICAAICAgAAAAAAAAIAAgICAgICAgIC",
+      "score": -2.5,
+      "result": "W+2.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "65D746500EB6CC195077E1F11D9E5114.sgf",
+        "move_number": 26,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -78.0
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 27,
+        "komi": -78.0
+      }
+    },
+    {
+      "id": "01D1F0ED6262D93F743BF059B0F68D7E.sgf_59_79b59dbd",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAQEAAAEBAQEBAgEBAQECAQIBAgIBAgECAgICAgICAgICAgECAAIAAgIBAgECAgACAAIBAQAA",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "01D1F0ED6262D93F743BF059B0F68D7E.sgf",
+        "move_number": 59,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 3,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "8B2EC43A179CE7C58BB2DA850F4203A2.sgf_77_36f0fb2a",
+      "board_size": 9,
+      "stones": "AAEBAQEBAQABAQEBAgIBAQEAAgECAAICAQEBAgECAgICAgIBAgICAAIAAgICAgIBAgICAAACAgEBAQEBAgIAAQEAAAABAQICAAAAAAAAAQEB",
+      "score": 1.0,
+      "result": "B+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "8B2EC43A179CE7C58BB2DA850F4203A2.sgf",
+        "move_number": 77,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 5.0
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 5.0
+      }
+    },
+    {
+      "id": "1C40A8E6A44B6F131ED5CE91A88FD292.sgf_57_f878ab08",
+      "board_size": 9,
+      "stones": "AAAAAAEBAQIAAAEAAQEBAgIAAQABAAECAgIAAQEAAAEBAgICAQEBAQEBAQICAQABAQECAgICAAEBAAECAAICAAAAAQICAAICAAAAAQIAAAAC",
+      "score": 1.5,
+      "result": "B+1.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "1C40A8E6A44B6F131ED5CE91A88FD292.sgf",
+        "move_number": 57,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 15.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 8,
+        "komi": 15.5
+      }
+    },
+    {
+      "id": "9194CD284AD0519CA8E89067847BCF31.sgf_31_231d54a0",
+      "board_size": 9,
+      "stones": "AAAAAQICAAAAAAAAAQECAAAAAAAAAQIAAAAAAAAAAQIAAAAAAAAAAQIAAgAAAAAAAQECAAAAAAAAAQABAgAAAAAAAAEBAgAAAAAAAAABAgAA",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "9194CD284AD0519CA8E89067847BCF31.sgf",
+        "move_number": 31,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "1C390C716F8055183AEFA19BC093D6F0.sgf_93_ca4db0d8",
+      "board_size": 9,
+      "stones": "AAACAgIBAQAAAgAAAgICAQAAAAIAAgIBAQEBAgACAgEBAgIBAgICAQEBAgICAQIBAAECAgAAAQEAAQEBAgACAQABAgICAgACAAEBAQEBAgIC",
+      "score": -14.5,
+      "result": "W+14.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "1C390C716F8055183AEFA19BC093D6F0.sgf",
+        "move_number": 93,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 16,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "638EF2C0CD72B4A8306EC0F8483B1430.sgf_87_e9c8768f",
+      "board_size": 9,
+      "stones": "AgICAAAAAgICAAAAAgIAAgECAAIAAAICAQECAgICAgEBAQABAAICAQAAAAEAAgIBAQEAAAABAQEBAQEBAAEAAQICAgIBAQEBAAAAAQEBAAEA",
+      "score": 9.0,
+      "result": "B+9",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "638EF2C0CD72B4A8306EC0F8483B1430.sgf",
+        "move_number": 87,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 14,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "2FF5D41FE545F895672719723DB7F3EC.sgf_54_596b3635",
+      "board_size": 9,
+      "stones": "AAAAAAIAAgEAAAAAAgACAgEAAgICAgICAQAAAgEBAQIBAQAAAQEAAQEBAAAAAgIBAQIBAAAAAAICAgIBAQAAAgICAQEAAQAAAAACAgEBAAAA",
+      "score": 16.0,
+      "result": "B+16",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "2FF5D41FE545F895672719723DB7F3EC.sgf",
+        "move_number": 54,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -7.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": -7.0
+      }
+    },
+    {
+      "id": "CB95B2336893360A22438E624E3328B7.sgf_98_f73dce1e",
+      "board_size": 9,
+      "stones": "AQABAQICAgIBAAEBAQIAAgEBAQABAQICAQAAAAAAAQICAQEAAQABAQIBAQABAAEBAgICAgEBAQECAgICAgIBAgECAAAAAgIBAgICAgACAgIC",
+      "score": -4.5,
+      "result": "W+4.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "CB95B2336893360A22438E624E3328B7.sgf",
+        "move_number": 98,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.5
+      },
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 14,
+        "komi": 7.5
+      }
+    },
+    {
+      "id": "7D41F97774B7289B84B633303516020C.sgf_62_66461fbb",
+      "board_size": 9,
+      "stones": "AAAAAAEAAQAAAAAAAQEAAQAAAAAAAQAAAQAAAQEBAQABAQEBAgEBAgEBAQIBAgICAgEBAgICAgIAAgECAgAAAgACAAICAAAAAAIAAgAAAAAA",
+      "score": 15.0,
+      "result": "B+15",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "7D41F97774B7289B84B633303516020C.sgf",
+        "move_number": 62,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -5.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 6,
+        "komi": -5.5
+      }
+    },
+    {
+      "id": "0A66264AEDBCBE98063B5CDFF4CC0C63.sgf_90_317b5eba",
+      "board_size": 9,
+      "stones": "AAIBAQICAgIAAgIBAQEBAgEAAgACAQICAgECAgICAQICAgICAQIBAQIAAgECAQEBAAECAgECAQABAAEBAQECAAEAAAAAAAECAQEBAQEBAQEB",
+      "score": -2.0,
+      "result": "W+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "0A66264AEDBCBE98063B5CDFF4CC0C63.sgf",
+        "move_number": 90,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 7,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "45E7EF5D8790D02A37B7E9A3A6AC252D.sgf_42_043420da",
+      "board_size": 9,
+      "stones": "AAACAgICAQEBAAACAQICAQAAAAACAQEBAQEBAAACAgIBAQEBAAICAQEAAAEBAAIBAQEBAAABAAICAQEAAQABAAACAQEBAAEAAAACAgEAAAAA",
+      "score": -1.5,
+      "result": "W+1.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "45E7EF5D8790D02A37B7E9A3A6AC252D.sgf",
+        "move_number": 42,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 13.5
+      },
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 1,
+        "komi": 13.5
+      }
+    },
+    {
+      "id": "316E93138884E4FB2084381567401244.sgf_74_81b22a28",
+      "board_size": 9,
+      "stones": "AAEAAgIBAAAAAgAAAgEBAAEAAgEAAgIBAQABAgAAAgACAQEAAgICAgICAgEBAgEBAgECAgIBAQABAQEBAQICAAEAAAABAQECAQABAQEAAQIC",
+      "score": -0.5,
+      "result": "W+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "316E93138884E4FB2084381567401244.sgf",
+        "move_number": 74,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 7.0
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "900549AC3153F2601AB8CCD602A3F7E7.sgf_62_8f95a002",
+      "board_size": 9,
+      "stones": "AgACAgEBAAAAAAIAAgIBAAAAAgICAQEBAQEAAQECAQIBAgEBAAEBAQICAgECAAABAgIAAgICAAAAAQICAgAAAAABAQECAAAAAAAAAQICAAAA",
+      "score": 9.5,
+      "result": "B+9.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "900549AC3153F2601AB8CCD602A3F7E7.sgf",
+        "move_number": 62,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -6.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": -6.5
+      }
+    },
+    {
+      "id": "FE65CB3A64D41B4663036977815F8D5D.sgf_46_5af6d631",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAABAgACAgAAAAABAgIBAgIAAAABAQIBAQIAAAEAAQEBAQIAAQABAAEBAgACAQEAAQEBAgIAAAABAQICAgAAAAAAAQECAAAA",
+      "score": 4.5,
+      "result": "B+4.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "FE65CB3A64D41B4663036977815F8D5D.sgf",
+        "move_number": 46,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 2.5
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 2.5
+      }
+    },
+    {
+      "id": "F0F2EB8B85A19230B5F36D4785DFD107.sgf_69_570fed75",
+      "board_size": 9,
+      "stones": "AAECAgAAAgACAQEBAgICAAIAAAECAgECAgACAAEBAQEBAQICAAEAAQEAAQEBAAABAQEBAgECAAAAAQICAgICAAAAAQICAAIAAAAAAQECAAIA",
+      "score": -4.0,
+      "result": "W+4",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "F0F2EB8B85A19230B5F36D4785DFD107.sgf",
+        "move_number": 69,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 11.0
+      },
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 7,
+        "komi": 11.0
+      }
+    },
+    {
+      "id": "85D9B1F6808FABDA0BD4C4C0557BBB44.sgf_79_989af7ae",
+      "board_size": 9,
+      "stones": "AgIBAAABAQIAAgEBAAEBAgIAAgIBAQIBAgAAAAACAgIBAgIAAgIAAgEBAQICAgECAgEAAQIBAQECAgIBAAEBAQABAgEBAAEAAQEBAQEBAAEA",
+      "score": 3.5,
+      "result": "B+3.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "85D9B1F6808FABDA0BD4C4C0557BBB44.sgf",
+        "move_number": 79,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 3,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "3DEB3305C0E9B1BD1747BB055C20A9D1.sgf_62_3026d78e",
+      "board_size": 9,
+      "stones": "AAACAgIBAQAAAAICAgEBAQEBAAIAAAICAQAAAgAAAgICAgEBAgICAgEBAQEAAgICAQAAAAAAAgIBAQAAAAAAAgEAAQAAAAAAAQEBAAAAAAAA",
+      "score": -2.0,
+      "result": "W+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "3DEB3305C0E9B1BD1747BB055C20A9D1.sgf",
+        "move_number": 62,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 19.0
+      },
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 7,
+        "komi": 19.0
+      }
+    },
+    {
+      "id": "513418ABD03EC99C8BCBC0D9AFF57108.sgf_62_e6fdfd1c",
+      "board_size": 9,
+      "stones": "AAACAQEBAgAAAAICAQABAgAAAAIAAgEBAgIAAgICAgEBAQIAAgECAQEBAgICAQEBAAEAAQIAAAAAAQAAAQICAAAAAQEAAQICAAAAAAABAQEC",
+      "score": 2.5,
+      "result": "B+2.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "513418ABD03EC99C8BCBC0D9AFF57108.sgf",
+        "move_number": 62,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 2,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "1E57A0AF3D9A41D47A97C9CCC2AA2BD7.sgf_64_57488f0d",
+      "board_size": 9,
+      "stones": "AAEAAQICAQAAAgEBAQECAQEAAQEBAQICAgEAAgEBAgACAQAAAgIBAgICAQEAAgEBAQECAgEAAgEBAgICAgEBAgICAgAAAgIBAAAAAAAAAAIB",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "1E57A0AF3D9A41D47A97C9CCC2AA2BD7.sgf",
+        "move_number": 64,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 3.0
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 3.0
+      }
+    },
+    {
+      "id": "FF7C5FAAA269B67C76EEF700C349C757.sgf_55_688eba43",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAEBAQICAgAAAAECAgIAAAIAAAEBAgECAgAAAAEBAQECAAAAAAEAAQEBAgAAAAABAAEBAgAAAAAAAQABAgIAAAAAAAABAQIA",
+      "score": -1.0,
+      "result": "W+1",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "FF7C5FAAA269B67C76EEF700C349C757.sgf",
+        "move_number": 55,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "515B7A73EA4257B4964409A5C004B716.sgf_55_e3a62da8",
+      "board_size": 9,
+      "stones": "AAIBAQAAAgEAAAICAQABAQABAgICAQEBAAEBAgACAgIBAAAAAAICAQEAAAEBAAACAgEBAQEAAAACAAIBAAAAAAIAAAIBAAAAAAACAgIBAAAA",
+      "score": 3.5,
+      "result": "B+3.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "515B7A73EA4257B4964409A5C004B716.sgf",
+        "move_number": 55,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.5
+      },
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 5,
+        "komi": 6.5
+      }
+    },
+    {
+      "id": "87C8ED57C5770062BA0FE592525EB4FA.sgf_84_17aacb51",
+      "board_size": 9,
+      "stones": "AgACAgIBAQEAAAIAAgEBAQICAgECAgIBAAIBAgEAAgEBAQEBAgACAgICAgICAgICAQEBAgICAgEBAAEAAQIBAQEAAAEBAQEBAAEAAQAAAAAA",
+      "score": 9.0,
+      "result": "B+9",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "87C8ED57C5770062BA0FE592525EB4FA.sgf",
+        "move_number": 84,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": -6.5
+      },
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 6,
+        "komi": -6.5
+      }
+    },
+    {
+      "id": "B3BDDFBFEAB72BDF1DABD9CF0BF015DB.sgf_73_db612e22",
+      "board_size": 9,
+      "stones": "AAAAAQEBAQIAAAAAAQICAgIAAAEAAQICAgIAAQABAQIBAgACAQABAQEBAgICAAECAQIBAQEBAAECAgICAgIBAAECAAIAAgEBAAEBAgIAAgIB",
+      "score": 0.0,
+      "result": "0",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "B3BDDFBFEAB72BDF1DABD9CF0BF015DB.sgf",
+        "move_number": 73,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 9.0
+      },
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 9.0
+      }
+    },
+    {
+      "id": "49AD3799F65699037C8AA7BEDFA8EE76.sgf_65_f4f09ca0",
+      "board_size": 9,
+      "stones": "AgEBAQEAAAAAAgIBAgEBAQAAAgACAgICAQEBAAICAQIBAQICAAIBAQEBAgACAgIBAQICAgIAAgEBAQECAAAAAQEAAAECAgAAAAAAAAEBAgAA",
+      "score": -1.5,
+      "result": "W+1.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "49AD3799F65699037C8AA7BEDFA8EE76.sgf",
+        "move_number": 65,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 4.5
+      },
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 4.5
+      }
+    },
+    {
+      "id": "1D8D974F092AB3ACB76E490AC06B5915.sgf_56_8502a5d9",
+      "board_size": 9,
+      "stones": "AAIAAQEBAgAAAQEBAAECAgAAAQAAAQEBAgAAAAEBAQICAgAAAQAAAQIBAgAAAAEBAQEBAgAAAAAAAQECAgAAAAABAAECAAAAAAAAAQICAAAA",
+      "score": 2.0,
+      "result": "B+2",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "1D8D974F092AB3ACB76E490AC06B5915.sgf",
+        "move_number": 56,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 9.0
+      },
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 0,
+        "komi": 9.0
+      }
+    },
+    {
+      "id": "AF6B8E134B382167F56A95A65F9C3366.sgf_25_8059d107",
+      "board_size": 9,
+      "stones": "AAAAAQEAAQECAAABAQEBAQICAAEBAAAAAQIAAQEAAQEAAQICAQEAAQAAAQECAgEAAAAAAQIAAgEBAQABAQIAAgIBAQEBAQIAAAICAgICAgIC",
+      "score": 21.0,
+      "result": "B+21",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "AF6B8E134B382167F56A95A65F9C3366.sgf",
+        "move_number": 25,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 6.0
+      },
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 3,
+        "komi": 6.0
+      }
+    },
+    {
+      "id": "C87B8C487D41DCF14C2DF4C2D4790D48.sgf_82_fb4d670c",
+      "board_size": 9,
+      "stones": "AQEBAQICAgEAAAEBAgICAQEAAQEBAQICAQEBAgEAAgIBAAECAgECAgIBAQECAgICAgECAgEAAAICAQEBAgEBAgIBAAECAgICAQEBAQEAAgIA",
+      "score": 0.5,
+      "result": "B+0.5",
+      "time_limit": 30,
+      "source": {
+        "sgf_file": "C87B8C487D41DCF14C2DF4C2D4790D48.sgf",
+        "move_number": 82,
+        "players": {
+          "black": "kata1-b28c512nbt-s10874802944-d5308968400",
+          "white": "kata1-b28c512nbt-s10874802944-d5308968400"
+        },
+        "date": "Unknown",
+        "komi": 10.5
+      },
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 8,
+        "komi": 10.5
+      }
+    }
+  ]
+}

@@ -8,7 +8,6 @@ class TrainingPosition {
   final double score;
   final String result;
   final int timeLimit;
-  final String difficulty;
   final PositionSource source;
   final GameInfo gameInfo;
 
@@ -19,7 +18,6 @@ class TrainingPosition {
     required this.score,
     required this.result,
     required this.timeLimit,
-    required this.difficulty,
     required this.source,
     required this.gameInfo,
   });
@@ -32,7 +30,6 @@ class TrainingPosition {
       score: (json['score'] as num).toDouble(),
       result: json['result'] as String,
       timeLimit: json['time_limit'] as int,
-      difficulty: json['difficulty'] as String,
       source: PositionSource.fromJson(json['source'] as Map<String, dynamic>),
       gameInfo: GameInfo.fromJson(json['game_info'] as Map<String, dynamic>? ?? {}),
     );
@@ -57,7 +54,7 @@ class TrainingPosition {
   String get description {
     final players = '${source.players.black} vs ${source.players.white}';
     final moveInfo = 'Move ${source.moveNumber}';
-    return '$players • $moveInfo • $difficulty';
+    return '$players • $moveInfo';
   }
 
   /// Get the winner from the result
@@ -147,10 +144,6 @@ class TrainingDataset {
     );
   }
 
-  /// Get positions filtered by difficulty
-  List<TrainingPosition> getByDifficulty(String difficulty) {
-    return positions.where((p) => p.difficulty == difficulty).toList();
-  }
 }
 
 class DatasetMetadata {
@@ -159,7 +152,6 @@ class DatasetMetadata {
   final String version;
   final DateTime createdAt;
   final int totalPositions;
-  final Map<String, int> difficultyDistribution;
 
   const DatasetMetadata({
     required this.name,
@@ -167,7 +159,6 @@ class DatasetMetadata {
     required this.version,
     required this.createdAt,
     required this.totalPositions,
-    required this.difficultyDistribution,
   });
 
   factory DatasetMetadata.fromJson(Map<String, dynamic> json) {
@@ -177,9 +168,6 @@ class DatasetMetadata {
       version: json['version'] as String,
       createdAt: DateTime.parse(json['created_at'] as String),
       totalPositions: json['total_positions'] as int,
-      difficultyDistribution: Map<String, int>.from(
-        json['difficulty_distribution'] as Map<String, dynamic>
-      ),
     );
   }
 }

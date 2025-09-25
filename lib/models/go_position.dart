@@ -29,9 +29,9 @@ class GoPosition {
     final boardSize = position.boardSize;
     final board = List.generate(
       boardSize,
-      (row) => List.generate(
+      (col) => List.generate(
         boardSize,
-        (col) {
+        (row) {
           switch (decodedBoard[row][col]) {
             case 1:
               return StoneColor.black;

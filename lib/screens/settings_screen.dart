@@ -143,13 +143,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       _buildStatRow('Total Positions', _statistics!['total_positions'].toString()),
                       _buildStatRow('Version', _statistics!['version'].toString()),
                       _buildStatRow('Created', _formatDate(_statistics!['created_at'])),
-                      const SizedBox(height: 8),
-                      const Text(
-                        'Difficulty Distribution:',
-                        style: TextStyle(fontWeight: FontWeight.w500),
-                      ),
-                      const SizedBox(height: 4),
-                      ..._buildDifficultyStats(_statistics!['difficulty_distribution']),
                     ],
                   ),
                 ),
@@ -244,20 +237,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
     );
   }
 
-  List<Widget> _buildDifficultyStats(Map<String, dynamic> distribution) {
-    return distribution.entries.map((entry) {
-      return Padding(
-        padding: const EdgeInsets.symmetric(vertical: 1.0, horizontal: 16.0),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text('• ${entry.key}', style: TextStyle(color: Colors.grey[700])),
-            Text(entry.value.toString(), style: TextStyle(color: Colors.grey[600])),
-          ],
-        ),
-      );
-    }).toList();
-  }
 
   String _formatDate(String isoString) {
     try {

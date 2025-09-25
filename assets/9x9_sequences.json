@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "9x9 Pre-Pass Sequences",
+    "description": "Positions from 9x9 games taken 1 moves before the first pass, with subsequent moves shown as numbered sequence",
+    "version": "1.0.0",
+    "created_at": "2025-09-25T13:35:51.491304",
+    "total_positions": 0,
+    "difficulty_distribution": {
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0
+    },
+    "board_size": 9,
+    "generation_stats": {
+      "files_processed": 40,
+      "positions_extracted": 0,
+      "success_rate": 0.0
+    }
+  },
+  "positions": []
+}
