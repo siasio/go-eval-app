@@ -2,11 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../models/go_position.dart';
 import '../models/scoring_config.dart';
+import '../models/dataset_type.dart';
+import '../models/dataset_configuration.dart';
 import '../services/position_manager.dart';
+import '../services/configuration_manager.dart';
 import '../widgets/timer_bar.dart';
 import '../widgets/go_board.dart';
 import '../widgets/result_buttons.dart';
+import '../widgets/context_aware_result_buttons.dart';
 import '../widgets/game_status_bar.dart';
+import '../models/game_result_option.dart';
 import './settings_screen.dart';
 
 class ResultDisplayColors {
@@ -38,17 +43,29 @@ class _TrainingScreenState extends State<TrainingScreen> {
   bool _showFeedbackOverlay = false;
   bool _isCorrectAnswer = false;
   final FocusNode _focusNode = FocusNode();
+  ConfigurationManager? _configManager;
+  DatasetConfiguration? _currentConfig;
 
   @override
   void initState() {
     super.initState();
-    _loadInitialPosition();
+    _initializeConfiguration();
     // Ensure focus for keyboard input
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
         _focusNode.requestFocus();
       }
     });
+  }
+
+  Future<void> _initializeConfiguration() async {
+    try {
+      _configManager = await ConfigurationManager.getInstance();
+      _loadInitialPosition();
+    } catch (e) {
+      print('Error initializing configuration manager: $e');
+      _loadInitialPosition();
+    }
   }
 
   @override
@@ -61,12 +78,30 @@ class _TrainingScreenState extends State<TrainingScreen> {
     if (!_timerRunning || _showFeedbackOverlay) return;
 
     if (event is KeyDownEvent) {
-      if (event.logicalKey == LogicalKeyboardKey.arrowLeft) {
-        _onResultSelected(GameResult.whiteWins);
-      } else if (event.logicalKey == LogicalKeyboardKey.arrowRight) {
-        _onResultSelected(GameResult.blackWins);
-      } else if (event.logicalKey == LogicalKeyboardKey.arrowDown) {
-        _onResultSelected(GameResult.draw);
+      if (_positionManager.currentDataset != null &&
+          _positionManager.currentTrainingPosition != null) {
+        final options = GameResultOption.generateOptions(
+          _positionManager.currentDataset!.metadata.datasetType,
+          ScoringConfig.parseScore(_positionManager.currentTrainingPosition!.result),
+          _positionManager.currentTrainingPosition!.result,
+        );
+
+        if (event.logicalKey == LogicalKeyboardKey.arrowLeft && options.isNotEmpty) {
+          _onResultOptionSelected(options[0]);
+        } else if (event.logicalKey == LogicalKeyboardKey.arrowRight && options.length > 2) {
+          _onResultOptionSelected(options[2]);
+        } else if (event.logicalKey == LogicalKeyboardKey.arrowDown && options.length > 1) {
+          _onResultOptionSelected(options[1]);
+        }
+      } else {
+        // Fallback to old system
+        if (event.logicalKey == LogicalKeyboardKey.arrowLeft) {
+          _onResultSelected(GameResult.whiteWins);
+        } else if (event.logicalKey == LogicalKeyboardKey.arrowRight) {
+          _onResultSelected(GameResult.blackWins);
+        } else if (event.logicalKey == LogicalKeyboardKey.arrowDown) {
+          _onResultSelected(GameResult.draw);
+        }
       }
     }
   }
@@ -83,6 +118,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
   Future<void> _loadInitialPosition() async {
     try {
       final position = await _positionManager.loadRandomPosition();
+      await _updateConfiguration();
       setState(() {
         _currentPosition = position;
         _loading = false;
@@ -101,6 +137,16 @@ class _TrainingScreenState extends State<TrainingScreen> {
     }
   }
 
+  Future<void> _updateConfiguration() async {
+    if (_configManager == null || _positionManager.currentDataset == null) {
+      _currentConfig = DatasetConfiguration.getDefaultFor(DatasetType.final9x9Area);
+      return;
+    }
+
+    final datasetType = _positionManager.currentDataset!.metadata.datasetType;
+    _currentConfig = _configManager!.getConfiguration(datasetType);
+  }
+
   void _onResultSelected(GameResult result) {
     setState(() {
       _timerRunning = false;
@@ -113,8 +159,26 @@ class _TrainingScreenState extends State<TrainingScreen> {
       _isCorrectAnswer = isCorrect;
     });
 
-    // Load next position after 2 seconds
-    Future.delayed(const Duration(seconds: 2), () {
+    // Load next position after configured time
+    final markDisplayTime = _currentConfig?.markDisplayTimeSeconds ?? 1.5;
+    Future.delayed(Duration(milliseconds: (markDisplayTime * 1000).round()), () {
+      _loadNextPosition();
+    });
+  }
+
+  void _onResultOptionSelected(GameResultOption option) {
+    setState(() {
+      _timerRunning = false;
+    });
+
+    setState(() {
+      _showFeedbackOverlay = true;
+      _isCorrectAnswer = option.isCorrect;
+    });
+
+    // Load next position after configured time
+    final markDisplayTime = _currentConfig?.markDisplayTimeSeconds ?? 1.5;
+    Future.delayed(Duration(milliseconds: (markDisplayTime * 1000).round()), () {
       _loadNextPosition();
     });
   }
@@ -140,7 +204,8 @@ class _TrainingScreenState extends State<TrainingScreen> {
       _isCorrectAnswer = false; // Show red cross for timeout
     });
 
-    Future.delayed(const Duration(seconds: 2), () {
+    final markDisplayTime = _currentConfig?.markDisplayTimeSeconds ?? 1.5;
+    Future.delayed(Duration(milliseconds: (markDisplayTime * 1000).round()), () {
       _loadNextPosition();
     });
   }
@@ -153,6 +218,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
 
     try {
       final position = await _positionManager.loadRandomPosition();
+      await _updateConfiguration();
       setState(() {
         _currentPosition = position;
         _timerRunning = true;
@@ -363,7 +429,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
               // Timer Bar
               if (_timerRunning)
                 TimerBar(
-                  duration: const Duration(seconds: 30),
+                  duration: Duration(seconds: _currentConfig?.timePerProblemSeconds ?? 30),
                   onComplete: _onTimerComplete,
                 )
               else
@@ -397,9 +463,18 @@ class _TrainingScreenState extends State<TrainingScreen> {
               ),
 
               // Result Buttons
-              ResultButtons(
-                onResultSelected: _timerRunning ? _onResultSelected : (_) {},
-              ),
+              if (_positionManager.currentDataset != null &&
+                  _positionManager.currentTrainingPosition != null)
+                ContextAwareResultButtons(
+                  datasetType: _positionManager.currentDataset!.metadata.datasetType,
+                  actualScore: ScoringConfig.parseScore(_positionManager.currentTrainingPosition!.result),
+                  resultString: _positionManager.currentTrainingPosition!.result,
+                  onResultSelected: _timerRunning ? _onResultOptionSelected : (_) {},
+                )
+              else
+                ResultButtons(
+                  onResultSelected: _timerRunning ? _onResultSelected : (_) {},
+                ),
             ],
           ),
         ),

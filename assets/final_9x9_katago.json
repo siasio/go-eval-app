@@ -1,0 +1,6017 @@
+{
+  "metadata": {
+    "name": "9x9 Final Positions (KataGo Area Scoring)",
+    "description": "Final positions from completed Go games on 9x9 boards with area scoring calculated by KataGo using Chinese rules (komi=7.0)",
+    "version": "1.0.0",
+    "created_at": "2025-09-26T00:40:22.961513",
+    "total_positions": 500,
+    "dataset_type": "final-9x9-area",
+    "generation_stats": {
+      "files_processed": 1003,
+      "positions_extracted": 500,
+      "success_rate": 0.4985044865403789
+    }
+  },
+  "positions": [
+    {
+      "id": "9C09DB3B607BCB164DA0A03EA9A0D24A.sgf_82_b1400d70",
+      "board_size": 9,
+      "stones": "AAICAgEAAgICAgACAQABAQECAgACAQEBAQICAgIAAgIBAgICAgICAgECAgACAgEBAQEBAgIBAQABAAEAAQEBAAAAAQEAAQABAAAAAAABAAEA",
+      "score": 3,
+      "result": "B+3",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "281AB82D4537266094AFCA1E8A78C79B.sgf_84_90f137db",
+      "board_size": 9,
+      "stones": "AAAAAgICAgIBAAACAAICAQEBAAACAgECAQABAAACAQEBAQAAAgICAgICAQAAAQECAQICAQAAAQEBAQIBAQEBAAEAAQIBAQABAQEBAgICAQEA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "94384F92562CE56FCEA6E32133202383.sgf_60_9220a0cb",
+      "board_size": 9,
+      "stones": "AAEBAQECAgIAAQIAAQICAQEBAQEBAQICAgIBAAAAAAECAgIBAQEBAQECAAIBAgEBAgIBAgIBAgECAgIBAQEBAgIAAgICAQEBAAICAgEBAQEA",
+      "score": 5,
+      "result": "B+5",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8722C667918E66F8B5F43E85AD9307D7.sgf_55_26d9f2dc",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAgICAQEBAQAAAgACAgIBAAEAAgIBAQIBAQEAAQIBAQEBAgEBAQEAAAEBAgIBAAEBAQIBAgACAAECAgICAgAAAAECAAIAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C72D86CAE8722544BF85DAEE136B4758.sgf_72_5a831979",
+      "board_size": 9,
+      "stones": "AQEBAgEBAAAAAQIAAgIBAQAAAAICAgICAQEAAgIBAQICAgEAAQEBAQEBAQAAAQICAgEAAQABAQECAgIBAQEBAQICAAACAQIBAgIAAgICAgIC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EF14B1B8E779FDABFC6A30DF4418C589.sgf_93_a67ff9c6",
+      "board_size": 9,
+      "stones": "AAEBAgIBAQABAAEBAQIBAAEBAQAAAQICAQECAAEBAAECAgICAQEBAQEBAgICAQABAgIBAQIAAQECAgIBAgACAgICAAIBAgICAAACAAIBAQEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2D9F9739C490B95511CFFD2961126FA9.sgf_78_6a9c2a36",
+      "board_size": 9,
+      "stones": "AgAAAgEBAAAAAgICAgIBAAAAAAICAgEBAQAAAgICAgIBAQEAAQECAQEBAgEBAAABAAEBAgIBAQEAAQICAgICAAEBAgIAAgECAQECAgACAQAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EAAC0B0F519654DFF3FDEF2D116D5041.sgf_63_ce9ba7cd",
+      "board_size": 9,
+      "stones": "AAABAAEBAAAAAAABAAEAAQEBAAEAAQABAAEAAQEBAQABAQEBAgIBAgEBAgEBAAICAgECAgIBAAAAAgICAgICAAAAAAAAAAAAAAAAAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AAD25357181A890B93A63C68B5A5CA17.sgf_83_1c254a54",
+      "board_size": 9,
+      "stones": "AAICAgICAQAAAQEBAAIBAAAAAgICAgIBAQAAAQEBAgEBAAEBAQABAQECAQEBAAEBAQECAgIBAQABAgECAgACAQECAgICAAIAAQICAgAAAgAC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "284001F2D93FE6B5E28FF7219752D287.sgf_67_b5f21895",
+      "board_size": 9,
+      "stones": "AAEBAQIAAAAAAAABAgACAgICAQABAgIBAgECAQABAgEBAQEBAgEBAgICAQEAAgIBAQIBAQABAAICAQIBAAEAAAACAQIBAQABAAACAgICAQEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F2C0ACEA1A36C010B00A676347E3DDAC.sgf_69_d2ffbdbf",
+      "board_size": 9,
+      "stones": "AAIBAAICAQAAAgACAgIBAQAAAgICAQEAAAAAAgECAQIBAQEBAQEBAQICAgIBAAECAgACAQICAQABAgACAQIAAAEBAgICAQIAAAABAQEBAQIA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "00237CCB835EEC198C74AB6D0809F1C2.sgf_47_758517c2",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAAACAQEAAAAAAAACAQAAAAAAAAACAgEBAAAAAAACAQEBAQEAAAACAgEAAAABAAACAAIBAQABAAACAgIBAQEAAAAAAAICAgEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "29A6884C23B8E84D41C25E1959511F7C.sgf_92_6b95b482",
+      "board_size": 9,
+      "stones": "AgICAAICAQABAgACAgIBAQEAAQICAgEAAgEBAQECAQEBAQABAAEBAQEBAQECAAEBAgECAQICAQABAgICAgACAAEBAQICAAIAAAABAgIAAgAC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 16,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "00890E590AB6E4C0923679603675CC3D.sgf_48_dee2becb",
+      "board_size": 9,
+      "stones": "AAAAAAEBAgAAAAAAAQECAgAAAAABAQICAAAAAAABAgAAAgAAAAABAgICAgAAAAABAQIAAAIAAAABAAECAgICAAABAQEBAQIAAAAAAAABAgIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E3D9A89DACB18E8589F2B7121D071A2F.sgf_80_8354ae4c",
+      "board_size": 9,
+      "stones": "AgACAgEBAAEAAgAAAgIBAgECAAICAgEBAQABAgICAQEBAgEAAQECAgECAgEBAAEBAgIBAgICAAECAgEBAgACAAEBAgEBAgIAAAEBAQECAgAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2FD88987F607596E759BB44259C6DF2D.sgf_74_19b0d24d",
+      "board_size": 9,
+      "stones": "AAAAAgACAAAAAAIAAgACAAAAAgACAgACAgAAAgICAgIBAgICAgECAgEBAQEBAQEBAQEAAQAAAQICAgICAQIAAAEBAgABAAEBAQEAAQEAAQAB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F07467963D0817DD2C60B42420FFD202.sgf_65_6648cdaf",
+      "board_size": 9,
+      "stones": "AAAAAAICAQAAAAACAgIBAQAAAgICAQIBAAAAAgACAQEBAQEAAgIBAQEBAAABAQEBAQIBAQEAAQECAgICAQEAAQIAAAICAgEBAgICAgACAQEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "22526477CC3124B88D47EF400755A9C6.sgf_61_6d6fa6d8",
+      "board_size": 9,
+      "stones": "AgIAAgICAQEAAAACAgEBAAEAAgIBAQEBAQABAgACAgIBAQEAAgICAQEBAQABAQIBAQEBAAABAQEBAAAAAQEAAQEBAQEAAQABAAABAAEAAAEB",
+      "score": 32,
+      "result": "B+32",
+      "game_info": {
+        "black_captured": 17,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "78E1450F571F113EA980630FB17F8E54.sgf_53_51ea84d4",
+      "board_size": 9,
+      "stones": "AgACAAIBAQAAAgIAAAIBAAEAAQICAgIBAAEAAQECAgEAAQAAAQEBAQEBAAAAAQIBAgEBAQAAAgICAgICAgEAAAACAAICAQEAAAAAAgACAgEA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ACB16A4C9BC1DBDA2A9F77DFFA43B5D3.sgf_54_91041fa9",
+      "board_size": 9,
+      "stones": "AAAAAAIBAQAAAAACAgICAQAAAAACAAACAQAAAAICAgIBAQEAAgIBAQICAgEAAgEBAgICAgIBAgIBAQECAQEAAgEBAAABAAAAAQEAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "12C2F0B469D0ED413DF97CBDCFDE77A6.sgf_53_2e8c1c6a",
+      "board_size": 9,
+      "stones": "AgEBAQAAAQEBAgICAQEAAQIBAAACAgEBAgIBAAIAAgECAgIBAgICAgEBAgEBAQIBAgECAgICAQEBAQABAgAAAAAAAAEBAgIAAAAAAAECAgAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B9426699E30C5E8DB9B6DE5AE4F03869.sgf_90_f0503e74",
+      "board_size": 9,
+      "stones": "AAIAAgICAgIBAgACAAIBAgEBAAIAAgIBAgEAAgICAQIBAQEAAQEBAQIBAQEAAgEBAQEBAAABAgECAgEAAAEBAgIAAgIBAQEBAAICAgEBAQEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DD9E18A8E6A439B700DC127DC9A6AF57.sgf_85_6106b0ba",
+      "board_size": 9,
+      "stones": "AAEAAAEBAQAAAQABAAEBAAABAQABAQEBAAEBAQEBAQEAAAAAAgECAgEBAAAAAgICAQEBAAEBAAICAQEAAQABAgACAgIBAAEBAAICAAIBAAAA",
+      "score": 36,
+      "result": "B+36",
+      "game_info": {
+        "black_captured": 23,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FB08C0E8F709F83D7FAA7388B49B3F42.sgf_65_b947c2fa",
+      "board_size": 9,
+      "stones": "AAAAAAEAAAAAAAABAQEBAAAAAQEBAgEBAQEAAQABAgICAQABAQECAgEBAAEBAgICAgIBAQECAgAAAgEBAgICAAICAAICAAIAAAACAAIAAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C56D5447E608AA83F8E28BC20A734DDA.sgf_66_582c6a1d",
+      "board_size": 9,
+      "stones": "AAAAAAABAgICAAAAAAABAgAAAAAAAAABAQICAQEBAQABAgAAAQICAQEBAgICAQIAAgEBAQECAgICAgIBAQABAgACAAICAgEAAAIAAAACAQEA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3A414202BE6147CE79B1045BB617BF81.sgf_56_5079be67",
+      "board_size": 9,
+      "stones": "AAIAAAACAgIBAgACAgICAgEBAgACAQICAQEBAAIBAQECAQABAAICAgEBAAEAAAIBAQEBAAABAAIBAAABAQEBAAIBAAEBAAEAAAIBAQABAQAA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2AD51E7B0740E04A896FCE9F7B1CBB65.sgf_71_5501a27d",
+      "board_size": 9,
+      "stones": "AAIAAgICAQABAAICAgIBAAEAAgACAgIBAQAAAgAAAgEAAAEAAAICAQEBAQAAAAIBAQEAAAAAAgICAQEBAAAAAgIAAgIBAAAAAgACAgEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B30077FE7E342399B0914982F32F98B2.sgf_78_731dbb7b",
+      "board_size": 9,
+      "stones": "AAIBAQACAQABAgACAQEBAQEAAAICAgICAQEAAgIBAQEBAAEAAQEBAgEBAQEAAQICAgIBAgEAAgACAgACAgIBAgICAgACAQEBAgIAAgACAQEA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3F14465EADE42DDFD79A52032C045369.sgf_83_3d3cad3e",
+      "board_size": 9,
+      "stones": "AQABAQABAQABAQEBAAEBAAEBAgEBAAEBAQIBAgEAAAEBAgICAgIBAQEBAgAAAgICAgECAgIAAAICAQEBAgAAAgACAQICAgAAAAIBAQEBAgAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C2B44089ADABBA9176C5E214C7EBCA3F.sgf_39_c9f87b35",
+      "board_size": 9,
+      "stones": "AAAAAAIAAAAAAAACAgICAAICAAACAAACAgIBAAACAgIBAQEBAAICAQEBAQEAAgIBAQEBAAEAAgEAAAAAAQAAAQEBAQEAAQAAAAAAAQEBAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9AFB394788F6507151F3261EAE2B1887.sgf_58_c4d2af95",
+      "board_size": 9,
+      "stones": "AAAAAAIBAQEAAgICAgACAQEBAQEBAgACAQAAAQICAgIBAQACAQECAgICAQEAAAECAQICAQEBAAEBAQECAgECAgEAAQIAAgICAAEBAgICAAIA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "813CEF8FA7440391348D96AEF44D711A.sgf_46_fd0653ac",
+      "board_size": 9,
+      "stones": "AAICAgIBAQAAAgACAQICAQEAAAIBAQICAgEAAgACAQECAgEAAAICAQEBAQAAAgEBAQAAAQAAAgIBAgEBAAEAAgACAgICAQEAAAIAAAIBAQEA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "642420F9D1E23E5813811E5DD8416E22.sgf_61_5f7ace37",
+      "board_size": 9,
+      "stones": "AAAAAAACAQAAAgICAgICAQAAAgEBAgEBAAEAAQABAgIBAQAAAAEBAQECAgEAAAECAgECAgEBAAECAgIAAgIBAAEBAgACAAICAAEBAQIAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "182EAFE6553566A77AE40767E55DC54B.sgf_78_060c9745",
+      "board_size": 9,
+      "stones": "AAIAAgEBAAEAAQECAgIBAQABAAECAAIBAAEAAQEBAgIBAAABAgIBAgEAAAEAAgICAQEBAQABAAICAgICAgEAAAACAAIAAgEAAAAAAgICAQEA",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9ECA4B6B97848EA0A4F09355E7D78F74.sgf_67_46a0476c",
+      "board_size": 9,
+      "stones": "AQICAAICAAACAQICAgICAgICAQECAQIBAgECAQABAQEBAQEBAAEBAQECAQECAQAAAAECAQICAAEAAQICAgIAAQABAQIAAAAAAAEAAQECAAIA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1EA49C3D6C74D5F02F0C20B40A9B5060.sgf_43_e7dfaab6",
+      "board_size": 9,
+      "stones": "AAEBAgACAAICAAECAgICAgIBAAEBAgIBAgEBAAABAQEBAQEBAAAAAQICAgECAAAAAQECAgICAAAAAQICAgACAAAAAQEBAgIAAAAAAAABAgAA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9E6406101060459236EFED7B85A75DFD.sgf_71_116b3208",
+      "board_size": 9,
+      "stones": "AgECAgIBAQAAAgEBAgACAQEAAgEAAgICAQABAgICAgIBAQABAgECAQEBAQEBAgEBAgICAgIBAQABAQECAAIBAAEBAgIAAgIBAQABAQICAAIC",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "28BE2CA4B43F3DD6D106ECBD3D5B46AD.sgf_67_b4e3f259",
+      "board_size": 9,
+      "stones": "AgICAgICAQABAAIBAQEBAQEBAgACAgICAgECAgIAAgIBAQECAQECAgEBAQICAAECAQECAgIAAAEBAQICAAIBAAAAAQECAQEBAAAAAAECAgIB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B3FB1A14DEDA53E81F32F346DA32823C.sgf_40_0abe6660",
+      "board_size": 9,
+      "stones": "AAAAAAIAAgIAAAACAgACAAAAAAACAAACAgICAAACAgIBAQEBAgICAQEBAQAAAQIBAQEBAAEAAQEAAAABAQEAAQEBAQEAAQAAAAAAAAEBAQAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "820E600AC6E9622C908EC8187A22B0FE.sgf_54_93dc6d4c",
+      "board_size": 9,
+      "stones": "AAAAAAICAgAAAAACAgIBAgICAAACAQEBAQECAAICAQIBAAEBAgIBAQIBAAAAAgICAgICAQEAAgIBAQEBAAEAAgEAAAEAAQAAAgEBAAABAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7DD4516C4E3BFB363C5FF3D8CF40F1FF.sgf_75_207e2ce1",
+      "board_size": 9,
+      "stones": "AAABAAABAQIAAAEAAQABAgIAAAEAAQEBAgAAAAEBAgIBAgAAAQECAgEBAgICAgICAQEBAQECAgACAgIBAQICAgACAgEBAQEBAAIAAgIBAQAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5D32ACA35D9CC1277AE933D68548E935.sgf_73_6973df5e",
+      "board_size": 9,
+      "stones": "AgACAQEBAAAAAAIAAgEBAAAAAgACAgEAAQAAAAIBAQEBAQEBAgICAgEBAAABAgACAQICAQEBAgIBAQECAgIBAQEAAQICAAICAAEBAQIAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AA55536F678BF67DA8C7914584EE2D24.sgf_94_ceaea474",
+      "board_size": 9,
+      "stones": "AQEAAQEAAQAAAQEBAAEAAQAAAQABAAEAAQEBAAAAAQEBAQICAQEBAQECAgIAAgEBAgICAQICAgIBAQICAQICAAIBAgACAQECAAICAgIAAAIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "147F2F16A38711D3BCED9F1EC84975EA.sgf_70_51dcab9e",
+      "board_size": 9,
+      "stones": "AAABAgIAAAIAAAEAAQICAgACAAEAAQECAgICAQEAAQEBAgEBAQIBAQECAgIBAgIBAgECAQEBAgACAgEBAAEAAAICAgIBAQAAAAAAAgEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BB62C1BEF7529DAB69441209BAD387CB.sgf_53_90f539b6",
+      "board_size": 9,
+      "stones": "AgIBAQECAAIAAgEBAgICAAIAAgIBAQEBAgICAAACAQEBAQECAAICAgIBAAEBAAACAQEBAQABAAACAQECAgIBAAICAgECAQECAAIBAQEBAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ED78CD35C7033C9F3E5383544F92B5B5.sgf_92_5a04f069",
+      "board_size": 9,
+      "stones": "AQABAQEBAQIAAAEBAQICAgACAAEAAQIAAgIAAQEBAgICAgICAQIBAgEBAQIBAgICAgIBAQEBAgACAgIBAAIBAgEBAgICAQEAAAAAAgIBAQAB",
+      "score": -10,
+      "result": "W+10",
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "812DAFB234F6B4C5F20B30EEFB4F731D.sgf_57_d59e4021",
+      "board_size": 9,
+      "stones": "AgACAgACAAIAAgICAAAAAAICAgECAgIAAAIAAQECAgICAgICAAEBAQEBAgIBAAEAAQECAgEBAAABAQEBAgEAAAAAAAEAAQEAAAAAAAABAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "74824E017C14B5762A44DF0BE83CE53D.sgf_86_859d85d6",
+      "board_size": 9,
+      "stones": "AAICAgEBAAEBAAICAQEAAQECAgIBAQEBAgICAAICAQECAAICAAICAQECAgIAAgEBAAEBAgACAgEBAQEAAQICAgICAQEBAAEBAAIBAQABAAEA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6DA933338FF80DA98CDDE59D2CEDAD7B.sgf_81_cf7e6f3c",
+      "board_size": 9,
+      "stones": "AAABAQEBAgIAAQEBAgICAgACAQICAgECAgICAQEBAQEBAgECAgECAgEBAQEBAgIAAgEBAAEBAgECAgIBAQEBAgEAAgEBAAEAAAICAgEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F9C76F2D8FC2DA2314DA89039A98EAF0.sgf_47_a9b99456",
+      "board_size": 9,
+      "stones": "AAAAAQIAAAAAAAAAAQIAAgIAAAAAAQICAAACAAAAAAECAgACAAABAAEBAQIAAAAAAAECAgIAAAEBAQEBAgAAAAEAAAECAAIAAAABAQECAgAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9602A4F7A1A50CF4DB149BF060BD8371.sgf_52_b4e78484",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAICAAICAgICAgIBAgACAAIBAQEBAgICAgEBAQEAAgECAQECAgEBAQEBAQIAAgEBAAAAAQECAQABAAAAAAEBAQEB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B9EAC6903A7CC27C136D8DB56E47ACCA.sgf_82_4639b4d2",
+      "board_size": 9,
+      "stones": "AAIAAgICAQAAAAICAgIBAQECAgIBAgEBAQABAgEBAQABAAABAgEAAQEBAQEBAgEBAAEBAgIBAAIBAAECAAACAAICAQECAgIAAAIBAQEBAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "40F55727246F58DD2E6F4BEA2B31889C.sgf_33_de5d75d7",
+      "board_size": 9,
+      "stones": "AAAAAAIAAAICAAIAAgICAgIBAAICAgEBAgEBAgACAgIBAQEAAAICAQEAAQABAgICAQEBAQEAAgIBAAABAAAAAgIBAQEAAAAAAgEBAQABAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F64B105378756182485D27D0E5147E67.sgf_56_b4cab53a",
+      "board_size": 9,
+      "stones": "AAAAAQEBAAAAAQEBAAABAAEBAQAAAAEBAQECAQEBAAABAgICAAEBAQECAAACAQEBAgECAgACAQEBAgIAAgIAAgECAgAAAgAAAgICAAICAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EA0D0E7EAF4B5D5A988A61759E67E464.sgf_57_00d5e000",
+      "board_size": 9,
+      "stones": "AAICAQEBAgIBAAICAgECAgEBAAICAQECAAEBAgACAQICAgIAAAIBAQEBAQICAAIBAAEAAAECAAICAQABAAEBAAIBAQABAAAAAAIBAAEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4CDF11C4CD03FCECB1FDD1F6CBC6597A.sgf_79_00937f98",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAABAQICAgIAAAABAQECAAICAAEAAQEBAgIBAAEAAQEBAQEBAQEBAgECAQABAQABAgICAgEBAQECAAICAAIBAgICAgAAAgIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2E4F21937B04B7370AAEDC6A00E2A348.sgf_59_13cf4700",
+      "board_size": 9,
+      "stones": "AAABAgAAAAAAAAEBAgAAAgICAAECAgIAAgEBAQEBAQECAgIBAgECAgEBAgEBAgICAQEAAQEAAAICAgIBAAAAAQEBAgEBAAAAAAICAgIBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1FE4F12107CCD43052E0611C86289798.sgf_69_3da166a2",
+      "board_size": 9,
+      "stones": "AAAAAAEAAQABAAAAAAEBAgEAAAAAAAECAgEBAQEAAQEBAgICAQABAQECAAICAAECAQICAgIAAQECAQECAAECAQICAQICAgICAgICAgICAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B267FFF4BCC8D1E1775ECC659478097E.sgf_98_2c0b113a",
+      "board_size": 9,
+      "stones": "AAICAAICAQEBAgAAAgACAgEAAgICAgICAQEBAgEBAgECAQACAQECAgECAQICAAEBAgEBAgICAQABAQEAAQIAAAAAAAEBAQICAAEBAAEBAQEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "40630C3C174834D60625318DCA0A3CE6.sgf_56_b67e9011",
+      "board_size": 9,
+      "stones": "AAACAQEAAAAAAAICAgEBAQAAAAIAAAIBAQEAAgICAgICAQAAAgEBAgECAQEBAgIBAQEBAQICAQEBAQIBAgACAAAAAQIBAgICAAAAAQICAgAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C7D7C79FADD97F5A86D4C16F5D3BB4F4.sgf_59_6901d8df",
+      "board_size": 9,
+      "stones": "AQEBAQEBAAAAAgIBAQABAAAAAAICAQEAAQAAAAICAgEAAQEAAgACAQEBAAAAAgACAgEBAQAAAgAAAgICAQEAAAICAgACAgEAAAAAAAAAAgEA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9D3CFD82CC22A0827AA586B67F5D1426.sgf_74_2131dfc1",
+      "board_size": 9,
+      "stones": "AAAAAQECAgACAQEBAQABAgIAAQIBAQEBAQECAAICAgIBAQICAQIBAQECAgIAAQEBAQEBAQICAQECAgICAQECAQEBAgICAgIAAAEBAgIAAgAC",
+      "score": 8,
+      "result": "B+8",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B25E282C3460C2FBE0310CFA4E908A1B.sgf_37_f8b29733",
+      "board_size": 9,
+      "stones": "AAAAAQAAAAAAAAABAAEBAQAAAAEBAQICAgEAAAECAgIBAQEBAQEBAQICAQABAgECAQIAAgEBAgICAQICAAIBAAAAAgAAAAIBAAAAAAAAAAIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7C2D14CFB2E1C1CE8988F90E6D7FAFC4.sgf_48_f8966cb8",
+      "board_size": 9,
+      "stones": "AQEAAQEBAQIAAgEBAQICAgACAgIBAQECAgIAAAICAQECAQIAAAICAQEBAQICAAIBAAEBAAECAAIBAQABAAEBAAICAQEAAQEAAAACAgEAAAAB",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0503C5CE5B1DA9C5CC27BD5D9AA4D06C.sgf_81_86e17f45",
+      "board_size": 9,
+      "stones": "AAAAAAEBAQABAAAAAQAAAQABAAEBAQEBAQEBAQECAQECAgIBAQECAQECAgICAQICAQEBAQIAAgICAQIBAQIAAAACAgIBAgIAAgIAAgEBAgAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9B33C7ECAEE4B997C3650E27C4D049EE.sgf_68_9757d851",
+      "board_size": 9,
+      "stones": "AAACAQABAQAAAQEBAAEBAAEAAQICAQEBAAEAAgICAQIBAAEAAAIAAgICAQEBAgIAAgIAAgIBAAIAAgIAAgEBAAACAAIAAgIBAAAAAgICAgEB",
+      "score": -10,
+      "result": "W+10",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 13,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "08666520309B4CD8352E2A2401D0C462.sgf_80_a5d38ccb",
+      "board_size": 9,
+      "stones": "AAAAAgEBAAAAAAACAgIBAAABAAICAgEBAQEBAAACAgIBAAABAAICAgEBAAEAAgIBAQEAAQEBAgACAQEAAAABAgICAgEBAAEBAAACAQEBAQAB",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C60331A49FFB28F71CAE9FCB6F861A98.sgf_73_5c7f656e",
+      "board_size": 9,
+      "stones": "AQEAAQEBAgIAAQABAgABAQIAAQECAAAAAQIAAQABAgEBAQIAAQEBAQECAgAAAAECAgEBAgAAAAECAgECAAIAAAEBAgIAAgAAAAABAQICAAAA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C05CD3F773E5D571978A2AB6BC1B068E.sgf_55_ec488e47",
+      "board_size": 9,
+      "stones": "AAAAAAAAAgEAAAAAAAACAgEAAgIAAgICAQEAAQICAgECAQAAAQEBAQECAQAAAAAAAQEBAQEAAAABAQICAQEBAAABAgACAgIBAAABAgIAAAIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F06560A12B1B8F4962E739EEB6973C96.sgf_83_d88e59ab",
+      "board_size": 9,
+      "stones": "AgEBAQEAAQEAAgIBAQAAAAEAAAICAQEAAQEBAAACAQEBAQAAAAAAAgEBAAEBAAICAgEBAQECAAIAAgECAQICAAIAAAICAgIAAAACAgIAAAAA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "01FC2FE75DA4693D61056E400D9E70BE.sgf_82_ee96fe29",
+      "board_size": 9,
+      "stones": "AQEBAQECAgAAAQABAQEBAgICAAECAQICAgACAAECAQIBAgACAQECAQEBAQICAQICAgIBAQIBAgICAgEBAQEBAgAAAgEAAAAAAAIAAgEAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "65D746500EB6CC195077E1F11D9E5114.sgf_26_9e87d357",
+      "board_size": 9,
+      "stones": "AAIAAAICAgICAgIAAAAAAAICAAAAAgICAAIAAgACAAACAAICAgACAAICAAACAgACAgACAAIAAgACAgICAAICAgAAAAAAAAIAAgICAgICAgIC",
+      "score": -88,
+      "result": "W+88",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 27,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "01D1F0ED6262D93F743BF059B0F68D7E.sgf_59_69937fbd",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAQEAAAEBAQEBAgEBAQECAQIBAgIBAgECAgICAgICAgICAgECAAIAAgIBAgECAgACAAIBAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8B2EC43A179CE7C58BB2DA850F4203A2.sgf_77_a77149bc",
+      "board_size": 9,
+      "stones": "AAEBAQEBAQABAQEBAgIBAQEAAgECAAICAQEBAgECAgICAgIBAgICAAIAAgICAgIBAgICAAACAgEBAQEBAgIAAQEAAAABAQICAAAAAAAAAQEB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1C40A8E6A44B6F131ED5CE91A88FD292.sgf_57_5bb278d6",
+      "board_size": 9,
+      "stones": "AAAAAAEBAQIAAAEAAQEBAgIAAQABAAECAgIAAQEAAAEBAgICAQEBAQEBAQICAQABAQECAgICAAEBAAECAAICAAAAAQICAAICAAAAAQIAAAAC",
+      "score": 10,
+      "result": "B+10",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9194CD284AD0519CA8E89067847BCF31.sgf_31_81b003bf",
+      "board_size": 9,
+      "stones": "AAAAAQICAAAAAAAAAQECAAAAAAAAAQIAAAAAAAAAAQIAAAAAAAAAAQIAAgAAAAAAAQECAAAAAAAAAQABAgAAAAAAAAEBAgAAAAAAAAABAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1C390C716F8055183AEFA19BC093D6F0.sgf_93_731a8f7f",
+      "board_size": 9,
+      "stones": "AAACAgIBAQAAAgAAAgICAQAAAAIAAgIBAQEBAgACAgEBAgIBAgICAQEBAgICAQIBAAECAgAAAQEAAQEBAgACAQABAgICAgACAAEBAQEBAgIC",
+      "score": -16,
+      "result": "W+16",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 16,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "638EF2C0CD72B4A8306EC0F8483B1430.sgf_87_ad4182d4",
+      "board_size": 9,
+      "stones": "AgICAAAAAgICAAAAAgIAAgECAAIAAAICAQECAgICAgEBAQABAAICAQAAAAEAAgIBAQEAAAABAQEBAQEBAAEAAQICAgIBAQEBAAAAAQEBAAEA",
+      "score": 8,
+      "result": "B+8",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 14,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2FF5D41FE545F895672719723DB7F3EC.sgf_54_6498f3ef",
+      "board_size": 9,
+      "stones": "AAAAAAIAAgEAAAAAAgACAgEAAgICAgICAQAAAgEBAQIBAQAAAQEAAQEBAAAAAgIBAQIBAAAAAAICAgIBAQAAAgICAQEAAQAAAAACAgEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CB95B2336893360A22438E624E3328B7.sgf_98_f5d65cfe",
+      "board_size": 9,
+      "stones": "AQABAQICAgIBAAEBAQIAAgEBAQABAQICAQAAAAAAAQICAQEAAQABAQIBAQABAAEBAgICAgEBAQECAgICAgIBAgECAAAAAgIBAgICAgACAgIC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 14,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7D41F97774B7289B84B633303516020C.sgf_62_7a5b8950",
+      "board_size": 9,
+      "stones": "AAAAAAEAAQAAAAAAAQEAAQAAAAAAAQAAAQAAAQEBAQABAQEBAgEBAgEBAQIBAgICAgEBAgICAgIAAgECAgAAAgACAAICAAAAAAIAAgAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0A66264AEDBCBE98063B5CDFF4CC0C63.sgf_90_d0edb81b",
+      "board_size": 9,
+      "stones": "AAIBAQICAgIAAgIBAQEBAgEAAgACAQICAgECAgICAQICAgICAQIBAQIAAgECAQEBAAECAgECAQABAAEBAQECAAEAAAAAAAECAQEBAQEBAQEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "45E7EF5D8790D02A37B7E9A3A6AC252D.sgf_42_716c6d58",
+      "board_size": 9,
+      "stones": "AAACAgICAQEBAAACAQICAQAAAAACAQEBAQEBAAACAgIBAQEBAAICAQEAAAEBAAIBAQEBAAABAAICAQEAAQABAAACAQEBAAEAAAACAgEAAAAA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "316E93138884E4FB2084381567401244.sgf_74_24bf9492",
+      "board_size": 9,
+      "stones": "AAEAAgIBAAAAAgAAAgEBAAEAAgEAAgIBAQABAgAAAgACAQEAAgICAgICAgEBAgEBAgECAgIBAQABAQEBAQICAAEAAAABAQECAQABAQEAAQIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "900549AC3153F2601AB8CCD602A3F7E7.sgf_62_75bca35f",
+      "board_size": 9,
+      "stones": "AgACAgEBAAAAAAIAAgIBAAAAAgICAQEBAQEAAQECAQIBAgEBAAEBAQICAgECAAABAgIAAgICAAAAAQICAgAAAAABAQECAAAAAAAAAQICAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FE65CB3A64D41B4663036977815F8D5D.sgf_46_6e40adf1",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAABAgACAgAAAAABAgIBAgIAAAABAQIBAQIAAAEAAQEBAQIAAQABAAEBAgACAQEAAQEBAgIAAAABAQICAgAAAAAAAQECAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F0F2EB8B85A19230B5F36D4785DFD107.sgf_69_997e9068",
+      "board_size": 9,
+      "stones": "AAECAgAAAgACAQEBAgICAAIAAAECAgECAgACAAEBAQEBAQICAAEAAQEAAQEBAAABAQEBAgECAAAAAQICAgICAAAAAQICAAIAAAAAAQECAAIA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "85D9B1F6808FABDA0BD4C4C0557BBB44.sgf_79_d19e7750",
+      "board_size": 9,
+      "stones": "AgIBAAABAQIAAgEBAAEBAgIAAgIBAQIBAgAAAAACAgIBAgIAAgIAAgEBAQICAgECAgEAAQIBAQECAgIBAAEBAQABAgEBAAEAAQEBAQEBAAEA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3DEB3305C0E9B1BD1747BB055C20A9D1.sgf_62_b140e8ec",
+      "board_size": 9,
+      "stones": "AAACAgIBAQAAAAICAgEBAQEBAAIAAAICAQAAAgAAAgICAgEBAgICAgEBAQEAAgICAQAAAAAAAgIBAQAAAAAAAgEAAQAAAAAAAQEBAAAAAAAA",
+      "score": 10,
+      "result": "B+10",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "513418ABD03EC99C8BCBC0D9AFF57108.sgf_62_e81914ba",
+      "board_size": 9,
+      "stones": "AAACAQEBAgAAAAICAQABAgAAAAIAAgEBAgIAAgICAgEBAQIAAgECAQEBAgICAQEBAAEAAQIAAAAAAQAAAQICAAAAAQEAAQICAAAAAAABAQEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1E57A0AF3D9A41D47A97C9CCC2AA2BD7.sgf_64_2c20337f",
+      "board_size": 9,
+      "stones": "AAEAAQICAQAAAgEBAQECAQEAAQEBAQICAgEAAgEBAgACAQAAAgIBAgICAQEAAgEBAQECAgEAAgEBAgICAgEBAgICAgAAAgIBAAAAAAAAAAIB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FF7C5FAAA269B67C76EEF700C349C757.sgf_55_f2200d9d",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAEBAQICAgAAAAECAgIAAAIAAAEBAgECAgAAAAEBAQECAAAAAAEAAQEBAgAAAAABAAEBAgAAAAAAAQABAgIAAAAAAAABAQIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "515B7A73EA4257B4964409A5C004B716.sgf_55_d9631e4a",
+      "board_size": 9,
+      "stones": "AAIBAQAAAgEAAAICAQABAQABAgICAQEBAAEBAgACAgIBAAAAAAICAQEAAAEBAAACAgEBAQEAAAACAAIBAAAAAAIAAAIBAAAAAAACAgIBAAAA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "87C8ED57C5770062BA0FE592525EB4FA.sgf_84_88694655",
+      "board_size": 9,
+      "stones": "AgACAgIBAQEAAAIAAgEBAQICAgECAgIBAAIBAgEAAgEBAQEBAgACAgICAgICAgICAQEBAgICAgEBAAEAAQIBAQEAAAEBAQEBAAEAAQAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B3BDDFBFEAB72BDF1DABD9CF0BF015DB.sgf_73_e67506e0",
+      "board_size": 9,
+      "stones": "AAAAAQEBAQIAAAAAAQICAgIAAAEAAQICAgIAAQABAQIBAgACAQABAQEBAgICAAECAQIBAQEBAAECAgICAgIBAAECAAIAAgEBAAEBAgIAAgIB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "49AD3799F65699037C8AA7BEDFA8EE76.sgf_65_bcd2e2d0",
+      "board_size": 9,
+      "stones": "AgEBAQEAAAAAAgIBAgEBAQAAAgACAgICAQEBAAICAQIBAQICAAIBAQEBAgACAgIBAQICAgIAAgEBAQECAAAAAQEAAAECAgAAAAAAAAEBAgAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1D8D974F092AB3ACB76E490AC06B5915.sgf_56_5f8a6010",
+      "board_size": 9,
+      "stones": "AAIAAQEBAgAAAQEBAAECAgAAAQAAAQEBAgAAAAEBAQICAgAAAQAAAQIBAgAAAAEBAQEBAgAAAAAAAQECAgAAAAABAAECAAAAAAAAAQICAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AF6B8E134B382167F56A95A65F9C3366.sgf_25_93089012",
+      "board_size": 9,
+      "stones": "AAAAAQEAAQECAAABAQEBAQICAAEBAAAAAQIAAQEAAQEAAQICAQEAAQAAAQECAgEAAAAAAQIAAgEBAQABAQIAAgIBAQEBAQIAAAICAgICAgIC",
+      "score": 20,
+      "result": "B+20",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C87B8C487D41DCF14C2DF4C2D4790D48.sgf_82_c7a31f9f",
+      "board_size": 9,
+      "stones": "AQEBAQICAgEAAAEBAgICAQEAAQEBAQICAQEBAgEAAgIBAAECAgECAgIBAQECAgICAgECAgEAAAICAQEBAgEBAgIBAAECAgICAQEBAQEAAgIA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D4C33A3997FF1D268F3BE7E9BA1E7958.sgf_25_9327463f",
+      "board_size": 9,
+      "stones": "AAACAQAAAQAAAAACAQABAAEAAAICAgEBAAEAAAIBAgICAQEAAgIBAQICAgEBAgEAAQICAgICAQEAAQECAgACAAABAAECAgIAAAAAAAEBAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0E66EBA23077DDB82F493EEFA5AFB007.sgf_71_ed74e32e",
+      "board_size": 9,
+      "stones": "AQABAAAAAQEAAQEBAAABAAABAQABAQEBAQEBAAEAAQIBAAECAAEBAgICAQECAQECAAICAgECAQIAAgIAAgICAgIAAAACAAICAAAAAAAAAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CCD2E4662EAB32AD186B3FE0BAF6F838.sgf_38_b9a6bcfd",
+      "board_size": 9,
+      "stones": "AQEAAAAAAAAAAgEBAQAAAAAAAgICAQEBAAAAAgACAQIBAAAAAgAAAgIBAQAAAAIAAgICAQAAAgACAgAAAgEAAAIAAAICAgEAAAAAAAACAQEA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1265F8C589B134BCD78A57DD4CBF74A3.sgf_74_4051ee12",
+      "board_size": 9,
+      "stones": "AAABAQICAgIAAAABAQECAAIAAAAAAQICAAICAQEBAQIAAgICAQICAQECAgECAgIBAQABAQEBAAICAgEAAAEBAQECAgIBAQAAAAECAAICAQAA",
+      "score": 3,
+      "result": "B+3",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "37E8688FAEA162FF4386BC941B5D480C.sgf_48_2380328a",
+      "board_size": 9,
+      "stones": "AgEBAQAAAAAAAgIBAAEAAAAAAAICAQABAAAAAAACAQEBAAAAAAIBAQICAQEAAgEBAQIBAQABAgIBAgICAgEBAgACAAIAAgIBAAIAAAAAAAIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A6778DA5C2C3AF734211FC423E901242.sgf_93_7e6d5af6",
+      "board_size": 9,
+      "stones": "AAEBAQEBAAABAAEBAQABAAEBAAAAAQABAAABAAEAAAABAQAAAQEAAAEBAQAAAQEBAAABAAEAAQABAQABAQEBAAEBAAAAAAABAQEBAQABAQAA",
+      "score": 74,
+      "result": "B+74",
+      "game_info": {
+        "black_captured": 41,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3372E8F187995E4774B53478377DA89E.sgf_87_e66a0819",
+      "board_size": 9,
+      "stones": "AAEBAgICAgICAAEAAQICAQIAAAEBAQEBAQIAAAEBAQIBAgACAQECAQICAgIAAQICAgIBAgACAgICAQIBAQICAgEBAQEBAAECAQEAAAABAQEB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8A80EE6AD98ACE2F7A67007BC2D218BC.sgf_40_86cfe978",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAEAAAAAAAAAAQABAAEBAAEAAQABAQICAQEAAQECAgIAAgEAAgEBAgICAgEBAgICAgAAAgIBAAAAAAAAAAICAAAAAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0531DD917E4EB3AF9E5A317924130403.sgf_65_aa4ba0fa",
+      "board_size": 9,
+      "stones": "AQABAQICAAAAAAEBAQECAAAAAQEBAQICAgIAAgECAgICAQICAgICAgIBAQECAAACAQEAAQEBAgIBAQABAAEAAAIBAAEAAQAAAAICAQABAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "405D5F9BB7486A2384FDA99A1F821DFF.sgf_68_526cb3a2",
+      "board_size": 9,
+      "stones": "AAIBAQEAAAEAAgACAgEBAQABAAICAgIBAQEAAgAAAAIBAAAAAgICAgEAAQAAAgECAgEBAAEAAQEBAgICAQEBAAEBAgACAgECAQABAQICAgIC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6B4E103EE949C990BA481F796832A666.sgf_50_c92b30ef",
+      "board_size": 9,
+      "stones": "AAAAAAAAAgEAAAAAAgICAgEAAAAAAgEBAgEAAgICAgIBAQEAAQEBAgIBAQABAQEBAgICAQEAAAABAQICAQAAAQAAAQECAgEBAAEBAQICAgIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "24EEB14AEF8ADBE2AD1C826316379A11.sgf_48_f68f8883",
+      "board_size": 9,
+      "stones": "AAABAgICAAAAAAEBAgECAAAAAAEAAQECAgAAAAEAAQECAAIAAQABAAECAgIAAAEBAQEBAgAAAAABAAECAgAAAAABAQEBAgAAAAABAAECAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5EEA9C1ADEC0127C10DF7B58B81C0926.sgf_59_9656a195",
+      "board_size": 9,
+      "stones": "AAIAAgICAQAAAgACAgIBAQAAAAICAgEAAAAAAAICAQABAQEAAgIBAQECAgEBAQECAAECAAIBAAEBAQECAAIBAAEAAQECAAICAAABAQICAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6B5319BDB27F9EC716A71F2A7B26B091.sgf_68_5f052bdb",
+      "board_size": 9,
+      "stones": "AgEBAQAAAAAAAgIBAAEAAAAAAAICAQABAQAAAAICAgECAQEAAgACAQECAgEBAgICAQECAgIBAQIBAQICAAICAQEAAQECAgAAAQAAAQICAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "29379EB52019C9ACEBFE8A78CB36F501.sgf_46_874058c5",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAEBAQECAQEBAQECAQICAgIBAgECAQECAAICAgICAgEBAgIAAAAAAAICAAIAAAAAAAAAAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E64AE7A3976F1B693FB5812F8B45F981.sgf_51_dacffbd5",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAgACAQEAAAAAAAACAgEAAAAAAgICAQEBAQEBAQIBAQICAgEBAQEAAQIAAgICAQEBAQIAAAAAAAAAAQIAAAIAAAAAAQECAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9A42FABB111F824A4A62807DEA1D5269.sgf_39_06c21e1f",
+      "board_size": 9,
+      "stones": "AAABAQIAAAAAAQABAgIAAgACAgEBAQICAgIBAgICAQEBAgEBAAIAAgEBAgEAAAACAgIBAQEAAAICAQIBAAAAAgIBAQEBAAAAAgEBAQAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F083F28111882DECC0B8D58E6BE813AD.sgf_41_261fc947",
+      "board_size": 9,
+      "stones": "AAICAgEAAAAAAAIBAQEAAAAAAAIBAAEAAAAAAgEAAQEAAAAAAgEBAAEBAQEAAAICAQEBAgEBAAIAAgIBAgIBAAACAgACAgEBAAAAAAAAAgIC",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8E24D02502BB5208ECCC6BBC5070AA36.sgf_75_74b26ba8",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAgACAgIAAAICAgIAAgACAgIBAgECAgICAgEBAQEBAQIBAQEBAAEBAAEBAQABAQAAAQEBAQEBAAEAAAAAAAABAQAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F83603FEA43CD893B0917ED16665BBD4.sgf_87_125c5948",
+      "board_size": 9,
+      "stones": "AQABAQEBAQECAAEBAQABAgICAQAAAAABAQECAAABAAEBAQICAQABAQEBAgICAQEBAQECAgIAAgECAQICAAAAAgICAQIAAAICAAIAAgICAAIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "47D0EABC2408AA0E9C906142F122269B.sgf_73_fff3ea87",
+      "board_size": 9,
+      "stones": "AAABAgICAgAAAQEBAQICAgAAAQAAAAECAAAAAQABAQECAgICAgEBAgIBAQEBAgIBAgEBAAABAAIBAgEBAQABAgICAgIBAQABAgACAQEBAAEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "549365A10AC5C996854C690F2EA73CE0.sgf_49_bb6b21a1",
+      "board_size": 9,
+      "stones": "AAABAQIAAgIBAAABAgICAAIBAAABAgICAAIBAAEBAgECAgEBAQABAQEBAQEBAAECAgEBAgEBAAEBAgICAgIBAAABAQIAAgICAAABAgIAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F3763CB32A41647F6908097E35992046.sgf_93_4efbc747",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQEBAAEAAAEBAQABAQEBAQABAgEBAQEAAQECAgICAQEBAQICAgIAAQABAgAAAAICAQEBAgIAAAAAAAECAgICAAICAQECAgACAAIA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 13,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0E99B172C731CE863FEF57A59D5751C1.sgf_73_36d54cfa",
+      "board_size": 9,
+      "stones": "AAEAAQICAgAAAQABAAECAAAAAQEAAQECAgAAAQABAQEBAgICAAEBAAECAAIAAAAAAQECAgICAAAAAQECAgICAAAAAQIAAAIAAAAAAQICAgAC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "899CC018C3700C2119829C24D4223F29.sgf_63_e6bd1347",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAAACAQEAAQEBAAICAQEBAQIBAAICAgEAAQIBAAIAAgEBAgICAAICAQEBAgACAAICAQEBAQIAAgIBAQABAQICAQEBAAAAAQEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9E5B525391B0735E7CE292269760E6A7.sgf_62_c1a3632e",
+      "board_size": 9,
+      "stones": "AQABAAEBAQEAAAEBAAEAAQABAQEBAQAAAAABAAAAAAABAQEAAQEBAQEBAgEBAgECAQICAgEBAgICAQIAAAICAgIAAgACAgAAAAACAAAAAAAA",
+      "score": 10,
+      "result": "B+10",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E4A6DA6F10616A9A26543F705D645641.sgf_61_2396f763",
+      "board_size": 9,
+      "stones": "AAABAgEAAAEAAAABAgEBAQABAAABAgECAgEBAAABAgEBAgICAAABAgEBAQIAAQEBAgEBAgIAAQICAgIBAgACAgAAAAIBAQICAAIAAAICAQEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DD2C1269AD2558EDCC746902D3AA95CD.sgf_63_68a02b5b",
+      "board_size": 9,
+      "stones": "AgEBAQEBAgAAAgICAQICAAIAAgACAQECAgAAAgECAgEBAgACAQECAQECAgIBAAICAgECAQIBAgIBAQEBAQEBAgEBAAAAAAAAAgEAAAAAAAAA",
+      "score": 3,
+      "result": "B+3",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0369489E6C6B8B3394BACC1DB5637E4D.sgf_85_831f35e6",
+      "board_size": 9,
+      "stones": "AAEBAgACAgEBAQABAgIAAgEAAAEBAQICAQABAAABAAEBAQECAAABAAECAQICAAABAQECAgICAAEBAQIAAgAAAQECAQIAAgIAAgICAgICAgAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D233F980F8B4249D3EBCB50CD6D9F68C.sgf_65_03d083c3",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQAAAAAAAAEBAAEAAAEBAQEAAAEAAAECAQEBAQEBAAECAgEBAgICAQEBAgIBAQIAAQIBAQIBAgIAAgICAQIBAgAAAAACAgICAgAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6B7E926B80307A1FA6863803FE5704BD.sgf_54_5c39adf8",
+      "board_size": 9,
+      "stones": "AAECAgICAAIAAAEBAgICAAIAAAABAQIBAgIAAAABAQEBAgACAAEAAQEBAQIAAAABAAEBAgAAAAEAAQICAAIAAAABAQECAgIAAAAAAQEBAQIA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5CE9BDFA9C3294405D0C8DF7DD68655A.sgf_39_935601d4",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAAICAQEAAAAAAAIBAAABAAAAAgEBAAEBAAAAAAIBAQECAQAAAAICAgICAgEAAAAAAAIBAQEAAAAAAAICAQAAAAAAAAACAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D2C320D794D5DEA6A768C910AD04B634.sgf_63_eeb950e4",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQEBAQEBAAEBAQIBAgIBAQEBAQICAAICAgIBAgIAAAAAAgEBAgACAAACAgIBAQICAAAAAgEBAQEBAAIAAgEAAAAAAAACAQEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2BEEE986FB7D730B8376A1A8FAAE97DE.sgf_54_bef47927",
+      "board_size": 9,
+      "stones": "AAAAAgIAAAAAAgICAgICAAAAAQICAQICAgIAAQECAQIBAQIAAAEBAQEBAgIAAAAAAAECAgICAAAAAQABAQEBAAAAAQABAAAAAAAAAAEAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CAEAE73DBAEB417B6721FD267C17763C.sgf_85_a5a23c7f",
+      "board_size": 9,
+      "stones": "AAECAgIAAQIAAAEBAgICAgACAQEAAQIBAgICAgIBAQEBAQECAgEBAQEBAQABAgICAgICAQABAAACAgEBAQABAgACAgEAAQABAAIAAgEAAAEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DBD1B048D725FA1884262979D507BA99.sgf_53_f441a621",
+      "board_size": 9,
+      "stones": "AAACAgEBAQAAAAIAAgICAQEAAAACAQECAQABAAACAgEBAQEAAAAAAAICAQEAAAACAgIBAQAAAAACAQEAAQAAAAACAgEAAQAAAAACAQEBAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BC9D630CD5D08C1D2EFC68BAC9DDAD0C.sgf_75_e5ec905d",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQECAAAAAQEBAQICAQEBAgICAgACAgEBAQICAgIAAgICAQEBAQIAAgEBAQECAgIAAgICAgEBAgACAgACAQABAQICAAIBAQABAQEB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D2376A67C695293EDFF6AA422EB878A1.sgf_81_79a46f11",
+      "board_size": 9,
+      "stones": "AgIAAgICAgICAAAAAgACAQICAgIAAAICAQECAQICAgEBAQICAQICAQEBAQICAQIBAAEBAgICAQEAAQABAQICAQABAAAAAQEBAAEAAAAAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "64623F3142BBAB73DF6D4E64738503D0.sgf_33_d9cc2892",
+      "board_size": 9,
+      "stones": "AAICAQAAAAAAAAIBAAAAAAAAAAIBAQAAAQEAAgACAQABAQABAAICAgEAAQABAAAAAgEAAQEAAAAAAgIBAQAAAAAAAAICAgEBAAAAAAAAAgIB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F50D4E14B2E3084F7641A1D8E9CF4A13.sgf_48_c341fd1d",
+      "board_size": 9,
+      "stones": "AgIBAQEBAAAAAgEBAQIBAQAAAgIBAgICAQAAAAICAgIBAQAAAAACAQECAgEAAAACAgECAgEAAAACAQEAAgEAAgICAQACAgEBAgEBAQICAQEB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A1A05CC801208F74BC26B461A45A49F4.sgf_76_49a5d446",
+      "board_size": 9,
+      "stones": "AAICAQEAAAEBAgACAQIBAQAAAAIBAQICAQABAAICAQECAgEBAAIBAQEBAgEBAgIBAAECAgICAQIBAAECAAICAQEAAQECAgACAAAAAAECAgAC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B6EDC2C5DEE816C1ADE3F469CB7CD3D3.sgf_61_8a1f01b6",
+      "board_size": 9,
+      "stones": "AgEBAAAAAAAAAgIBAQAAAAEBAQICAQEBAQICAQICAgIBAgIAAQEBAgICAgAAAAEBAQECAAIAAQAAAAEBAgIAAAEBAQECAAIAAAAAAQICAgIA",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7A36B02484A39F6E7D5B3A52F5EB1A2E.sgf_56_87439c7a",
+      "board_size": 9,
+      "stones": "AAIAAgICAgIBAAICAgIBAQEBAgICAQIBAAABAgEBAQEBAQECAQEAAAECAQICAAAAAQECAgIAAAAAAQICAgACAAABAAEBAgAAAAAAAQECAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A934B944DE1D9B965FA6A41DD09E41D1.sgf_47_7f41a66a",
+      "board_size": 9,
+      "stones": "AAAAAAACAgICAAAAAgICAQICAAACAAIBAQECAAACAAIBAQEBAAACAgEAAQEAAAICAQEBAQAAAgIBAQAAAAAAAQEBAAAAAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D7973635D32D3E6F1A4D268BD91B160E.sgf_69_25cc8570",
+      "board_size": 9,
+      "stones": "AAIBAAICAQABAgACAgIBAAEAAAICAgEAAQEBAgIBAQEBAQICAQEBAQICAgACAgICAgIAAgICAQECAQICAgECAAABAQEBAgEBAAEAAAABAQEB",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "393DB104B5781FB1075AB99AF4833F6C.sgf_35_538c94ca",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAQEAAQAAAAAAAQIBAAEAAAEBAQICAQABAQECAgIAAgEBAgICAAAAAgECAgAAAAACAAIAAAAAAAAAAgAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "33E5DDBE07CE251D3B8484E1D6BCECA2.sgf_61_35e0d407",
+      "board_size": 9,
+      "stones": "AQEBAQIAAgIBAQIBAgICAAIBAQIBAQIAAgEBAgICAQIAAgEAAAIBAQECAgEAAgICAgEBAgEAAgAAAgIBAQAAAAACAgIBAAAAAgACAgEBAAAA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "28E613A80B3408BDA79FA511DDE75160.sgf_81_63388dfb",
+      "board_size": 9,
+      "stones": "AAEBAQICAgACAAEBAgIAAgIAAAEAAQECAgICAAABAAABAQECAAABAQEBAQABAQEAAQICAgEAAQEBAgACAgEBAQICAgIAAgEBAgIAAAACAgIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F00B569A74A806C2129CD9AA12365D3D.sgf_45_063ab59d",
+      "board_size": 9,
+      "stones": "AAAAAAABAQEAAAABAAEBAgEBAAEAAQICAgICAQEBAQIAAAAAAAAAAQECAgAAAAEBAgICAgAAAQABAQECAAIAAAEAAQICAgAAAQABAgIAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5C1B3EBED0E553324F94946FFD5A6CBF.sgf_68_354908f6",
+      "board_size": 9,
+      "stones": "AQABAAABAgIAAQEAAQABAgACAQIBAAEBAQICAgICAQABAAEBAAIBAQEAAAEAAgACAgEBAAEBAAIAAgEBAQABAAACAgECAQECAAAAAgICAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "89FFC9200B8D5C72A35DFEE17D239315.sgf_67_92109053",
+      "board_size": 9,
+      "stones": "AAIBAQEBAQECAAICAgEAAQICAgIAAgIBAQIAAgECAgEAAQIAAgECAQEBAQIAAQECAQICAgACAAEBAQIBAgIAAAAAAQEBAQICAAAAAAABAQEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7EFEDC4A575454A92034E41E5D22E675.sgf_69_35a8bbb2",
+      "board_size": 9,
+      "stones": "AgACAgEBAAEAAgACAgIBAQABAAIAAgECAgEBAgICAQECAgIBAQEBAQEBAgIBAAABAAECAgICAAABAAEBAgACAAAAAQECAgAAAAAAAAECAAIC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F44F31B577BB73E46F641B408B4C28B2.sgf_61_6f839710",
+      "board_size": 9,
+      "stones": "AAACAgIBAgIAAAICAQEBAgACAAIBAAEAAQIAAAIBAAEBAQIAAAIBAQABAgIAAgICAQEBAQICAQECAQABAAECAQABAQABAAECAAAAAAAAAQEC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3CD03A29F1D4091104366FA9B9708331.sgf_31_9a0783c4",
+      "board_size": 9,
+      "stones": "AAAAAAEBAAECAAAAAQAAAQECAAEBAQEBAQICAAEAAQABAgICAAABAQECAgAAAAEBAQECAAICAAABAQICAAACAAEBAgACAAIAAAECAgICAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DEA6B65D008D9640ECA5BA38F30F30A3.sgf_87_77bb1604",
+      "board_size": 9,
+      "stones": "AQEBAAEBAQEAAQEAAAAAAQABAQEBAAEBAQABAgEBAAEBAQEBAgEBAAECAQICAgECAQECAgIAAgICAQECAAAAAgICAgICAAAAAgIAAAAAAAAA",
+      "score": 20,
+      "result": "B+20",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "89A029E3F7EECF9AC4A5C029A8AA1DC8.sgf_92_cec035f0",
+      "board_size": 9,
+      "stones": "AgICAgACAAIAAQECAgIAAgAAAQECAgAAAgIAAAABAgACAgAAAAEBAQICAQICAAABAQEBAQECAAABAAEBAQABAQAAAAABAAEAAQEAAAEBAQAB",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 21,
+        "white_captured": 13,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "15A54DA1F44BB624CA007C4BB1EA97CF.sgf_75_0ab45f58",
+      "board_size": 9,
+      "stones": "AAIBAQAAAAAAAAICAQEAAAEBAAIBAQABAAECAAACAQEBAQICAgICAgECAgACAgEBAQICAgIAAgIBAAECAQECAQEBAQECAQICAAAAAQEBAQIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8887E5CD1623C6A5EAB77B29C4A4CBEA.sgf_73_39026bac",
+      "board_size": 9,
+      "stones": "AQABAQEBAgAAAAEAAAECAgAAAQABAQECAAICAAEBAAEBAgACAAEBAQECAgIBAQECAgIBAQEBAQICAgEBAAIBAgIAAgEBAgIBAAECAgIBAgIA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B8752A535DFEFA53B3359E7CAB3DD538.sgf_43_9186e5fd",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAACAAAAAAACAAIAAgICAAIAAgICAQEBAgICAQICAQABAgEBAQEBAQEAAQEBAQEBAAEBAQEAAQAAAAAAAQABAAABAQEB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "193126607AFDFABA289889533C248A94.sgf_62_d50d496a",
+      "board_size": 9,
+      "stones": "AAEAAAAAAQECAQABAAEAAQICAAEAAQEBAgACAQABAQICAgIAAQABAQECAgAAAAECAgECAAAAAAECAgIAAAAAAAEBAgICAgAAAAEBAQEBAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "06A239D80C4179B5B3A295502EA31A3D.sgf_71_3d717608",
+      "board_size": 9,
+      "stones": "AQABAQEAAQEBAAEAAAABAAECAQEBAQAAAQECAAEAAQABAQICAAEAAQECAgIAAQEAAQICAAAAAgIBAQIAAgAAAAICAgICAAAAAAAAAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B138565DA170F4619E146E48D0F0BB69.sgf_62_6b2ab4b0",
+      "board_size": 9,
+      "stones": "AAAAAQEAAQEBAQEBAAABAAECAQAAAQEAAAECAQABAAEBAQICAAEAAQECAgIAAQEBAQICAAAAAQICAQECAgAAAQIAAgIAAgAAAQICAAACAAAA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F3B677CECA15CECE266F424F1FF5B600.sgf_76_7bdf9099",
+      "board_size": 9,
+      "stones": "AgACAgEBAgIAAAICAgECAAIAAAICAQECAgIAAgICAQABAgICAgEBAQEAAQIBAgICAQEBAAEBAQICAgIBAQABAQEBAgEAAAEAAAABAQAAAAAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "47D21CE947DEFC621AADB75C1A399099.sgf_69_8d3b2edd",
+      "board_size": 9,
+      "stones": "AQABAAAAAQECAAABAQEAAQICAQEAAQIBAQICAAAAAQIBAgIAAAABAQICAgACAQEAAQEBAgIAAgEBAgEBAQIAAgICAgICAQIAAAAAAAIBAQIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A93430E25258E489DD70618D6AEF1FCC.sgf_34_70a630f9",
+      "board_size": 9,
+      "stones": "AAAAAAACAQABAAAAAAACAQEAAAAAAgICAQEBAAICAAICAQABAAICAgEBAAEAAAICAQABAAAAAAIBAAEBAAEBAgIBAAAAAQEAAgEBAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B470AE5BCD20FBD5758D9BE9CB12186B.sgf_77_e66beb3b",
+      "board_size": 9,
+      "stones": "AAAAAgICAgEAAAICAgIBAgEBAgACAQIBAQABAQICAQEBAQEBAQECAQECAgIBAQEBAQECAgEBAAAAAQEBAgICAAAAAQECAAIAAAAAAQICAgAC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "422FEAF79D3BC44881F728E2708DF34B.sgf_59_9d966280",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAICAAAAAAACAgIBAAACAgICAQIBAAICAQECAQEBAgACAgEBAQABAgIBAQAAAQEAAgEBAAABAQAAAgEBAAEAAQAAAQEBAQABAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "31871AA84E50AC53C45483B634EAE340.sgf_50_2331b4e8",
+      "board_size": 9,
+      "stones": "AAIAAAIBAQAAAAIAAAICAQABAgICAgIBAQECAQEBAgEBAgICAAEAAQABAQIAAAEAAQAAAQIAAAEAAAEBAQIAAAABAQEBAgIAAAAAAAECAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "13DE7967DDA06DC2B404E464C45D5C6A.sgf_56_7d789435",
+      "board_size": 9,
+      "stones": "AgIAAAIAAgEBAgACAAACAgIBAgACAAICAgEBAAIAAgIBAQEAAgIAAgEAAQEAAAIAAgEBAAAAAAICAQEAAAEBAAICAgEAAAEAAgACAQEAAQAB",
+      "score": -16,
+      "result": "W+16",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 14,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7ADCAC439F346A316690A7B76CD26D28.sgf_81_86651c77",
+      "board_size": 9,
+      "stones": "AAEBAQEBAAAAAQEAAAABAAAAAAEAAAEBAAEBAQEBAAEBAQECAQABAAECAgICAgEBAQIAAAACAgECAgIAAgIAAgIAAgICAAIAAgACAAAAAgAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E66FA6D2B85004F27D7886453DC4DF7C.sgf_81_e6cff934",
+      "board_size": 9,
+      "stones": "AAACAgAAAgAAAAIAAgACAgAAAgICAAICAgIAAgEBAgICAAICAQEBAQEBAgIBAQABAgABAQIBAAEBAQICAQEBAQABAgIBAAEAAAEBAQEAAQAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5225871DA48D13ABCA600FEA19A6B857.sgf_67_e84d2ab6",
+      "board_size": 9,
+      "stones": "AAAAAAACAQEBAgIAAAACAgEAAQICAgIAAgEAAQEBAQICAQABAQIBAQEBAQABAgICAQEAAAEAAgACAgIBAQAAAgICAQEAAQAAAAACAgEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D3A466DDCEBAF2F9863A0939DD860BAB.sgf_69_f835ede8",
+      "board_size": 9,
+      "stones": "AAEBAAEAAAAAAgEAAQEAAQAAAQEBAAEBAQAAAAICAQAAAQEBAAIBAAEBAQICAAABAQEBAQIAAQEBAgICAgIAAQIBAgAAAAAAAQICAgAAAAAA",
+      "score": 24,
+      "result": "B+24",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0F71DC6E904AB35ADCC0002631CFE197.sgf_46_f785231d",
+      "board_size": 9,
+      "stones": "AAICAgICAQAAAAIBAQECAQEAAAIBAQICAQABAAICAQECAgEAAAIBAQICAQABAAIBAQEBAAEAAAICAQEAAQAAAAIAAgEAAAAAAAACAgEAAAAA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7102788117B5A557C8884675905A2E34.sgf_84_b7a7a7b9",
+      "board_size": 9,
+      "stones": "AAAAAQAAAAEAAAAAAQEBAAABAAEBAQEBAQABAQECAgEAAQABAQICAgEBAgEBAgIAAAICAgEBAAIAAgACAgECAgIAAgIAAgECAgACAgIAAgIC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5ED09CFA7841490CE6F536E4B6525F1A.sgf_36_6053a14f",
+      "board_size": 9,
+      "stones": "AAACAgEBAQEBAgACAQEBAAEBAgIBAQABAAAAAAICAQAAAAAAAgIAAgEBAQAAAgICAgIBAQEAAQIBAQEBAQAAAQEBAQABAAEAAQABAQAAAAAA",
+      "score": 30,
+      "result": "B+30",
+      "game_info": {
+        "black_captured": 26,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2796D38DEB9FBB9E4AD1CAE72AC8F52E.sgf_64_6ca26c93",
+      "board_size": 9,
+      "stones": "AAICAQEBAQEAAgECAgIBAAEAAgEBAAICAQEAAgIBAQICAgEAAgACAQICAQAAAAICAgECAQEAAgICAQEBAAEBAgIBAAEBAAAAAgEBAQEAAAEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CF959C2EB9637E258F41BB438FE88BF6.sgf_62_90ff84e3",
+      "board_size": 9,
+      "stones": "AAEBAQEBAgAAAAEAAQECAgAAAAEBAAECAAAAAAAAAQICAgAAAAEBAgIBAgIAAAECAgEBAQICAQECAgIBAQEBAQIAAgEBAAABAgICAgEBAAEA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "945558D9D8398E514526C7443894D45E.sgf_61_017d40a7",
+      "board_size": 9,
+      "stones": "AAACAQEBAQEBAAICAQAAAAABAAIBAQEAAQEAAAICAQEAAQEBAAICAgEBAgEAAAACAQECAgEAAAACAgICAgEAAAAAAAIBAQEAAAAAAAIBAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "11392375B4DAA6E654016EF74C754289.sgf_75_82132c43",
+      "board_size": 9,
+      "stones": "AAEBAAEBAAAAAQAAAQAAAQEBAQEBAQEAAAABAQIBAQIBAQEAAgIBAgICAQEBAgACAgICAQEAAgICAAACAgEBAAAAAAACAAIBAAAAAAACAgIC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8D1127DF4706AF5BADF070EDC8ED2EEE.sgf_74_063e6c9e",
+      "board_size": 9,
+      "stones": "AAACAgIAAgIAAAIAAAACAAACAAICAAICAgICAgIAAgEBAgEBAQICAgEBAQEAAQEBAQEAAQEBAQAAAAAAAAEAAAEBAAEBAAAAAQABAQEBAQEB",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5D2CF29E13C0728F832AED2D7E3CCE22.sgf_63_59c5f733",
+      "board_size": 9,
+      "stones": "AQICAgAAAAAAAQECAAIAAAICAQEBAgACAgIBAQIBAgIAAgEBAQIBAQECAgEAAgICAQABAQEAAgACAQEBAQEAAAIBAQABAAEBAAIBAAABAQEA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0107A55DAF599D8A431384B505FA06C8.sgf_31_b1ce8dc9",
+      "board_size": 9,
+      "stones": "AAECAgIAAAAAAAEBAgACAAAAAQECAgICAgAAAQABAgIBAgAAAQABAgEBAgIAAQABAgEAAQECAAEBAQEAAQIAAAABAAEAAQIAAAAAAQAAAQIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3C69EFD012BAD9AA0572E307DE9AA301.sgf_79_57df845e",
+      "board_size": 9,
+      "stones": "AAEBAQEAAAEBAAEBAgEBAQECAAECAgICAgICAAABAgIBAgECAAEAAQIBAQECAAABAQEBAgICAAEAAQICAAACAQEBAgACAgIAAQICAgIAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8159C2DC4566DF7EFBE5CF8B8F51BD52.sgf_56_52c409b1",
+      "board_size": 9,
+      "stones": "AAIBAQEAAQEAAAICAQEBAQICAAACAQEBAQECAAACAgIBAQICAAICAQECAgIAAAIBAQEBAgICAgICAQEAAQIBAgEBAQEBAQEBAgIBAAIBAAEB",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9BB3B8B2B682A586892EFFDED59909F2.sgf_46_e628c0d9",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAgICAgICAAAAAQIBAQIAAgAAAQEBAAECAgAAAAEAAAECAgAAAAEAAAEBAgAAAAAAAAABAgICAAAAAAABAgECAAAAAAABAQEC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4EE289344A0ECC2FF6BE8E13AC6D21E4.sgf_85_407f0699",
+      "board_size": 9,
+      "stones": "AQICAgICAAAAAQEBAQICAAIAAAAAAAECAgICAQEBAQEBAQIBAQEBAgEBAAEBAQICAgIBAAEBAQEBAgIBAQABAQICAgACAgEAAgICAAICAQEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "861EA4CD706359D646D125378CCFE0D9.sgf_59_c9850a96",
+      "board_size": 9,
+      "stones": "AAEBAAEBAQEBAAEBAQABAgECAAABAgEBAgICAQIAAAECAgACAQIBAQEBAgACAQEBAQEBAQICAgECAQICAgIAAgICAQECAAAAAAACAgICAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D349D9B7E8AC81D433D40AC8120F08CF.sgf_68_bf6cfb82",
+      "board_size": 9,
+      "stones": "AAIBAQEAAQAAAgACAQABAQAAAgACAgEBAAEAAAIAAgICAQABAAACAgACAQEAAAIAAAIAAgIBAgICAgICAgEBAgEBAQEBAQABAQEBAAACAQAB",
+      "score": 8,
+      "result": "B+8",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A8CE4ED933AA5112FAA0512331930B04.sgf_56_3c7e9bb1",
+      "board_size": 9,
+      "stones": "AAEBAQEBAgAAAAEAAAECAgIAAQEBAAEBAgICAgIBAAEBAgACAAICAQEBAQICAAACAQEBAAEBAAACAgEBAQAAAAAAAgIBAQAAAAAAAAICAQAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D1A4B5F3AE9C5A5282AE7F59F122F54D.sgf_79_b14eb5ac",
+      "board_size": 9,
+      "stones": "AQAAAAABAAAAAQABAAABAAABAQEBAQABAAEBAQEBAQEBAQEBAQICAQICAQEAAgACAgIAAgEBAAICAAICAAIBAgAAAgAAAAICAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 18,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ECF5BD161AAD6B8EC5DF0024C0142142.sgf_58_614d3536",
+      "board_size": 9,
+      "stones": "AAABAAABAQEBAAEAAQEAAQICAQABAQEBAgACAQABAAECAgICAAEAAQEBAgACAQEBAQECAAACAQICAQICAAACAQECAgICAgACAQICAgAAAgAC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4A3CB1827732C00B3A056083A7DD79BB.sgf_58_5aca0d13",
+      "board_size": 9,
+      "stones": "AgICAAAAAAAAAQICAgAAAgAAAQEBAgICAgIAAQECAgECAAIAAAECAQEBAgICAAEBAQEBAQICAAEAAQABAAECAAABAAEBAQECAAAAAAAAAAEB",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CE009E4C048C1DD2E16147B1FCF4CCC9.sgf_83_753b0b4d",
+      "board_size": 9,
+      "stones": "AAACAgIBAAEBAAACAAIBAQEAAgICAAIBAQIBAgACAgEBAgIAAgIBAQICAgACAgEBAQECAQICAgIBAQABAQEBAgEAAQABAQABAQEBAAEAAgEA",
+      "score": 1,
+      "result": "B+1",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BBB114C147D558631191B28E2B62A0B8.sgf_56_ab63a303",
+      "board_size": 9,
+      "stones": "AAIAAgICAQAAAAAAAgEBAQEAAgICAQEBAQAAAgECAgEBAQEBAgECAQECAgECAQEBAQICAgICAAAAAQICAAECAAABAQICAQECAAABAgIBAQEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "90F769FAA2281E9DF7B0627D161DE208.sgf_45_8a4d28d5",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQEBAAABAAEBAQECAAEAAQECAgICAAABAQECAgACAAEAAQIAAgACAAABAQICAAACAQEBAQIAAAACAQICAQIAAAICAQICAgICAgIA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "15AF069F3F7A8ADE381D8FDDBAB05B3F.sgf_80_7b0ad190",
+      "board_size": 9,
+      "stones": "AQEAAAABAQAAAQAAAAEBAAABAQEAAAEBAAEBAgEBAQEBAAECAgICAgEAAQECAAIBAgIBAQICAgIBAAICAgIAAQEBAQIAAAAAAAICAgIAAAAA",
+      "score": -8,
+      "result": "W+8",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A569B59F502440FC3CCA1715E052479D.sgf_69_28587494",
+      "board_size": 9,
+      "stones": "AAABAgICAgEAAQABAQIAAgECAgEBAgICAgACAgIBAQEBAgICAAICAQEBAQECAgECAgEBAgICAAECAgEBAQECAQECAgIBAAEBAAIAAgEBAQAA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C82DF69FC8283FEB63C01605710D790C.sgf_42_0835e7ba",
+      "board_size": 9,
+      "stones": "AAICAgICAQAAAgACAAIBAQAAAgACAgIBAQEBAgICAQEBAgIBAQICAgEBAQICAQEBAQECAgACAAAAAAEBAgIAAAAAAAABAQICAAAAAAABAgIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E359AED9B4BE1060D523F1E59EECC4F7.sgf_61_2a8fd907",
+      "board_size": 9,
+      "stones": "AAACAQEAAAAAAgACAgEAAAAAAAACAQEBAQEBAAICAgECAQICAgIBAgECAgIAAQEBAQEBAgAAAQABAQICAgAAAAEAAQEBAgIAAAAAAAABAQIA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1EA872B1BFBFE60C0CD66FAAD4CC8D3F.sgf_49_197f4d31",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAABAQABAQEAAAEAAQABAAEAAQEBAQECAQEBAgEBAQICAgECAgICAQECAAICAAIAAgICAgAAAAACAAAAAAAAAAAAAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A14CEF0E24758028F52F954DD462996B.sgf_74_319a322e",
+      "board_size": 9,
+      "stones": "AAABAgICAgIAAAABAgIBAgICAQEBAQEBAgACAQICAQEAAQICAQECAgEBAQEBAQEBAgIBAQAAAgECAgICAQAAAgICAAIBAQAAAgACAgIBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DBF8154635CF7835BF029E1DBE8B68E1.sgf_73_c4ccd474",
+      "board_size": 9,
+      "stones": "AgICAAICAQEAAgECAgIAAgEAAQECAQICAgEAAQABAQECAQEAAQEBAQEBAQAAAQIBAgEBAQAAAgICAgICAQAAAAAAAgACAQAAAAAAAAICAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C6394DD27A2E750BEF71A95FE33765F1.sgf_58_3e82ad74",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAECAAAAAAAAAQECAAEBAQEBAQICAQICAQIBAgIAAQICAgICAAAAAQECAQIAAgIAAAEBAQECAgIAAQABAQIAAgACAQEBAgICAAIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "817B0346F2E5EF346D2B73ADDFEE1ECE.sgf_62_1e2c0ceb",
+      "board_size": 9,
+      "stones": "AAACAgICAgEAAAICAQIAAgEAAgIBAQICAQABAgEBAQECAQEAAgICAQABAAEAAAIBAQAAAQAAAAICAQEAAQAAAAIAAgEAAQAAAAACAgIBAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E2E04DAB353D6E4395382C1EE079FD31.sgf_58_b33192df",
+      "board_size": 9,
+      "stones": "AAICAAIBAQEAAgICAAICAQAAAQIBAgICAQEAAQEBAgACAQABAAABAQICAgEAAQAAAQEBAQABAQABAQEAAAEAAQABAAABAQAAAAEBAQEAAAAA",
+      "score": 30,
+      "result": "B+30",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EB73E4E115E7B1D5F80E82E4C94FC118.sgf_70_e5f4e413",
+      "board_size": 9,
+      "stones": "AgACAgACAgICAAIAAgIAAgECAgIAAAICAQEBAgAAAgIBAAEAAgACAQEBAAEAAgICAgIBAQAAAQECAQEAAAEAAAECAQEBAQAAAAEBAQABAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DE4695AEB9AE317403F83A19F2CD5D35.sgf_72_de2ba7ed",
+      "board_size": 9,
+      "stones": "AgICAQEBAAABAAIBAQEAAQABAgACAQABAAEBAgICAQAAAAEBAgACAQEBAQAAAAAAAgEAAAEBAgAAAgEBAQAAAAACAgICAQAAAAICAgACAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 16,
+        "white_captured": 15,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AFD7A384B71A895E4265B6EAE99E9513.sgf_58_1b4b9eb6",
+      "board_size": 9,
+      "stones": "AAAAAQEAAAAAAAABAAABAQEBAAAAAQECAgIBAAAAAQIAAgICAAABAQICAAIAAAABAgIAAgIAAAECAgAAAAIAAQABAgICAgACAAEBAQIAAgIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "537075DBE316C68C7088E13B1A630F01.sgf_27_77cd0cb1",
+      "board_size": 9,
+      "stones": "AAAAAgIBAAAAAAAAAgEBAAAAAAAAAAIBAAAAAAAAAAIBAAAAAAACAAIBAAAAAAAAAgEBAAAAAAACAQABAAAAAAACAQEAAAAAAAACAQAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F72903A9937F0B6D60D24DD154F2021B.sgf_69_fd039e43",
+      "board_size": 9,
+      "stones": "AAABAQIAAgIAAAABAgICAAACAAABAQECAgICAAEBAQEBAgEBAQECAQIBAgEAAgECAgIBAgEAAgIAAgEAAQEAAAACAgEBAQAAAAAAAgIBAAAA",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F8A3C31C7E4B9E8F95DFE1F51901B487.sgf_69_4ced4ff0",
+      "board_size": 9,
+      "stones": "AgICAgIAAgEAAQECAAICAgEAAQEBAgIBAQAAAQICAgEBAAEBAQECAgIBAQIBAAEBAQICAQIBAQABAQEBAgICAQIBAQICAgIAAAEBAgIAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C8F78BCC93459FBAEE1C45003AA8C8D1.sgf_68_3a2c0400",
+      "board_size": 9,
+      "stones": "AAEAAAAAAAAAAQEBAQAAAAAAAgECAQEBAQEAAgICAgEBAgEBAAIAAgEBAgIBAAICAQEBAgICAgIBAQECAgIAAgEBAQICAAIAAgEBAgIAAgIC",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DF497B63C3EFAC1FEF972668D62EBDB5.sgf_70_e6f8d9ee",
+      "board_size": 9,
+      "stones": "AAIAAgIAAAACAAACAgACAgIAAAIBAgIBAgACAgIBAgEBAQICAQIBAQEBAQICAQEAAQAAAgECAQAAAQIBAQECAQEBAQEBAAECAAABAAAAAAEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7D20F5CD75B3B48D8D2B905D08EF4CE6.sgf_65_4d7810b0",
+      "board_size": 9,
+      "stones": "AAABAQEAAAAAAAEAAQABAAAAAQEAAAABAAAAAgIBAQEBAAAAAAICAgEBAQAAAAICAgICAQEAAAIAAAAAAgEBAAIAAgICAgEBAAACAAACAgIB",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "05FFAC57BC68AA5E3951AD6266224A6B.sgf_64_0defc175",
+      "board_size": 9,
+      "stones": "AAAAAAECAgAAAAAAAAEBAgICAAAAAAABAQICAAEBAAEBAgIAAQAAAQECAgICAQEBAgICAgECAgICAgEBAQEBAAACAgIBAQEAAAAAAgEBAAAB",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "44451FC926686F0D800FBC56C786059C.sgf_45_59c5c892",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAQEAAQIBAQAAAgIBAQICAQEBAgACAQECAQICAAICAQICAgIAAAAAAgAAAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "83F70674D5FC6C3943C48B0D446BC45B.sgf_71_29a0ddfa",
+      "board_size": 9,
+      "stones": "AAABAgIAAAICAQEBAgACAgIBAQIBAQICAQEBAgIBAQICAgIBAgEBAQEBAgEBAgIBAgIBAQEAAAACAgEAAQAAAAICAQEBAAAAAgACAgEAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4D7F1E41EEDABA3A88198B7E9689434C.sgf_56_adb169e9",
+      "board_size": 9,
+      "stones": "AQEBAgICAAIAAAECAgICAgIBAQEBAQIBAQEBAgIBAQICAgECAAICAQEBAQECAgACAgICAgICAgIBAQICAQEBAgEBAAECAQAAAQEAAQABAAAA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7F76FEAE5BE768D4523CA1AB00655923.sgf_91_6cee750e",
+      "board_size": 9,
+      "stones": "AgAAAAIAAgEAAAIAAgAAAgEAAgACAgICAQEAAQICAgEBAQABAQEBAQEBAAEAAQABAgEAAQABAQEBAgEAAAABAgICAgIBAQEAAAIAAgIBAQAB",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 17,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BE684E1AE38CDF701D5B74A730D20A86.sgf_48_876aa716",
+      "board_size": 9,
+      "stones": "AgAAAgEBAAAAAAIAAgIBAAAAAgACAgEBAQEAAAICAgIBAAEAAgAAAgEBAAEAAAICAQABAAEBAAACAQEBAQABAAACAgIBAAEAAAACAQEBAAEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AFB4AE3ACF9CBDBF8E16EDE27E7B5A97.sgf_43_eac47128",
+      "board_size": 9,
+      "stones": "AAAAAAICAQAAAAICAgIBAQAAAgIAAgIBAAAAAgACAgIBAQEAAgACAgEAAAEAAgACAQEBAAEAAAICAgEBAQEAAAACAQEAAQAAAAACAgEAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6915C127085834ABC577A62FF1E3512C.sgf_59_0a5498b3",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAQEBAAAAAQABAQIBAAEBAQABAgIBAQEBAQEBAQICAgIBAQECAgACAAIBAQIAAgACAAICAgICAgIAAAAAAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "51239F78AF6BC3CBF6D227098C75FE05.sgf_46_ff489e30",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAABAQEAAAAAAAECAgEBAAEBAQEBAgIBAQECAgECAgACAQABAgIAAgIAAQEBAgIAAAIAAQIBAgAAAgACAgICAgICAAIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4406B3DB3C4433802625A34CD51C71CF.sgf_69_dd667f6b",
+      "board_size": 9,
+      "stones": "AQEBAAABAQEBAgIBAQABAgIBAAICAQABAgABAgACAQEBAAICAgACAQABAQIBAgACAgEAAQEBAgICAgIBAQEBAAAAAAIBAgICAAAAAAICAgAC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DBD868F53191EF3FFF8C2AF8216C1B5B.sgf_75_24b71070",
+      "board_size": 9,
+      "stones": "AgICAgIAAAAAAQICAQICAgICAQEBAQEBAQIBAQECAgEAAgEBAQECAQEBAQEAAQICAQABAQAAAgICAgEBAAEAAAACAAIBAQAAAAACAgICAQAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4E40E4D228AFC4FABEC4113AE47984F3.sgf_61_fac8c559",
+      "board_size": 9,
+      "stones": "AAICAgEBAgAAAQICAQECAgIAAQECAQEBAgAAAgACAgEBAQIAAgICAQABAgICAQIBAQEBAQECAQEBAQECAgICAAEBAAEBAQICAAAAAAAAAQEB",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F67E4110FB2411569E33C17BA926EA4A.sgf_51_abe34cae",
+      "board_size": 9,
+      "stones": "AgIAAAAAAAAAAQICAgICAgAAAQEBAQIAAAIAAQAAAQECAgAAAQEAAQECAAAAAQAAAQECAgIAAAEAAAEBAQICAAEBAAEAAQEBAQAAAAEAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EB1EEB32F73B0951A6C92A0894BCAA53.sgf_64_aa7f8d07",
+      "board_size": 9,
+      "stones": "AAIAAgACAgIBAgACAgICAgEBAgACAgEBAgEAAgIBAQEAAQEAAgACAQEAAQEAAgICAQEAAAABAAACAgEBAAEAAAICAQEAAQEAAAIBAQABAAAA",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B83CF32C3FC170FDD616947B1F8E8658.sgf_74_384aa90f",
+      "board_size": 9,
+      "stones": "AAABAAABAAEBAAEAAQEBAQECAQEBAQIBAgICAQABAQICAgIAAgEBAQIBAQIAAgIBAAEBAgIAAgICAQEAAQIAAgACAgEAAQICAAIAAgIBAQEC",
+      "score": 1,
+      "result": "B+1",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DB4A584AB675687258B0F6C2F64057AD.sgf_44_61ccbce5",
+      "board_size": 9,
+      "stones": "AAAAAgIBAAAAAAAAAgEAAQAAAAACAgEAAQAAAAACAQEBAAEAAAACAgEAAQAAAAAAAgIBAAAAAAACAgEBAAAAAAACAAIBAAAAAAACAgIBAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "13494202E05E68BD894B7209E5AFA6A5.sgf_46_89f7e6b1",
+      "board_size": 9,
+      "stones": "AAAAAQEBAgAAAAABAAECAgIAAAAAAQEBAgIAAAAAAAABAQIAAAABAQEBAgAAAAABAQICAgAAAAABAgACAAAAAAABAgICAAAAAAABAQECAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A891D9F19C8C86E8B37BDBB74EF1A23B.sgf_61_b7151540",
+      "board_size": 9,
+      "stones": "AAACAQAAAAAAAAACAQEBAQAAAAAAAgEAAQAAAAACAAIBAQEAAAAAAgIBAAEAAAICAQECAQEBAgACAQACAQICAgIBAQECAgACAgEBAAEBAgIC",
+      "score": -7,
+      "result": "W+7",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EB86D4A16E5937E340A1D025447F74EF.sgf_53_9d75b0a7",
+      "board_size": 9,
+      "stones": "AQEBAAABAQEAAQAAAQEAAAEAAQEBAAAAAQEBAgEBAQEBAQABAgIBAAECAgEBAAICAQEBAgICAAICAgECAAIAAAAAAAICAgIAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "05E81F898ED79DE8C9E68324F9D24C98.sgf_47_4188b70c",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAABAQIAAAAAAAAAAQICAgIAAAEAAQICAQIAAQABAQECAQIAAAEAAAEBAQIAAQAAAQICAgIAAAEAAQEBAQIAAAEBAQECAgIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4773A2134241927A05AD28760F4BF986.sgf_71_23027e2e",
+      "board_size": 9,
+      "stones": "AAICAQABAgAAAAIBAAEAAQIBAAIBAQABAAEBAgACAQABAQABAAICAQABAgEBAAACAQEBAgIBAgIBAQIBAgACAQIBAQICAgICAQEBAgIAAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2AFAB14E0990A7E444FE3565D0E55FD5.sgf_91_183446cd",
+      "board_size": 9,
+      "stones": "AQEBAQEBAQEAAQIBAgECAgEAAgICAgEBAgEAAgAAAgECAgEBAgICAQEBAgIBAgACAgIBAAIBAAIAAgIBAQEAAgIAAgICAQABAAICAAICAgEA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 14,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FABE32955FC9DC1D07AF278A603D9CF7.sgf_60_0bfd1287",
+      "board_size": 9,
+      "stones": "AAIAAAACAgEAAgACAAICAQEBAgACAgIBAQEAAQICAQECAQEBAQECAQECAQIBAAECAgECAQICAAEBAgECAgACAAAAAQEBAgIAAAAAAAABAQIA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A35AF37005DAF2FD9DA8E360E39762E7.sgf_64_939a0ee1",
+      "board_size": 9,
+      "stones": "AAABAQEBAQEBAAEBAgEBAAECAAECAgIBAQICAAABAQICAgIAAAABAQECAgACAAECAQEBAgIAAAECAgEBAQIAAQECAgEBAgIAAgICAgICAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5488885F9D4BD32566FA53FEA35B4934.sgf_73_bd39572e",
+      "board_size": 9,
+      "stones": "AQICAgICAgACAQECAQECAgACAQABAAECAAICAQEBAAEBAgICAQICAgABAQIBAQEBAQEBAAEBAQIBAgIBAAAAAgICAgICAQEAAAAAAAACAgEA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "76FC137584CD10B2A269B4CC620183D5.sgf_88_40be6d2f",
+      "board_size": 9,
+      "stones": "AQAAAAEBAQEBAAEBAAEAAQICAQABAAABAQICAAEBAAABAQECAQAAAAEBAgICAAABAQECAgACAAEBAQICAgACAQABAQECAAIAAAEBAQICAgAA",
+      "score": 22,
+      "result": "B+22",
+      "game_info": {
+        "black_captured": 23,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2BEF41A59DBFC04E45D48304BDB9D18C.sgf_38_995890ee",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQECAAAAAAEAAQICAAEBAQEBAQECAQEAAQEBAgICAAEAAAECAAIAAAEBAAECAgACAQECAQECAgIAAQICAgIAAAAAAgIAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CBE8356DF9F408509E4B66495751ABF4.sgf_50_d10c7002",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAgICAAIAAAICAQEBAgICAgACAgEBAQIBAgICAgIBAQEBAgECAgEBAAAAAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BCB51FC424C1A7F2DB2729B742864D42.sgf_81_b3ac30f0",
+      "board_size": 9,
+      "stones": "AgICAgEBAQAAAAIAAgIBAAEAAgICAQICAQABAgIBAQEBAAEAAQICAQECAQABAQEBAQICAgEBAQECAgIAAgECAQABAQIBAgICAQEBAgIBAQAC",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AD814B911626BB442A59940CA0CAFEBC.sgf_69_757f67e9",
+      "board_size": 9,
+      "stones": "AQEAAAEBAAAAAQEBAQECAAEAAQIBAQICAQEBAgIBAQEBAQABAAICAQEAAQEBAAACAQIBAQECAAACAgICAQICAAAAAAICAgICAAAAAAAAAAAA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ED2FDEC68D940EA01CD86D32C32E6EA7.sgf_93_c2504a2f",
+      "board_size": 9,
+      "stones": "AAICAQEBAQEAAgACAQEAAAEBAgIBAQEAAAAAAAICAQEAAQEBAgACAQEBAQAAAgICAgECAQEBAgEBAgICAgEBAgIBAQEBAgIBAgICAQEBAQEB",
+      "score": 12,
+      "result": "B+12",
+      "game_info": {
+        "black_captured": 17,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8A696434ED8F9DC1CF8958DC7BDA4AC6.sgf_62_c1697b0b",
+      "board_size": 9,
+      "stones": "AgICAgICAAAAAgAAAgACAAIAAgIAAAICAgICAQICAgEBAQICAQEBAgEAAQECAAABAgIBAAECAAABAQEBAQEBAAAAAAABAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D185FB13C4BDD55D2A4F5534C84E21D3.sgf_79_b68d4f9f",
+      "board_size": 9,
+      "stones": "AAAAAAIBAQEAAAICAgICAQABAgACAAICAQEAAgICAgEBAQAAAgECAgICAQEAAQEBAgECAgEBAAABAQECAgIBAQABAgICAQEBAAECAgEBAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DF7749B5C24622573890239EBBCE1451.sgf_61_3517e009",
+      "board_size": 9,
+      "stones": "AAAAAAABAQEBAAAAAAEBAAECAAABAQABAQICAAEAAQEBAgACAAEBAgECAgACAQABAgICAAICAAECAgICAAACAQEBAgIAAAIAAQICAgIAAgIA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F36A37EBD99B662C3F3F3B9FDB9248E3.sgf_89_c42fb8ce",
+      "board_size": 9,
+      "stones": "AgIBAQEAAgEAAAIAAgICAgEAAgACAgECAQAAAAIAAgEBAQEBAgACAgIBAAAAAAAAAgEBAAEAAgICAQEAAAEAAgEBAQEAAAEBAQEAAAEBAAAB",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 18,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C1969046DDD1357F3C84800188A093BB.sgf_61_d83fd15d",
+      "board_size": 9,
+      "stones": "AAABAgICAgAAAAABAQIBAgAAAAAAAQEBAgAAAAAAAAECAAAAAAEBAQECAgIAAQEAAAEBAgACAgIBAQEAAQICAgACAgIBAAECAAIAAgEBAQEB",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6D454C0CD33FFED32663D39E23185525.sgf_44_ac961093",
+      "board_size": 9,
+      "stones": "AAEBAgICAgAAAAECAgIAAgAAAAEBAgECAgAAAAABAgEBAgIAAAEBAgEBAQIAAAEAAQEAAQIAAAEAAQABAgIAAAABAQECAAIAAAAAAQICAgIA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "43B55D7B627A0E8362135967586F1ADA.sgf_57_353ca9a0",
+      "board_size": 9,
+      "stones": "AAEBAAEBAQIAAQEAAQABAgIAAQAAAAEBAgAAAAEBAQEBAgAAAQAAAAEBAgAAAAABAAECAgAAAAEBAQICAAIAAAEAAQIAAgAAAQEBAgIAAAAA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 17,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B3BD172738FCAC34007BD321B26A93AE.sgf_59_34582040",
+      "board_size": 9,
+      "stones": "AgAAAgAAAAAAAAICAQICAAAAAgIBAQECAAAAAgEBAgICAAAAAQABAQIBAgAAAQEBAQEBAgICAAEAAAEBAQECAAABAQEAAAEBAAAAAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F8783DF7B3A6CC959A27E71A6DD96A13.sgf_52_6527be10",
+      "board_size": 9,
+      "stones": "AAAAAAAAAgAAAAAAAAACAAIAAAICAgIBAgICAgIBAgEBAgACAgEBAgIBAQICAQEBAQIBAQEBAAAAAQEBAQAAAAAAAAABAAAAAAAAAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "399C2F07E7FAB89B369E8984DE5B8315.sgf_59_bcc52692",
+      "board_size": 9,
+      "stones": "AAABAAEAAAAAAAEBAAEAAAEAAQECAQEBAQEBAQECAgEBAgECAQICAQECAgICAgICAgEBAgAAAgACAgEBAgIAAAICAQEBAgICAgICAgEBAgAC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BF629A8D367C0FE16FD5F57235311A1F.sgf_81_7e3bf5e1",
+      "board_size": 9,
+      "stones": "AAAAAAACAgIBAAACAgICAgEBAgICAQECAQEAAgEBAQABAQABAQEBAQEBAQECAQABAgIBAgICAQAAAQICAgECAgEBAQECAgECAAEAAQICAAEA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B941415CDA01FDB216222A150868ED7C.sgf_66_53926995",
+      "board_size": 9,
+      "stones": "AQECAAACAgICAQICAgIAAgEBAQEBAgICAQEBAAECAgIBAQICAAEBAQEBAQIAAAAAAQICAQIAAAABAAECAgIAAAABAAEBAgAAAAAAAQECAgAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AF1C22CDC3485A02C31492F25C4C1739.sgf_61_689e3d20",
+      "board_size": 9,
+      "stones": "AAABAgAAAAAAAAEBAgAAAgICAAECAgIAAgEBAQEBAQECAgIBAgECAgEBAgEBAgICAQEBAQEAAAICAgIBAAAAAQEBAgEBAAAAAAICAgIBAAAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0B0423E33434A1CD75F579DAF3C66AB9.sgf_69_edc8fa28",
+      "board_size": 9,
+      "stones": "AAAAAgEBAAEBAAICAgIBAAEAAAIAAAIBAQABAgICAgEBAAABAQICAQEBAQABAQIBAQECAgEBAQEBAgICAgEAAQECAgACAQEAAgICAAICAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BDCFAA02A5F4494BB4433893610B1F4B.sgf_87_78745534",
+      "board_size": 9,
+      "stones": "AQICAgIAAAAAAQICAgABAgICAQECAgICAAACAAEBAgECAgICAQABAQEBAQIAAAEAAAEAAQICAQABAQEAAQICAAEAAAABAQECAAEBAQABAQIC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 16,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6C5B49B841AC7D3AA22C9CA2720F9883.sgf_97_6b7ff9f9",
+      "board_size": 9,
+      "stones": "AAIBAQEAAQABAgICAQEBAAABAgACAgIBAQEAAAICAgICAQEBAgIBAgECAQECAgEBAgEBAgECAQEBAQECAgICAAABAQEBAgACAQEAAQABAQIA",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 18,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "21C830A2AC773A76296DF9C928070BC1.sgf_28_89118e0b",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAACAgIAAgICAAICAAIAAgECAgICAAICAQEBAQIBAgIBAAABAQEBAQEBAAEAAQEAAAAAAAEBAQABAAAAAAAAAQEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FA08A6AB57FBCE0F42F3B15C178ABCF6.sgf_100_89ffd088",
+      "board_size": 9,
+      "stones": "AQICAgICAgACAQECAQIAAgICAQEBAQECAAIBAAIBAQICAgEBAQECAQEBAQABAAECAgIBAAEBAQICAAICAQABAAEBAgIAAgEBAQABAQICAgEA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6600310A45D1EECEB11F27B4EC5936AC.sgf_53_befd1ccf",
+      "board_size": 9,
+      "stones": "AAAAAAEBAAAAAAABAQABAQEBAAEAAQABAAABAQEBAAEBAAEBAgEBAAECAQEBAgIBAQICAgEBAgACAgACAgICAAAAAAIAAAAAAAAAAAAAAAAA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AEA7719268298DDF7A5BB9EC8538E4CE.sgf_3_5eab53e2",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAgECAgIBAAEAAgICAAACAQEBAAAAAAIAAgICAAAAAAAAAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A8F3FDCC9DB14FF6EA4C69D08873DA50.sgf_79_287a3f12",
+      "board_size": 9,
+      "stones": "AAABAQICAgIAAAABAgICAAACAAEBAQICAAIAAQECAQECAgACAQICAQEBAgICAgACAgEBAQEBAgACAQEBAAABAAIBAQEBAQEAAAICAQAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4F0E5EDF91C23BBD1AC6B8067B9B2FD7.sgf_118_aa11bbc9",
+      "board_size": 9,
+      "stones": "AAAAAAICAQABAgIAAgACAQEAAgACAgIBAQABAAICAgEAAQEBAgICAQEBAQABAAIBAQEAAAAAAgACAQEBAAABAAACAgEBAAABAgICAQEBAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 24,
+        "white_captured": 29,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1F218B1100A969AEA801066071E2D588.sgf_65_c4461f99",
+      "board_size": 9,
+      "stones": "AAICAgEBAQEBAAIBAQEAAAAAAgICAQIBAQEBAgACAgICAgEAAgIAAAICAQEAAgECAAICAQEAAQEBAgIBAAABAQABAgIBAQEAAAEBAgEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1CCA6B46DAC9B3EA713C2B041A945EF4.sgf_60_9aedebac",
+      "board_size": 9,
+      "stones": "AgECAgIBAQICAAEBAgICAQECAAEBAgEBAQICAAECAgIBAgICAAEBAgEBAgIAAAECAgABAgACAQEBAgABAgICAAECAgIBAQIBAAEBAQIBAQEB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C5678D4D54A177FD6989C9B956B0A61E.sgf_85_cac35e18",
+      "board_size": 9,
+      "stones": "AAACAAIBAQEAAAICAgICAQABAgIBAgACAQABAQEBAQICAQECAQABAQICAQECAAAAAQECAQICAAEAAQECAgAAAQEAAQEBAgIAAAEBAQECAgAC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3E09303D428EF5504985815B0A525181.sgf_78_5bc94f28",
+      "board_size": 9,
+      "stones": "AgICAgACAQEAAgIAAgICAgEAAgECAgECAgEAAQECAQECAQAAAAEBAAEBAQEAAAAAAQIBAgEBAAEBAQICAgICAQECAQICAAACAQICAgIAAgAC",
+      "score": -8,
+      "result": "W+8",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CE5B8200C106671DAAB42EBDAB3FE98C.sgf_51_d75ba30a",
+      "board_size": 9,
+      "stones": "AAAAAAECAAAAAAAAAQECAAIAAAEBAQICAAICAQEAAQIAAAIBAQIBAQECAgEBAgIBAgEBAQEAAAICAgEBAAAAAAACAAIBAAAAAAAAAAIBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E8712E15F3DA4C3C56A825C2D1DD7EDE.sgf_65_9f1b3d9f",
+      "board_size": 9,
+      "stones": "AAIBAQEBAgAAAAICAgIBAgIAAAAAAgIBAQIAAAACAgEBAgAAAgICAQEBAgICAQIBAAEAAQIBAQEBAQEAAQEBAAABAAAAAAEAAAAAAQEBAQEA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "592C88EFC08A158A19B8F040F90C2467.sgf_38_bb4ce365",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAgICAgICAAACAgIBAgIBAAAAAgEBAQEBAAACAgEBAAABAgICAQEAAQABAQECAgEAAQEAAAEBAQAAAAAAAAAAAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6DC48CD3A09B609D29CA23F83BBF5F75.sgf_66_b2bf2de2",
+      "board_size": 9,
+      "stones": "AAACAQEAAAAAAAICAQABAAAAAgEBAQABAAAAAgIBAQABAAAAAgICAQABAQEAAgIBAQECAgEAAAICAQICAQEBAgAAAgIAAgIBAAICAAAAAAIB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "440D3F425EE3BE26A1997F826BFD07DA.sgf_77_e4a255cf",
+      "board_size": 9,
+      "stones": "AAAAAQEAAQIAAAEBAAABAQEBAQEAAQABAQIAAgEBAAECAgIBAgICAQEBAQEAAgACAgIBAgEBAgACAgACAgIBAAIAAgIAAAIBAAACAAAAAAIC",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "797FC88FD82F0243028C95D8979C8C32.sgf_50_d9f69962",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAACAgICAAAAAAACAQECAgICAgICAgEBAQECAQICAAIBAQABAQECAgIBAAEBAAEBAQEBAAEAAAAAAAABAQAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "150E36B5DE3F849A3F0F4C9C73EA6113.sgf_64_12b19a50",
+      "board_size": 9,
+      "stones": "AAABAQECAAAAAAABAgECAgAAAAEBAgECAAICAAECAgICAgECAAEBAQIBAQEBAQECAQECAgEAAQICAQICAgEAAgIAAgICAQEAAAACAgEBAQAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "305B4640FA3345EF71D121495EBA8B3C.sgf_71_cda17b7f",
+      "board_size": 9,
+      "stones": "AQEBAAABAQIAAQEBAQEBAgICAQECAQABAgACAQICAQEBAQICAQEAAgEBAgIBAgECAQEBAQEBAgIBAQIBAgICAgACAgICAAIAAAIAAAIAAgIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "19587297E35AB7AD6F252CC02F3810E0.sgf_71_bb9764d8",
+      "board_size": 9,
+      "stones": "AAACAQEAAQAAAAACAgEBAAEAAAICAgEAAQAAAAIAAgIBAQEAAgICAQECAgEAAgIBAQICAQEBAQIBAQECAgECAQEAAQECAgICAQABAQICAAIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E8F01BB6D40793150A7CF719086533FB.sgf_66_43667f74",
+      "board_size": 9,
+      "stones": "AAABAAAAAQICAQEAAQEBAQECAAEBAQICAQICAQABAAECAgICAQABAQEBAQECAAECAgEBAQICAAECAgICAgACAQECAAACAAICAQICAgIAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EF53C880DEC58038E4B81ABE5FBC3251.sgf_66_e77beac7",
+      "board_size": 9,
+      "stones": "AAACAAICAQAAAAICAgICAQAAAgAAAAIBAQEBAAIAAgIBAAEBAgICAgEBAQIBAAIBAQEAAgICAQICAgEBAgICAgACAQEBAgEBAAICAQABAQEA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 13,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0B66EF9C8318BB6A7B1949CF8D9A46A9.sgf_69_0928f67b",
+      "board_size": 9,
+      "stones": "AAAAAAEBAQEBAAABAQAAAQEAAAABAAABAQEBAQEBAQEBAgEBAgECAgEBAgIBAgIAAgICAgEBAgACAAAAAAIBAAIAAAAAAAICAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0B36A418915C460434E6034C261B3831.sgf_82_96e3935d",
+      "board_size": 9,
+      "stones": "AAAAAAEBAQEBAAEBAQEBAAABAQECAgIBAAEAAgICAQIBAQEAAAACAQEBAAIBAAICAgEBAQEBAAICAAICAQEAAgACAgIAAgEBAAIAAAACAgIB",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F97EEE87CD977CB4FBE8B01DD9C52C16.sgf_54_c6df7156",
+      "board_size": 9,
+      "stones": "AAEAAQAAAQEBAQABAAEAAAEBAAEBAQEBAQAAAAEAAQEAAQEAAQEBAQEBAgEBAgICAgIBAgICAAAAAAICAgIAAAAAAAAAAgAAAAAAAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B688FA7C0164FAB7C1395FEDC4535595.sgf_69_5e3ef4a6",
+      "board_size": 9,
+      "stones": "AQEAAQICAAAAAAAAAQECAAAAAQABAAECAAICAQABAQECAgECAQEBAgICAgEBAQECAAIBAQEAAQICAAICAQAAAQECAAICAgEAAQICAgIBAQEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DC286AC26B3B5643E3DD931AF44D4B52.sgf_61_2cee5d03",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAQAAAQEBAAEBAQEBAgICAQECAQIBAAIAAgECAQICAAIAAgECAgIAAgICAgECAgIAAgECAQEBAgACAgEBAQECAgAC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CE3BCFFF0EA0545225875E4EB0B23070.sgf_47_ab90d407",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAACAAAAAgICAgICAgICAgEBAgEBAQECAQECAgIBAAEBAQICAgEBAAAAAQECAQEBAAAAAAEBAQEAAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9A21A8889C7615DC98B380D43A1FE5A1.sgf_63_a55c7bce",
+      "board_size": 9,
+      "stones": "AAECAgIAAAAAAAEBAQICAgICAAABAgICAQEBAAEBAQEBAQIBAAEAAQABAQIBAAABAQECAgICAAEAAQIAAgIAAAABAgICAgAAAAEBAQICAAAA",
+      "score": 8,
+      "result": "B+8",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "015BF4D99BDEA32EED1DBAA272588695.sgf_78_6e327517",
+      "board_size": 9,
+      "stones": "AAIBAQECAAIAAgIBAQICAgACAgEBAQIAAgIAAgIBAQICAQICAAIBAQECAQIBAAICAgEBAQEBAAIBAQABAAAAAgIBAAEAAQAAAgEBAQABAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D1F2976D9F2B87272E91764E70537C5A.sgf_56_429ca246",
+      "board_size": 9,
+      "stones": "AAABAAAAAAAAAAEAAQEBAQAAAQABAAAAAAEAAQEBAQABAQEBAQICAgEBAgECAQIBAQECAgICAgICAgICAgIAAAAAAAACAAAAAAAAAAAAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "68D4A462048642496E83281035DD776B.sgf_63_ae927c13",
+      "board_size": 9,
+      "stones": "AgACAQEBAAAAAAICAQIBAAAAAgACAgIBAAEBAgIBAgICAQIBAQEBAQIBAQICAAABAQEBAQIAAAABAgICAgIAAAEAAQICAAAAAAABAQECAAAA",
+      "score": -1,
+      "result": "W+1",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8696621295C934D2B14B0E1B3BD85793.sgf_66_2e221c6f",
+      "board_size": 9,
+      "stones": "AAAAAAIBAQAAAAAAAgIBAAEAAAAAAgEBAAABAAAAAgEBAQEBAgICAgICAgIBAgACAgECAQEBAAIBAgEBAAABAgIBAQEBAQABAgEBAQABAQAB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "592DA21961B02A159CAA025D49EFE182.sgf_67_bab2e6b1",
+      "board_size": 9,
+      "stones": "AAEBAQABAgIAAAEAAQEBAQIAAAEBAgICAQIAAQECAgACAQICAQIAAAICAgIBAgIAAgICAQEBAgICAgECAQAAAgECAQEBAQAAAQEBAQAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CDADB09B256676E17B0C63FA0A20DEB0.sgf_66_36dd38eb",
+      "board_size": 9,
+      "stones": "AQEBAQAAAAAAAgICAQEBAQEAAAECAgEAAAABAgACAgIBAQEBAAICAQIBAgIBAgIBAQEBAgIBAQEBAQICAgIBAAAAAQIAAQICAAABAgIAAAIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A4B7B05C7598A87D21574F99DFCA65F4.sgf_69_aa589bd1",
+      "board_size": 9,
+      "stones": "AAABAQEBAQEBAAABAAEBAgECAAAAAQICAgECAQEAAQICAAICAgIBAQECAgACAAIBAQEBAQICAAIBAAECAgAAAAICAQABAgIAAAACAQEBAQIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "23C605EE6698E016ED5637F004B301FF.sgf_45_aede9469",
+      "board_size": 9,
+      "stones": "AAICAgEAAAAAAAECAgEBAAAAAQIAAgIBAQAAAgIAAgICAQAAAgACAgEBAQAAAgICAQEAAQAAAAACAgEBAAAAAAACAQEBAAAAAAACAgEAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "57247748EA16DBADCA9A50B8FDD82277.sgf_55_3a883973",
+      "board_size": 9,
+      "stones": "AAAAAQIAAAAAAAEAAQICAgAAAQABAQEBAgAAAAEBAQICAgAAAAABAAEBAgAAAAABAQECAgIAAAEAAQEBAgAAAAABAQECAgAAAAAAAQICAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E9C4ED5E6270DDBC3471000A0F12B360.sgf_75_7a628257",
+      "board_size": 9,
+      "stones": "AAIAAgIAAAAAAgIAAgACAAAAAgECAAICAgIAAQEBAgIBAQICAQABAgEBAQEBAAECAgEAAQEAAQEBAgEAAAABAQECAgEAAQEAAgICAQEBAAEB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B0FC6E25AB6B314895C2031FCDF8F303.sgf_80_62556f19",
+      "board_size": 9,
+      "stones": "AAABAAABAQECAQEAAQEBAQICAAABAAECAgIAAAEAAQEBAgAAAAABAQABAgAAAQABAQECAgAAAQEBAQICAgAAAQIBAgIAAgAAAgICAgICAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "10300E5582CF3EDF7E5380B6EEC137B6.sgf_48_c8f8e92c",
+      "board_size": 9,
+      "stones": "AAAAAAABAAEBAQEBAQEAAQECAgEBAQABAQICAgIBAgEBAQECAgICAgECAQICAgECAgICAQIAAQEBAgIAAgIAAAEAAQICAgAAAAABAQIAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2854D911D7E86290F595855C735A9A34.sgf_65_4993ca53",
+      "board_size": 9,
+      "stones": "AAAAAQECAAAAAAABAAECAgAAAQEBAQIAAAIAAQICAgICAgAAAgICAgEBAQIAAgIBAgEBAgICAgEBAgEAAQEBAgIBAQEAAQAAAgEBAQABAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "24829F086E6E57843257BD7BC18DDE12.sgf_67_0a927d7f",
+      "board_size": 9,
+      "stones": "AAAAAAEBAQIAAAEBAQABAgIAAQABAAEAAQIAAAECAgEBAQIAAQABAQEBAQIAAAEAAQICAgIAAAEBAQIAAAACAQECAgIAAgIAAgICAAACAgAA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9B92B53D525E04E3E2720AE42A63B0A1.sgf_76_20b793ba",
+      "board_size": 9,
+      "stones": "AAAAAQEBAQEBAAEBAQECAQECAAECAgICAQECAAABAQICAgICAQEBAQECAgIAAQAAAAEBAgACAAEBAQIBAQIAAQECAgICAgACAgICAgIAAgAC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F5100DD155101CECE302935DBD3E7EE8.sgf_41_9d008568",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAgICAAAAAAAAAQIBAgIAAAAAAQEBAQIAAAICAAAAAQIAAgIBAAAAAQICAgEBAAABAAECAQEAAAAAAQEBAAAAAAAAAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F4A6FA87ECA19AD9CE4A4331D7B0C9BF.sgf_61_9c4e7c25",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAICAgICAgAAAgIBAQIAAgICAgACAQECAgECAgICAgEBAQEBAgECAQABAQABAQEBAAEAAAEAAQEAAAEBAAAAAQABAQAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "740C6BB13341867C365628017ECC9EA4.sgf_58_8aff572f",
+      "board_size": 9,
+      "stones": "AAAAAAICAQEAAAAAAgACAgEAAAACAgACAQABAAIAAgIBAQABAAICAgEAAAEAAgIAAgEBAQEBAgICAQABAAABAQIBAQAAAAABAQEBAAEBAQAB",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "01E3DF28DE253B58D9AC86D0D3698A66.sgf_68_b3022436",
+      "board_size": 9,
+      "stones": "AgICAAIAAgAAAAACAgACAAICAgIBAQICAgEBAQEBAQEBAQABAQECAQIBAQABAQICAQICAgEAAgICAgIBAQEAAgECAAICAQAAAAEBAQIBAQAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "440625765B040A0466FD1C7076EF2F27.sgf_84_bc66e1c8",
+      "board_size": 9,
+      "stones": "AgICAgABAgIAAgEBAgECAAACAQEBAgICAgICAQECAAICAQIBAQECAgIBAQEBAQABAgEBAAEAAQEBAgEBAQAAAQABAQABAAAAAAEAAAEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "18D4E6AB885D8D6A5B4A5C892ADE840C.sgf_82_c25a793d",
+      "board_size": 9,
+      "stones": "AQEBAgIAAgEBAQEBAgACAgIBAQABAQICAgEBAQEBAQIBAQABAAECAQEBAQEBAAECAgICAgIBAQEBAQIAAgACAQEBAQECAAIAAgICAgICAAIC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4746E2860FC499F202CBE3F8CB64AF26.sgf_61_f414015e",
+      "board_size": 9,
+      "stones": "AQABAgICAgICAAEAAQICAAIBAQABAQICAAIBAAEAAQECAAIBAAEBAgICAgEBAQEBAQICAQABAgICAQICAQEBAAACAgIBAQAAAAAAAAIBAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "07ECA67A465C28B7AF923A5B3383E1E7.sgf_49_a72d2126",
+      "board_size": 9,
+      "stones": "AgIBAAEBAgAAAgEBAQECAgAAAgIBAAECAAIAAAIBAAECAgICAAACAQECAQIBAAICAQEBAQEBAgACAgEAAAAAAQICAQEAAAAAAQEBAQAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "00254825BEB828489C036B8CD2F5B9B1.sgf_44_d7991ac9",
+      "board_size": 9,
+      "stones": "AAABAgAAAAAAAAABAgIAAAAAAAEBAQIAAAAAAAABAgACAAAAAAEBAgICAgIAAQEAAQECAAACAQABAAEBAgIAAAEBAQABAQICAAAAAAAAAQEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B56EE62CF6B00C4AD59839FB81FF8FBF.sgf_71_b651584a",
+      "board_size": 9,
+      "stones": "AAAAAgEAAAECAAICAgEAAQECAgIAAgIBAQICAQECAgEBAgACAQABAQECAgICAAEBAQEBAQIAAAEBAAEBAgIAAQABAQABAgAAAAEAAAECAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E90999F44FD39AA5E17A25AAEAB97512.sgf_86_42b65895",
+      "board_size": 9,
+      "stones": "AAECAgICAgEAAAEBAgACAQABAAABAgACAQEAAQEBAQICAgEAAgICAgICAQEAAAIBAQECAQEBAgIBAAEBAgECAQEBAgECAgICAAECAgICAgIA",
+      "score": -5,
+      "result": "W+5",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D2FCF7F20D71E4EBA7B75C676A73CA42.sgf_95_78c16497",
+      "board_size": 9,
+      "stones": "AAAAAQECAgICAQIAAQICAAAAAQEBAQICAgACAQIAAQECAgIAAAEBAQICAAIAAQABAgIAAAAAAQAAAQIAAgACAAEBAQIAAgICAQABAgIAAgAC",
+      "score": -16,
+      "result": "W+16",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 22,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4897CC855FDFAF6AE037FD6663573A02.sgf_50_bd6ce584",
+      "board_size": 9,
+      "stones": "AAEAAQABAAAAAQEBAgEAAAAAAgECAgEAAAAAAgICAgEAAQAAAgACAQAAAAAAAAIBAQEBAQEAAAACAgIBAgEBAAAAAgACAgICAAAAAAIAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E737203483E6E3DC978BFF055A4625AB.sgf_77_26403c6b",
+      "board_size": 9,
+      "stones": "AAACAgEAAQIAAAIAAgEBAAEBAgICAQEBAQIBAQECAgEBAgICAQABAgECAgIAAAEBAQEBAgABAQAAAAECAgIBAAAAAAEBAgACAAAAAAECAgIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ACA8956EA42AF76AAB00028B8B8A53D6.sgf_57_58ab1138",
+      "board_size": 9,
+      "stones": "AAAAAAICAQAAAAAAAgACAQAAAAAAAgIBAQEBAgICAAICAQABAgECAgECAgEBAQEBAQEBAgICAAAAAAEAAQIAAAAAAAEBAQICAAAAAAAAAQEC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E8783D0571FA2C974781981C469AD1A1.sgf_54_a83e5648",
+      "board_size": 9,
+      "stones": "AAABAgICAAACAAEBAQICAgIAAAAAAQECAAACAAAAAQIAAgACAAAAAQICAgICAAABAQICAgECAQEBAgIBAQEBAQICAgEAAQEAAgIAAgEBAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2930156AE7A0575C26629EB302598D0F.sgf_70_a0da8487",
+      "board_size": 9,
+      "stones": "AAAAAQECAAAAAAAAAQIAAgACAAABAQICAgIBAQEAAQICAQEBAgEBAAEBAQABAgEBAQIBAQEAAgIBAgICAQEAAAIBAgACAgEBAAICAAIAAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "679695ACDED831A0CB4F23DB21B4E647.sgf_65_ae659aeb",
+      "board_size": 9,
+      "stones": "AQEBAQABAAEAAAEBAAABAQABAQAAAAEBAQEAAQEAAQABAgEBAgEBAQEBAgIBAgIBAQEBAgICAAICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EB6128A480FA1B2F85943F8C24D4FB80.sgf_52_76e4d7c4",
+      "board_size": 9,
+      "stones": "AQEAAAAAAAAAAgEBAAAAAAEBAgIBAQEBAQIBAgACAQICAgICAAICAgEBAgAAAgICAQECAgAAAQIBAQICAgIAAQEAAQECAgACAAABAQICAAIA",
+      "score": -8,
+      "result": "W+8",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B5254B7A1D5DFA27BD666CDC8C16E502.sgf_69_fba1f675",
+      "board_size": 9,
+      "stones": "AAICAgEAAAAAAAACAQEBAAAAAAIBAQEBAAEBAAICAQEBAQECAgIBAQEBAgICAQICAQICAgAAAQEBAQECAAIAAAEBAgECAAIAAAECAgICAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C23BE6DA356D5DA26E8CA23BA7992B61.sgf_86_3c89c30a",
+      "board_size": 9,
+      "stones": "AgICAgACAgICAAACAAICAgEBAgACAgICAQEAAgAAAAIBAQABAgACAgEBAQABAgACAgEBAAABAgICAgIBAAEAAgIAAgICAQEAAgICAAIBAQAA",
+      "score": -28,
+      "result": "W+28",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 16,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1400BF63116C7A5CAF4A0D61E4B64307.sgf_61_10aec666",
+      "board_size": 9,
+      "stones": "AAACAQABAQIAAAACAQEAAQIAAAAAAgIBAQIAAgICAgICAgICAQECAAACAgEBAQABAgIBAQEAAQABAgIBAAEAAAEBAgEBAAAAAQABAgIBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9B1A16E478C3106E45CFCEAB78831301.sgf_93_e64b69b2",
+      "board_size": 9,
+      "stones": "AAEBAAEBAQABAQABAAABAAEBAQABAAABAQICAAEAAAEBAgIAAQABAQEBAgICAAEBAgICAgEBAAECAAIAAgIAAAECAAACAAICAAECAAIAAAAC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 21,
+        "white_captured": 16,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B18EED9DE070404D0B4169210D8DC32A.sgf_36_cbee1659",
+      "board_size": 9,
+      "stones": "AAAAAQICAAAAAAAAAQECAAAAAAABAAECAAAAAAEAAQICAgAAAAABAAEBAgAAAAAAAQEBAgAAAAAAAQICAAAAAAAAAQECAAAAAAAAAQICAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B864D760A748E30A231F39AC51F074C2.sgf_82_548e5b37",
+      "board_size": 9,
+      "stones": "AAABAQICAgICAAEBAgIAAgEBAQEBAgICAQAAAAECAgIBAQEAAQABAQICAQEAAQEBAAECAgEAAgIBAQECAQEBAAICAQICAgEBAAACAgICAgIB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CA82FDBF95711B73294C31AD038C3577.sgf_59_dbf22efa",
+      "board_size": 9,
+      "stones": "AAEBAgIBAQEAAAECAgACAgEBAAECAAICAgEBAQABAgIBAQEBAQEBAgEBAQECAgIBAgEBAgICAAICAQEAAgICAAIAAgEBAgIAAAICAgEBAQIC",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F44DC4CBD4C3C65F83C4D8F907677FE2.sgf_82_f350eb33",
+      "board_size": 9,
+      "stones": "AAABAgICAgICAAABAQICAAIAAQABAgIBAgICAgEBAQEBAQICAgIBAgEBAAEBAAACAgIBAQEAAAIAAgEAAQABAAACAgEAAAEAAAACAQEBAQAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6041F98CA9DE6447095D6B58DF064B51.sgf_77_5a98b10c",
+      "board_size": 9,
+      "stones": "AgAAAgACAQEAAgAAAAIAAgEAAgIAAgICAgEAAgAAAgIBAQABAAICAQIBAQEAAAIBAQIBAAEAAAIBAQEAAQAAAgIBAAEAAAEAAQEBAQABAQAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "23B8382FC2E94690D72C16D570F9C0A2.sgf_50_2dfab7f3",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAQEAAAABAAAAAgEBAQEAAQAAAgIBAgIBAAEAAAICAgEBAQABAAACAQECAQEBAAACAgICAQIBAAAAAAACAgICAAAAAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "27115075E374CFD525F972782B02A3DF.sgf_67_e4453fde",
+      "board_size": 9,
+      "stones": "AAEBAQICAgIAAAABAQECAQIAAAECAAEBAQIAAQECAQEBAQIAAQABAQECAgAAAQEBAQICAgAAAAEBAQECAAIAAAABAgICAgAAAAABAQIAAAAA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AB2018489153E961DE62B56485BAE8DB.sgf_63_29e658a2",
+      "board_size": 9,
+      "stones": "AAAAAQABAQEBAAABAQABAQECAAEAAQECAQICAAABAAECAgICAQEBAQEBAQIAAgICAQAAAQIAAgAAAgEBAgIAAgICAgIBAgAAAAIAAAIBAgAA",
+      "score": 8,
+      "result": "B+8",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F8703D244948F46CFA8058A64BFE0FD6.sgf_78_fb14074b",
+      "board_size": 9,
+      "stones": "AQEBAgACAAIAAAECAgIAAgACAQEBAQICAQICAAABAQICAQEBAQECAgECAgEBAQECAgEBAgIBAgICAQEAAQEBAAICAgEBAAAAAgACAQEAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4A03514C108C4B75D5F3807D29C218AD.sgf_66_492629ac",
+      "board_size": 9,
+      "stones": "AAIAAgICAQAAAgACAgECAQAAAAICAgEBAQAAAAIBAQEBAQAAAgIBAgECAQAAAgEBAgICAQEAAgICAgIBAAEAAAACAgEBAQEAAAACAQEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2E7255C617DA335DFA2F6863081A006C.sgf_61_9c0a04f2",
+      "board_size": 9,
+      "stones": "AAEBAgICAAIAAQAAAQICAAAAAAEBAQEBAgICAAECAgEBAgECAAABAgIBAQECAAABAgACAQEBAAECAgICAQICAAEBAgECAgIAAAABAQEBAgAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E8B3973DC2F3F7EE69A8220CB460ADB5.sgf_67_607a502f",
+      "board_size": 9,
+      "stones": "AAAAAQECAAAAAAEAAQIAAgAAAAABAgICAAIAAAEBAQICAgICAQECAQEBAgECAgICAgEAAQEBAgECAgEBAAEAAgECAgEBAgEAAAEAAgIBAQAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0B8EB05F64189AB40FECE800E3964BB7.sgf_66_70e5d59f",
+      "board_size": 9,
+      "stones": "AAACAQEBAgACAAICAgECAgIAAAICAQECAAICAAIBAQECAgIBAAIBAAECAgEBAAICAQEBAQABAgIBAAEBAAEAAgEBAQABAAABAgIBAAEAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1F4CE58CF071E4F7CEEB49CCFBA5ECE5.sgf_37_8fe6cedf",
+      "board_size": 9,
+      "stones": "AAAAAgEBAAAAAAACAAIBAQAAAAICAgICAQAAAgIBAgEBAQAAAQEBAQABAAAAAQICAQEBAAAAAgACAQICAQAAAAIAAgICAQAAAAAAAAIBAQAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8164B925610DC2291CC2D0E4044B2FBA.sgf_63_43b17a4c",
+      "board_size": 9,
+      "stones": "AgICAgEBAQAAAAIAAgIBAQAAAgAAAgACAQAAAAAAAAICAQEAAAIAAgACAQABAAACAgICAgEAAgAAAgEBAQABAgACAgEAAAEAAgICAgEAAAAA",
+      "score": -18,
+      "result": "W+18",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 20,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CC5521907EE95FD422B13D40631376EB.sgf_94_4a2b3bb8",
+      "board_size": 9,
+      "stones": "AgICAQABAQEAAgIBAQAAAQEAAgEBAAABAAABAgIBAQEBAQEAAAIBAQEBAQEAAAICAgICAQEBAgICAgACAgEBAAIAAgECAgIBAgACAQAAAgEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 17,
+        "white_captured": 13,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "09E5DF6B60B403FEC1AF424171CF75FA.sgf_91_c81d90c1",
+      "board_size": 9,
+      "stones": "AQABAQEBAgACAAEAAQECAAICAQAAAAECAgICAgEBAAEBAgECAgICAQEBAgECAAACAQEBAgEBAAICAgECAQABAgACAAICAQEBAAICAgIBAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B0A2372D7548B1805A73D2FC3FEAAE84.sgf_53_4b983c57",
+      "board_size": 9,
+      "stones": "AAAAAAABAAAAAAAAAAEAAQEAAAAAAAEBAAEAAQEAAQEBAQABAgEBAgECAQEBAgIBAgICAgIBAAICAAIAAgICAAACAgACAAAAAAAAAAICAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E38FF36FD8B372C1FF88B10C6F3BF06D.sgf_64_ae4576ab",
+      "board_size": 9,
+      "stones": "AQEBAgIAAgEBAAEBAgICAgIBAQEBAQIAAgEBAgECAQEBAgEAAgICAgECAgEAAAICAAIBAQEAAgAAAgIBAAAAAAICAgEBAAAAAAACAQEBAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "619C408F63891B969AB052712CF68C5C.sgf_55_6682bdf5",
+      "board_size": 9,
+      "stones": "AQABAQIAAgICAQEBAgACAgEBAAABAgIAAgEAAQECAgACAQEAAgECAAICAQABAgICAgIBAAEAAgACAgEBAAABAAIAAgEAAQEBAAACAgEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "80B6FAC2EABAE1B9DBF957B9AB5F92EF.sgf_70_cd220a64",
+      "board_size": 9,
+      "stones": "AAEBAQICAgIAAAAAAQECAQIAAQEBAQEBAQIAAQIBAgIBAgAAAgICAgICAgICAAIBAgEBAgEBAAIBAQEBAQEBAAIBAQEBAAEBAAICAQAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1F507DD44E265B0A2C874AF6B4A77D28.sgf_79_33115a38",
+      "board_size": 9,
+      "stones": "AAIAAgACAgAAAAACAQIAAgAAAgIBAQIAAgIAAAICAQECAgACAgICAQEBAQICAQEBAAABAQIBAAEBAQEBAQEBAQEAAAAAAQEAAQEBAAEBAQAB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F6329E9505E608B4353E99D924CC5FC4.sgf_81_a58c2427",
+      "board_size": 9,
+      "stones": "AQEBAQICAgIAAgECAQECAgACAgICAQICAgACAAIBAQECAgICAAIBAQICAgEBAAIBAQIBAQEAAAICAQEAAQAAAgACAQEAAQAAAAICAQABAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ABD4E44D761AF1A0125F809C211F845A.sgf_82_cc3fdf4a",
+      "board_size": 9,
+      "stones": "AAECAgICAgIAAAEBAgAAAAACAAABAgICAAIAAAEBAgACAgIAAQABAQICAgAAAQAAAAEBAgIAAQEAAAEBAQICAQEBAAEBAAEBAQAAAAEBAQEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D4824B12A1E05A550BF7E140DBA05077.sgf_73_c07f67e2",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQAAAQEBAQEBAAEAAgIBAgICAQABAgICAgIBAQEBAAIAAgEBAgEBAgIBAgEBAgIBAgICAQEBAgACAgEBAQICAgIAAgEBAQECAgAC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DC9739834F678A5733C742C1839D55E4.sgf_69_c8e54298",
+      "board_size": 9,
+      "stones": "AAICAgICAgICAgACAQIBAgEBAAIBAQEBAQAAAgEBAQEAAQEAAAICAgEBAAEBAAACAgIBAAABAAACAgEAAQEAAAAAAgEBAAABAAACAQEAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CE12CB93E3A11AB3A63996788E38CC2F.sgf_36_b79e82d2",
+      "board_size": 9,
+      "stones": "AAAAAgIBAQAAAAAAAgEBAAEAAAACAgICAQAAAAIBAQEBAQEAAAICAQICAQAAAAACAgIBAQAAAAACAQEBAAAAAAACAgEAAAAAAAAAAgEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6059A6B8BFB8395A2EE2A1A8A882274B.sgf_70_212e599c",
+      "board_size": 9,
+      "stones": "AQEBAgEBAAAAAQIAAgIBAQAAAAICAgICAQEAAgIBAQECAgEAAQEBAQEBAQEAAQICAgEAAQEBAQECAgIBAQECAQICAAACAQICAgIAAgICAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "33233CAF01857E935DCDECAC23CF3D4B.sgf_74_f8bf75f7",
+      "board_size": 9,
+      "stones": "AAACAQABAAEAAAICAQAAAQEAAgICAQEAAAEBAgIBAQEAAAAAAgICAQEBAAEBAgICAgIBAQEAAgAAAgICAgEAAAIAAgICAQEAAAICAgIBAQAA",
+      "score": -10,
+      "result": "W+10",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2EA3050F8DC1E019B4F1031AD6C7260E.sgf_50_dd7a56c4",
+      "board_size": 9,
+      "stones": "AAEBAgIAAAAAAAECAgACAAAAAAEBAgIAAgICAAEAAQICAQIBAAABAQEBAQEBAAEAAQIBAQIBAAABAQICAgICAAAAAQECAAIAAAAAAAECAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6DBA3481A1A0F7CA1DBAD21DC49A1127.sgf_58_3735916f",
+      "board_size": 9,
+      "stones": "AgACAgIBAAAAAgACAAIBAAAAAAACAgEBAQEBAgICAQEBAgIBAgICAgECAgIBAgEBAgEBAgACAQEAAQEBAgICAAEAAAEBAQIBAQEBAQABAgIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B8AE7DC00ADA4B6EEEEF4C00EA88C3B0.sgf_71_41681cc3",
+      "board_size": 9,
+      "stones": "AQECAAAAAAAAAQECAAACAAIAAQECAAICAgACAQICAgECAQIAAQEBAgEBAQICAAIBAgIBAQICAAEBAgIBAQECAAEAAQEBAQICAAEAAQAAAQEB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "16EF8998B66229CDD9BD68494D0C12FC.sgf_63_ca9ca87e",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAEBAAAAAAEBAQEAAQAAAQECAgEBAAEAAgICAQEBAQEAAgACAgIBAQEBAgAAAAACAQICAgACAgACAgIAAAICAAIAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DC2BF527E0849A9CACEF0C77F32BBFDB.sgf_69_dc0043d9",
+      "board_size": 9,
+      "stones": "AAICAQAAAQEBAgACAQABAQICAAIBAQEBAQIAAAICAgIBAgIAAgEBAQEBAgACAAICAQABAQICAAIBAQEAAQEBAAICAQAAAAAAAAIBAQEAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5B61693891A42F62CA80B0443B1685E3.sgf_54_ac0fb9a7",
+      "board_size": 9,
+      "stones": "AAAAAgEBAAAAAAAAAgEAAQAAAAACAgIBAQAAAAIAAgIBAAEAAAACAgICAQAAAAIBAQICAQAAAAIBAgIBAAEAAAIBAgEBAQAAAAIBAQEAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A894562553F04D35E01CFFDD449F6A1D.sgf_63_38d228eb",
+      "board_size": 9,
+      "stones": "AAACAgAAAAAAAgIAAgAAAAAAAgECAgICAgAAAQEBAQEBAgIAAAEAAAEBAQIAAAIBAQABAgIAAAEAAQABAQICAQABAQEAAAEBAAEAAQAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B404120EC14DAD2750F83E83B6E95016.sgf_52_3b5f7247",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAEBAAEAAQAAAQICAQEBAgEBAQECAQICAgECAQICAgIAAgICAgICAgICAAAAAAICAgAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5DD2DBDC41E51F8538FCFAEB18B6587A.sgf_57_d9834abd",
+      "board_size": 9,
+      "stones": "AAAAAQABAAAAAAABAAEBAAAAAAEAAQABAAEBAQEBAQEBAQABAgICAQICAgEBAgEBAQECAgIBAgICAQIAAAICAAACAgICAgIAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B1210495D236789BEA0B69D7ECE43353.sgf_62_3d5783b2",
+      "board_size": 9,
+      "stones": "AAAAAAEBAgIAAAAAAAECAgECAAABAQECAAECAAABAgICAgICAAABAgIBAgIAAAABAQEBAQIAAAABAAECAgIAAAABAQIAAgAAAAAAAQICAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BF2FB4298CCE5D36D49FF9A8B5915126.sgf_49_eb96e555",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQEBAAAAAAAAAQICAAAAAAAAAQICAAABAQEBAQECAQEBAQICAgICAQABAgACAAAAAAECAgIAAgIAAQEBAgACAAIAAAECAgIAAgAA",
+      "score": 10,
+      "result": "B+10",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E6E5703AC412B6A0BADD3BC6B6CB32C4.sgf_91_5ae8dde1",
+      "board_size": 9,
+      "stones": "AQEAAQEBAQEBAgEAAQECAQIBAgEBAQICAgIBAgIBAQEAAgEBAAICAgEBAgIBAgAAAgIBAQEBAAIAAgIBAgEBAAIAAgICAgECAgIAAAICAgIC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3FBF439D2C22574D838D42CA4AB607B8.sgf_75_104b710b",
+      "board_size": 9,
+      "stones": "AQEBAQICAgEAAAEBAgICAQEAAQEBAQICAQAAAgEAAgIBAAEAAgECAgIBAQAAAgICAgECAgEAAAICAQEBAgEBAgIBAAECAgICAQEBAQEAAgIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1D8DD1DA09C2AAC2045E356868419E21.sgf_73_f16b23e9",
+      "board_size": 9,
+      "stones": "AAAAAQEBAgIAAAABAQICAAICAAABAgIAAgECAAEBAgECAgEBAQABAQEBAQEAAgEBAgEBAQABAgICAgICAQABAAACAgICAQEAAAIAAgICAgEA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AF76693B67D6BDAB9A645B126939F847.sgf_64_05d41e3a",
+      "board_size": 9,
+      "stones": "AAAAAQICAgIAAAAAAQECAAIAAQEBAAEBAgIAAQIBAAECAAACAgICAQICAgICAAIBAQEBAgIBAAICAgEAAQEBAAIBAQEAAAEAAAICAQEBAQAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "32FB994C3533E6F78AE75FC0993F1761.sgf_60_9cb9764a",
+      "board_size": 9,
+      "stones": "AAIBAQEBAAECAAICAQIBAQECAAIBAQICAQICAAIBAQECAgIAAgICAgEBAgICAQICAQECAgIAAQECAgEBAQICAQABAQABAQECAAEAAAEAAQEC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EB1F0F7C1F5AE43CAC5BF35902E258DA.sgf_58_cf7849ba",
+      "board_size": 9,
+      "stones": "AAAAAQEBAQIAAQACAQECAQIAAQIBAAECAgIAAQEAAQEBAQIAAQABAQECAgAAAQECAQEBAgAAAQICAQABAgAAAQIBAQECAgAAAgICAgICAAAA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FB4ABC5E8700ECD7D39439C3698BBDF7.sgf_86_445291fa",
+      "board_size": 9,
+      "stones": "AAEAAAAAAQAAAAEAAAEAAQEAAQEBAQEAAAEBAQECAgEAAQEBAQECAgEBAAABAQICAAIBAQEBAgACAgIBAQABAAICAQEBAAEAAgICAgEBAQAB",
+      "score": 34,
+      "result": "B+34",
+      "game_info": {
+        "black_captured": 24,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "054AA52EB11DF914D60B8C991064363B.sgf_53_8ebcf3c6",
+      "board_size": 9,
+      "stones": "AAABAgICAgAAAAEBAgECAgIAAAABAQECAAIAAAEBAQEBAgIAAQAAAAEBAgAAAAEBAQICAgIAAAAAAAECAQIAAAAAAAEBAQIAAAAAAAAAAQIA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "106CA9753F170C181A4046EB1ABCA2A9.sgf_65_8920d9a2",
+      "board_size": 9,
+      "stones": "AAICAQABAgAAAAIBAQEBAgIAAAICAQABAQIAAgACAQABAgAAAgIBAQEBAgIAAgEAAQABAgAAAgEAAAEBAQICAgEAAAEAAAECAQEBAAEAAQEC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "19FCBB22BFA25394BC75CF91FB71AAD0.sgf_62_2e24daf0",
+      "board_size": 9,
+      "stones": "AAIBAQAAAAAAAgICAQEBAQEAAQECAgECAQABAQABAgECAgEBAAEBAgICAgIBAAEAAQIAAgEBAQEBAQECAgECAQIBAgICAgICAQICAgAAAAIC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "992E80004CBD785926906F49E79297FA.sgf_88_7f331ef5",
+      "board_size": 9,
+      "stones": "AgEBAQAAAAAAAgIBAQEAAQEBAAICAgEAAQAAAgIAAgEBAAABAAACAQEAAAEBAAACAgIBAQABAAAAAgACAQEBAAACAAICAQABAAACAgICAQIB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 17,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "83A52ECC3EA44A667D22463BC08AC0E8.sgf_83_8003d0d8",
+      "board_size": 9,
+      "stones": "AgACAAAAAAACAgIAAAIAAgACAgAAAAACAgICAgICAgACAQICAgIAAgICAQEBAQECAgIBAQAAAQABAQICAQAAAAEBAAEBAQAAAQAAAQAAAAAA",
+      "score": -18,
+      "result": "W+18",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 19,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FC5D964B88F1FB66D23AFBC581B25300.sgf_74_dc1ab556",
+      "board_size": 9,
+      "stones": "AAEAAAAAAAAAAQABAQAAAAEBAQEAAQABAQICAAEBAAEBAgIAAAIBAQABAgACAAEBAQECAAIAAQECAgICAgIAAgICAgAAAgIAAAACAAAAAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ADFB06FDFAA0B1BA2DB48D5F4B0F524B.sgf_77_77b666eb",
+      "board_size": 9,
+      "stones": "AgEBAAAAAQAAAgIBAAABAAEBAgEBAAEBAAEAAgIBAQEBAAABAgACAgEAAAEBAAIAAgIBAQECAgICAgEBAgICAgEBAgECAAIAAQEBAQECAgAA",
+      "score": 8,
+      "result": "B+8",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B7458FB737B49C4DD696CA1104E4E227.sgf_79_d1b1c079",
+      "board_size": 9,
+      "stones": "AQABAQICAgAAAQABAQECAgAAAQABAQIAAgAAAAECAgICAgIAAAECAQEBAQICAQECAgEBAAEBAgICAgIBAQEAAAIBAQIBAAICAgICAQEBAQEB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "996280B1537F1E0D9AB54195ED58653F.sgf_82_6a94fcbe",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAgIAAgICAgIAAgACAgEBAQICAgAAAgEAAQIBAgICAgEAAAEBAgICAQEAAQABAQIBAQEAAQEBAQEAAQABAAEAAAEBAQEBAQEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "59FE43A80D6FB8F98D4354B010B33274.sgf_71_7d9a5564",
+      "board_size": 9,
+      "stones": "AAIBAQEAAAAAAgICAgEAAAAAAgACAgEBAQEBAgACAgIBAQECAgAAAgEBAAECAgICAQEBAQICAQIBAAECAgACAQEBAQABAgICAAAAAQEBAgAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "60D4B95B11CB4A6DCDD88400C80C04E6.sgf_58_0c6d732a",
+      "board_size": 9,
+      "stones": "AgEBAQAAAQICAgIBAQEAAQECAAACAQABAgICAAICAQECAgACAAAAAgECAQIAAgICAgEBAQICAQIBAQAAAQECAQEAAQAAAQICAQABAAAAAQEC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8882E9FFB1E7DD49BD33850E3CA45186.sgf_117_09105191",
+      "board_size": 9,
+      "stones": "AgIAAgICAgICAAACAAIBAgICAgIAAgEBAQECAQICAQEBAAECAQEBAQABAQICAAABAAEAAQECAQEBAQAAAQEBAQABAAAAAAEBAQEBAQAAAQEB",
+      "score": 18,
+      "result": "B+18",
+      "game_info": {
+        "black_captured": 26,
+        "white_captured": 18,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2D752235E89BACFC3017239200A07EFE.sgf_65_516efac8",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAABAQEBAAAAAAEAAAAAAQEBAAEBAQEBAQABAQEBAQECAgEBAgICAgECAgICAgAAAgICAAAAAgIAAgACAAAAAgACAgACAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "08B662F7C4658DC08E845AE06DC79ACC.sgf_64_3414f1be",
+      "board_size": 9,
+      "stones": "AAEBAAAAAAAAAQAAAQEAAAAAAAEBAAABAQEAAAABAQECAgEAAAECAgICAgEBAQECAAECAgIBAQICAgIAAgEBAgIAAgICAAICAAACAAAAAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "493203886EE439A8D1A2F63CAB849704.sgf_59_ff4d7b84",
+      "board_size": 9,
+      "stones": "AAACAQICAAAAAAACAQECAgAAAAACAQEBAgACAAACAQEBAQIAAAICAgEBAgICAgICAQEBAQECAQIBAQEBAAEBAQEBAQAAAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F8CD52EC5933B1AA2114CB3F68489385.sgf_83_19f6ba99",
+      "board_size": 9,
+      "stones": "AQEAAQICAgAAAAABAQECAgIAAQABAQICAAICAQEBAQECAgECAQIBAgICAgEBAgIBAgIBAQEBAgACAgEBAQAAAAACAQEBAAEAAAACAgEBAQAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4EEB54170B63A34DC7BBBCE00605F0C1.sgf_52_1e7ba43d",
+      "board_size": 9,
+      "stones": "AQEBAQAAAAAAAgECAQEBAAEAAgICAQIBAQABAAICAgIBAQECAgACAQECAgICAgICAQECAgACAgEBAQICAAACAQABAAECAAIAAAAAAQECAgAC",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DC8DBD6B907299070A7EF92DDEF51597.sgf_63_23724d50",
+      "board_size": 9,
+      "stones": "AAIBAQAAAAAAAAICAQEBAAEAAAACAgIBAQABAAACAQEBAQEBAAICAgECAQICAgIBAgECAgIAAQEBAQEBAgAAAAAAAAECAgACAAAAAAEBAgAA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ADB74A88CF34C7CC29655835399A57C2.sgf_66_d226490a",
+      "board_size": 9,
+      "stones": "AAIBAQAAAAAAAAICAQABAAAAAgIBAQEAAQAAAgEBAAEBAQEBAAIBAQECAgIBAAICAgECAgEBAAACAAICAQEAAAAAAgACAgEAAAAAAAICAQEA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C257BE32E2246CE5584387DCC686C83F.sgf_96_e4ad54e1",
+      "board_size": 9,
+      "stones": "AAICAgICAgICAgIAAAICAQICAgIAAgIBAQEBAgECAgEBAQECAQEBAgICAgECAAEAAQICAgEAAQABAQECAQEBAAEBAQICAgEAAAABAgICAQEB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 13,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EA8A2BF49B9A5BDC0BA7DDB7B1C341D6.sgf_71_e1f8cb42",
+      "board_size": 9,
+      "stones": "AAAAAAAAAgEAAAICAgICAgEAAgIBAgEBAgEAAQIBAQECAgEBAQEBAQEBAQECAQAAAAEBAgECAAEBAQIBAgICAQABAQICAgAAAAEBAgICAAIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F1BC1A61C33607BC2B52C7066750CD4B.sgf_75_0343abcf",
+      "board_size": 9,
+      "stones": "AgICAAIBAQABAAACAgIBAQEBAgIBAQEBAAEBAAICAQAAAQEAAAACAgEBAAABAAACAQEBAQEAAAIAAgEAAQAAAAACAgEAAQAAAAACAQEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7740ECDCCFB5B4FA2228EF74A81144FC.sgf_47_fd4354bc",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAAAAAACAAAAAAACAAIAAgICAgIAAgICAQECAQICAQIBAQEBAQEBAQEBAQEAAAAAAQABAAEBAAABAAEAAAABAAABAQEBAQEB",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "98935C1DDEEB275DF8B149D0B4C21F64.sgf_94_0cb23f4e",
+      "board_size": 9,
+      "stones": "AgACAgIBAAEAAAIAAgEAAQABAgACAQABAAEBAAICAQEAAAEAAgICAQEBAAABAAIAAgIBAAEAAgAAAgICAQEBAAIAAgACAgIBAgACAAICAQEB",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 17,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D774ADE699ECA78C149B196E2D982A6F.sgf_58_7932a798",
+      "board_size": 9,
+      "stones": "AAAAAAECAgAAAAAAAAECAAIAAAABAQECAgIAAAEAAAABAgACAAEAAQEBAgIAAAEAAQICAAACAAEAAQIAAgIAAAEBAQICAgAAAAABAgIAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8E0C38687FCE62D7E75E0C79712B3866.sgf_48_8ec58035",
+      "board_size": 9,
+      "stones": "AAEBAQIAAAAAAAEBAgICAAIAAAEAAQEBAgICAAABAAABAgECAAABAAEBAQEBAAEBAQECAgICAQAAAAECAAAAAQEBAQIAAgAAAgICAgICAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3F14159DF6A3D7621E773B502EB07D98.sgf_79_5954bdca",
+      "board_size": 9,
+      "stones": "AAAAAAEBAgIAAAABAQECAgEBAAABAgECAgEAAAEBAgEBAgIBAQECAgIBAQIAAQEBAgEBAQICAQECAgICAQECAQICAAICAgECAgIAAgACAQEC",
+      "score": -10,
+      "result": "W+10",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B5768F3A27486110665DD49BE4F849FB.sgf_43_c0266b64",
+      "board_size": 9,
+      "stones": "AAABAAEBAQAAAAEAAQEAAAEAAAEBAgIBAAEAAAECAgICAQEBAQECAAIBAQIBAQIAAgEBAgICAgICAgICAAIAAAAAAgAAAgAAAAAAAAICAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5EAAB13FCDBA3160288D87E267038FAD.sgf_45_fcb0bf0e",
+      "board_size": 9,
+      "stones": "AAAAAQECAgAAAAABAgEBAgIAAQEBAgABAQICAAEBAQABAQECAAEAAAEBAQICAQEBAAEBAgACAgIBAQECAgACAgACAQECAAIAAAICAQICAgIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "00EEC705A35DEB54B5E495AC854DB0F9.sgf_65_757974f7",
+      "board_size": 9,
+      "stones": "AAECAgAAAAAAAAEBAgACAgIAAQABAgIBAgACAQECAgIBAQICAgICAQEBAgIBAgEBAAEAAQIBAAIBAAEBAAEBAAIBAAEAAQAAAAIBAAABAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D4F51BCD204B0D66D5D01619BA339228.sgf_79_2394c8ba",
+      "board_size": 9,
+      "stones": "AAABAQEAAQEAAAEBAQEAAQAAAQEAAAAAAAEBAQABAQEBAQECAQEBAQECAgICAQEBAgICAAACAgECAgIAAgIAAgIAAgIAAgIAAgACAAACAAAA",
+      "score": 10,
+      "result": "B+10",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C2A4307B7E09360F7297D663786CBF67.sgf_36_0f2c831e",
+      "board_size": 9,
+      "stones": "AAICAQAAAAAAAAIBAQAAAAAAAAIBAAEBAAAAAAIBAQEAAAAAAgACAQEBAAAAAgICAgIBAQAAAAIAAgEBAQEBAAACAAICAgIBAAAAAAAAAgIC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "646137C49787F77A56AC2F811ED4E850.sgf_51_9be28e1b",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAEBAQIAAAIAAAEBAgACAAACAAECAgICAgIBAAECAQECAQEBAAEBAQEBAQEBAQECAgEAAAABAQICAAIBAQEBAgIAAgICAQEA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E6AD2B76D37D7D94D1B01B60A43CDC68.sgf_69_db4cb736",
+      "board_size": 9,
+      "stones": "AAAAAgEBAAAAAAIAAAIBAAAAAgAAAAIBAQAAAQICAgICAQAAAQEBAQEBAAEBAAEBAQEBAQICAQAAAAECAgICAAEBAQIAAgACAQECAgICAAIA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "41C33FCD144DAA2788A65F586DBDE0E7.sgf_84_62522d8f",
+      "board_size": 9,
+      "stones": "AgACAAACAgICAgAAAgIAAgAAAgICAgICAQICAgEBAQIBAQECAQEBAQEAAQECAQEAAAABAQICAAAAAQECAQIAAAEBAQECAgICAQEAAAEBAQIA",
+      "score": -8,
+      "result": "W+8",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9424AA0E48E76047AD99B7F4CB51C373.sgf_72_3960f742",
+      "board_size": 9,
+      "stones": "AAABAgICAAAAAQEBAQIAAgAAAQIBAgECAgIAAgIBAAEBAgACAAACAQEAAQICAgICAgEAAQECAAACAQEAAAEBAgIBAAEAAQABAgEBAQABAAEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "33733B843381EA1F8D33CB3AEEF69A8C.sgf_59_b4b61f9b",
+      "board_size": 9,
+      "stones": "AAAAAAIAAgAAAgIAAgACAgICAQICAAIBAgECAQECAgIBAQEBAQABAQEAAAABAQEBAQABAQEAAQICAgEAAQAAAgACAAIBAAAAAgIAAAIBAAAA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "58BE6E2D6C368550BFAADF4033979120.sgf_80_bf280e27",
+      "board_size": 9,
+      "stones": "AAICAgICAgEBAgACAQECAQEAAAICAQECAQABAgIBAQICAQABAgACAQEBAAAAAgACAQABAQABAAICAQEBAAEAAAACAgIBAAEBAAAAAAIBAQAB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9464E8F1E1EE2F93C8EB49ED359A1AD6.sgf_44_db691d6d",
+      "board_size": 9,
+      "stones": "AAAAAQICAAAAAAAAAQECAAAAAAAAAQECAAAAAAABAAECAgICAAEBAQIAAgEBAQICAgICAQABAAEBAgACAQEAAAECAgICAgEBAAEBAgACAgIB",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1290FB21E37659C1E3AE7AB66C054F9C.sgf_76_5b32bd1e",
+      "board_size": 9,
+      "stones": "AAAAAAABAQEBAAAAAAEBAAAAAQEBAQEAAQEBAgECAQAAAAAAAgICAgEBAQEBAgICAgECAQEAAAACAAICAQEBAAICAAIAAgEBAAACAgIAAgIC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6A6C595B4E81ACA2814F02CC8A3E67DE.sgf_67_6a7875f7",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAQEBAQEBAQEBAgECAQABAgIBAgICAQECAAICAAIBAgICAgIAAAIBAQIAAAICAAIBAQICAgEBAAICAQEBAQEBAAACAgEAAQAB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6D314370DF30928FBAAAE1E1A73FCCDB.sgf_49_8559d961",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAAIAAgEBAAAAAgICAgIBAQAAAQEBAQEBAAEAAgIBAQAAAQEAAAIBAAEBAgEBAAIBAQIBAgIBAAICAgICAgEBAAAAAAAAAgIC",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9B32D1A2DD0B21A6013127223425D93B.sgf_79_be99d607",
+      "board_size": 9,
+      "stones": "AAEBAAEAAQAAAQEAAQAAAQEAAgIBAQABAAABAAICAQEBAQABAgACAgEAAAEAAAAAAgEBAAAAAgACAgEAAQEBAgACAgEBAgIBAgAAAgICAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 10,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F5F13575D7C2C4BD337A8159E2C8F801.sgf_86_ded8380e",
+      "board_size": 9,
+      "stones": "AQABAQEAAQEBAAEAAQABAAABAAEBAAABAAEAAQEAAAEAAQEBAAAAAQEBAQECAQABAQICAQICAQEBAgICAgACAgECAgIAAAICAgICAAACAgAA",
+      "score": 18,
+      "result": "B+18",
+      "game_info": {
+        "black_captured": 19,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A06072BA3DB306ABA30C080084D1FC27.sgf_63_163dbaff",
+      "board_size": 9,
+      "stones": "AAAAAAABAgIAAQEBAAEBAQIAAQIBAQECAgAAAgICAQECAgICAAICAgIAAgECAAACAQICAQEBAAIBAQEBAQEAAAICAQAAAAAAAAIBAQAAAAAA",
+      "score": 6,
+      "result": "B+6",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "91EF2E537606261BE4860815EFC504CC.sgf_54_59f84be8",
+      "board_size": 9,
+      "stones": "AAEAAQECAAAAAAAAAQECAgIAAQEBAgIAAgICAQICAgACAgACAgICAgIBAgIBAAACAQEBAQEBAgIBAAEAAAAAAAIBAAEAAAAAAAICAQAAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3DBAAC142BD902ED4958625C911108D9.sgf_48_baaa3333",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQAAAAAAAQEBAAEAAAABAAABAQEAAAEBAQEBAAAAAQECAgECAQEBAgICAgICAQIBAAACAgICAgICAAAAAgAAAAAAAAAAAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F44922DECD853E69C8619BBABC7922D7.sgf_80_c7d47b9b",
+      "board_size": 9,
+      "stones": "AgEAAAAAAAAAAgEBAQAAAQEBAgICAQEAAQIBAgICAgEBAgICAAACAQEBAQIAAgACAgIBAgIAAAICAgEBAQIAAAIBAQEBAQIAAAICAgEBAgIC",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "8162CF0F3FB32336BBCC203AB036A673.sgf_85_2bf70fd9",
+      "board_size": 9,
+      "stones": "AgACAgEBAQEBAgICAgIBAAEAAgECAgEBAAAAAQECAgIBAQEBAAECAgEBAAEAAQABAgECAQEBAQEBAgECAgICAAEBAgICAAACAAABAQIAAgIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 20,
+        "white_captured": 14,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "046785B35C672A26477A91C9E9752330.sgf_55_b8ac4c20",
+      "board_size": 9,
+      "stones": "AAIBAQECAgIAAgABAgICAQEBAQEBAgEBAQEAAQACAgIBAQEBAgICAQECAgECAQECAQICAAICAAEBAQICAAIAAQABAgICAAIAAAABAQICAAAC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D4DE6277376F99401C004E8D5153EE8A.sgf_52_11118131",
+      "board_size": 9,
+      "stones": "AAACAgICAgAAAAIAAgECAAAAAAIAAgECAgICAAACAQEBAQECAgICAgIBAQEBAgEBAgEBAQAAAQABAgEAAQAAAQABAQEBAAAAAQEBAAAAAAAA",
+      "score": -12,
+      "result": "W+12",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "BEAC8CD711E976AFD90F7AC3226AA84F.sgf_62_1f312eac",
+      "board_size": 9,
+      "stones": "AQICAgACAAAAAQECAAACAAAAAQABAgACAAAAAAEBAQICAgAAAQEBAAECAAIAAQABAQECAAIAAQEAAAEBAgAAAAAAAAEBAgAAAQEBAQEBAgAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "5E3A43FB740E51BA0FF6B34E262592C9.sgf_70_9a3433a8",
+      "board_size": 9,
+      "stones": "AAICAQEAAAAAAgACAgEBAAAAAAIAAgIBAAAAAgICAgIBAQEAAQECAQEAAQABAAEBAQEBAQEBAQECAgECAgEAAQICAgIAAgEBAgIAAAICAgIC",
+      "score": 3,
+      "result": "B+3",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A14095262D35068CE86D56C8EDAD106F.sgf_56_d9818ca2",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAEBAQICAAAAAAEAAQIAAgAAAAEAAQECAgAAAAEBAAEBAgAAAQABAQICAgAAAAEAAQEBAgAAAAABAAEBAgAAAAAAAAABAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D451C08486D7ECCF3F806E375A796022.sgf_87_b487988e",
+      "board_size": 9,
+      "stones": "AAAAAQABAAEAAAABAQECAQABAQEBAAECAgEBAgEBAQICAgIBAgICAQEBAQICAgACAgECAgIAAgECAQEBAQICAgECAQICAgIAAAECAQEBAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E3F0FAF7C5E1737B5B64693C23FFE934.sgf_54_d210060c",
+      "board_size": 9,
+      "stones": "AQIAAgAAAAAAAQICAAIAAgAAAQEBAgICAAIAAQICAgABAgAAAQEBAgICAgICAQEAAQEBAQECAAEAAQABAAEBAAABAAAAAQAAAAAAAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "93DB7A6888D1A7BB7EB2DE2FCCD1949F.sgf_75_9fb86529",
+      "board_size": 9,
+      "stones": "AQEAAQEBAQEBAAEBAQAAAQAAAQEBAQEAAAABAgICAQEAAQEBAAACAgEBAgEAAAIAAAICAgEBAAICAgIBAQABAAAAAgEBAAEBAAAAAgEAAAAA",
+      "score": 18,
+      "result": "B+18",
+      "game_info": {
+        "black_captured": 15,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "99E6D1E0EA52930FC9393C8C85A514A7.sgf_79_dc98fd14",
+      "board_size": 9,
+      "stones": "AAEBAQEAAAAAAQAAAAABAQEBAAEAAQECAgICAQEBAQECAgACAAECAgECAAIAAAEBAgIAAAACAAABAgICAAIAAAABAQECAAICAAABAgICAgAC",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9E63F119326C01124B6B9E8444ADD8CC.sgf_79_5344baba",
+      "board_size": 9,
+      "stones": "AAAAAQEBAgICAQEAAQABAQIAAQIBAQECAgIAAgICAQECAAICAgACAQABAgIBAAICAgEBAQEBAgIBAgICAgEAAgEBAQECAQABAgIBAQEBAQAB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "50CD5B49FC9BE48A78CEE4BA4351A8CA.sgf_88_ca71450b",
+      "board_size": 9,
+      "stones": "AAICAQEAAAAAAgACAgEAAAAAAgIAAgEBAQAAAgICAQEBAAEAAgECAgECAQEBAQEBAQECAgECAQEBAQEBAgICAQICAgECAAIAAQECAgICAgAC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E73594BBC8F87195E7DA0B15472A78F7.sgf_76_6c2837e7",
+      "board_size": 9,
+      "stones": "AAIAAAICAQAAAgACAAIBAAAAAgICAAIBAQAAAAICAgEBAAEAAgAAAAICAQAAAAICAgICAgEBAgACAQEBAQEAAgIBAAEAAQIBAgEBAQABAgIA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 14,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E22EF36E852CDC3750E3D2B3F2A05BE7.sgf_80_ea234ce7",
+      "board_size": 9,
+      "stones": "AQEBAQEBAgICAgEAAQABAgIAAgEBAAECAgACAgEBAQECAAICAgIBAQICAgECAgACAgEBAQECAgACAgEAAAEBAgICAQABAAAAAAACAQEAAAAA",
+      "score": -8,
+      "result": "W+8",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9F25E12F1F5F8CEBE77F77487B12F0CD.sgf_60_5af7ad0c",
+      "board_size": 9,
+      "stones": "AAICAgEBAQAAAAACAQECAQAAAAICAgICAQAAAAICAQIBAAAAAgIBAQEBAQAAAgEBAgECAQAAAgICAgICAQAAAAACAAIBAQAAAAAAAgEBAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FF379FE93E15E7ACBF40157379B6A5F4.sgf_89_1b80c779",
+      "board_size": 9,
+      "stones": "AAIAAgICAgICAgAAAgICAQEBAgICAgEBAQABAQICAQEBAAECAQECAgEAAQICAQEBAgEAAQICAAEBAQEBAgIAAAABAAECAgACAAAAAQEBAgIA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "564108D1FFB5C83147812C454DAAC0F6.sgf_86_cbc89766",
+      "board_size": 9,
+      "stones": "AgAAAAIAAgACAAACAgACAAICAAAAAgICAgIAAgAAAgACAAIAAAICAAACAgAAAgICAAAAAgAAAgIAAAIAAgIAAgACAAIAAAIAAgACAgIAAgIA",
+      "score": -88,
+      "result": "W+88",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 35,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FDBD6E3D8C28A2C2A1460696482C19BC.sgf_44_243ae4cb",
+      "board_size": 9,
+      "stones": "AAAAAAACAgEAAgICAgICAQEAAQIBAQECAgEBAQEBAgICAgIBAAABAQECAQEBAAEBAQEBAQEBAAABAQICAQICAAABAgICAgIAAAABAQIAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3DFEC4706F30B48BE9B693C906388A3A.sgf_55_a4dc7d4f",
+      "board_size": 9,
+      "stones": "AAEBAQECAAAAAAECAQECAAAAAAECAgICAgAAAAEBAgIAAAIAAAABAgECAgAAAAEBAQECAQIAAAEAAQABAQIAAAABAAEBAgIAAAAAAAECAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "22A1996DBE74D103E43B2FD402AC6756.sgf_56_022504d7",
+      "board_size": 9,
+      "stones": "AQEBAQAAAAAAAgICAQEAAAAAAAIAAgEAAAEAAAACAgIBAAABAAICAgIBAQECAgIBAQECAQICAQEAAQICAgIAAAAAAQIAAAIAAAEAAQECAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "875246375536A110E02BD11C9181633E.sgf_43_9fab650a",
+      "board_size": 9,
+      "stones": "AAAAAQECAgIAAAABAQICAgEBAAEBAgIAAQEBAAECAgIBAQECAAEBAgEBAgECAAABAgECAgICAAEBAQICAgIAAAABAQIAAgAAAAABAgIAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9CE67F8A4062D27349B1C0AFD8D148C7.sgf_50_9e6e5588",
+      "board_size": 9,
+      "stones": "AAAAAAICAQAAAAAAAAIBAQAAAAICAAIBAAAAAgAAAgIBAQAAAQICAgEBAAAAAQEBAQEBAAAAAgEBAgICAQAAAgICAgIBAQAAAAIAAgEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7F48F32520BF7DE7DDE075500B42BA7D.sgf_55_61366556",
+      "board_size": 9,
+      "stones": "AAAAAAACAgEAAAACAgICAQEBAAICAQIBAQABAAIBAQIBAQEBAgIBAAECAgICAgEBAQEBAgAAAQEAAAABAgAAAAAAAAABAQIAAAAAAAABAgIA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "348B1A032CBAB9071DDF249FCF783BA5.sgf_65_15d0ff47",
+      "board_size": 9,
+      "stones": "AAIBAQAAAAAAAAICAQEBAAEAAAACAgIBAQEBAAACAQEBAQEBAAICAgECAQICAgIBAgECAgIAAQEBAQEBAgAAAAAAAAECAgICAAAAAAEBAgAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4BBCB2D93849A2F9E68846A776992806.sgf_49_9b3c0d58",
+      "board_size": 9,
+      "stones": "AgACAAIAAAAAAgIAAgACAAAAAgICAAICAgICAQIAAAIBAQECAQECAgICAgEBAQEBAQEBAQEAAAEAAQAAAAAAAQEBAAAAAAAAAAAAAAAAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "99BB9E4561B0B9C19297353AFBB900DA.sgf_69_02c61c63",
+      "board_size": 9,
+      "stones": "AAICAAIBAQAAAgAAAgICAQAAAAICAgECAQAAAgICAQEBAAAAAQEBAQEBAQEAAQEBAQICAQABAQIBAgACAgEAAQICAAIAAgEAAgICAAACAQEA",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "185987475BF51589A1F2074C7445B787.sgf_97_3dd9c71f",
+      "board_size": 9,
+      "stones": "AQEBAAEBAQABAQIBAQAAAQEAAgIBAQEBAAAAAAIBAQAAAQEBAgICAQEBAQEBAgIBAQEBAgIBAAACAQICAgICAgICAgACAQEBAAAAAAIAAgIA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 16,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "115D48BE02465A1BBC207E8A3BE006DB.sgf_73_e47dfde0",
+      "board_size": 9,
+      "stones": "AAICAgEBAAAAAgAAAgIBAAAAAQICAgEBAQEAAQICAQEBAAEAAQECAgICAQEAAAEBAgACAgEBAQABAQICAgIBAAEBAgIAAQIBAAABAgACAgIC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "11095C29B1467EEAE2E5870651F9D368.sgf_69_db21606b",
+      "board_size": 9,
+      "stones": "AAICAgIBAQEAAgAAAAICAgEAAAICAgEBAQABAgAAAgICAQEAAAICAgECAQAAAgACAgECAQAAAQICAgECAQAAAQECAQEBAAEAAAEBAAEAAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "B5BFF01505FCB81A15D3D0E863E2E57C.sgf_61_3cb38284",
+      "board_size": 9,
+      "stones": "AAACAQEBAQAAAAACAgIBAQEAAAAAAAICAQEAAAIAAgIBAQAAAAICAQEBAQAAAgACAgIBAAAAAgAAAgEBAQAAAgICAQEAAQAAAAICAgEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "20AB2172DECD0713CC0B7BF388B5C7DB.sgf_46_5c8622da",
+      "board_size": 9,
+      "stones": "AAAAAAAAAAAAAAABAAEAAAAAAQEAAQABAQAAAQIBAQECAQAAAgICAgECAQEAAAACAAICAgEAAAACAgIAAgEBAAAAAAAAAgIBAAAAAAAAAAIC",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7F62936F64D51F1CD0A5826BEC360D2D.sgf_69_e6a244a1",
+      "board_size": 9,
+      "stones": "AAAAAQECAAAAAAEAAQICAAICAAAAAQECAgIBAQEBAQICAQEBAgECAgACAgIBAgIAAgICAQEBAAIAAgEBAQABAAIAAgEBAAEBAAICAQEAAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D0EE872D634F34ED256A8B5CE7015597.sgf_52_3e7000d0",
+      "board_size": 9,
+      "stones": "AAIAAAICAQAAAgACAgIBAQAAAAICAAIBAQAAAAACAgEAAAEAAAACAQEBAQEAAAACAgIBAQAAAAACAQEBAAEAAAACAgEAAQAAAAACAQEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E264230C854F11511F8F316577F1E48C.sgf_76_34b8210b",
+      "board_size": 9,
+      "stones": "AAABAgIAAAAAAAABAQICAgAAAAABAQEBAgAAAAABAgICAgIAAAEBAgICAgACAAABAgICAAICAAABAQICAgICAAABAAEBAQECAAABAAABAQIC",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DDD9314C88A47D9ADA2339AA54907837.sgf_103_e3d944c9",
+      "board_size": 9,
+      "stones": "AAEBAgICAAICAQEBAQICAgACAAABAQEBAQICAQECAQIBAgACAQECAgICAgICAgICAgIBAgIAAQECAQEBAQICAAEBAAEBAQECAAEAAQABAQIC",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 16,
+        "white_captured": 16,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3A6AEA3A906DAAF9584BE8D2E2D29840.sgf_95_de7ffb37",
+      "board_size": 9,
+      "stones": "AQAAAQABAgIAAQEAAQEBAgEBAAEAAAEBAgECAQEBAAEBAgICAgEBAAEBAgIAAgICAQECAgACAgACAgEBAQICAgEBAgIBAQECAAEBAQICAQEB",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "558D046C4ED6326A5A8E44E12C21D38D.sgf_81_29ba4773",
+      "board_size": 9,
+      "stones": "AAAAAAECAQEAAAAAAQECAQECAAEAAQICAAECAQABAQICAgICAQECAQEBAQECAQICAgEAAQICAQICAgIBAQICAQIAAgACAQIBAgICAAICAQEB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3D535DF2A692BEDD2E6EF136838C5CAA.sgf_65_0f33e28c",
+      "board_size": 9,
+      "stones": "AAEBAQABAQEBAQEBAAAAAAAAAQIBAQABAAEBAgIBAQABAAEAAgACAQEBAQABAgICAQEBAQECAAACAgICAgICAAAAAAAAAAAAAAAAAAAAAAAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 12,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "660A373BD97F6A5BFE0D97F01E65BCDE.sgf_60_c7a33d74",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQABAAEBAQEAAQABAQECAgEBAAEAAgICAAIBAAEAAAIAAAIBAAABAgACAgICAQEAAAICAgICAQAAAAACAAICAQAAAAAAAgIBAQAA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F6E35D81FE3DDC6ED1B202B50AB1A183.sgf_53_22008253",
+      "board_size": 9,
+      "stones": "AAICAgAAAAAAAAIBAgICAgICAgIBAQIBAQIBAgEBAQEAAQEBAgIBAQEBAQAAAAICAgEAAAEAAAIBAgIBAQAAAAIBAQIBAAAAAAIBAQEBAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F73883C9E7FFFB390783F4ACA5FF6908.sgf_56_b5956bad",
+      "board_size": 9,
+      "stones": "AgICAQAAAAAAAgIBAQAAAAAAAgICAQAAAQAAAAICAQEBAAEAAAACAQAAAQAAAAIAAgEBAQAAAAACAgIBAQEBAAAAAAICAQIBAAAAAAACAgIB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F579C9B9DC9D1112B31464F6C1E393CB.sgf_56_58c7dd5f",
+      "board_size": 9,
+      "stones": "AAAAAAABAQIAAAABAQEBAgIAAAEBAAABAgAAAQAAAQECAgAAAQABAQECAAIAAAEBAgECAgACAAEBAgIAAAIAAAECAAICAgACAAECAgAAAAIA",
+      "score": 4,
+      "result": "B+4",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "DE42F5323548A099F85C1E832D1A51E9.sgf_70_7e6bc861",
+      "board_size": 9,
+      "stones": "AAAAAAIBAAAAAAAAAgIBAQAAAAIAAgICAQAAAgICAgIBAQAAAQIBAgEAAQEAAQIBAQEBAgEBAQEBAgICAgICAAABAQICAAACAAABAgICAAIA",
+      "score": -10,
+      "result": "W+10",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "E0A114A357A39AEEC9B2D8BBEA434FA8.sgf_51_890122f4",
+      "board_size": 9,
+      "stones": "AgEBAAAAAAAAAgIBAQABAQAAAgEBAAECAQEBAgICAQECAgEBAAACAgICAgIBAAACAQEBAgICAAACAgEAAQIBAAACAQEBAAEBAAACAgEAAAAA",
+      "score": 8,
+      "result": "B+8",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "2FADF9743397117E9DD02690866C3B49.sgf_68_1ba6726e",
+      "board_size": 9,
+      "stones": "AAAAAQAAAAAAAAEBAgEBAQAAAQABAgIBAAEAAAECAAIBAAEAAQECAgICAQABAQICAgEBAQEBAgIAAAICAQIBAgACAgICAgICAAIAAAAAAAIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "51681FD71ACB13AFE493A9D344E4E002.sgf_39_141fd8f4",
+      "board_size": 9,
+      "stones": "AAACAAACAgEAAAICAgICAQEAAAACAQEBAAEAAAACAgEBAAEAAAICAgIBAQEAAAACAQEBAQAAAAACAQABAAEAAAACAgEBAQAAAAACAQEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "0CA2D38986EAF86A866F667304E5A0F9.sgf_69_cc88b6f7",
+      "board_size": 9,
+      "stones": "AQICAAACAgAAAQECAAIAAAICAAEBAgIAAgACAAECAgIAAgIAAAABAgECAgIAAAEAAQEBAQICAQAAAQABAQECAAEBAQABAAEBAAAAAAEAAQAA",
+      "score": -7,
+      "result": "W+7",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "6965687A56E9E894AE0DB613B06E1094.sgf_96_69d2c932",
+      "board_size": 9,
+      "stones": "AAEBAgICAAAAAAABAQICAAIAAAEBAgIAAgACAAABAQICAgICAAAAAQIAAgECAAAAAQICAAEAAQEAAQECAgIAAQAAAQEBAQICAAAAAQABAQEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 20,
+        "white_captured": 18,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "F3CA2F2FFAC9DCA7B6FB3BD7FBA4F37B.sgf_32_a00ad544",
+      "board_size": 9,
+      "stones": "AgEBAQEBAQEAAgECAQABAQICAgICAQEBAQECAgACAgIBAQICAAACAQECAgACAAACAgEBAgICAAACAQEAAQIBAAIBAQABAAEBAAIBAAAAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 1,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AA55A7A87A3D4BF9DB4998A9214A8F1A.sgf_80_6ab28d32",
+      "board_size": 9,
+      "stones": "AQICAgICAAIAAQEBAQICAAICAQEBAQICAgIAAgECAQIBAQICAgICAQEBAQIBAgIBAAABAAEBAAIBAQABAAEBAgACAQEBAAEAAAICAgEAAQAB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 8,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "275305B21F39CBF2CFE506492CDC0E57.sgf_71_fe02995b",
+      "board_size": 9,
+      "stones": "AAAAAAICAQAAAAAAAgIBAQAAAAACAAIBAQEBAAACAgEBAAECAAICAQEBAQICAgAAAgEBAgABAAACAgEBAgIBAAIAAgEAAQEBAgACAgEBAAEA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 5,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "FCAE48DA4D895679A8CD32F6E0BB0109.sgf_62_e60d92f1",
+      "board_size": 9,
+      "stones": "AgICAAIBAAEAAAAAAgIBAQABAgACAgICAgEBAgICAgEBAgIBAgEBAQIBAQEBAQEBAgICAgIBAQAAAQICAAICAQEAAQIBAgAAAQABAQEBAgAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ACD68AA9446A055A6A9374D6228539A9.sgf_58_32713543",
+      "board_size": 9,
+      "stones": "AAEBAgAAAgEAAAECAgACAgEAAAEBAgIBAQEAAAECAgEAAQAAAQECAgEBAQEAAgEBAgIBAgEAAgIBAgIBAgEBAAIBAgACAgIBAAACAAAAAAIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "7D7262677178B16945138E92570FA193.sgf_69_964e6a35",
+      "board_size": 9,
+      "stones": "AAABAAEBAQIAAAEBAAEBAgIAAAECAQEBAQIAAAECAgICAgIAAAEBAgICAgACAAEAAQEBAQIAAQABAQEBAgACAAEBAgECAgICAAABAgICAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "802686CB68F2CC90938B95A5EE7991A1.sgf_68_b3cb24ba",
+      "board_size": 9,
+      "stones": "AAAAAQEBAgIAAAEBAQABAgACAQECAQECAgIAAgECAQABAgACAgICAQEAAQICAgACAQABAQEBAgECAgEAAQIBAgECAQEBAgIBAAECAgICAgIB",
+      "score": -10,
+      "result": "W+10",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1EC91AAD374BA85749B1926EB2DF8C58.sgf_48_46b4e2e6",
+      "board_size": 9,
+      "stones": "AAAAAgEAAAAAAAIAAgEAAAAAAAAAAgEBAAAAAgICAgIBAAAAAQEBAgEAAAAAAQEBAQEBAAAAAQIBAQIBAQEBAgICAgICAQIBAAAAAAACAgIC",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "07CD9548CCF24D9A3AEA2327E704A09D.sgf_57_1b3debc8",
+      "board_size": 9,
+      "stones": "AAAAAgEBAQAAAAAAAgICAQEAAAAAAgACAgEAAAACAAIBAQEBAAACAgEAAQABAAIAAgEBAAEBAgICAQEBAQABAAIBAQEBAAABAAIBAAABAAEB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 9,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "ECEAD6BC525B44A97E61BBE0E481B5F0.sgf_47_ca011247",
+      "board_size": 9,
+      "stones": "AAACAgEAAAAAAAICAQAAAAAAAAIBAQEBAQAAAAIBAQECAQAAAAICAgECAgEAAAIAAgICAgEAAAACAgEBAQEAAAACAQEAAAAAAAACAgEAAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "AAF1D06847006CFE2706DC4DD50E6952.sgf_87_86ff43bd",
+      "board_size": 9,
+      "stones": "AAICAQAAAAEBAAIBAQEBAgIBAgACAQEAAQIBAAIAAgEBAQIBAgICAgEBAgABAAAAAgIBAAIBAAIAAAIBAQEBAAICAAIBAgAAAgACAAIBAQAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 13,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3BB6B4EC50308D302EC0133138AA0633.sgf_49_3ddc294e",
+      "board_size": 9,
+      "stones": "AAACAQEAAAAAAAAAAgEBAAEBAAACAAIBAAECAgICAgIBAQICAQIAAgICAgIAAQICAQICAgAAAQEBAQECAQICAAAAAQABAQECAAAAAAEAAAEB",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 6,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3E201F3AE6639DE134F8F18A9C3715FC.sgf_73_7c082d6b",
+      "board_size": 9,
+      "stones": "AAAAAAECAgAAAAABAQECAAIAAQEBAgIBAgIAAgEBAQABAQICAgIBAQEBAgACAAICAQEBAgICAAACAQECAgEBAAICAgEBAgEAAAACAQEBAQEA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9AF1ED34091A20D840CCEE94C274AE86.sgf_33_51244cba",
+      "board_size": 9,
+      "stones": "AAIBAQECAAIAAAICAQICAAACAAICAQICAgIAAgIBAQEBAgICAgACAgEAAQIBAgICAQABAAEBAgEBAAEBAAEBAgEAAAEAAAAAAQEAAQABAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9CB896E4C37A6C859AB2139AC7E4A6D4.sgf_50_dc6dfc82",
+      "board_size": 9,
+      "stones": "AAAAAAABAAAAAAEBAAEAAQAAAQECAQABAAAAAgICAQEBAAAAAAACAgEBAQEAAAACAgECAQABAAICAgECAgEBAgAAAAICAAICAAICAAIAAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "9272725FE51370F217CB93B9C189A2D3.sgf_79_087f1894",
+      "board_size": 9,
+      "stones": "AAAAAQIAAQEAAAEBAQICAgECAAEBAQIBAgECAAABAgIBAgICAAEBAQEBAQIBAQABAQECAQEBAQEBAgICAgIBAgECAgAAAgACAgICAAAAAAIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 4,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "3282D33C56D1143F8C24D92F069AC923.sgf_44_7890622f",
+      "board_size": 9,
+      "stones": "AAAAAgEBAAAAAAICAgIBAAAAAgACAAIBAQAAAAIBAgICAQAAAAIBAQEBAQAAAAACAgEBAAAAAAIAAgIBAAAAAAACAQEBAAAAAAACAgEAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 0,
+        "white_captured": 2,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "A17216ABF2383A6F7DBC2755B5B9DCB9.sgf_79_b2cd1a94",
+      "board_size": 9,
+      "stones": "AAEAAQACAgICAgEBAgICAQEBAgICAgICAgEBAgEBAQECAgIBAQEBAgEBAQEBAQABAgEBAQABAAECAgIBAgEBAAECAAICAgIBAAEBAgAAAAIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 0,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "74A91F259F5E34F21A2990DBE3A151AA.sgf_91_08330d33",
+      "board_size": 9,
+      "stones": "AgIAAgIBAQAAAAAAAAICAQEAAgIAAgICAgEBAAIAAgIBAQEBAgICAgEBAAEBAgIBAQAAAAABAQIBAAEBAQEAAQEBAQABAAABAQEAAAAAAQEB",
+      "score": 20,
+      "result": "B+20",
+      "game_info": {
+        "black_captured": 13,
+        "white_captured": 9,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "241469B019D2141F4A454898CDF990EB.sgf_63_5202634f",
+      "board_size": 9,
+      "stones": "AQABAAEAAQAAAQEAAQABAQAAAgEBAAAAAQAAAgICAQEBAQAAAgIAAgEBAQEAAAACAgIBAgEBAAICAgACAgIBAAIAAAAAAgEBAAICAAICAgIB",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 11,
+        "white_captured": 11,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "69A46D7496E3480AE33B830A12138854.sgf_71_10b95afd",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQEAAAABAAABAAABAQEAAQABAQECAQIBAAECAgICAgIBAQEBAQIAAgACAQECAgIAAgICAgEBAgAAAAACAQEBAgIAAAACAgEBAQIA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 7,
+        "white_captured": 4,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "719E3378EA5E5AF224E7E01098B0BC7A.sgf_49_42e350af",
+      "board_size": 9,
+      "stones": "AAABAAAAAAAAAAEAAQEBAQEBAAEAAQAAAQIBAAABAAABAgICAAAAAQECAgICAQABAQIAAgACAgEBAgICAgAAAgICAgACAAICAAAAAAIAAgAA",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 6,
+        "white_captured": 10,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "EDDD7D6B9A1121CB57B41CE78D4DA023.sgf_52_7e4e641f",
+      "board_size": 9,
+      "stones": "AAEAAAABAgICAQEBAAEBAQIAAgECAQECAgACAgICAgIAAAAAAgEBAQICAgAAAQABAAEBAgAAAAABAAEBAQICAAAAAQECAgAAAAAAAAEBAgIC",
+      "score": -6,
+      "result": "W+6",
+      "game_info": {
+        "black_captured": 3,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "1D304F70D005F5CDEA501B3D17935AB6.sgf_77_dcdff7d0",
+      "board_size": 9,
+      "stones": "AgICAAAAAAAAAgECAAIAAAIAAQEBAgICAgACAQEBAgECAgIAAAABAgECAAACAQEBAQECAgICAQAAAAABAQEBAQEAAQABAAABAQABAAEBAQEA",
+      "score": -8,
+      "result": "W+8",
+      "game_info": {
+        "black_captured": 14,
+        "white_captured": 7,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C18EE6EE2C7910A457F8F79B22B92415.sgf_71_86418667",
+      "board_size": 9,
+      "stones": "AAABAgICAgIAAAABAQICAAIAAQABAgIBAgAAAgEBAQEBAQICAgIBAgEBAAEBAAACAgIBAQEAAAIAAgEAAQABAAACAgEAAQEAAAACAQEBAQAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 8,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "D70042F3EA2C57B55FD181A9C9CB0C4A.sgf_69_b8322ad6",
+      "board_size": 9,
+      "stones": "AAACAQEBAQEAAAACAgECAgEAAAACAgICAQAAAAACAgECAQEAAAACAgEBAgEBAAACAQEAAgEBAgICAgEAAgIBAAIBAQEBAQEBAgICAgIBAAAA",
+      "score": -2,
+      "result": "W+2",
+      "game_info": {
+        "black_captured": 2,
+        "white_captured": 3,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "74B285D601F80760876F55856BA84A1B.sgf_72_d46d194e",
+      "board_size": 9,
+      "stones": "AQECAgICAgACAQEBAgICAAIAAAEBAgICAgACAQEBAgAAAAACAQABAQICAgIAAAAAAAECAQIAAQABAQEBAQIAAQABAAEAAQICAQEBAAABAQEB",
+      "score": -4,
+      "result": "W+4",
+      "game_info": {
+        "black_captured": 16,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "CBF6310DBBD152CA3954781F474CDEB8.sgf_82_bf4d3ef5",
+      "board_size": 9,
+      "stones": "AgICAgIAAAAAAQICAAACAAACAQEBAgICAgIAAAECAgIBAgACAQABAQEBAgIBAAEAAAEBAgEBAQAAAAABAgEAAAEBAAEBAQEAAQEAAQABAAAA",
+      "score": 2,
+      "result": "B+2",
+      "game_info": {
+        "black_captured": 18,
+        "white_captured": 12,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "C688E80A3F084D167BBE08205E731965.sgf_52_03c81667",
+      "board_size": 9,
+      "stones": "AAAAAAAAAQAAAAAAAAABAAEBAAAAAAEBAQIBAAAAAAABAgIBAQEAAQECAgEBAQIBAQIAAgICAgIBAgICAAACAgACAgAAAgIAAgACAAAAAAAA",
+      "score": 0,
+      "result": "Draw",
+      "game_info": {
+        "black_captured": 1,
+        "white_captured": 5,
+        "komi": 7.0
+      }
+    },
+    {
+      "id": "4F1F66A188210C4E1768555BC8E53721.sgf_99_6281d2b6",
+      "board_size": 9,
+      "stones": "AQECAgIAAgICAQICAgIAAAAAAQEBAQICAAAAAQEAAAEBAgAAAQABAQECAgICAAABAQABAgIAAQABAAEBAgACAAEBAQABAQIAAQABAAABAgIA",
+      "score": 10,
+      "result": "B+10",
+      "game_info": {
+        "black_captured": 21,
+        "white_captured": 17,
+        "komi": 7.0
+      }
+    }
+  ]
+}

@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   file_picker: ^8.0.0+1
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -21,8 +22,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/complete_dataset2.json
-    - assets/19x19_midgame_positions.json
-    - assets/19x19_final_positions.json
-    - assets/9x9_sequences.json
-    - assets/9x9_final_positions.json
+    - assets/fox_mid150_19x19.json
+    - assets/final_9x9_katago.json

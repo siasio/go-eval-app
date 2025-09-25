@@ -77,17 +77,42 @@ class ResultButtons extends StatelessWidget {
             ],
           ),
           child: Center(
-            child: Text(
-              label,
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                color: textColor,
-              ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                if (_getKeyboardIcon(result) != null) ...[
+                  Icon(
+                    _getKeyboardIcon(result),
+                    size: 16,
+                    color: textColor.withOpacity(0.7),
+                  ),
+                  const SizedBox(width: 6),
+                ],
+                Text(
+                  label,
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: textColor,
+                  ),
+                ),
+              ],
             ),
           ),
         ),
       ),
     );
+  }
+
+  IconData? _getKeyboardIcon(GameResult result) {
+    switch (result) {
+      case GameResult.whiteWins:
+        return Icons.keyboard_arrow_left;
+      case GameResult.draw:
+        return Icons.keyboard_arrow_down;
+      case GameResult.blackWins:
+        return Icons.keyboard_arrow_right;
+    }
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/dataset_selector.dart';
-import '../models/scoring_config.dart';
 import '../services/position_loader.dart';
+import 'configuration_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -68,10 +68,60 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   children: [
                     Row(
                       children: [
-                        const Icon(Icons.tune, size: 20),
+                        const Icon(Icons.settings, size: 20),
                         const SizedBox(width: 8),
                         const Text(
-                          'Scoring Configuration',
+                          'Dataset Configuration',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
+                    const Text(
+                      'Configure thresholds, timing, and display settings for each dataset type.',
+                      style: TextStyle(color: Colors.grey),
+                    ),
+                    const SizedBox(height: 16),
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: () async {
+                          await Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const ConfigurationScreen(),
+                            ),
+                          );
+                        },
+                        icon: const Icon(Icons.tune),
+                        label: const Text('Open Configuration'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Theme.of(context).colorScheme.primary,
+                          foregroundColor: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 24),
+
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        const Icon(Icons.help_outline, size: 20),
+                        const SizedBox(width: 8),
+                        const Text(
+                          'How to Use the App',
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
@@ -81,35 +131,42 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     ),
                     const SizedBox(height: 16),
                     const Text(
-                      'Current Settings:',
-                      style: TextStyle(fontWeight: FontWeight.w500),
+                      '🎯 App Functionality',
+                      style: TextStyle(fontWeight: FontWeight.w600),
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '• Draw border: ±${ScoringConfig.defaultConfig.drawBorder} points',
-                      style: TextStyle(color: Colors.grey[700]),
+                      '• View Go positions from actual games and predict the winner\n'
+                      '• Choose from different datasets (9x9 final, 19x19 midgame, etc.)\n'
+                      '• Get immediate feedback on your predictions\n'
+                      '• Track your accuracy with built-in scoring',
+                      style: TextStyle(color: Colors.grey[700], height: 1.4),
                     ),
-                    Text(
-                      '• Color border: ±${ScoringConfig.defaultConfig.colorBorder} points',
-                      style: TextStyle(color: Colors.grey[700]),
-                    ),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 16),
                     const Text(
-                      'Explanation:',
-                      style: TextStyle(fontWeight: FontWeight.w500),
+                      '⌨️ Keyboard Shortcuts',
+                      style: TextStyle(fontWeight: FontWeight.w600),
                     ),
-                    const SizedBox(height: 4),
+                    const SizedBox(height: 8),
                     Text(
-                      '• Games within ±${ScoringConfig.defaultConfig.drawBorder} points: DRAW button gives ✓',
-                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                      '• ← Left Arrow: Select White Wins\n'
+                      '• ↓ Down Arrow: Select Draw\n'
+                      '• → Right Arrow: Select Black Wins\n'
+                      '• Look for arrow icons on the buttons for quick reference',
+                      style: TextStyle(color: Colors.grey[700], height: 1.4),
                     ),
-                    Text(
-                      '• White wins by >${ScoringConfig.defaultConfig.colorBorder} points: WHITE button gives ✓',
-                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                    const SizedBox(height: 16),
+                    const Text(
+                      '⚙️ Configuration Options',
+                      style: TextStyle(fontWeight: FontWeight.w600),
                     ),
+                    const SizedBox(height: 8),
                     Text(
-                      '• Black wins by >${ScoringConfig.defaultConfig.colorBorder} points: BLACK button gives ✓',
-                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                      '• Use the "Dataset Configuration" section above to customize:\n'
+                      '  - Scoring thresholds for each dataset type\n'
+                      '  - Timer settings and display preferences\n'
+                      '  - Advanced training parameters',
+                      style: TextStyle(color: Colors.grey[700], height: 1.4),
                     ),
                   ],
                 ),
