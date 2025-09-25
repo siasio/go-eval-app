@@ -39,14 +39,14 @@ class TrainingPosition {
   }
 
   /// Decode the base64 stones to a 2D array of integers
-  /// Returns 19x19 array where 0=empty, 1=black, 2=white
+  /// Returns boardSize x boardSize array where 0=empty, 1=black, 2=white
   List<List<int>> decodeStones() {
     final bytes = base64Decode(stonesBase64);
-    final board = List.generate(19, (_) => List.generate(19, (_) => 0));
+    final board = List.generate(boardSize, (_) => List.generate(boardSize, (_) => 0));
 
-    for (int i = 0; i < bytes.length && i < 19 * 19; i++) {
-      final row = i ~/ 19;
-      final col = i % 19;
+    for (int i = 0; i < bytes.length && i < boardSize * boardSize; i++) {
+      final row = i ~/ boardSize;
+      final col = i % boardSize;
       board[row][col] = bytes[i];
     }
 

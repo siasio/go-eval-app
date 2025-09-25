@@ -20,4 +20,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/complete_dataset.json
+    - assets/complete_dataset2.json
+    - assets/19x19_midgame_positions.json
+    - assets/19x19_final_positions.json
+    - assets/9x9_sequences.json
+    - assets/9x9_final_positions.json

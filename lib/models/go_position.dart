@@ -26,10 +26,11 @@ class GoPosition {
   /// Create a GoPosition from TrainingPosition data
   factory GoPosition.fromTrainingPosition(TrainingPosition position) {
     final decodedBoard = position.decodeStones();
+    final boardSize = position.boardSize;
     final board = List.generate(
-      19,
+      boardSize,
       (row) => List.generate(
-        19,
+        boardSize,
         (col) {
           switch (decodedBoard[row][col]) {
             case 1:
@@ -45,7 +46,7 @@ class GoPosition {
 
     return GoPosition(
       board: board,
-      size: 19,
+      size: boardSize,
       trainingData: position,
     );
   }

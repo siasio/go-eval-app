@@ -6,19 +6,30 @@ import '../models/training_position.dart';
 class PositionLoader {
   static TrainingDataset? _cachedDataset;
   static final Random _random = Random();
+  static String _datasetFile = 'assets/19x19_midgame_positions.json';
 
-  /// Load the complete training dataset from assets
+  /// Set which dataset file to load
+  static void setDatasetFile(String filename) {
+    _datasetFile = filename.startsWith('assets/') ? filename : 'assets/$filename';
+    _cachedDataset = null; // Clear cache when switching datasets
+  }
+
+  /// Get the current dataset filename
+  static String get datasetFile => _datasetFile;
+
+  /// Load the training dataset from assets
   static Future<TrainingDataset> loadDataset() async {
     if (_cachedDataset != null) {
       return _cachedDataset!;
     }
 
     try {
-      final String jsonString = await rootBundle.loadString('assets/complete_dataset.json');
+      final String jsonString = await rootBundle.loadString(_datasetFile);
       final Map<String, dynamic> jsonData = json.decode(jsonString);
       _cachedDataset = TrainingDataset.fromJson(jsonData);
 
-      print('Loaded dataset: ${_cachedDataset!.metadata.totalPositions} positions');
+      print('Loaded dataset from $_datasetFile: ${_cachedDataset!.metadata.totalPositions} positions');
+      print('Dataset name: ${_cachedDataset!.metadata.name}');
       print('Difficulty distribution: ${_cachedDataset!.metadata.difficultyDistribution}');
 
       return _cachedDataset!;

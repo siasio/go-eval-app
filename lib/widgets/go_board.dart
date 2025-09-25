@@ -65,9 +65,17 @@ class GoBoardPainter extends CustomPainter {
     _drawGridLines(canvas, size, boardStart, cellSize, displayStartRow, displayStartCol,
                    displayWidth, displayHeight, paint);
 
-    // Draw star points for 19x19 board (only if visible in crop)
+    // Draw star points based on board size (only if visible in crop)
+    List<int>? starPoints;
     if (position.size == 19) {
-      final starPoints = [3, 9, 15];
+      starPoints = [3, 9, 15];
+    } else if (position.size == 13) {
+      starPoints = [3, 6, 9];
+    } else if (position.size == 9) {
+      starPoints = [2, 4, 6];
+    }
+
+    if (starPoints != null) {
       final starPaint = Paint()
         ..color = Colors.black
         ..style = PaintingStyle.fill;
