@@ -260,7 +260,7 @@ class SkinConfig {
       case AppSkin.modern:
         return const Color(0xFF424242); // Dark grey
       case AppSkin.ocean:
-        return const Color(0xFF90CAF9); // Light blue
+        return const Color(0xFFD2B48C); // Light brown (tan) - fits better with ocean theme than blue
       case AppSkin.eink:
         return Colors.white;
     }
@@ -322,6 +322,85 @@ class SkinConfig {
         return const Color(0xFF0D47A1); // Dark blue
       case AppSkin.eink:
         return Colors.black;
+    }
+  }
+
+  // Get theme-appropriate result display colors
+  static Color getResultBackgroundColor(AppSkin skin) {
+    switch (skin) {
+      case AppSkin.classic:
+        return const Color.fromRGBO(210, 180, 140, 0.9); // Tan/beige
+      case AppSkin.modern:
+        return const Color(0xFF2D2D2D);
+      case AppSkin.ocean:
+        return const Color(0xFFE3F2FD);
+      case AppSkin.eink:
+        return Colors.white;
+    }
+  }
+
+  static Color getResultBorderColor(AppSkin skin) {
+    switch (skin) {
+      case AppSkin.classic:
+        return const Color(0xFF8D6E63); // Medium brown
+      case AppSkin.modern:
+        return const Color(0xFF424242);
+      case AppSkin.ocean:
+        return const Color(0xFF1565C0);
+      case AppSkin.eink:
+        return Colors.black;
+    }
+  }
+
+  static Color getResultTextColor(AppSkin skin, String resultType) {
+    if (skin == AppSkin.eink) {
+      return Colors.black;
+    }
+
+    switch (resultType) {
+      case 'draw':
+        switch (skin) {
+          case AppSkin.classic:
+            return const Color(0xFF5D4037); // Dark brown
+          case AppSkin.modern:
+            return Colors.white;
+          case AppSkin.ocean:
+            return const Color(0xFF0D47A1); // Dark blue
+          case AppSkin.eink:
+            return Colors.black;
+        }
+      case 'white':
+        return Colors.white;
+      case 'black':
+        return Colors.black;
+      default:
+        return getTextColor(skin);
+    }
+  }
+
+  static Color? getResultShadowColor(AppSkin skin, String resultType) {
+    if (skin == AppSkin.eink) {
+      return null; // No shadows for e-ink
+    }
+
+    switch (resultType) {
+      case 'draw':
+        switch (skin) {
+          case AppSkin.classic:
+            return const Color.fromRGBO(255, 255, 255, 0.8);
+          case AppSkin.modern:
+            return Colors.black.withOpacity(0.5);
+          case AppSkin.ocean:
+            return Colors.white.withOpacity(0.8);
+          case AppSkin.eink:
+            return null;
+        }
+      case 'white':
+        return Colors.black;
+      case 'black':
+        return const Color.fromRGBO(0, 0, 0, 0.3);
+      default:
+        return Colors.black.withOpacity(0.3);
     }
   }
 }

@@ -14,7 +14,7 @@ import '../models/timer_type.dart';
 import '../widgets/adaptive_layout.dart';
 import '../themes/app_theme.dart';
 import '../widgets/timer_bar.dart';
-import '../widgets/go_board.dart';
+import '../widgets/game_board_container.dart';
 import '../widgets/result_buttons.dart';
 import '../widgets/context_aware_result_buttons.dart';
 import '../widgets/game_status_bar.dart';
@@ -459,100 +459,31 @@ class _TrainingScreenState extends State<TrainingScreen> {
     if (result.isEmpty) {
       // Unknown result - use neutral colors
       return ResultDisplayColors(
-        backgroundColor: currentSkin == AppSkin.eink
-            ? Colors.white
-            : const Color.fromRGBO(80, 80, 80, 0.9),
-        textColor: currentSkin == AppSkin.eink
-            ? Colors.black
-            : Colors.white,
-        borderColor: currentSkin == AppSkin.eink
-            ? Colors.black
-            : Colors.grey,
-        shadowColor: currentSkin == AppSkin.eink
-            ? null
-            : Colors.black,
+        backgroundColor: SkinConfig.getResultBackgroundColor(currentSkin),
+        textColor: SkinConfig.getTextColor(currentSkin),
+        borderColor: SkinConfig.getResultBorderColor(currentSkin),
+        shadowColor: SkinConfig.getResultShadowColor(currentSkin, 'default'),
       );
     }
 
     final displayResult = _formatResultText(result);
+    String resultType;
 
-    if (currentSkin == AppSkin.eink) {
-      // E-ink theme: use only black/white/gray
-      if (displayResult == 'DRAW') {
-        return const ResultDisplayColors(
-          backgroundColor: Colors.white,
-          textColor: Colors.black,
-          borderColor: Colors.black,
-          shadowColor: null,
-        );
-      } else if (result.startsWith('W+')) {
-        return const ResultDisplayColors(
-          backgroundColor: Colors.white,
-          textColor: Colors.black,
-          borderColor: Colors.black,
-          shadowColor: null,
-        );
-      } else if (result.startsWith('B+')) {
-        return const ResultDisplayColors(
-          backgroundColor: Colors.white,
-          textColor: Colors.black,
-          borderColor: Colors.black,
-          shadowColor: null,
-        );
-      }
-
-      return const ResultDisplayColors(
-        backgroundColor: Colors.white,
-        textColor: Colors.black,
-        borderColor: Colors.black,
-        shadowColor: null,
-      );
-    }
-
-    // Handle draws (other themes)
     if (displayResult == 'DRAW') {
-      return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
-        textColor: Color(0xFF5D4037), // Dark brown text
-        borderColor: Color(0xFF8D6E63), // Medium brown border
-        shadowColor: Color.fromRGBO(255, 255, 255, 0.8), // Light shadow for contrast
-      );
+      resultType = 'draw';
+    } else if (result.startsWith('W+')) {
+      resultType = 'white';
+    } else if (result.startsWith('B+')) {
+      resultType = 'black';
+    } else {
+      resultType = 'default';
     }
 
-    // Handle white wins (other themes)
-    if (result.startsWith('W+')) {
-      return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
-        textColor: Colors.white, // White color (representing white stones)
-        borderColor: Color(0xFF8D6E63), // Medium brown border
-        shadowColor: Colors.black, // Dark shadow
-      );
-    }
-
-    // Handle black wins (other themes)
-    if (result.startsWith('B+')) {
-      return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
-        textColor: Colors.black, // Black color (representing black stones)
-        borderColor: Color(0xFF8D6E63), // Medium brown border
-        shadowColor: Color.fromRGBO(0, 0, 0, 0.3), // Subtle dark shadow
-      );
-    }
-
-    // Default fallback
     return ResultDisplayColors(
-      backgroundColor: currentSkin == AppSkin.eink
-          ? Colors.white
-          : const Color.fromRGBO(80, 80, 80, 0.9),
-      textColor: currentSkin == AppSkin.eink
-          ? Colors.black
-          : Colors.white,
-      borderColor: currentSkin == AppSkin.eink
-          ? Colors.black
-          : Colors.grey,
-      shadowColor: currentSkin == AppSkin.eink
-          ? null
-          : Colors.black,
+      backgroundColor: SkinConfig.getResultBackgroundColor(currentSkin),
+      textColor: SkinConfig.getResultTextColor(currentSkin, resultType),
+      borderColor: SkinConfig.getResultBorderColor(currentSkin),
+      shadowColor: SkinConfig.getResultShadowColor(currentSkin, resultType),
     );
   }
 
@@ -588,7 +519,6 @@ class _TrainingScreenState extends State<TrainingScreen> {
     final layoutType = _globalConfig?.layoutType ?? LayoutType.vertical;
     final timerType = _globalConfig?.timerType ?? TimerType.smooth;
     final shouldShowGameInfo = _currentConfig != null ? !_currentConfig!.hideGameInfoBar : true;
-    final shouldGrayOutBoard = SkinConfig.shouldGrayOutBoard(currentSkin);
 
     return Scaffold(
       appBar: AppBar(
@@ -622,30 +552,22 @@ class _TrainingScreenState extends State<TrainingScreen> {
                     segmentGap: layoutType == LayoutType.horizontal ? 4.0 : 2.0,
                   )
                 : Container(
-                    height: layoutType == LayoutType.horizontal ? 200 : 8,
+                    height: layoutType == LayoutType.horizontal ? 200 : 8.0,
                     width: layoutType == LayoutType.horizontal ? 16 : null,
                     margin: const EdgeInsets.all(16)
                   ),
             gameInfoBar: shouldShowGameInfo
-                ? GameStatusBar(position: _positionManager.currentTrainingPosition)
+                ? GameStatusBar(
+                    position: _positionManager.currentTrainingPosition,
+                    appSkin: currentSkin,
+                  )
                 : null,
-            board: Stack(
-              children: [
-                GoBoard(
-                  position: _currentPosition,
-                  trainingPosition: _positionManager.currentTrainingPosition,
-                  appSkin: currentSkin,
-                ),
-                if (_showFeedbackOverlay)
-                  Positioned.fill(
-                    child: Container(
-                      color: shouldGrayOutBoard ? SkinConfig.getFeedbackOverlayColor(currentSkin) : Colors.transparent,
-                      child: Center(
-                        child: _buildFeedbackWidget(),
-                      ),
-                    ),
-                  ),
-              ],
+            board: GameBoardContainer(
+              position: _currentPosition,
+              trainingPosition: _positionManager.currentTrainingPosition,
+              appSkin: currentSkin,
+              showFeedbackOverlay: _showFeedbackOverlay,
+              feedbackWidget: _showFeedbackOverlay ? _buildFeedbackWidget() : null,
             ),
             buttons: _positionManager.currentDataset != null &&
                     _positionManager.currentTrainingPosition != null

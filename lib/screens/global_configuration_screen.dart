@@ -5,6 +5,7 @@ import '../models/timer_type.dart';
 import '../models/layout_type.dart';
 import '../models/app_skin.dart';
 import '../services/global_configuration_manager.dart';
+import '../themes/app_theme.dart';
 
 class GlobalConfigurationScreen extends StatefulWidget {
   const GlobalConfigurationScreen({super.key});
@@ -178,28 +179,37 @@ class _GlobalConfigurationScreenState extends State<GlobalConfigurationScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // Get the current theme based on configuration
+    final currentSkin = _currentConfiguration?.appSkin ?? AppSkin.classic;
+    final currentTheme = AppTheme.getTheme(currentSkin);
+
     if (_loading) {
-      return Scaffold(
-        appBar: AppBar(
-          title: const Text('Global Settings'),
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+      return Theme(
+        data: currentTheme,
+        child: Scaffold(
+          appBar: AppBar(
+            title: const Text('Global Settings'),
+            backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          ),
+          body: const Center(child: CircularProgressIndicator()),
         ),
-        body: const Center(child: CircularProgressIndicator()),
       );
     }
 
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Global Settings'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.refresh),
-            onPressed: _resetConfiguration,
-            tooltip: 'Reset to defaults',
-          ),
-        ],
-      ),
+    return Theme(
+      data: currentTheme,
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('Global Settings'),
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.refresh),
+              onPressed: _resetConfiguration,
+              tooltip: 'Reset to defaults',
+            ),
+          ],
+        ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -437,6 +447,7 @@ class _GlobalConfigurationScreenState extends State<GlobalConfigurationScreen> {
             ),
           ],
         ),
+      ),
       ),
     );
   }

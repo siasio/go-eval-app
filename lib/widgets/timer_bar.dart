@@ -103,7 +103,6 @@ class _TimerBarState extends State<TimerBar>
     if (widget.isVertical) {
       return Container(
         width: widget.barThickness,
-        height: 200,
         margin: const EdgeInsets.all(8),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(widget.barThickness / 2),
@@ -113,7 +112,7 @@ class _TimerBarState extends State<TimerBar>
           animation: _animation,
           builder: (context, child) {
             return Align(
-              alignment: Alignment.topCenter,
+              alignment: Alignment.bottomCenter,
               child: FractionallySizedBox(
                 heightFactor: _animation.value,
                 child: Container(
@@ -133,7 +132,7 @@ class _TimerBarState extends State<TimerBar>
       // Horizontal timer bar for vertical layout
       return Container(
         height: widget.barThickness,
-        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        margin: const EdgeInsets.all(16.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(widget.barThickness / 2),
           color: backgroundColor,
@@ -142,7 +141,7 @@ class _TimerBarState extends State<TimerBar>
           animation: _animation,
           builder: (context, child) {
             // Center-shrinking: progress bar shrinks from both sides toward center
-            return Center(
+            return Align(
               child: FractionallySizedBox(
                 widthFactor: _animation.value, // Total remaining width centered
                 child: Container(
@@ -197,7 +196,6 @@ class _TimerBarState extends State<TimerBar>
     if (widget.isVertical) {
       return Container(
         width: widget.barThickness,
-        height: 200,
         margin: const EdgeInsets.all(8),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(widget.barThickness / 2),
@@ -213,7 +211,7 @@ class _TimerBarState extends State<TimerBar>
                 final isActive = (totalSeconds - 1 - index) < segmentsFilled;
 
                 return Container(
-                  width: widget.barThickness,
+                  // width: widget.barThickness,
                   height: segmentHeight,
                   margin: EdgeInsets.only(
                     bottom: index < totalSeconds - 1 ? widget.segmentGap : 0,
@@ -234,7 +232,7 @@ class _TimerBarState extends State<TimerBar>
     } else {
       return Container(
         height: widget.barThickness,
-        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        margin: const EdgeInsets.all(16.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(widget.barThickness / 2),
           color: backgroundColor,
