@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/dataset_type.dart';
 import '../models/game_result_option.dart';
-import '../models/scoring_config.dart';
 
 class ContextAwareResultButtons extends StatelessWidget {
   final DatasetType datasetType;

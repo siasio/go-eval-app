@@ -59,7 +59,6 @@ class GoBoardPainter extends CustomPainter {
 
     final double cellSize = size.width / (displayWidth + 1);
     final double boardStart = cellSize;
-    final double boardEnd = size.width - cellSize;
 
     // Draw grid lines with proper intersection handling for cropped boards
     _drawGridLines(canvas, size, boardStart, cellSize, displayStartRow, displayStartCol,

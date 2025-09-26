@@ -4,9 +4,20 @@ Cross-platform mobile and web application for training Go territory counting ski
 
 ## Features
 
+- **Multiple Dataset Support**: Train on different Go position datasets:
+  - 9x9 Final positions (area-based scoring with KataGo ownership maps)
+  - 19x19 Midgame positions (territory estimation)
+  - Support for custom dataset loading via file picker
 - **Animated Timer Bar**: Visual countdown with color changes (green → orange → red)
-- **Interactive Go Board**: Beautiful 19×19 board with realistic stone rendering
-- **Quick Selection**: Three buttons for White Wins, Draw, or Black Wins
+- **Interactive Go Board**: Supports multiple board sizes (9x9, 19x19) with:
+  - Realistic stone rendering
+  - Region highlighting and cropping
+  - Move sequence visualization
+  - Last move indicators
+- **Context-Aware Result Buttons**: Dynamic button options based on dataset type and scoring
+- **Keyboard Shortcuts**: Arrow key support for quick selection
+- **Configuration System**: Per-dataset customizable settings for timing and scoring thresholds
+- **Statistics Tracking**: View dataset information and position statistics
 - **Cross-Platform**: Runs on Android, Web, and Desktop
 
 ## Prerequisites
@@ -38,37 +49,83 @@ flutter run
 ```
 app/
 ├── lib/
-│   ├── main.dart              # App entry point
-│   ├── models/
-│   │   └── go_position.dart   # Go board position data model
-│   ├── screens/
-│   │   └── training_screen.dart # Main game screen
-│   └── widgets/
-│       ├── timer_bar.dart     # Animated countdown timer
-│       ├── go_board.dart      # Go board rendering
-│       └── result_buttons.dart # Selection buttons
-├── web/                       # Web platform files
-├── linux/                     # Linux desktop files
-└── pubspec.yaml              # Dependencies
+│   ├── main.dart                    # App entry point
+│   ├── core/                        # Core logic
+│   │   ├── dataset_parser.dart      # JSON dataset parsing
+│   │   ├── game_result_parser.dart  # Game result parsing
+│   │   └── go_logic.dart            # Go game logic
+│   ├── models/                      # Data models
+│   │   ├── go_position.dart         # Go board position data
+│   │   ├── training_position.dart   # Training position data
+│   │   ├── dataset_type.dart        # Dataset type enumeration
+│   │   ├── dataset_configuration.dart # Configuration model
+│   │   ├── scoring_config.dart      # Scoring configuration
+│   │   └── game_result_option.dart  # Result option model
+│   ├── screens/                     # UI screens
+│   │   ├── training_screen.dart     # Main training screen
+│   │   ├── settings_screen.dart     # Settings and info screen
+│   │   └── configuration_screen.dart # Dataset configuration
+│   ├── services/                    # Services layer
+│   │   ├── position_manager.dart    # Position management
+│   │   ├── position_loader.dart     # Dataset loading
+│   │   ├── configuration_manager.dart # Settings management
+│   │   └── dataset_preference_manager.dart # User preferences
+│   └── widgets/                     # Reusable widgets
+│       ├── timer_bar.dart           # Animated countdown timer
+│       ├── go_board.dart            # Go board rendering
+│       ├── result_buttons.dart      # Basic result buttons
+│       ├── context_aware_result_buttons.dart # Smart result buttons
+│       ├── game_status_bar.dart     # Status information
+│       └── dataset_selector.dart    # Dataset selection widget
+├── assets/                          # Bundled datasets
+├── test/                           # Unit tests
+├── web/                            # Web platform files
+├── linux/                          # Linux desktop files
+└── pubspec.yaml                    # Dependencies
 ```
 
 ## Data Integration
 
-The app loads position data from `../data/positions/` in JSON format. Position files must match the schema defined in `../data/schemas/compact-position.json`.
+The app supports multiple ways to load Go position datasets:
 
-### Loading Custom Positions
+### Built-in Datasets
+- Pre-bundled datasets are included in `assets/`
+- Currently includes 9x9 final positions and 19x19 midgame positions
 
-1. Place JSON position files in `../data/positions/`
-2. Update the app's data loading logic in `lib/models/`
-3. Hot reload to see new positions
+### Custom Dataset Loading
+1. Use the file picker in the Settings screen
+2. Select JSON files matching the schema in `../data/schemas/dataset.json`
+3. Datasets are automatically validated and loaded
+
+### Dataset Schema
+Datasets must follow the JSON schema defined in `../data/schemas/`:
+- `dataset.json` - Main dataset structure
+- `compact-position.json` - Individual position format
+
+### Supported Dataset Types
+- `final-9x9-area` - Final positions on 9x9 board (KataGo ownership)
+- `final-19x19-area` - Final positions on 19x19 board (KataGo ownership)
+- `midgame-19x19-estimation` - Midgame positions with territory estimation
+- `final-9x9-area-vars` - 9x9 final positions with variations (planned)
+- `partial-area` - Partial area analysis (planned)
 
 ## Controls
 
-- **Timer**: Configurable countdown (default: 30 seconds)
-- **White Button**: Select if White has more territory
-- **Draw Button**: Select if the position is roughly equal
-- **Black Button**: Select if Black has more territory
-- **Refresh FAB**: Reset to new position
+### Mouse/Touch
+- **Result Buttons**: Click the appropriate button based on your prediction
+- **Settings Button**: Top-right gear icon to access settings
+- **Refresh FAB**: Floating action button to load next position
+
+### Keyboard Shortcuts
+- **← Left Arrow**: Select White Wins
+- **↓ Down Arrow**: Select Draw/Tie
+- **→ Right Arrow**: Select Black Wins
+
+### Configurable Options
+- **Timer Duration**: Per-dataset customizable (default varies by type)
+- **Scoring Thresholds**: Configure what constitutes a "close" vs "decisive" win
+- **Display Duration**: How long to show the correct answer
+- **Dataset Selection**: Switch between different training datasets
 
 ## Deployment
 
@@ -84,8 +141,26 @@ flutter build apk --release
 # APK available in build/app/outputs/flutter-apk/
 ```
 
-## Next Steps
+## Advanced Features
 
-- Integrate real position data from data pipeline
-- Add scoring feedback and statistics
-- Add user progress tracking
+### Configuration System
+Each dataset type can have custom configuration:
+- Timer duration for each problem
+- Scoring thresholds (when is a game "close" vs decisive)
+- Mark display time after answering
+- Advanced scoring rules per dataset type
+
+### Dataset Information
+View detailed statistics about loaded datasets:
+- Total number of positions
+- Dataset version and creation date
+- Source information
+- Position distribution and metadata
+
+## Extending the App
+
+### Adding New Dataset Types
+1. Add the new type to `DatasetType` enum in `lib/models/dataset_type.dart`
+2. Update the schema in `../data/schemas/dataset.json`
+3. Add appropriate configuration defaults in `DatasetConfiguration`
+4. Handle the new type in result generation logic

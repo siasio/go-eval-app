@@ -2,12 +2,6 @@ import 'dart:convert';
 
 /// Pure functions for parsing dataset JSON data without Flutter dependencies
 class DatasetParser {
-  // Forward declarations for type checking
-  static const String _datasetMetadataType = 'DatasetMetadata';
-  static const String _trainingPositionType = 'TrainingPosition';
-  static const String _gameInfoType = 'GameInfo';
-  static const String _moveSequenceType = 'MoveSequence';
-  static const String _boardDisplayType = 'BoardDisplay';
   /// Parse dataset metadata from JSON - returns Map to avoid type conflicts
   static Map<String, dynamic> parseMetadataToMap(Map<String, dynamic> json) {
     final createdAt = DateTime.tryParse(json['created_at'] as String? ?? '') ?? DateTime.now();
@@ -133,7 +127,7 @@ class DatasetParser {
             continue;
           }
 
-          final posMap = pos as Map<String, dynamic>;
+          final posMap = pos;
           final requiredFields = ['id', 'board_size', 'stones', 'score', 'result'];
           for (final field in requiredFields) {
             if (!posMap.containsKey(field)) {

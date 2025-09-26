@@ -63,7 +63,16 @@ class _TrainingScreenState extends State<TrainingScreen> {
       _configManager = await ConfigurationManager.getInstance();
       _loadInitialPosition();
     } catch (e) {
-      print('Error initializing configuration manager: $e');
+      // Gracefully handle configuration manager errors
+      debugPrint('Error initializing configuration manager: $e');
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: const Text('Using default settings due to configuration error'),
+            backgroundColor: Colors.orange,
+          ),
+        );
+      }
       _loadInitialPosition();
     }
   }
@@ -130,10 +139,24 @@ class _TrainingScreenState extends State<TrainingScreen> {
         }
       });
     } catch (e) {
+      debugPrint('Error loading initial position: $e');
       setState(() {
         _currentPosition = GoPosition.demo();
         _loading = false;
       });
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: const Text('Failed to load position. Using demo position.'),
+            backgroundColor: Colors.red,
+            action: SnackBarAction(
+              label: 'Retry',
+              textColor: Colors.white,
+              onPressed: () => _loadNextPosition(),
+            ),
+          ),
+        );
+      }
     }
   }
 
@@ -231,11 +254,27 @@ class _TrainingScreenState extends State<TrainingScreen> {
         }
       });
     } catch (e) {
+      debugPrint('Error loading next position: $e');
       setState(() {
         _currentPosition = GoPosition.demo();
         _timerRunning = true;
         _loading = false;
       });
+
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Failed to load new position: ${e.toString()}'),
+            backgroundColor: Colors.red,
+            action: SnackBarAction(
+              label: 'Settings',
+              textColor: Colors.white,
+              onPressed: _navigateToSettings,
+            ),
+          ),
+        );
+      }
+
       // Request focus for keyboard input
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (mounted) {
@@ -253,47 +292,84 @@ class _TrainingScreenState extends State<TrainingScreen> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Container(
-          width: 120,
-          height: 120,
-          decoration: BoxDecoration(
-            color: _isCorrectAnswer ? Colors.green : Colors.red,
-            shape: BoxShape.circle,
-          ),
-          child: Icon(
-            _isCorrectAnswer ? Icons.check : Icons.close,
-            size: 80,
-            color: Colors.white,
-          ),
+        // Animated checkmark/cross
+        TweenAnimationBuilder<double>(
+          tween: Tween(begin: 0.0, end: 1.0),
+          duration: const Duration(milliseconds: 300),
+          builder: (context, value, child) {
+            return Transform.scale(
+              scale: value,
+              child: Container(
+                width: 120,
+                height: 120,
+                decoration: BoxDecoration(
+                  color: _isCorrectAnswer ? Colors.green : Colors.red,
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: (_isCorrectAnswer ? Colors.green : Colors.red).withOpacity(0.3),
+                      blurRadius: 12,
+                      spreadRadius: 4,
+                    ),
+                  ],
+                ),
+                child: Icon(
+                  _isCorrectAnswer ? Icons.check_rounded : Icons.close_rounded,
+                  size: 80,
+                  color: Colors.white,
+                ),
+              ),
+            );
+          },
         ),
         const SizedBox(height: 20),
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          decoration: BoxDecoration(
-            color: colors.backgroundColor,
-            borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: colors.borderColor, width: 2),
-          ),
-          child: Text(
-            displayResult,
-            style: TextStyle(
-              fontSize: 32,
-              fontWeight: FontWeight.bold,
-              color: colors.textColor,
-              shadows: colors.shadowColor != null ? [
-                Shadow(
-                  offset: const Offset(0, 0),
-                  blurRadius: 3,
-                  color: colors.shadowColor!,
+        // Animated result text
+        TweenAnimationBuilder<double>(
+          tween: Tween(begin: 0.0, end: 1.0),
+          duration: const Duration(milliseconds: 400),
+          builder: (context, value, child) {
+            return Transform.translate(
+              offset: Offset(0, 20 * (1 - value)),
+              child: Opacity(
+                opacity: value,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                  decoration: BoxDecoration(
+                    color: colors.backgroundColor,
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: colors.borderColor, width: 2),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.1),
+                        blurRadius: 8,
+                        offset: const Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: Text(
+                    displayResult,
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color: colors.textColor,
+                      shadows: colors.shadowColor != null ? [
+                        Shadow(
+                          offset: const Offset(0, 0),
+                          blurRadius: 3,
+                          color: colors.shadowColor!,
+                        ),
+                        Shadow(
+                          offset: const Offset(1, 1),
+                          blurRadius: 2,
+                          color: colors.shadowColor!,
+                        ),
+                      ] : null,
+                    ),
+                  ),
                 ),
-                Shadow(
-                  offset: const Offset(1, 1),
-                  blurRadius: 2,
-                  color: colors.shadowColor!,
-                ),
-              ] : null,
-            ),
-          ),
+              ),
+            );
+          },
         ),
       ],
     );
@@ -391,9 +467,32 @@ class _TrainingScreenState extends State<TrainingScreen> {
             ),
           ],
         ),
-        body: const Center(
-          child: CircularProgressIndicator(
-            color: Color(0xFF8B4513),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const CircularProgressIndicator(
+                color: Color(0xFF8B4513),
+                strokeWidth: 3,
+              ),
+              const SizedBox(height: 24),
+              Text(
+                'Loading next position...',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.grey[600],
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Get ready to analyze the board!',
+                style: TextStyle(
+                  fontSize: 13,
+                  color: Colors.grey[500],
+                ),
+              ),
+            ],
           ),
         ),
       );

@@ -68,6 +68,74 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   children: [
                     Row(
                       children: [
+                        const Icon(Icons.library_books, size: 20),
+                        const SizedBox(width: 8),
+                        const Text(
+                          'Dataset Types Explained',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 16),
+                    _buildDatasetExplanation(
+                      '🎯 Final 9x9 Positions',
+                      'Game-ending positions on 9x9 boards analyzed with KataGo\'s AI ownership maps. '
+                      'These positions show clear territorial outcomes where stones are mostly settled. '
+                      'Good for beginners to learn basic territory evaluation.',
+                    ),
+                    const SizedBox(height: 12),
+                    _buildDatasetExplanation(
+                      '🏟️ Final 19x19 Positions',
+                      'Game-ending positions on full 19x19 boards with AI-based territory analysis. '
+                      'More complex than 9x9 with larger-scale territorial judgments. '
+                      'Ideal for intermediate players.',
+                    ),
+                    const SizedBox(height: 12),
+                    _buildDatasetExplanation(
+                      '⚡ Midgame 19x19 Estimation',
+                      'Mid-game positions where the outcome is not yet decided. '
+                      'Requires evaluating potential territory, influence, and fighting outcomes. '
+                      'Challenging positions for advanced players to test territorial intuition.',
+                    ),
+                    const SizedBox(height: 12),
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: Colors.blue.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(color: Colors.blue.withOpacity(0.3)),
+                      ),
+                      child: const Row(
+                        children: [
+                          Icon(Icons.lightbulb_outline, size: 16, color: Colors.blue),
+                          SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              'Tip: Start with 9x9 Final positions if you\'re new to territory counting, '
+                              'then progress to 19x19 positions as you improve.',
+                              style: TextStyle(fontSize: 13, color: Colors.blue),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 24),
+
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
                         const Icon(Icons.settings, size: 20),
                         const SizedBox(width: 8),
                         const Text(
@@ -291,6 +359,30 @@ class _SettingsScreenState extends State<SettingsScreen> {
           Text(value, style: TextStyle(color: Colors.grey[600])),
         ],
       ),
+    );
+  }
+
+  Widget _buildDatasetExplanation(String title, String description) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: const TextStyle(
+            fontWeight: FontWeight.w600,
+            fontSize: 14,
+          ),
+        ),
+        const SizedBox(height: 6),
+        Text(
+          description,
+          style: TextStyle(
+            color: Colors.grey[700],
+            fontSize: 13,
+            height: 1.4,
+          ),
+        ),
+      ],
     );
   }
 

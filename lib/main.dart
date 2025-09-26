@@ -1,8 +1,6 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'screens/training_screen.dart';
 import 'services/position_manager.dart';
-import 'services/position_loader.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
