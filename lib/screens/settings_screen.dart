@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/dataset_selector.dart';
 import '../services/position_loader.dart';
 import 'configuration_screen.dart';
+import 'global_configuration_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -128,6 +129,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
             const SizedBox(height: 24),
 
+            // Global Configuration Card
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
@@ -137,6 +139,57 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     Row(
                       children: [
                         const Icon(Icons.settings, size: 20),
+                        const SizedBox(width: 8),
+                        const Text(
+                          'Global Settings',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
+                    const Text(
+                      'Configure app theme, layout, timer type, and other global settings.',
+                      style: TextStyle(color: Colors.grey),
+                    ),
+                    const SizedBox(height: 16),
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: () async {
+                          await Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const GlobalConfigurationScreen(),
+                            ),
+                          );
+                        },
+                        icon: const Icon(Icons.palette),
+                        label: const Text('Global Settings'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Theme.of(context).colorScheme.primary,
+                          foregroundColor: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 24),
+
+            // Dataset Configuration Card
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        const Icon(Icons.tune, size: 20),
                         const SizedBox(width: 8),
                         const Text(
                           'Dataset Configuration',
@@ -164,10 +217,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             ),
                           );
                         },
-                        icon: const Icon(Icons.tune),
-                        label: const Text('Open Configuration'),
+                        icon: const Icon(Icons.settings),
+                        label: const Text('Dataset Settings'),
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Theme.of(context).colorScheme.primary,
+                          backgroundColor: Theme.of(context).colorScheme.secondary,
                           foregroundColor: Colors.white,
                         ),
                       ),

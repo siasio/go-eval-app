@@ -20,7 +20,6 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
   late TextEditingController _thresholdGoodController;
   late TextEditingController _thresholdCloseController;
   late TextEditingController _timeProblemController;
-  late TextEditingController _markDisplayController;
 
   @override
   void initState() {
@@ -33,7 +32,47 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
     _thresholdGoodController = TextEditingController();
     _thresholdCloseController = TextEditingController();
     _timeProblemController = TextEditingController();
-    _markDisplayController = TextEditingController();
+
+    // Add listeners for auto-saving
+    _thresholdGoodController.addListener(_onConfigurationChanged);
+    _thresholdCloseController.addListener(_onConfigurationChanged);
+    _timeProblemController.addListener(_onConfigurationChanged);
+  }
+
+  void _onConfigurationChanged() {
+    if (_currentConfiguration == null) return;
+
+    final thresholdGood = double.tryParse(_thresholdGoodController.text);
+    final thresholdClose = double.tryParse(_thresholdCloseController.text);
+    final timeProblem = int.tryParse(_timeProblemController.text);
+
+    if (thresholdGood != null &&
+        thresholdClose != null &&
+        timeProblem != null &&
+        thresholdClose >= thresholdGood &&
+        timeProblem > 0) {
+
+      final newConfig = _currentConfiguration!.copyWith(
+        thresholdGood: thresholdGood,
+        thresholdClose: thresholdClose,
+        timePerProblemSeconds: timeProblem,
+      );
+
+      _autoSaveConfiguration(newConfig);
+    }
+  }
+
+  Future<void> _autoSaveConfiguration(DatasetConfiguration config) async {
+    if (_configManager == null) return;
+
+    try {
+      await _configManager!.setConfiguration(_selectedDatasetType, config);
+      setState(() {
+        _currentConfiguration = config;
+      });
+    } catch (e) {
+      // Silently handle validation errors during typing
+    }
   }
 
   @override
@@ -41,7 +80,6 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
     _thresholdGoodController.dispose();
     _thresholdCloseController.dispose();
     _timeProblemController.dispose();
-    _markDisplayController.dispose();
     super.dispose();
   }
 
@@ -74,60 +112,9 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
       _thresholdGoodController.text = config.thresholdGood.toString();
       _thresholdCloseController.text = config.thresholdClose.toString();
       _timeProblemController.text = config.timePerProblemSeconds.toString();
-      _markDisplayController.text = config.markDisplayTimeSeconds.toString();
     });
   }
 
-  Future<void> _saveConfiguration() async {
-    if (_configManager == null || _currentConfiguration == null) return;
-
-    try {
-      final thresholdGood = double.tryParse(_thresholdGoodController.text);
-      final thresholdClose = double.tryParse(_thresholdCloseController.text);
-      final timeProblem = int.tryParse(_timeProblemController.text);
-      final markDisplay = double.tryParse(_markDisplayController.text);
-
-      if (thresholdGood == null ||
-          thresholdClose == null ||
-          timeProblem == null ||
-          markDisplay == null) {
-        _showError('Please enter valid numeric values');
-        return;
-      }
-
-      if (thresholdClose < thresholdGood) {
-        _showError('Close threshold must be greater than or equal to good threshold');
-        return;
-      }
-
-      if (timeProblem <= 0) {
-        _showError('Time per problem must be greater than 0');
-        return;
-      }
-
-      if (markDisplay < 0) {
-        _showError('Mark display time must be non-negative');
-        return;
-      }
-
-      final newConfiguration = DatasetConfiguration(
-        thresholdGood: thresholdGood,
-        thresholdClose: thresholdClose,
-        timePerProblemSeconds: timeProblem,
-        markDisplayTimeSeconds: markDisplay,
-      );
-
-      await _configManager!.setConfiguration(_selectedDatasetType, newConfiguration);
-
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Configuration saved successfully')),
-        );
-      }
-    } catch (e) {
-      _showError('Error saving configuration: $e');
-    }
-  }
 
   Future<void> _resetConfiguration() async {
     if (_configManager == null) return;
@@ -328,43 +315,32 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
                       ),
                       const SizedBox(height: 16),
 
-                      // Mark Display Time
-                      TextFormField(
-                        controller: _markDisplayController,
-                        decoration: const InputDecoration(
-                          labelText: 'Mark Display Time',
-                          helperText: 'Time to show result before next problem',
-                          border: OutlineInputBorder(),
-                          suffix: Text('seconds'),
+                      // Hide Game Info Bar
+                      CheckboxListTile(
+                        title: const Text('Hide Game Info Bar'),
+                        subtitle: const Text(
+                          'Hide the bar showing captured stones and komi',
                         ),
-                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
-                        inputFormatters: [
-                          FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*')),
-                        ],
+                        value: _currentConfiguration!.hideGameInfoBar,
+                        onChanged: (bool? value) {
+                          if (value != null && _currentConfiguration != null) {
+                            final newConfig = _currentConfiguration!.copyWith(
+                              hideGameInfoBar: value,
+                            );
+                            _autoSaveConfiguration(newConfig);
+                          }
+                        },
+                        contentPadding: EdgeInsets.zero,
                       ),
                       const SizedBox(height: 24),
 
-                      // Action Buttons
-                      Row(
-                        children: [
-                          Expanded(
-                            child: ElevatedButton(
-                              onPressed: _saveConfiguration,
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.green,
-                                foregroundColor: Colors.white,
-                              ),
-                              child: const Text('Save Configuration'),
-                            ),
-                          ),
-                          const SizedBox(width: 16),
-                          Expanded(
-                            child: OutlinedButton(
-                              onPressed: _resetConfiguration,
-                              child: const Text('Reset to Defaults'),
-                            ),
-                          ),
-                        ],
+                      // Reset Button
+                      SizedBox(
+                        width: double.infinity,
+                        child: OutlinedButton(
+                          onPressed: _resetConfiguration,
+                          child: const Text('Reset to Defaults'),
+                        ),
                       ),
                     ],
                   ),
@@ -398,7 +374,7 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
                     const Text('• Good Threshold: Score difference needed for position to favor one color'),
                     const Text('• Close Threshold: Score difference for position to be considered close'),
                     const Text('• Time per Problem: How long you have to make your guess'),
-                    const Text('• Mark Display Time: How long result is shown before next position'),
+                    const Text('• Hide Game Info Bar: Remove captured stones and komi display'),
                     const SizedBox(height: 12),
                     Text(
                       'Note: Close threshold must be greater than or equal to good threshold.',

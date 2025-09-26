@@ -6,6 +6,13 @@ import '../models/dataset_type.dart';
 import '../models/dataset_configuration.dart';
 import '../services/position_manager.dart';
 import '../services/configuration_manager.dart';
+import '../services/global_configuration_manager.dart';
+import '../models/global_configuration.dart';
+import '../models/app_skin.dart';
+import '../models/layout_type.dart';
+import '../models/timer_type.dart';
+import '../widgets/adaptive_layout.dart';
+import '../themes/app_theme.dart';
 import '../widgets/timer_bar.dart';
 import '../widgets/go_board.dart';
 import '../widgets/result_buttons.dart';
@@ -29,7 +36,9 @@ class ResultDisplayColors {
 }
 
 class TrainingScreen extends StatefulWidget {
-  const TrainingScreen({super.key});
+  final VoidCallback? onConfigurationChanged;
+
+  const TrainingScreen({super.key, this.onConfigurationChanged});
 
   @override
   State<TrainingScreen> createState() => _TrainingScreenState();
@@ -45,6 +54,8 @@ class _TrainingScreenState extends State<TrainingScreen> {
   final FocusNode _focusNode = FocusNode();
   ConfigurationManager? _configManager;
   DatasetConfiguration? _currentConfig;
+  GlobalConfigurationManager? _globalConfigManager;
+  GlobalConfiguration? _globalConfig;
 
   @override
   void initState() {
@@ -61,6 +72,8 @@ class _TrainingScreenState extends State<TrainingScreen> {
   Future<void> _initializeConfiguration() async {
     try {
       _configManager = await ConfigurationManager.getInstance();
+      _globalConfigManager = await GlobalConfigurationManager.getInstance();
+      _globalConfig = _globalConfigManager!.getConfiguration();
       _loadInitialPosition();
     } catch (e) {
       // Gracefully handle configuration manager errors
@@ -122,6 +135,12 @@ class _TrainingScreenState extends State<TrainingScreen> {
     );
     // Reload position in case dataset changed
     _loadInitialPosition();
+    // Reload global configuration in case it changed
+    if (_globalConfigManager != null) {
+      _globalConfig = _globalConfigManager!.getConfiguration();
+    }
+    // Notify parent app of configuration changes
+    widget.onConfigurationChanged?.call();
   }
 
   Future<void> _loadInitialPosition() async {
@@ -183,7 +202,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
     });
 
     // Load next position after configured time
-    final markDisplayTime = _currentConfig?.markDisplayTimeSeconds ?? 1.5;
+    final markDisplayTime = _globalConfig?.markDisplayTimeSeconds ?? 1.5;
     Future.delayed(Duration(milliseconds: (markDisplayTime * 1000).round()), () {
       _loadNextPosition();
     });
@@ -200,7 +219,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
     });
 
     // Load next position after configured time
-    final markDisplayTime = _currentConfig?.markDisplayTimeSeconds ?? 1.5;
+    final markDisplayTime = _globalConfig?.markDisplayTimeSeconds ?? 1.5;
     Future.delayed(Duration(milliseconds: (markDisplayTime * 1000).round()), () {
       _loadNextPosition();
     });
@@ -227,7 +246,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
       _isCorrectAnswer = false; // Show red cross for timeout
     });
 
-    final markDisplayTime = _currentConfig?.markDisplayTimeSeconds ?? 1.5;
+    final markDisplayTime = _globalConfig?.markDisplayTimeSeconds ?? 1.5;
     Future.delayed(Duration(milliseconds: (markDisplayTime * 1000).round()), () {
       _loadNextPosition();
     });
@@ -288,89 +307,131 @@ class _TrainingScreenState extends State<TrainingScreen> {
     final result = _positionManager.currentTrainingPosition?.result ?? '';
     final displayResult = _formatResultText(result);
     final colors = _getResultDisplayColors(result);
+    final currentSkin = _globalConfig?.appSkin ?? AppSkin.classic;
+
+    final correctColor = SkinConfig.getCorrectColor(currentSkin);
+    final incorrectColor = SkinConfig.getIncorrectColor(currentSkin);
+    final shouldAnimate = SkinConfig.shouldAnimate(currentSkin);
 
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        // Animated checkmark/cross
-        TweenAnimationBuilder<double>(
-          tween: Tween(begin: 0.0, end: 1.0),
-          duration: const Duration(milliseconds: 300),
-          builder: (context, value, child) {
-            return Transform.scale(
-              scale: value,
-              child: Container(
-                width: 120,
-                height: 120,
-                decoration: BoxDecoration(
-                  color: _isCorrectAnswer ? Colors.green : Colors.red,
-                  shape: BoxShape.circle,
-                  boxShadow: [
-                    BoxShadow(
-                      color: (_isCorrectAnswer ? Colors.green : Colors.red).withOpacity(0.3),
-                      blurRadius: 12,
-                      spreadRadius: 4,
-                    ),
-                  ],
-                ),
-                child: Icon(
-                  _isCorrectAnswer ? Icons.check_rounded : Icons.close_rounded,
-                  size: 80,
-                  color: Colors.white,
-                ),
-              ),
-            );
-          },
-        ),
-        const SizedBox(height: 20),
-        // Animated result text
-        TweenAnimationBuilder<double>(
-          tween: Tween(begin: 0.0, end: 1.0),
-          duration: const Duration(milliseconds: 400),
-          builder: (context, value, child) {
-            return Transform.translate(
-              offset: Offset(0, 20 * (1 - value)),
-              child: Opacity(
-                opacity: value,
+        // Animated or static checkmark/cross
+        if (shouldAnimate)
+          TweenAnimationBuilder<double>(
+            tween: Tween(begin: 0.0, end: 1.0),
+            duration: const Duration(milliseconds: 300),
+            builder: (context, value, child) {
+              return Transform.scale(
+                scale: value,
                 child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                  width: 120,
+                  height: 120,
                   decoration: BoxDecoration(
-                    color: colors.backgroundColor,
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: colors.borderColor, width: 2),
-                    boxShadow: [
+                    color: _isCorrectAnswer ? correctColor : incorrectColor,
+                    shape: BoxShape.circle,
+                    boxShadow: currentSkin != AppSkin.eink ? [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.1),
-                        blurRadius: 8,
-                        offset: const Offset(0, 4),
+                        color: (_isCorrectAnswer ? correctColor : incorrectColor).withOpacity(0.3),
+                        blurRadius: 12,
+                        spreadRadius: 4,
                       ),
-                    ],
+                    ] : [],
                   ),
-                  child: Text(
-                    displayResult,
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                      color: colors.textColor,
-                      shadows: colors.shadowColor != null ? [
-                        Shadow(
-                          offset: const Offset(0, 0),
-                          blurRadius: 3,
-                          color: colors.shadowColor!,
+                  child: Icon(
+                    _isCorrectAnswer ? Icons.check_rounded : Icons.close_rounded,
+                    size: 80,
+                    color: currentSkin == AppSkin.eink ? Colors.white : Colors.white,
+                  ),
+                ),
+              );
+            },
+          )
+        else
+          Container(
+            width: 120,
+            height: 120,
+            decoration: BoxDecoration(
+              color: _isCorrectAnswer ? correctColor : incorrectColor,
+              shape: BoxShape.circle,
+              border: Border.all(
+                color: currentSkin == AppSkin.eink ? Colors.black : Colors.transparent,
+                width: currentSkin == AppSkin.eink ? 2 : 0,
+              ),
+            ),
+            child: Icon(
+              _isCorrectAnswer ? Icons.check_rounded : Icons.close_rounded,
+              size: 80,
+              color: Colors.white,
+            ),
+          ),
+        const SizedBox(height: 20),
+        // Animated or static result text
+        if (shouldAnimate)
+          TweenAnimationBuilder<double>(
+            tween: Tween(begin: 0.0, end: 1.0),
+            duration: const Duration(milliseconds: 400),
+            builder: (context, value, child) {
+              return Transform.translate(
+                offset: Offset(0, 20 * (1 - value)),
+                child: Opacity(
+                  opacity: value,
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                    decoration: BoxDecoration(
+                      color: colors.backgroundColor,
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(color: colors.borderColor, width: 2),
+                      boxShadow: currentSkin != AppSkin.eink ? [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.1),
+                          blurRadius: 8,
+                          offset: const Offset(0, 4),
                         ),
-                        Shadow(
-                          offset: const Offset(1, 1),
-                          blurRadius: 2,
-                          color: colors.shadowColor!,
-                        ),
-                      ] : null,
+                      ] : [],
+                    ),
+                    child: Text(
+                      displayResult,
+                      style: TextStyle(
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold,
+                        color: colors.textColor,
+                        shadows: colors.shadowColor != null && currentSkin != AppSkin.eink ? [
+                          Shadow(
+                            offset: const Offset(0, 0),
+                            blurRadius: 3,
+                            color: colors.shadowColor!,
+                          ),
+                          Shadow(
+                            offset: const Offset(1, 1),
+                            blurRadius: 2,
+                            color: colors.shadowColor!,
+                          ),
+                        ] : null,
+                      ),
                     ),
                   ),
                 ),
+              );
+            },
+          )
+        else
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+            decoration: BoxDecoration(
+              color: colors.backgroundColor,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: colors.borderColor, width: 2),
+            ),
+            child: Text(
+              displayResult,
+              style: TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.bold,
+                color: colors.textColor,
               ),
-            );
-          },
-        ),
+            ),
+          ),
       ],
     );
   }
@@ -448,72 +509,46 @@ class _TrainingScreenState extends State<TrainingScreen> {
   Widget build(BuildContext context) {
     if (_loading) {
       return Scaffold(
-        backgroundColor: const Color(0xFFF5F5DC),
         appBar: AppBar(
-          title: const Text(
-            'Go Territory Counting',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
-          backgroundColor: const Color(0xFF8B4513),
-          elevation: 4,
-          centerTitle: true,
+          title: const Text('Go Territory Counting'),
           actions: [
             IconButton(
-              icon: const Icon(Icons.settings, color: Colors.white),
+              icon: const Icon(Icons.settings),
               onPressed: _navigateToSettings,
             ),
           ],
         ),
-        body: Center(
+        body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const CircularProgressIndicator(
-                color: Color(0xFF8B4513),
-                strokeWidth: 3,
-              ),
-              const SizedBox(height: 24),
-              Text(
-                'Loading next position...',
-                style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.grey[600],
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                'Get ready to analyze the board!',
-                style: TextStyle(
-                  fontSize: 13,
-                  color: Colors.grey[500],
-                ),
-              ),
+              CircularProgressIndicator(strokeWidth: 3),
+              SizedBox(height: 24),
+              Text('Loading next position...', style: TextStyle(fontSize: 16)),
+              SizedBox(height: 8),
+              Text('Get ready to analyze the board!', style: TextStyle(fontSize: 13)),
             ],
           ),
         ),
       );
     }
 
+    final currentSkin = _globalConfig?.appSkin ?? AppSkin.classic;
+    final layoutType = _globalConfig?.layoutType ?? LayoutType.vertical;
+    final timerType = _globalConfig?.timerType ?? TimerType.smooth;
+    final shouldShowGameInfo = _currentConfig != null ? !_currentConfig!.hideGameInfoBar : true;
+    final shouldGrayOutBoard = SkinConfig.shouldGrayOutBoard(currentSkin);
+
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F5DC), // Beige background
       appBar: AppBar(
-        title: const Text(
-          'Go Territory Counting',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-          ),
-        ),
-        backgroundColor: const Color(0xFF8B4513), // Saddle brown
-        elevation: 4,
-        centerTitle: true,
-        actions: [
+        title: const Text('Go Territory Counting'),
+        leading: layoutType == LayoutType.horizontal ? IconButton(
+          icon: const Icon(Icons.settings),
+          onPressed: _navigateToSettings,
+        ) : null,
+        actions: layoutType == LayoutType.horizontal ? [] : [
           IconButton(
-            icon: const Icon(Icons.settings, color: Colors.white),
+            icon: const Icon(Icons.settings),
             onPressed: _navigateToSettings,
           ),
         ],
@@ -523,65 +558,64 @@ class _TrainingScreenState extends State<TrainingScreen> {
         onKeyEvent: _handleKeyEvent,
         autofocus: true,
         child: SafeArea(
-          child: Column(
-            children: [
-              // Timer Bar
-              if (_timerRunning)
-                TimerBar(
-                  duration: Duration(seconds: _currentConfig?.timePerProblemSeconds ?? 30),
-                  onComplete: _onTimerComplete,
-                )
-              else
-                Container(
-                  height: 8,
-                  margin: const EdgeInsets.all(16),
+          child: AdaptiveLayout(
+            layoutType: layoutType,
+            menuBar: _timerRunning
+                ? TimerBar(
+                    duration: Duration(seconds: _currentConfig?.timePerProblemSeconds ?? 30),
+                    onComplete: _onTimerComplete,
+                    timerType: timerType,
+                    appSkin: currentSkin,
+                    isVertical: layoutType == LayoutType.horizontal,
+                    barThickness: layoutType == LayoutType.horizontal ? 16.0 : 8.0,
+                    segmentGap: layoutType == LayoutType.horizontal ? 4.0 : 2.0,
+                  )
+                : Container(
+                    height: layoutType == LayoutType.horizontal ? 200 : 8,
+                    width: layoutType == LayoutType.horizontal ? 16 : null,
+                    margin: const EdgeInsets.all(16)
+                  ),
+            gameInfoBar: shouldShowGameInfo
+                ? GameStatusBar(position: _positionManager.currentTrainingPosition)
+                : null,
+            board: Stack(
+              children: [
+                GoBoard(
+                  position: _currentPosition,
+                  trainingPosition: _positionManager.currentTrainingPosition,
                 ),
-
-              // Game Status Bar
-              GameStatusBar(position: _positionManager.currentTrainingPosition),
-
-              // Go Board with Overlay
-              Expanded(
-                child: Stack(
-                  children: [
-                    GoBoard(
-                      position: _currentPosition,
-                      trainingPosition: _positionManager.currentTrainingPosition,
-                    ),
-                    if (_showFeedbackOverlay)
-                      Positioned.fill(
-                        child: Container(
-                          color: Colors.black26,
-                          child: Center(
-                            child: _buildFeedbackWidget(),
-                          ),
-                        ),
+                if (_showFeedbackOverlay)
+                  Positioned.fill(
+                    child: Container(
+                      color: shouldGrayOutBoard ? SkinConfig.getFeedbackOverlayColor(currentSkin) : Colors.transparent,
+                      child: Center(
+                        child: _buildFeedbackWidget(),
                       ),
-                  ],
-                ),
-              ),
-
-              // Result Buttons
-              if (_positionManager.currentDataset != null &&
-                  _positionManager.currentTrainingPosition != null)
-                ContextAwareResultButtons(
-                  datasetType: _positionManager.currentDataset!.metadata.datasetType,
-                  actualScore: ScoringConfig.parseScore(_positionManager.currentTrainingPosition!.result),
-                  resultString: _positionManager.currentTrainingPosition!.result,
-                  onResultSelected: _timerRunning ? _onResultOptionSelected : (_) {},
-                )
-              else
-                ResultButtons(
-                  onResultSelected: _timerRunning ? _onResultSelected : (_) {},
-                ),
-            ],
+                    ),
+                  ),
+              ],
+            ),
+            buttons: _positionManager.currentDataset != null &&
+                    _positionManager.currentTrainingPosition != null
+                ? ContextAwareResultButtons(
+                    datasetType: _positionManager.currentDataset!.metadata.datasetType,
+                    actualScore: ScoringConfig.parseScore(_positionManager.currentTrainingPosition!.result),
+                    resultString: _positionManager.currentTrainingPosition!.result,
+                    onResultSelected: _timerRunning ? _onResultOptionSelected : (_) {},
+                    appSkin: currentSkin,
+                    layoutType: layoutType,
+                  )
+                : ResultButtons(
+                    onResultSelected: _timerRunning ? _onResultSelected : (_) {},
+                    appSkin: currentSkin,
+                    layoutType: layoutType,
+                  ),
           ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _loadNextPosition,
-        backgroundColor: const Color(0xFF8B4513),
-        child: const Icon(Icons.refresh, color: Colors.white),
+        child: const Icon(Icons.refresh),
       ),
     );
   }
