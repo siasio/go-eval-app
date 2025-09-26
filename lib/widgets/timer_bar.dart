@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import '../models/timer_type.dart';
 import '../models/app_skin.dart';
@@ -32,6 +33,7 @@ class _TimerBarState extends State<TimerBar>
   late AnimationController _controller;
   late Animation<double> _animation;
   int _remainingSeconds = 0;
+  Timer? _segmentedTimer;
 
   @override
   void initState() {
@@ -60,27 +62,28 @@ class _TimerBarState extends State<TimerBar>
   }
 
   void _startSegmentedTimer() {
-    // For segmented timer, update every second
-    Future.doWhile(() async {
-      if (!mounted || _remainingSeconds <= 0) return false;
-
-      await Future.delayed(const Duration(seconds: 1));
-      if (mounted) {
-        setState(() {
-          _remainingSeconds--;
-        });
-        if (_remainingSeconds <= 0) {
-          widget.onComplete?.call();
-          return false;
-        }
+    // For segmented timer, update every second using a proper Timer
+    _segmentedTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (!mounted || _remainingSeconds <= 0) {
+        timer.cancel();
+        return;
       }
-      return mounted;
+
+      setState(() {
+        _remainingSeconds--;
+      });
+
+      if (_remainingSeconds <= 0) {
+        timer.cancel();
+        widget.onComplete?.call();
+      }
     });
   }
 
   @override
   void dispose() {
     _controller.dispose();
+    _segmentedTimer?.cancel();
     super.dispose();
   }
 
@@ -127,6 +130,7 @@ class _TimerBarState extends State<TimerBar>
         ),
       );
     } else {
+      // Horizontal timer bar for vertical layout
       return Container(
         height: widget.barThickness,
         margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
@@ -137,10 +141,10 @@ class _TimerBarState extends State<TimerBar>
         child: AnimatedBuilder(
           animation: _animation,
           builder: (context, child) {
-            return Align(
-              alignment: Alignment.centerLeft,
+            // Center-shrinking: progress bar shrinks from both sides toward center
+            return Center(
               child: FractionallySizedBox(
-                widthFactor: _animation.value,
+                widthFactor: _animation.value, // Total remaining width centered
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(widget.barThickness / 2),

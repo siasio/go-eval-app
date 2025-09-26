@@ -1,36 +1,43 @@
 import 'package:flutter/material.dart';
 import '../models/go_position.dart';
 import '../models/training_position.dart';
+import '../models/app_skin.dart';
+import '../themes/app_theme.dart';
 
 class GoBoard extends StatelessWidget {
   final GoPosition position;
   final TrainingPosition? trainingPosition;
+  final AppSkin appSkin;
 
   const GoBoard({
     super.key,
     required this.position,
     this.trainingPosition,
+    this.appSkin = AppSkin.classic,
   });
 
   @override
   Widget build(BuildContext context) {
+    final boardColor = SkinConfig.getBoardColor(appSkin);
+    final shouldAnimate = SkinConfig.shouldAnimate(appSkin);
+
     return AspectRatio(
       aspectRatio: 1.0,
       child: Container(
         margin: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: const Color(0xFFDEB887), // Burlywood color
+          color: boardColor,
           borderRadius: BorderRadius.circular(8),
-          boxShadow: [
+          boxShadow: shouldAnimate ? [
             BoxShadow(
               color: Colors.black.withOpacity(0.2),
               blurRadius: 8,
               offset: const Offset(0, 4),
             ),
-          ],
+          ] : [], // No shadow for e-ink
         ),
         child: CustomPaint(
-          painter: GoBoardPainter(position, trainingPosition),
+          painter: GoBoardPainter(position, trainingPosition, appSkin),
           size: Size.infinite,
         ),
       ),
@@ -41,8 +48,9 @@ class GoBoard extends StatelessWidget {
 class GoBoardPainter extends CustomPainter {
   final GoPosition position;
   final TrainingPosition? trainingPosition;
+  final AppSkin appSkin;
 
-  GoBoardPainter(this.position, this.trainingPosition);
+  GoBoardPainter(this.position, this.trainingPosition, this.appSkin);
 
   @override
   void paint(Canvas canvas, Size size) {

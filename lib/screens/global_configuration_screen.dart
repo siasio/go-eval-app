@@ -425,7 +425,9 @@ class _GlobalConfigurationScreenState extends State<GlobalConfigurationScreen> {
                     Text(
                       'Note: These settings apply to all dataset types.',
                       style: TextStyle(
-                        color: Colors.orange[700],
+                        color: (_currentConfiguration?.appSkin == AppSkin.eink)
+                            ? Colors.black
+                            : Colors.orange[700],
                         fontWeight: FontWeight.w500,
                       ),
                     ),

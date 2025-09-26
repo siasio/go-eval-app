@@ -454,19 +454,62 @@ class _TrainingScreenState extends State<TrainingScreen> {
   }
 
   ResultDisplayColors _getResultDisplayColors(String result) {
+    final currentSkin = _globalConfig?.appSkin ?? AppSkin.classic;
+
     if (result.isEmpty) {
       // Unknown result - use neutral colors
-      return const ResultDisplayColors(
-        backgroundColor: Color.fromRGBO(80, 80, 80, 0.9), // Dark gray
-        textColor: Colors.white,
-        borderColor: Colors.grey,
-        shadowColor: Colors.black,
+      return ResultDisplayColors(
+        backgroundColor: currentSkin == AppSkin.eink
+            ? Colors.white
+            : const Color.fromRGBO(80, 80, 80, 0.9),
+        textColor: currentSkin == AppSkin.eink
+            ? Colors.black
+            : Colors.white,
+        borderColor: currentSkin == AppSkin.eink
+            ? Colors.black
+            : Colors.grey,
+        shadowColor: currentSkin == AppSkin.eink
+            ? null
+            : Colors.black,
       );
     }
 
     final displayResult = _formatResultText(result);
 
-    // Handle draws
+    if (currentSkin == AppSkin.eink) {
+      // E-ink theme: use only black/white/gray
+      if (displayResult == 'DRAW') {
+        return const ResultDisplayColors(
+          backgroundColor: Colors.white,
+          textColor: Colors.black,
+          borderColor: Colors.black,
+          shadowColor: null,
+        );
+      } else if (result.startsWith('W+')) {
+        return const ResultDisplayColors(
+          backgroundColor: Colors.white,
+          textColor: Colors.black,
+          borderColor: Colors.black,
+          shadowColor: null,
+        );
+      } else if (result.startsWith('B+')) {
+        return const ResultDisplayColors(
+          backgroundColor: Colors.white,
+          textColor: Colors.black,
+          borderColor: Colors.black,
+          shadowColor: null,
+        );
+      }
+
+      return const ResultDisplayColors(
+        backgroundColor: Colors.white,
+        textColor: Colors.black,
+        borderColor: Colors.black,
+        shadowColor: null,
+      );
+    }
+
+    // Handle draws (other themes)
     if (displayResult == 'DRAW') {
       return const ResultDisplayColors(
         backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
@@ -476,7 +519,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
       );
     }
 
-    // Handle white wins
+    // Handle white wins (other themes)
     if (result.startsWith('W+')) {
       return const ResultDisplayColors(
         backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
@@ -486,7 +529,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
       );
     }
 
-    // Handle black wins
+    // Handle black wins (other themes)
     if (result.startsWith('B+')) {
       return const ResultDisplayColors(
         backgroundColor: Color.fromRGBO(210, 180, 140, 0.9), // Tan/beige background
@@ -497,11 +540,19 @@ class _TrainingScreenState extends State<TrainingScreen> {
     }
 
     // Default fallback
-    return const ResultDisplayColors(
-      backgroundColor: Color.fromRGBO(80, 80, 80, 0.9),
-      textColor: Colors.white,
-      borderColor: Colors.grey,
-      shadowColor: Colors.black,
+    return ResultDisplayColors(
+      backgroundColor: currentSkin == AppSkin.eink
+          ? Colors.white
+          : const Color.fromRGBO(80, 80, 80, 0.9),
+      textColor: currentSkin == AppSkin.eink
+          ? Colors.black
+          : Colors.white,
+      borderColor: currentSkin == AppSkin.eink
+          ? Colors.black
+          : Colors.grey,
+      shadowColor: currentSkin == AppSkin.eink
+          ? null
+          : Colors.black,
     );
   }
 
@@ -560,7 +611,14 @@ class _TrainingScreenState extends State<TrainingScreen> {
         child: SafeArea(
           child: AdaptiveLayout(
             layoutType: layoutType,
-            menuBar: _timerRunning
+            gearIcon: layoutType == LayoutType.horizontal
+              ? IconButton(
+                  icon: const Icon(Icons.settings),
+                  onPressed: _navigateToSettings,
+                  iconSize: 28,
+                )
+              : Container(), // Empty for vertical mode (gear is in AppBar)
+            timerBar: _timerRunning
                 ? TimerBar(
                     duration: Duration(seconds: _currentConfig?.timePerProblemSeconds ?? 30),
                     onComplete: _onTimerComplete,
@@ -583,6 +641,7 @@ class _TrainingScreenState extends State<TrainingScreen> {
                 GoBoard(
                   position: _currentPosition,
                   trainingPosition: _positionManager.currentTrainingPosition,
+                  appSkin: currentSkin,
                 ),
                 if (_showFeedbackOverlay)
                   Positioned.fill(

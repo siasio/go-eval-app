@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import '../widgets/dataset_selector.dart';
 import '../services/position_loader.dart';
+import '../services/global_configuration_manager.dart';
+import '../models/global_configuration.dart';
+import '../models/app_skin.dart';
 import 'configuration_screen.dart';
 import 'global_configuration_screen.dart';
 
@@ -15,11 +18,27 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Map<String, dynamic>? _statistics;
   Map<String, dynamic>? _sourceInfo;
   bool _loading = false;
+  GlobalConfiguration? _globalConfig;
 
   @override
   void initState() {
     super.initState();
     _loadInfo();
+    _loadGlobalConfig();
+  }
+
+  Future<void> _loadGlobalConfig() async {
+    try {
+      final manager = await GlobalConfigurationManager.getInstance();
+      setState(() {
+        _globalConfig = manager.getConfiguration();
+      });
+    } catch (e) {
+      // Use default config if loading fails
+      setState(() {
+        _globalConfig = GlobalConfiguration.defaultConfig;
+      });
+    }
   }
 
   Future<void> _loadInfo() async {
@@ -58,7 +77,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            DatasetSelector(onDatasetChanged: _onDatasetChanged),
+            DatasetSelector(
+              onDatasetChanged: _onDatasetChanged,
+              appSkin: _globalConfig?.appSkin ?? AppSkin.classic,
+            ),
             const SizedBox(height: 24),
 
             Card(
@@ -101,28 +123,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       'Requires evaluating potential territory, influence, and fighting outcomes. '
                       'Challenging positions for advanced players to test territorial intuition.',
                     ),
-                    const SizedBox(height: 12),
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        color: Colors.blue.withOpacity(0.1),
-                        borderRadius: BorderRadius.circular(8),
-                        border: Border.all(color: Colors.blue.withOpacity(0.3)),
-                      ),
-                      child: const Row(
-                        children: [
-                          Icon(Icons.lightbulb_outline, size: 16, color: Colors.blue),
-                          SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              'Tip: Start with 9x9 Final positions if you\'re new to territory counting, '
-                              'then progress to 19x19 positions as you improve.',
-                              style: TextStyle(fontSize: 13, color: Colors.blue),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
+                    // Tip badge removed as requested
                   ],
                 ),
               ),

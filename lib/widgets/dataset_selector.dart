@@ -4,14 +4,20 @@ import 'package:file_picker/file_picker.dart';
 import '../services/position_loader.dart';
 import '../services/dataset_preference_manager.dart';
 import '../models/dataset_type.dart';
+import '../models/app_skin.dart';
 import '../core/dataset_parser.dart' as parser;
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
 class DatasetSelector extends StatefulWidget {
   final VoidCallback? onDatasetChanged;
+  final AppSkin appSkin;
 
-  const DatasetSelector({super.key, this.onDatasetChanged});
+  const DatasetSelector({
+    super.key,
+    this.onDatasetChanged,
+    this.appSkin = AppSkin.classic,
+  });
 
   @override
   State<DatasetSelector> createState() => _DatasetSelectorState();
@@ -347,6 +353,22 @@ class _DatasetSelectorState extends State<DatasetSelector> {
   }
 
   Color _getDatasetTypeColor(DatasetType type) {
+    if (widget.appSkin == AppSkin.eink) {
+      // E-ink theme uses only black/white/grays
+      switch (type) {
+        case DatasetType.final9x9Area:
+        case DatasetType.final9x9AreaVars:
+          return Colors.black;
+        case DatasetType.final19x19Area:
+          return Colors.grey.shade700;
+        case DatasetType.midgame19x19Estimation:
+          return Colors.grey.shade500;
+        case DatasetType.partialArea:
+          return Colors.grey.shade300;
+      }
+    }
+
+    // Other themes use original colors
     switch (type) {
       case DatasetType.final9x9Area:
       case DatasetType.final9x9AreaVars:
@@ -397,7 +419,9 @@ class _DatasetSelectorState extends State<DatasetSelector> {
                 style: const TextStyle(fontSize: 11),
               ),
               selected: isSelected,
-              selectedColor: _getDatasetTypeColor(type).withOpacity(0.3),
+              selectedColor: widget.appSkin == AppSkin.eink
+                  ? Colors.grey.shade200
+                  : _getDatasetTypeColor(type).withOpacity(0.3),
               onSelected: _loading ? null : (selected) {
                 if (selected && !isSelected) {
                   _selectDataset(dataset);

@@ -3,6 +3,9 @@ import 'package:flutter/services.dart';
 import '../models/dataset_type.dart';
 import '../models/dataset_configuration.dart';
 import '../services/configuration_manager.dart';
+import '../services/global_configuration_manager.dart';
+import '../models/global_configuration.dart';
+import '../models/app_skin.dart';
 
 class ConfigurationScreen extends StatefulWidget {
   const ConfigurationScreen({super.key});
@@ -16,6 +19,7 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
   DatasetType _selectedDatasetType = DatasetType.final9x9Area;
   DatasetConfiguration? _currentConfiguration;
   bool _loading = true;
+  GlobalConfiguration? _globalConfig;
 
   late TextEditingController _thresholdGoodController;
   late TextEditingController _thresholdCloseController;
@@ -26,6 +30,7 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
     super.initState();
     _initializeControllers();
     _loadConfigurationManager();
+    _loadGlobalConfig();
   }
 
   void _initializeControllers() {
@@ -100,6 +105,20 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
           SnackBar(content: Text('Error loading configuration: $e')),
         );
       }
+    }
+  }
+
+  Future<void> _loadGlobalConfig() async {
+    try {
+      final manager = await GlobalConfigurationManager.getInstance();
+      setState(() {
+        _globalConfig = manager.getConfiguration();
+      });
+    } catch (e) {
+      // Use default config if loading fails
+      setState(() {
+        _globalConfig = GlobalConfiguration.defaultConfig;
+      });
     }
   }
 
@@ -379,7 +398,9 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
                     Text(
                       'Note: Close threshold must be greater than or equal to good threshold.',
                       style: TextStyle(
-                        color: Colors.orange[700],
+                        color: (_globalConfig?.appSkin == AppSkin.eink)
+                            ? Colors.black
+                            : Colors.orange[700],
                         fontWeight: FontWeight.w500,
                       ),
                     ),

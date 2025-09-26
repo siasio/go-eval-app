@@ -3,20 +3,22 @@ import '../models/layout_type.dart';
 
 class AdaptiveLayout extends StatelessWidget {
   final LayoutType layoutType;
-  final Widget menuBar;
+  final Widget gearIcon;
+  final Widget timerBar;
   final Widget? gameInfoBar;
   final Widget board;
   final Widget buttons;
-  final double sidebarWidth;
+  final double columnWidth;
 
   const AdaptiveLayout({
     super.key,
     required this.layoutType,
-    required this.menuBar,
+    required this.gearIcon,
+    required this.timerBar,
     this.gameInfoBar,
     required this.board,
     required this.buttons,
-    this.sidebarWidth = 180.0,
+    this.columnWidth = 120.0,
   });
 
   @override
@@ -31,7 +33,8 @@ class AdaptiveLayout extends StatelessWidget {
   Widget _buildVerticalLayout() {
     return Column(
       children: [
-        menuBar,
+        // Traditional vertical layout: gear icon is in AppBar, timer bar here
+        timerBar,
         if (gameInfoBar != null) gameInfoBar!,
         Expanded(child: board),
         buttons,
@@ -41,64 +44,61 @@ class AdaptiveLayout extends StatelessWidget {
 
   Widget _buildHorizontalLayout() {
     return Row(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        // Left sidebar with vertical menu and game info
-        Container(
-          width: sidebarWidth,
-          child: Column(
-            children: [
-              // Timer bar positioned vertically without rotation
-              Container(
-                height: 200, // Height for vertical timer
-                child: menuBar,
-              ),
-              const SizedBox(height: 8),
-
-              // Vertical game info bar
-              if (gameInfoBar != null) ...[
-                Expanded(
-                  flex: 1,
-                  child: RotatedBox(
-                    quarterTurns: 3,
-                    child: Container(
-                      width: 120, // This becomes the height when rotated
-                      child: gameInfoBar!,
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 8),
+        // Column 1: Gear icon (narrow, flex: 1)
+        Expanded(
+          flex: 1,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: [
+                const SizedBox(height: 16),
+                gearIcon,
+                const Expanded(child: SizedBox()), // Spacer that works with Expanded
               ],
-
-              const Spacer(),
-            ],
+            ),
           ),
         ),
 
-        const VerticalDivider(width: 1, thickness: 1),
-
-        // Main board area - centered
+        // Column 2: Vertical timer bar (narrow, flex: 1)
         Expanded(
-          child: Center(
+          flex: 1,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: timerBar,
+          ),
+        ),
+
+        // Column 3: Game info bar (if present, flex: 2)
+        if (gameInfoBar != null)
+          Expanded(
+            flex: 2,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: RotatedBox(
+                quarterTurns: 3, // Rotate for vertical display
+                child: gameInfoBar!,
+              ),
+            ),
+          ),
+
+        // Column 4: Main board area (largest, flex: 6)
+        Expanded(
+          flex: 6,
+          child: Container(
+            alignment: Alignment.center,
+            padding: const EdgeInsets.all(8.0),
             child: board,
           ),
         ),
 
-        const VerticalDivider(width: 1, thickness: 1),
-
-        // Right sidebar with vertical buttons
-        Container(
-          width: sidebarWidth,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              // Vertical button arrangement: Black (top), Draw (middle), White (bottom)
-              Expanded(
-                child: Container(
-                  width: double.infinity,
-                  child: buttons,
-                ),
-              ),
-            ],
+        // Column 5: Vertical buttons (flex: 2)
+        Expanded(
+          flex: 2,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: buttons,
           ),
         ),
       ],
