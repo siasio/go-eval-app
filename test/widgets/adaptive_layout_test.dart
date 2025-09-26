@@ -11,7 +11,6 @@ void main() {
           home: Scaffold(
             body: AdaptiveLayout(
               layoutType: LayoutType.vertical,
-              gearIcon: Container(), // Empty in vertical mode
               timerBar: Container(height: 8, color: Colors.green),
               board: Container(
                 width: 200,
@@ -35,7 +34,6 @@ void main() {
           home: Scaffold(
             body: AdaptiveLayout(
               layoutType: LayoutType.horizontal,
-              gearIcon: const Icon(Icons.settings),
               timerBar: Container(height: 8, color: Colors.green),
               gameInfoBar: const Text('Game Info'),
               board: Container(
@@ -50,8 +48,8 @@ void main() {
       );
 
       expect(find.byType(Row), findsOneWidget);
-      expect(find.byIcon(Icons.settings), findsOneWidget);
       expect(find.text('Game Info'), findsOneWidget);
+      expect(find.text('Buttons'), findsOneWidget);
       expect(tester.takeException(), isNull);
     });
 
@@ -61,7 +59,6 @@ void main() {
           home: Scaffold(
             body: AdaptiveLayout(
               layoutType: LayoutType.horizontal,
-              gearIcon: const Icon(Icons.settings),
               timerBar: Container(height: 8, color: Colors.green),
               board: Container(
                 width: 200,
@@ -75,7 +72,7 @@ void main() {
       );
 
       expect(find.byType(Row), findsOneWidget);
-      expect(find.byIcon(Icons.settings), findsOneWidget);
+      expect(find.text('Buttons'), findsOneWidget);
       expect(tester.takeException(), isNull);
     });
 
@@ -90,7 +87,6 @@ void main() {
           home: Scaffold(
             body: AdaptiveLayout(
               layoutType: LayoutType.horizontal,
-              gearIcon: const Icon(Icons.settings),
               timerBar: Container(height: 8, color: Colors.green),
               gameInfoBar: const Text('Game Info'),
               board: Container(

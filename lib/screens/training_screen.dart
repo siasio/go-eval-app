@@ -611,13 +611,6 @@ class _TrainingScreenState extends State<TrainingScreen> {
         child: SafeArea(
           child: AdaptiveLayout(
             layoutType: layoutType,
-            gearIcon: layoutType == LayoutType.horizontal
-              ? IconButton(
-                  icon: const Icon(Icons.settings),
-                  onPressed: _navigateToSettings,
-                  iconSize: 28,
-                )
-              : Container(), // Empty for vertical mode (gear is in AppBar)
             timerBar: _timerRunning
                 ? TimerBar(
                     duration: Duration(seconds: _currentConfig?.timePerProblemSeconds ?? 30),
